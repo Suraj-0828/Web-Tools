@@ -1,0 +1,104 @@
+Pop Pop modul form
+
+<div class="modal fade" id="modal-subscribe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+<div class="modal-dialog" role="document" style="margin-top: 161px;">
+<div class="modal-content">
+
+<div class="modal-header">
+
+
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+
+</div>
+
+<div class="modal-body">
+<div class="row contact-box content-inner-5">
+<div class="section-head text-center col-md-12">
+<h3 class="text-secondry">Enquiry Form</h3>
+</div>
+<div class="dzFormMsg"></div>
+<form method="post" class="dzForm col-md-12" action="script/contact.php">
+<input type="hidden" value="Contact" name="dzToDo">
+<div class="row">
+<div class="col-md-6 col-sm-4">
+<div class="form-group">
+<input name="dzName" type="text" required="" class="form-control" placeholder="Child’s Name">
+</div>
+</div>
+<div class="col-md-6 col-sm-4">
+<div class="form-group">
+<input name="dzName" type="text" required="" class="form-control" placeholder="Father’s Name  ">
+</div>
+</div>
+<div class="col-md-12 col-sm-4">
+<div class="form-group">
+<input name="dzName" type="text" required="" class="form-control" placeholder="Seeking Admissions for grade ">
+</div>
+</div>
+<div class="col-md-6 col-sm-4">
+<div class="form-group">
+<input name="dzName" type="text" required="" class="form-control" placeholder="Mother’s Name">
+</div>
+</div>
+<div class="col-md-6 col-sm-4">
+<div class="form-group">
+<input name="dzEmail" type="email" class="form-control" required="" placeholder="Your Email Address">
+</div>
+</div>
+<div class="col-md-6 col-sm-4">
+<div class="form-group">
+<input name="dzOther[Phone]" type="text" required="" class="form-control" placeholder="Phone">
+</div>
+</div>
+<div class="col-md-6 col-sm-4">
+<div class="form-group">
+<input class="form-control" placeholder="Phone" type="date" id="start" name="trip-start" value="yy-mm-dd" min="yy-mm-dd" max="2018-12-31" />
+</div>
+</div>
+
+
+<div class="col-md-12 col-sm-12 text-center">
+<button name="submit" type="submit" value="Submit" class="btn radius-xl btn-lg">Send Message<span></span></button>
+</div>
+</div>
+</form>
+
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+-----------------------------------------------------------
+JS
+
+<script>
+$(window).ready(function() {
+setTimeout(function() {
+$('#modal-subscribe').modal("show")
+}, 500)
+})
+</script>
+
+----------------------------------------------------------------
+
+
+CSS
+
+.modal {
+
+    --bs-modal-width: 800px;
+    max-height: 798px;
+
+}
+
+.modal-dialog {
+    margin-top: 167px !important;
+}
