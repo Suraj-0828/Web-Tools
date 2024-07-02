@@ -1,0 +1,43 @@
+Media query for mobile and desktop size view banner
+
+@media screen and (max-width: 991px) { 
+  .class1{display: none;
+
+  }
+}
+
+
+@media (max-width: 576px) {
+  /* Extra small devices (phones) */
+  .class1{
+   display: none;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  /* Small devices (tablets) */
+  .class1{
+   display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Medium devices (landscape tablets) */
+  .class1{
+   display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Large devices (desktops) */
+  .class1{
+   display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Extra large devices (large desktops) */
+  .class2{
+   display: none;
+  }
+}
