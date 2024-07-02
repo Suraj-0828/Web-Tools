@@ -1,0 +1,93 @@
+<div class="slider">
+    <ul>
+        <li><img src="assets/images/slider/2.jpg" alt="Image 1"></li>
+        <li><img src="assets/images/slider/1.jpg" alt="Image 2"></li>
+        <li><img src="assets/images/slider/3.jpg" alt="Image 3"></li>
+    </ul>
+    <span class="prev" onclick="moveSlide(-1)">&#10094;</span>
+    <span class="next" onclick="moveSlide(1)">&#10095;</span>
+</div>
+
+
+-----------------------------------------------------------------------------------------
+
+<script>
+  let slideIndex = 1;
+  autoSlide();
+
+  function autoSlide() {
+    showSlides(slideIndex);
+    slideIndex++;
+    setTimeout(autoSlide, 2000); // Change slide every 2 seconds
+  }
+
+  function moveSlide(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function showSlides(n) {
+    const slides = document.querySelectorAll('.slider ul li');
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none';
+    }
+    slides[slideIndex - 1].style.display = 'block';
+  }
+</script>
+
+
+-----------------------------------------------------------------------------------
+
+ .slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slider ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 300%;
+    transition: transform 0.5s ease;
+  }
+
+  .slider ul li {
+    float: left;
+    width: 33.33%;
+  }
+
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    z-index: 100;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+
+
+
+
