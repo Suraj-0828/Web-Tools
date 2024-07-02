@@ -1,0 +1,63 @@
+Header link 
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+<div class="slider">
+    <div><img src="assets/images/slider/2.jpg" alt="Image 1"></div>
+    <div><img src="assets/images/slider/1.jpg" alt="Image 2"></div>
+    <div><img src="assets/images/slider/3.jpg" alt="Image 3"></div>
+</div>
+
+=========================================================================================
+Footer part
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider').slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+      prevArrow: '<span class="prev">&#10094;</span>',
+      nextArrow: '<span class="next">&#10095;</span>'
+    });
+  });
+</script>
+
+===========================================================================================
+css part
+
+
+.slider {
+  width: 100%;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  z-index: 100;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
