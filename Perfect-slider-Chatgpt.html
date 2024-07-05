@@ -1,0 +1,102 @@
+<!-- header section start -->
+
+<!-- Desktop Slider -->
+<div class="slider desktop-slider">
+    <div><img src="assets/images/slider/2.jpg" alt="Image 1"></div>
+    <div><img src="assets/images/slider/1.jpg" alt="Image 2"></div>
+    <div><img src="assets/images/slider/3.jpg" alt="Image 3"></div>
+</div>
+
+<!-- Mobile Slider -->
+<div class="slider mobile-slider">
+    <div><img src="assets/images/slider/2.jpg" alt="Image 1"></div>
+    <div><img src="assets/images/slider/1.jpg" alt="Image 2"></div>
+    <div><img src="assets/images/slider/3.jpg" alt="Image 3"></div>
+</div>
+
+<!-- header section close-->
+
+
+<!-- css section start -->
+
+/* Desktop Slider */
+
+    .desktop-slider {
+        display: block;
+    }
+
+    .mobile-slider {
+        display: none;
+    }
+
+    .slider img {
+        width: 100%;
+        height: auto;
+    }
+
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: auto;
+        padding: 16px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 20px;
+        z-index: 100;
+    }
+
+    .prev {
+        left: 0;
+    }
+
+    .next {
+        right: 0;
+    }
+
+    /* Mobile Slider */
+    @media (max-width: 768px) {
+        .desktop-slider {
+            display: none;
+        }
+
+        .mobile-slider {
+            display: block;
+        }
+
+        .prev,
+        .next {
+            font-size: 16px;
+            padding: 12px;
+        }
+    }
+
+<!-- css section close-->
+
+
+<!-- javascript section start -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.desktop-slider').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: '<span class="prev">&#10094;</span>',
+            nextArrow: '<span class="next">&#10095;</span>'
+        });
+
+        $('.mobile-slider').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false,
+            dots: true
+        });
+    });
+</script>
+
+<!-- javascript section close-->
