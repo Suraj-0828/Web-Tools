@@ -1,0 +1,276 @@
+# footer design 
+# html pages
+
+
+ <div class="widget-section">
+                  <div class="row clearfix">
+                      <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                          <div class="footer-widget logo-widget">
+                              <figure class="footer-logo"><a href="https://www.alpacam.com/"><img src="assets/images/icons/logo.png" alt=""></a></figure>
+                              <p>Welcome to Alpacam Human Resources, your trusted partner in comprehensive recruitment services. We specialize in identifying and placing top talent across various industries, both within India and internationally.</p>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                          <div class="footer-widget links-widget t-center" style="margin-top: 20px;">
+                              <div class="widget-title">
+                                  <h4>Explore</h4>
+                              </div>
+                              <div class="widget-content">
+                                  <ul class="links-list clearfix">
+                                      <li><a href="https://www.alpacam.com/">Home</a></li>
+                                      <li><a href="about-us.php">About us</a></li>
+                                      <li><a href="contact-us.php">Contact us</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                          <div class="footer-widget links-widget" style="margin-top: 20px;">
+                              <div class="widget-title">
+                                  <h4>Address</h4>
+                              </div>
+                              <div class="widget-content">
+                                  <div class="right">
+                                      <ul class="residence">
+                                          <li>
+                                              <div class="icone-text">
+                                                  <div class="icone"><i class="fa-solid fa-phone"></i></div>
+                                                  <div class="text"><a href="tel:00919967634742" class="text-color"> +91-9967634742</a></div>
+                                              </div>
+                                          </li>
+                                          <li>
+                                              <div class="icone-text">
+                                                  <div class="icone"><i class="fa fa-envelope"></i></div>
+                                                  <div class="text"><a href="mailto:hr@alpacam.com" class="text-color"> hr@alpacam.com</a></div>
+                                              </div>
+                                          </li>
+                                          <li>
+                                              <div class="icone-text">
+                                                  <div class="icone"><i class="fas fa-map-marker-alt"></i></div>
+                                                  <div class="text"><a class="text-color"> No.1201, Poonam Tower, Veera Desai Road, Andheri West, Mumbai 400 053, India.</a></div>
+                                              </div>
+                                          </li>
+
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+
+==================================================================================================
+
+# css style
+
+.footer-top .footer-info .single-item:last-child .inner{
+  background: #323232;
+}
+
+.footer-top .widget-section{
+  position: relative;
+  padding: 30px 0px 20px 0px;
+}
+
+.footer-top .widget-section .logo-widget .footer-logo{
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.footer-top .widget-section .logo-widget p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #a7a7a7;
+  margin-bottom: 22px;
+}
+
+.footer-top .widget-section .logo-widget form .form-group{
+  position: relative;
+  margin-bottom: 23px;
+}
+
+.footer-top .widget-section .logo-widget form .form-group input[type='email']{
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background: #1f1f1f;
+  border: 1px solid #1f1f1f;
+  font-size: 14px;
+  color: #a7a7a7;
+  font-weight: 500;
+  padding: 10px 60px 10px 30px;
+  transition: all 500ms ease;
+}
+
+.footer-top .widget-section .logo-widget form .form-group button{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 14px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.footer-top .widget-section .logo-widget form .form-group input:focus{
+
+}
+
+.footer-top .widget-section .logo-widget form .form-group input::-webkit-input-placeholder{
+  color:#a7a7a7;
+}
+
+.footer-top .widget-section .logo-widget .social-links li{
+  position: relative;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.footer-top .widget-section .logo-widget .social-links li:last-child{
+  margin: 0px !important;
+}
+
+.footer-top .widget-section .logo-widget .social-links li h6{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer-top .widget-section .logo-widget .social-links li a{
+  display: inline-block;
+  font-size: 16px;
+  color: #a7a7a7;
+}
+
+.footer-top .widget-section .logo-widget .social-links li a:hover{
+
+}
+
+.footer-top .widget-section .logo-widget{
+  margin-right: 30px;
+  margin-top: 6px;
+}
+
+.ml-30{
+  margin-left: 30px;
+}
+
+.footer-top .widget-section .widget-title{
+  position: relative;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.footer-top .widget-section .widget-title h4{
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer-top .widget-section .links-widget .links-list li{
+  position: relative;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-top .widget-section .links-widget .links-list li:last-child{
+  margin-bottom: 0px;
+}
+
+.footer-top .widget-section .links-widget .links-list li a{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  color: #a7a7a7;
+}
+
+.footer-top .widget-section .links-widget .links-list li a:hover{
+
+}
+
+.footer-top .widget-section .links-widget .links-list li a:before{
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 1px;
+  left: 0px;
+  bottom: 0px;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.footer-top .widget-section .links-widget .links-list li a:hover:before{
+  width: 100%;
+  opacity: 1;
+}
+
+.ml-50{
+  margin-left: 50px;
+}
+
+.footer-top .widget-section .post-widget .post{
+  position: relative;
+  padding-left: 100px;
+  margin-bottom: 35px;
+  min-height: 85px;
+}
+
+.footer-top .widget-section .post-widget .post:last-child{
+  margin-bottom: 0px;
+}
+
+.footer-top .widget-section .post-widget .post .post-thumb{
+  position: absolute;
+  left: 0px;
+  top: 7px;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+}
+
+.footer-top .widget-section .post-widget .post .post-thumb img{
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.footer-top .widget-section .post-widget .post:hover .post-thumb img{
+  opacity: 0.2;
+}
+
+.footer-top .widget-section .post-widget .post h6{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  color: #a7a7a7;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.footer-top .widget-section .post-widget .post h6 a{
+  display: inline-block;
+  color: #a7a7a7;
+}
+
+.footer-top .widget-section .post-widget .post h6 a:hover{
+
+}
+
+.footer-top .widget-section .post-widget .post .post-date{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.footer-bottom{
+  position: relative;
+  width: 100%;
+  padding: 42px 0px;
+  background: #272727;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
