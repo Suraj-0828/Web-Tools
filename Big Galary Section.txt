@@ -1,0 +1,624 @@
+
+=========================== HTML SECTION ====================================================
+
+
+
+    <!-- 4 Column Wide -->
+    <section class="four-column-wide">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="pq-filters">
+                        <div class="filters pq-filter-button-group">
+                            <ul>
+                                <li class="active pq-filter-btn" data-filter="*">All</li>
+                                <li class="pq-filter-btn" data-filter=".a">Dairy</li>
+                                <li class="pq-filter-btn" data-filter=".b">Bakery</li>
+                                <li class="pq-filter-btn" data-filter=".c">Meat</li>
+                                <li class="pq-filter-btn" data-filter=".d">Poultry</li>
+                                <li class="pq-filter-btn" data-filter=".e">Fish</li>
+                                <li class="pq-filter-btn" data-filter=".f">Oil</li>
+                                <li class="pq-filter-btn" data-filter=".g">Frozen Fruits</li>
+                                <li class="pq-filter-btn" data-filter=".h">Spices</li>
+                                <li class="pq-filter-btn" data-filter=".i">Rice</li>
+                                <li class="pq-filter-btn" data-filter=".j">Sugar</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--==============================product 1=================================-->
+                    <div class="pq-grid" data-next_items="4" data-initial_items="12">
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-6  a">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/a1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Dairy</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Dairy Butter</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  a">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/a2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Dairy</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Dairy Cheese</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  a">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/a3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Dairy</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Dairy Ghee</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  a">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/a4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Dairy</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Dairy Mozzarella</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==============================product 2=================================-->
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  b">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/b1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Bakery</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Frozen paratha</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  b">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/b2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Bakery</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Bakery ingredients</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==============================product 3=================================-->
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  c">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/c1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Meat</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Tenderloin</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  c">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/c2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Meat</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Bobby Veal</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  c">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/c3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Meat</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Veal Legs</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==============================product 4=================================-->
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  d">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/d1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Poultry</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Frozen Whole Chicken</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==============================product 5=================================-->
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  e">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/e1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Fish</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">White fish fillet</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==============================product 6=================================-->
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  f">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/f1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Oil</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Palm oil</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  f">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/f2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Oil</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Sunflower oil,</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  f">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/f3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Oil</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Olive oil</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==============================product 7=================================-->
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  g">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/g1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Frozen Fruits</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Mango</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  g">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/g2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Frozen Fruits</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Strawberry</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  g">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/g3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Frozen Fruits</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Blueberry</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==============================product 8=================================-->
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  h">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/h1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Spices</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Chilli powder</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  h">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/h2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Spices</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Turmeric</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  h">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/h3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Spices</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Coriander powder</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==============================product 9=================================-->
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  i">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/i1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Rice</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Sella 1121</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  i">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/i2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Rice</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Creamy</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  i">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/i3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Rice</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Basmati Mazza</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==============================product 10=================================-->
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  j">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/j1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Sugar</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Fine</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pq-grid-item pq-filter-items pq-col-3  ipt-lg-3  j">
+                            <div class="pq-portfoliobox-1 pq-hover-fade">
+                                <div class="pq-portfolio-img">
+                                    <a href="#">
+                                        <img decoding="async" src="images/products/j2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="pq-portfolio-info">
+                                    <div class="pq-portfolio-style-1-tag">
+                                        <a href="#">Sugar</a>
+                                    </div>
+                                    <h5>
+                                        <a href="#">Coarse</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==============================product close=================================-->
+                    <div class="pq-btn-load-container text-center">
+                        <a id="showMore" class="pq-button pq-button-flat" href="#">
+                            <span class="text">Load More</span><svg xmlns="http://www.w3.org/2000/svg" class="pq-svg-arrow" width="34.899" height="14.585" viewBox="0 0 34.899 14.585">
+                                <path d="M.5,6.388c6.609,0,11.487-6.142,11.535-6.2a.6.6,0,0,1,.684-.131.33.33,0,0,1,.176.513A19.589,19.589,0,0,1,4.765,6.388H33.4c.275,0,.5.168.5.376s-.223.376-.5.376H4.765a19.591,19.591,0,0,1,8.128,5.822.331.331,0,0,1-.179.514.6.6,0,0,1-.68-.133c-.048-.062-4.926-6.2-11.535-6.2-.275,0-.5-.168-.5-.376S.223,6.388.5,6.388Z" transform="translate(34.399 14.056) rotate(180)" fill="currentColor" stroke="currentColor" stroke-width="1">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <!--==============================product button close=================================-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 4 Column Wide -->
+
+================================================== HTML PART CLOSE ==========================================================================================
+
+
+
+
+
+================================================== CSS PART ==========================================================================================
+
+
+.four-column-wide {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.pq-filters {
+    margin-bottom: 30px;
+}
+
+.filters ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.filters li {
+    margin: 0 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filters li.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.filters li:hover {
+    background-color: #e9ecef;
+}
+
+.pq-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pq-grid-item {
+    margin-bottom: 30px;
+    padding: 10px;
+    width: calc(25% - 20px); /* 4 columns */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.pq-grid-item:hover {
+    transform: scale(1.05);
+}
+
+.pq-portfolio-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pq-portfolio-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.pq-portfolio-style-1-tag a {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.pq-btn-load-container {
+    margin-top: 30px;
+}
+
+.pq-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.pq-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+================================================== CSS PART CLOSE ==========================================================================================
+
+
+
+
+=================================================== JAVASCRIPT SECTION =========================================================================================
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get filter buttons and grid items
+    const filterButtons = document.querySelectorAll('.pq-filter-btn');
+    const gridItems = document.querySelectorAll('.pq-grid-item');
+
+    // Add click event listener to each filter button
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Remove active class from all buttons
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            // Add active class to the clicked button
+            this.classList.add('active');
+
+            // Get the filter value from the data-filter attribute
+            const filterValue = this.getAttribute('data-filter');
+
+            // Show or hide grid items based on the filter value
+            gridItems.forEach(item => {
+                if (filterValue === '*' || item.classList.contains(filterValue.substring(1))) {
+                    item.style.display = 'block'; // Show item
+                } else {
+                    item.style.display = 'none'; // Hide item
+                }
+            });
+        });
+    });
+});
+
+
+
+================================================= JAVASCRIPT SECTION CLOSE ================================================================
