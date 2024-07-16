@@ -22,7 +22,7 @@
 
 # Under Construction
 1. Main Part if you are Making client website.
-   Step Folow
-   -> purchase domain name
-   -> purchase hosting
-   -> upload under Construction file in filezilla server
+2. Step Folow
+3.  -> purchase domain name
+4.  -> purchase hosting
+5.  -> upload under Construction file in filezilla server
