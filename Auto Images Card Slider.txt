@@ -1,0 +1,64 @@
+# html section
+
+ <!-- Counter -->
+    <section class="counter pq-bg-dark pq-bg-img-6  wow animated fadeInUp">
+        <div class="container">
+        <h1 class="text-white text-center" style="margin-top: -40px; padding-bottom: 40px;">Our Partners</h1>
+            <div class="row">
+            
+                <div class="wrapper">
+                    <div class="photobanner">
+                        <img class="first" src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg" alt="" />
+                        <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                        <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                        <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                        <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                        <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                        <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                        <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                        <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                        <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Counter -->
+
+
+=============================================================================
+
+
+# css section
+
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+.photobanner {
+	position: relative;
+	height: 233px;
+	margin-bottom: 30px;
+	display: flex;
+	width: 100%;
+}
+
+.photobanner img {
+  margin: 0px 25px;
+  box-shadow: 2px 2px 8px #8a8a8a;
+}
+
+.photobanner {
+  animation: bannermove 50s linear infinite alternate-reverse;
+}
+
+@keyframes bannermove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -2700px;
+  }
+}
+
+================================================================================
