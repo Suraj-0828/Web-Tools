@@ -1,0 +1,168 @@
+/*+++++++++++++++++++++++++++++++++++++++++++++++
+   HTML Breadcrumb
+++++++++++++++++++++++++++++++++++++++++++++++++*/
+<!-- Breadcrumb -->
+     <div class="pq-breadcrumb">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav aria-label="breadcrumb">
+                        <div class="pq-breadcrumb-title translatebreadcrumbtext">
+                            <h1>About Us</h1>
+                        </div>
+                        <div class="pq-breadcrumb-container">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="https://tifzexports.com/"><i class="fas fa-home mr-2"></i>Home</a>
+                                </li>
+                                <li class="breadcrumb-item active">About Us</li>
+                            </ol>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb -->
+
+
+==============================================================================================
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++
+   Css Breadcrumb
+++++++++++++++++++++++++++++++++++++++++++++++++*/
+.pq-breadcrumb {
+	background: var(--dark-color);
+	color: var(--white-color);
+	padding: 130px 0;
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+}
+
+.pq-breadcrumb{
+	background-image: url(../images/breadcrumb/aa.jpg)!important;
+}
+.pq-breadcrumb1{
+	background-image: url(../images/breadcrumb/bb.jpg)!important;
+}
+
+.pq-breadcrumb:before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	/* background: var(--dark-color); */
+	left: 0;
+	top: 0;
+	z-index: 1;
+	position: absolute;
+	opacity: 0.5;
+}
+
+.pq-breadcrumb:after {
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: var(--white-color);
+	left: 0;
+	bottom: 90px;
+	z-index: 1;
+	position: absolute;
+	opacity: 0.1;
+}
+
+.pq-breadcrumb .pq-breadcrumb-title,
+.pq-breadcrumb .pq-breadcrumb-container {
+	position: relative;
+	z-index: 9;
+}
+
+.pq-breadcrumb .pq-breadcrumb-container {
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.pq-breadcrumb .pq-breadcrumb-title {
+
+	margin-bottom: 90px;
+}
+
+.pq-breadcrumb .pq-breadcrumb-title p {
+	margin-bottom: 0;
+	font-family: var(--title-fonts);
+}
+
+.pq-breadcrumb .pq-breadcrumb-title h1 {
+	font-size: 56px;
+	line-height: 64px;
+	margin-bottom: 0;
+	color: var(--white-color);
+}
+
+.pq-breadcrumb-container .breadcrumb {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	align-items: center;
+	display: block;
+}
+
+.pq-breadcrumb-container .breadcrumb li {
+	list-style-type: none;
+	margin-right: 15px;
+	padding-left: 0;
+	color: var(--white-color);
+	font-size: 16px;
+	line-height: 24px;
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+.pq-breadcrumb-container .breadcrumb li:last-child {
+	margin-right: 0;
+}
+
+.pq-breadcrumb-container .breadcrumb li.active {
+	color: var(--primary-color);
+}
+
+.pq-breadcrumb-container .breadcrumb li a {
+	color: var(--white-color);
+	display: inline-block;
+}
+
+.pq-breadcrumb-container .breadcrumb li a>i {
+	width: 30px;
+	height: 30px;
+	background: var(--primary-color);
+	border-radius: 100%;
+	line-height: 30px;
+	font-size: 14px;
+	margin-right: 15px;
+	color: var(--white-color);
+}
+
+.pq-breadcrumb-container .breadcrumb li a:hover {
+	color: var(--primary-color);
+}
+
+.pq-breadcrumb-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+	font-size: 12px;
+	font-family: "Ionicons";
+	padding-right: 15px;
+	content: "\f125";
+	color: var(--primary-color);
+	float: none;
+}
+.translatebreadcrumbtext{
+	padding: 10px 25px; /* Top-Bottom 10px, Right-Left 20px */
+	border-radius: 0px 50px 0px 50px;
+	background-color: #00000026;
+	display: inline-block !important;
+}
