@@ -1,0 +1,67 @@
+========================================= Lock Hacked start ====================================
+
+
+<script>
+(function() {
+    // Disable right-click context menu
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+
+    // Disable F12 key, Ctrl+Shift+I (inspect element), and other key combinations
+    document.addEventListener('keydown', function(e) {
+        // Prevent F12 and Ctrl+Shift+I
+        if (e.keyCode === 123 || (e.ctrlKey && e.shiftKey && e.keyCode === 73)) {
+            e.preventDefault();
+            return false;
+        }
+
+        // Prevent Ctrl+U (View Source)
+        if (e.ctrlKey && e.keyCode === 85) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+    // Detect if developer tools are open
+    (function detectDevTools() {
+        var threshold = 160; // pixel threshold to detect devtools
+        var element = new Image();
+        Object.defineProperty(element, 'id', {
+            get: function() {
+                // if devtools is open, `id` property will be accessed
+                alert('Developer tools detected!');
+                return 'test';
+            }
+        });
+        setInterval(function() {
+            // add image to detect devtools
+            var start = new Date();
+            element.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAwAB/6vgXUAAAAABJRU5ErkJggg==';
+            if (new Date() - start > threshold) {
+                alert('Developer tools detected!');
+            }
+        }, 1000);
+    })();
+
+    // Detect on mobile devices (e.g., iPhone, Android)
+    document.addEventListener('touchstart', function(e) {
+        if (e.touches.length > 1) {
+            // Detect multiple touches which can indicate a user interaction
+            console.log('Possible Developer Tools Interaction');
+        }
+    });
+
+    // Block some common key combinations on mobile devices
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'F12' || e.ctrlKey && (e.key === 'U' || e.key === 'I')) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+})();
+</script>
+
+
+========================================= Lock Hacked close ====================================
