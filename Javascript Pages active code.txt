@@ -1,0 +1,18 @@
+=========================== Javascript Pages active code =======================
+
+<script>
+        // JavaScript to highlight the active page
+        document.addEventListener("DOMContentLoaded", function() {
+            const navItems = document.querySelectorAll('.nav-item');
+            const currentPage = window.location.pathname.split("/").pop();
+
+            navItems.forEach(item => {
+                if (item.getAttribute('href') === currentPage) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+
+=========================== Javascript Pages active code =======================
