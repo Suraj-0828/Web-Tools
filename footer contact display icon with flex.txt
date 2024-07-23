@@ -1,0 +1,75 @@
+============================== footer contact display icon with flex ===================================
+
+============================== HTML ===================================
+
+  <div class="col-md-6 col-xl-auto">
+                    <div class="widget footer-widget">
+                        <h3 class="widget_title">Address</h3>
+                        <div class="newsletter-widget">
+                            <div class="footer-item">
+                                <div class="footer-icon">
+                                    <i class="fa fa-map-marker-alt"></i>
+                                </div>
+                                <div class="footer-text">
+                                    <a href="https://maps.google.com/?q=27, Kingston Road, South Wimbledon, London, UK" target="_blank">27, Kingston Road, South Wimbledon, London, UK</a>
+                                </div>
+                            </div>
+                            <div class="footer-item">
+                                <div class="footer-icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="footer-text">
+                                    <a href="tel:+447934809600">+44-7934809600</a>
+                                </div>
+                            </div>
+                            <div class="footer-item">
+                                <div class="footer-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="footer-text">
+                                    <a href="https://wa.me/919920028121">+44-7459235058</a>
+                                </div>
+                            </div>
+                            <div class="footer-item">
+                                <div class="footer-icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="footer-text">
+                                    <a href="mailto:info@thefernfacilityservices.co.uk">info@thefernfacilityservices.co.uk</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+============================== css ===================================
+
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-icon {
+    margin-right: 15px;
+    color: #068FFF;
+    margin-top: -32px;
+}
+
+.footer-text a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    flex: 1;
+}
+
+.footer-item:hover .footer-icon,
+.footer-text a:hover {
+    color: #068fff;
+}
+  
+
+============================== close ===================================
+
