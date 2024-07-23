@@ -1,0 +1,207 @@
+======================================= Squre your code ==================================
+
+
+
+  v.prototype = {
+      constructor: v,
+      init: function () {
+        var i = navigator.appVersion;
+        t.isLowIE = t.isIE8 = document.all && !document.addEventListener, t.isAndroid = /android/gi.test(i), t.isIOS = /iphone|ipad|ipod/gi.test(i), t.supportsTransition = function () {
+          var e = document.createElement("p").style,
+            t = ["ms", "O", "Moz", "Webkit"];
+          if (void 0 !== e.transition) return !0;
+          for (; t.length;)
+            if (t.pop() + "Transition" in e) return !0;
+          return !1
+        }(), t.probablyMobile = t.isAndroid || t.isIOS || /(Opera Mini)|Kindle|webOS|BlackBerry|(Opera Mobi)|(Windows Phone)|IEMobile/i.test(navigator.userAgent), n = e(document), t.popupsCache = {}
+      },
+      open: function (i) {
+        var s;
+        if (!1 === i.isObj) {
+          t.items = i.items.toArray(), t.index = 0;
+          var a, o = i.items;
+          for (s = 0; s < o.length; s++)
+            if ((a = o[s]).parsed && (a = a.el[0]), a === i.el[0]) {
+              t.index = s;
+              break
+            }
+        } else t.items = e.isArray(i.items) ? i.items : [i.items], t.index = i.index || 0;
+        if (!t.isOpen) {
+          t.types = [], r = "", i.mainEl && i.mainEl.length ? t.ev = i.mainEl.eq(0) : t.ev = n, i.key ? (t.popupsCache[i.key] || (t.popupsCache[i.key] = {}), t.currTemplate = t.popupsCache[i.key]) : t.currTemplate = {}, t.st = e.extend(!0, {}, e.magnificPopup.defaults, i), t.fixedContentPos = "auto" === t.st.fixedContentPos ? !t.probablyMobile : t.st.fixedContentPos, t.st.modal && (t.st.closeOnContentClick = !1, t.st.closeOnBgClick = !1, t.st.showCloseBtn = !1, t.st.enableEscapeKey = !1), t.bgOverlay || (t.bgOverlay = _("bg").on("click" + h, (function () {
+            t.close()
+          })), t.wrap = _("wrap").attr("tabindex", -1).on("click" + h, (function (e) {
+            t._checkIfClose(e.target) && t.close()
+          })), t.container = _("container", t.wrap)), t.contentContainer = _("content"), t.st.preloader && (t.preloader = _("preloader", t.container, t.st.tLoading));
+          var l = e.magnificPopup.modules;
+          for (s = 0; s < l.length; s++) {
+            var u = l[s];
+            u = u.charAt(0).toUpperCase() + u.slice(1), t["init" + u].call(t)
+          }
+          x("BeforeOpen"), t.st.showCloseBtn && (t.st.closeBtnInside ? (w(d, (function (e, t, i, n) {
+            i.close_replaceWith = S(n.type)
+          })), r += " mfp-close-btn-in") : t.wrap.append(S())), t.st.alignTop && (r += " mfp-align-top"), t.fixedContentPos ? t.wrap.css({
+            overflow: t.st.overflowY,
+            overflowX: "hidden",
+            overflowY: t.st.overflowY
+          }) : t.wrap.css({
+            top: b.scrollTop(),
+            position: "absolute"
+          }), (!1 === t.st.fixedBgPos || "auto" === t.st.fixedBgPos && !t.fixedContentPos) && t.bgOverlay.css({
+            height: n.height(),
+            position: "absolute"
+          }), t.st.enableEscapeKey && n.on("keyup" + h, (function (e) {
+            27 === e.keyCode && t.close()
+          })), b.on("resize" + h, (function () {
+            t.updateSize()
+          })), t.st.closeOnContentClick || (r += " mfp-auto-cursor"), r && t.wrap.addClass(r);
+          var p = t.wH = b.height(),
+            m = {};
+          if (t.fixedContentPos && t._hasScrollBar(p)) {
+            var g = t._getScrollbarSize();
+            g && (m.marginRight = g)
+          }
+          t.fixedContentPos && (t.isIE7 ? e("body, html").css("overflow", "hidden") : m.overflow = "hidden");
+          var v = t.st.mainClass;
+          return t.isIE7 && (v += " mfp-ie7"), v && t._addClassToMFP(v), t.updateItemHTML(), x("BuildControls"), e("html").css(m), t.bgOverlay.add(t.wrap).prependTo(t.st.prependTo || e(document.body)), t._lastFocusedEl = document.activeElement, setTimeout((function () {
+            t.content ? (t._addClassToMFP(f), t._setFocus()) : t.bgOverlay.addClass(f), n.on("focusin" + h, t._onFocusIn)
+          }), 16), t.isOpen = !0, t.updateSize(p), x(c), i
+        }
+        t.updateItemHTML()
+      },
+      close: function () {
+        t.isOpen && (x(l), t.isOpen = !1, t.st.removalDelay && !t.isLowIE && t.supportsTransition ? (t._addClassToMFP(m), setTimeout((function () {
+          t._close()
+        }), t.st.removalDelay)) : t._close())
+      },
+      _close: function () {
+        x(o);
+        var i = m + " " + f + " ";
+        if (t.bgOverlay.detach(), t.wrap.detach(), t.container.empty(), t.st.mainClass && (i += t.st.mainClass + " "), t._removeClassFromMFP(i), t.fixedContentPos) {
+          var s = {
+            marginRight: ""
+          };
+          t.isIE7 ? e("body, html").css("overflow", "") : s.overflow = "", e("html").css(s)
+        }
+        n.off("keyup.mfp focusin" + h), t.ev.off(h), t.wrap.attr("class", "mfp-wrap").removeAttr("style"), t.bgOverlay.attr("class", "mfp-bg"), t.container.attr("class", "mfp-container"), !t.st.showCloseBtn || t.st.closeBtnInside && !0 !== t.currTemplate[t.currItem.type] || t.currTemplate.closeBtn && t.currTemplate.closeBtn.detach(), t.st.autoFocusLast && t._lastFocusedEl && e(t._lastFocusedEl).focus(), t.currItem = null, t.content = null, t.currTemplate = null, t.prevHeight = 0, x("AfterClose")
+      },
+      updateSize: function (e) {
+        if (t.isIOS) {
+          var i = document.documentElement.clientWidth / window.innerWidth,
+            n = window.innerHeight * i;
+          t.wrap.css("height", n), t.wH = n
+        } else t.wH = e || b.height();
+        t.fixedContentPos || t.wrap.css("height", t.wH), x("Resize")
+      },
+      updateItemHTML: function () {
+        var i = t.items[t.index];
+        t.contentContainer.detach(), t.content && t.content.detach(), i.parsed || (i = t.parseEl(t.index));
+        var n = i.type;
+        if (x("BeforeChange", [t.currItem ? t.currItem.type : "", n]), t.currItem = i, !t.currTemplate[n]) {
+          var r = !!t.st[n] && t.st[n].markup;
+          x("FirstMarkupParse", r), t.currTemplate[n] = !r || e(r)
+        }
+        s && s !== i.type && t.container.removeClass("mfp-" + s + "-holder");
+        var a = t["get" + n.charAt(0).toUpperCase() + n.slice(1)](i, t.currTemplate[n]);
+        t.appendContent(a, n), i.preloaded = !0, x(u, i), s = i.type, t.container.prepend(t.contentContainer), x("AfterChange")
+      },
+      appendContent: function (e, i) {
+        t.content = e, e ? t.st.showCloseBtn && t.st.closeBtnInside && !0 === t.currTemplate[i] ? t.content.find(".mfp-close").length || t.content.append(S()) : t.content = e : t.content = "", x("BeforeAppend"), t.container.addClass("mfp-" + i + "-holder"), t.contentContainer.append(t.content)
+      },
+      parseEl: function (i) {
+        var n, s = t.items[i];
+        if (s.tagName ? s = {
+          el: e(s)
+        } : (n = s.type, s = {
+          data: s,
+          src: s.src
+        }), s.el) {
+          for (var r = t.types, a = 0; a < r.length; a++)
+            if (s.el.hasClass("mfp-" + r[a])) {
+              n = r[a];
+              break
+            } s.src = s.el.attr("data-mfp-src"), s.src || (s.src = s.el.attr("href"))
+        }
+        return s.type = n || t.st.type || "inline", s.index = i, s.parsed = !0, t.items[i] = s, x("ElementParse", s), t.items[i]
+      },
+      addGroup: function (e, i) {
+        var n = function (n) {
+          n.mfpEl = this, t._openClick(n, e, i)
+        };
+        i || (i = {});
+        var s = "click.magnificPopup";
+        i.mainEl = e, i.items ? (i.isObj = !0, e.off(s).on(s, n)) : (i.isObj = !1, i.delegate ? e.off(s).on(s, i.delegate, n) : (i.items = e, e.off(s).on(s, n)))
+      },
+      _openClick: function (i, n, s) {
+        if ((void 0 !== s.midClick ? s.midClick : e.magnificPopup.defaults.midClick) || !(2 === i.which || i.ctrlKey || i.metaKey || i.altKey || i.shiftKey)) {
+          var r = void 0 !== s.disableOn ? s.disableOn : e.magnificPopup.defaults.disableOn;
+          if (r)
+            if (e.isFunction(r)) {
+              if (!r.call(t)) return !0
+            } else if (b.width() < r) return !0;
+          i.type && (i.preventDefault(), t.isOpen && i.stopPropagation()), s.el = e(i.mfpEl), s.delegate && (s.items = n.find(s.delegate)), t.open(s)
+        }
+      },
+      updateStatus: function (e, n) {
+        if (t.preloader) {
+          i !== e && t.container.removeClass("mfp-s-" + i), n || "loading" !== e || (n = t.st.tLoading);
+          var s = {
+            status: e,
+            text: n
+          };
+          x("UpdateStatus", s), e = s.status, n = s.text, t.preloader.html(n), t.preloader.find("a").on("click", (function (e) {
+            e.stopImmediatePropagation()
+          })), t.container.addClass("mfp-s-" + e), i = e
+        }
+      },
+      _checkIfClose: function (i) {
+        if (!e(i).hasClass(g)) {
+          var n = t.st.closeOnContentClick,
+            s = t.st.closeOnBgClick;
+          if (n && s) return !0;
+          if (!t.content || e(i).hasClass("mfp-close") || t.preloader && i === t.preloader[0]) return !0;
+          if (i === t.content[0] || e.contains(t.content[0], i)) {
+            if (n) return !0
+          } else if (s && e.contains(document, i)) return !0;
+          return !1
+        }
+      },
+      _addClassToMFP: function (e) {
+        t.bgOverlay.addClass(e), t.wrap.addClass(e)
+      },
+      _removeClassFromMFP: function (e) {
+        this.bgOverlay.removeClass(e), t.wrap.removeClass(e)
+      },
+      _hasScrollBar: function (e) {
+        return (t.isIE7 ? n.height() : document.body.scrollHeight) > (e || b.height())
+      },
+      _setFocus: function () {
+        (t.st.focus ? t.content.find(t.st.focus).eq(0) : t.wrap).focus()
+      },
+      _onFocusIn: function (i) {
+        return i.target === t.wrap[0] || e.contains(t.wrap[0], i.target) ? void 0 : (t._setFocus(), !1)
+      },
+      _parseMarkup: function (t, i, n) {
+        var s;
+        n.data && (i = e.extend(n.data, i)), x(d, [t, i, n]), e.each(i, (function (i, n) {
+          if (void 0 === n || !1 === n) return !0;
+          if ((s = i.split("_")).length > 1) {
+            var r = t.find(h + "-" + s[0]);
+            if (r.length > 0) {
+              var a = s[1];
+              "replaceWith" === a ? r[0] !== n[0] && r.replaceWith(n) : "img" === a ? r.is("img") ? r.attr("src", n) : r.replaceWith(e("<img>").attr("src", n).attr("class", r.attr("class"))) : r.attr(s[1], n)
+            }
+          } else t.find(h + "-" + i).html(n)
+        }))
+      },
+      _getScrollbarSize: function () {
+        if (void 0 === t.scrollbarSize) {
+          var e = document.createElement("div");
+          e.style.cssText = "width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;", document.body.appendChild(e), t.scrollbarSize = e.offsetWidth - e.clientWidth, document.body.removeChild(e)
+        }
+        return t.scrollbarSize
+      }
+    }, 
+
+
+
+================================================ close ===============================================================
