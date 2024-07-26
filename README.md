@@ -1,7 +1,7 @@
 # Tools for website design
 
 # Responsive Banner Slider
-1. perfect slider chatgpt is perfect use for banner slider for both devices desktop or mobile view important notes Working 100%.
+1. Banner Slider ChatGPT 100% is perfect use for banner slider for both devices desktop or mobile view important notes Working 100%.
 2. Second Option use Bootstrap Slider.
    
 # Postermywall website
