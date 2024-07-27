@@ -1,0 +1,151 @@
+--------------------------------------------------------------------------------------------------------
+
+
+
+<!-- Desktop Slider -->
+<div class="slider desktop-slider">
+  <ul>
+    <li><img src="assets/images/desktop/slider1.jpg" alt="Desktop Image 1"></li>
+    <li><img src="assets/images/desktop/slider2.jpg" alt="Desktop Image 2"></li>
+    <li><img src="assets/images/desktop/slider3.jpg" alt="Desktop Image 3"></li>
+  </ul>
+  <span class="prev" onclick="moveSlide(-1, 'desktop')">&#10094;</span>
+  <span class="next" onclick="moveSlide(1, 'desktop')">&#10095;</span>
+</div>
+
+<!-- Mobile Slider -->
+<div class="slider mobile-slider">
+  <ul>
+    <li><img src="assets/images/mobile/slider1.jpg" alt="Mobile Image 1"></li>
+    <li><img src="assets/images/mobile/slider2.jpg" alt="Mobile Image 2"></li>
+    <li><img src="assets/images/mobile/slider3.jpg" alt="Mobile Image 3"></li>
+  </ul>
+  <span class="prev" onclick="moveSlide(-1, 'mobile')">&#10094;</span>
+  <span class="next" onclick="moveSlide(1, 'mobile')">&#10095;</span>
+</div>
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+<script>
+  let slideIndexDesktop = 1;
+  let slideIndexMobile = 1;
+  autoSlide('desktop');
+  autoSlide('mobile');
+
+  function autoSlide(type) {
+    if (type === 'desktop') {
+      showSlides(slideIndexDesktop, 'desktop');
+      slideIndexDesktop++;
+      setTimeout(() => autoSlide('desktop'), 2000); // Change slide every 2 seconds
+    } else {
+      showSlides(slideIndexMobile, 'mobile');
+      slideIndexMobile++;
+      setTimeout(() => autoSlide('mobile'), 2000); // Change slide every 2 seconds
+    }
+  }
+
+  function moveSlide(n, type) {
+    if (type === 'desktop') {
+      showSlides(slideIndexDesktop += n, 'desktop');
+    } else {
+      showSlides(slideIndexMobile += n, 'mobile');
+    }
+  }
+
+  function showSlides(n, type) {
+    const slides = document.querySelectorAll(`.${type}-slider ul li`);
+    let slideIndex = type === 'desktop' ? slideIndexDesktop : slideIndexMobile;
+    
+    if (n > slides.length) {
+      slideIndex = 1;
+      if (type === 'desktop') slideIndexDesktop = 1;
+      else slideIndexMobile = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+      if (type === 'desktop') slideIndexDesktop = slides.length;
+      else slideIndexMobile = slides.length;
+    }
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none';
+    }
+    slides[slideIndex - 1].style.display = 'block';
+  }
+</script>
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+/* Common Styles */
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider ul li {
+  flex: 0 0 100%;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  z-index: 100;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .desktop-slider {
+    display: block;
+  }
+  
+  .mobile-slider {
+    display: none;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .desktop-slider {
+    display: none;
+  }
+  
+  .mobile-slider {
+    display: block;
+  }
+
+  .prev, .next {
+    font-size: 30px;
+  }
+}
