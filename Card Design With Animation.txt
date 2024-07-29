@@ -1,0 +1,669 @@
+================================= Card Design With Animation ===============================
+# Html Code
+ <div class="gallery-sec1 gallery-sec2" data-bg-src="assets/img/bg/gallery_bg_1.jpg">
+        <div class="container space-top">
+            <div class="title-area text-center"><span class="sub-title"><img src="assets/img/theme-img/title_icon.svg" alt="shape">Our portfolio</span>
+                <h2 class="sec-title text-white">Display of Recent Projects</h2>
+            </div>
+        </div>
+        <div class="gallery-card-wrap space-bottom">
+            <div class="gallery-card hover-item">
+                <div class="box-img"><img src="assets/img/recent-project/r1.jpg" alt="gallery image"></div>
+                <div class="box-content">
+                    <div class="media-body">
+                        <h3 class="box-title"><a href="javascriptvoid:0">Official</a></h3>
+                        <p class="box-text">Home Cleaning</p>
+                    </div><a href="assets/img/recent-project/r1.jpg" class="icon-btn style2 popup-image"><i class="far fa-plus"></i></a>
+                </div>
+            </div>
+            <div class="gallery-card hover-item">
+                <div class="box-img"><img src="assets/img/recent-project/r2.jpg" alt="gallery image"></div>
+                <div class="box-content">
+                    <div class="media-body">
+                        <h3 class="box-title"><a href="javascript:void(0)">Restaurant</a></h3>
+                        <p class="box-text">Kitchen Cleaning</p>
+                    </div><a href="assets/img/recent-project/r2.jpg" class="icon-btn style2 popup-image"><i class="far fa-plus"></i></a>
+                </div>
+            </div>
+            <div class="gallery-card hover-item item-active">
+                <div class="box-img"><img src="assets/img/recent-project/r3.jpg" alt="gallery image"></div>
+                <div class="box-content">
+                    <div class="media-body">
+                        <h3 class="box-title"><a href="javascript:void(0)">Residencial</a></h3>
+                        <p class="box-text">Window Cleaning</p>
+                    </div><a href="assets/img/recent-project/r3.jpg" class="icon-btn style2 popup-image"><i class="far fa-plus"></i></a>
+                </div>
+            </div>
+            <div class="gallery-card hover-item">
+                <div class="box-img"><img src="assets/img/recent-project/r4.jpg" alt="gallery image"></div>
+                <div class="box-content">
+                    <div class="media-body">
+                        <h3 class="box-title"><a href="javascript:void(0)">cafe</a></h3>
+                        <p class="box-text">Inside and Out Service</p>
+                    </div><a href="assets/img/recent-project/r4.jpg" class="icon-btn style2 popup-image"><i class="far fa-plus"></i></a>
+                </div>
+            </div>
+            <div class="gallery-card hover-item">
+                <div class="box-img"><img src="assets/img/recent-project/r5.jpg" alt="gallery image"></div>
+                <div class="box-content">
+                    <div class="media-body">
+                        <h3 class="box-title"><a href="javascript:void(0)">pub cleaner</a></h3>
+                        <p class="box-text">General Cleaning Service</p>
+                    </div><a href="assets/img/recent-project/r5.jpg" class="icon-btn style2 popup-image"><i class="far fa-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+=================================HTML Code Close ===============================
+
+
+================================= CSS Code ===============================
+# CSS Code 
+.gallery-card {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out
+}
+
+.gallery-card-wrap {
+    max-width: 1814px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    padding-left: 12px;
+    padding-right: 12px;
+    overflow: hidden
+}
+
+@media (max-width: 1199px) {
+    .gallery-card-wrap {
+        gap: 24px
+    }
+}
+
+@media (max-width: 767px) {
+    .gallery-card-wrap {
+        max-width: 540px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+.gallery-card .box-img {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 10px
+}
+
+.gallery-card .box-img img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover
+}
+
+@media (max-width: 767px) {
+    .gallery-card .box-img img {
+        height: 80px;
+        -webkit-transition: 0.4s ease-in-out;
+        transition: 0.4s ease-in-out
+    }
+}
+
+.gallery-card .box-img:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: -webkit-linear-gradient(top, rgba(0, 21, 36, 0.09) 0%, var(--theme-color) 100%);
+    background: linear-gradient(180deg, rgba(0, 21, 36, 0.09) 0%, var(--theme-color) 100%);
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out
+}
+
+.gallery-card .box-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
+    -webkit-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    transform: translateY(40px)
+}
+
+@media (max-width: 1199px) {
+    .gallery-card .box-content {
+        padding: 20px
+    }
+}
+
+@media (max-width: 767px) {
+    .gallery-card .box-content {
+        padding: 30px
+    }
+}
+
+@media (max-width: 375px) {
+    .gallery-card .box-content {
+        padding: 20px
+    }
+}
+
+.gallery-card .box-title {
+    font-weight: 600;
+    color: var(--white-color);
+    margin-bottom: 4px
+}
+
+.gallery-card .box-title a:hover {
+    color: var(--title-color)
+}
+
+.gallery-card .box-text {
+    color: var(--white-color)
+}
+
+.gallery-card.item-active {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2
+}
+
+@media (max-width: 991px) {
+    .gallery-card.item-active {
+        -webkit-box-flex: 3.5;
+        -webkit-flex: 3.5;
+        -ms-flex: 3.5;
+        flex: 3.5
+    }
+}
+
+.gallery-card.item-active .box-img:after {
+    height: 100%
+}
+
+.gallery-card.item-active .box-img img {
+    height: 320px
+}
+
+.gallery-card.item-active .box-content {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.gallery-sec1 {
+    padding-top: 120px;
+    margin-top: -120px
+}
+
+.gallery-sec2 {
+    padding-top: 0px !important;
+    margin-top: -60px !important;
+}
+
+.gallery-box {
+    position: relative;
+    margin-bottom: var(--bs-gutter-x)
+}
+
+.gallery-box .box-img {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 10px
+}
+
+.gallery-box .box-img img {
+    width: 100%;
+    object-fit: cover
+}
+
+@media (max-width: 991px) {
+    .gallery-box .box-img img {
+        min-height: 280px;
+        max-height: 350px
+    }
+}
+
+.gallery-box .box-img:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: var(--title-color);
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    opacity: 0.7
+}
+
+.gallery-box .box-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 0 20px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3
+}
+
+.gallery-box .box-content:before {
+    content: '';
+    position: absolute;
+    inset: 0 20px 0 0;
+    background-color: var(--white-color);
+    border-radius: 6px;
+    z-index: -1
+}
+
+.gallery-box .icon-btn {
+    --btn-size: 40px;
+    background-color: var(--theme-color);
+    color: var(--white-color);
+    border: none
+}
+
+.gallery-box .icon-btn:hover {
+    background-color: var(--title-color)
+}
+
+.gallery-box .box-title {
+    margin-bottom: 2px
+}
+
+@media (max-width: 375px) {
+    .gallery-box .box-title {
+        font-size: 22px
+    }
+}
+
+.gallery-box .box-text {
+    font-size: 14px;
+    color: var(--theme-color)
+}
+
+.gallery-box:hover .box-img:after {
+    height: 100%
+}
+
+.gallery-box:hover .box-content {
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+
+@media (max-width: 375px) {
+    .gallery-box:hover .box-content {
+        bottom: 20px;
+        left: 20px;
+        right: 20px
+    }
+}
+
+.project-meta-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 29px 30px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 890px;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--white-color);
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 3;
+    margin: 0 auto -70px auto
+}
+
+@media (max-width: 767px) {
+    .project-meta-wrap {
+        gap: 20px 7px;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0 0 20px 0;
+        border-radius: 10px
+    }
+}
+
+.project-meta-wrap:before,
+.project-meta-wrap:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    border-style: solid;
+    display: inline-block;
+    z-index: -1
+}
+
+@media (max-width: 991px) {
+
+    .project-meta-wrap:before,
+    .project-meta-wrap:after {
+        display: none
+    }
+}
+
+.project-meta-wrap:before {
+    border-width: 0 0 30px 30px;
+    border-color: transparent transparent var(--gray-color) transparent;
+    left: -30px
+}
+
+.project-meta-wrap:after {
+    border-width: 30px 0 0 30px;
+    border-color: transparent transparent transparent var(--gray-color);
+    right: -30px
+}
+
+.project-meta-wrap .line {
+    background-color: var(--th-border-color);
+    height: 40px;
+    width: 1px
+}
+
+@media (max-width: 767px) {
+    .project-meta-wrap .line {
+        display: none
+    }
+}
+
+.project-meta .box-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2px
+}
+
+@media (max-width: 767px) {
+    .project-meta {
+        -webkit-box-flex: calc(50% - 4px);
+        -webkit-flex: calc(50% - 4px);
+        -ms-flex: calc(50% - 4px);
+        flex: calc(50% - 4px)
+    }
+}
+
+.project-details .page-title {
+    text-align: center
+}
+
+.project-details .page-text {
+    max-width: 890px;
+    margin: 0 auto 32px auto;
+    text-align: center
+}
+
+.project-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-top: 1px solid var(--th-border-color);
+
+    padding: 17px 0;
+    margin-top: 22px
+}
+
+.project-nav .icon-btn {
+    --btn-size: 46px;
+    font-size: 16px;
+    border-radius: 99px;
+    border: none;
+    background-color: var(--theme-color);
+    color: var(--white-color)
+}
+
+.project-nav .icon-btn:hover {
+    background-color: var(--theme-color2)
+}
+
+.project-nav .nav-btn {
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-weight: 500
+}
+
+.project-nav .nav-btn:first-child .icon-btn {
+    margin-right: 5px
+}
+
+.project-nav .nav-btn:last-child .icon-btn {
+    margin-left: 5px
+}
+
+.project-nav .nav-btn:hover {
+    color: var(--theme-color)
+}
+
+.price-card {
+    text-align: center;
+    padding: 60px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2
+}
+
+.price-card-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px
+}
+
+@media (max-width: 991px) {
+    .price-card-wrap {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media (max-width: 767px) {
+    .price-card-wrap {
+        grid-template-columns: repeat(1, 1fr)
+    }
+}
+
+@media (max-width: 1199px) {
+    .price-card {
+        padding: 45px
+    }
+}
+
+.price-card:before,
+.price-card:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--smoke-color2);
+    border-radius: inherit;
+    z-index: -1;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out
+}
+
+.price-card:after {
+    background-color: var(--theme-color);
+    opacity: 0.9;
+    z-index: -2
+}
+
+.price-card .box-icon {
+    background-color: var(--theme-color);
+    border-radius: 10px;
+    padding: 33px 20px;
+    max-width: 250px;
+    margin: 0 auto;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out
+}
+
+.price-card .box-icon img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out
+}
+
+.price-card .box-title {
+    margin: 24px 5px
+}
+
+.price-card .box-price {
+    font-size: 44px;
+    margin: 0;
+    color: var(--theme-color);
+    margin: -0.28em 0
+}
+
+.price-card .box-price .currency {
+    font-size: 18px
+}
+
+.price-card .checklist {
+    text-align: center;
+    margin: 33px 0 33px 0
+}
+
+.price-card .checklist li {
+    color: var(--body-color);
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.price-card .checklist li.unavailable i {
+    color: var(--body-color)
+}
+
+.price-card.item-active:before {
+    top: 70px;
+    left: 80px;
+    height: 100px;
+    width: calc(100% - 160px);
+    z-index: -1
+}
+
+.price-card.item-active .checklist li {
+    --body-color: #fff
+}
+
+.price-card.item-active .checklist li i {
+    color: var(--white-color)
+}
+
+.price-card.item-active .box-price {
+    color: var(--white-color)
+}
+
+.price-card.item-active .box-icon {
+    background-color: var(--white-color)
+}
+
+.price-card.item-active .box-icon img {
+    -webkit-filter: none;
+    filter: none
+}
+
+.price-card.item-active .box-title {
+    color: var(--white-color)
+}
+
+.price-card.item-active .th-btn {
+    background-color: var(--white-color);
+    color: var(--theme-color)
+}
+
+.price-tab {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    gap: 10px
+}
+
+.price-tab .th-btn {
+    min-width: auto
+}
+
+.price-tab .th-btn.active:before {
+    background-color: var(--theme-color2)
+}
+
+
+====================================== CSS Close =========================================
+
+
+
+================================= Card Design With Animation ===============================
