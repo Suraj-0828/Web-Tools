@@ -1,0 +1,142 @@
+===================================== FILE UPLOADED FORM CODE ======================================
+   
+<form class="" method="post" action="career-data"  enctype="multipart/form-data">
+
+
+                        <div class="row sp10">
+                            <div class="col-sm-6 m-b20">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="name" placeholder="First Name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 m-b20">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="lastname" placeholder="Last Name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 m-b20">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 m-b20">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="phone" placeholder="Phone No."
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 m-b20">
+                                <div class="input-group">
+                            
+                                    <input class="form-control"  type="file" id="file" name="file"  placeholder="" required="">
+                
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-sm-12">
+                                <button name="submit" type="submit" value="submit" class="btn btn-primary">Submit<i
+                                        class="m-l10 fas fa-caret-right"></i></button>
+                            </div>
+                        </div>
+                    </form>
+
+
+=================================== PHP CODE ===================================================
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = htmlspecialchars($_POST['name']);
+    $lastname = htmlspecialchars($_POST['lastname']);
+    $email = htmlspecialchars($_POST['email']);
+    $phone = htmlspecialchars($_POST['phone']);
+    $file = $_FILES['file'];
+
+    $to = "worldlaunchpad@gmail.com"; // Replace with your email address
+    $subject = "New Contact Form Submission";
+    
+    $htmlContent = "
+    <html>
+    <head>
+        <title>New Contact Form Submission</title>
+    </head>
+    <body>
+        <table border='1' bordercolor='#ccc' align='center' width='650' style='width:650px;' cellpadding='10' cellspacing='0' >
+      
+
+
+
+        <tr><td colspan='2' align='center'>Contact Details </td></tr>
+
+            <tr>
+                <th> Name</th><td>{$name}</td>
+            </tr>
+            <tr>
+                <th>Last Name</th><td>{$lastname}</td>
+            </tr>
+            <tr>
+                <th>Email</th><td>{$email}</td>
+            </tr>
+            <tr>
+                <th>Phone</th><td>{$phone}</td>
+            </tr>
+        
+
+
+        
+    </body>
+    </html>";
+
+    
+    $headers = "From: $email\r\n";
+    // $headers .= "Reply-To: $email\r\n";
+    $headers = "From: no-reply@thelaunchpadworld.com\r\n";
+
+    $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+
+    // If file is uploaded
+    if ($file['error'] == 0) {
+        $file_path = $file['tmp_name'];
+        $file_name = $file['name'];
+
+        // MIME boundaries
+        $boundary = md5(uniqid(time()));
+
+        $headers .= "Content-Type: multipart/mixed; boundary=\"$boundary\"";
+
+        $message = "--$boundary\r\n";
+        $message .= "Content-Type: text/html; charset=\"utf-8\"\r\n";
+        $message .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
+        $message .= $htmlContent . "\r\n";
+        $message .= "--$boundary\r\n";
+        
+        $file_content = chunk_split(base64_encode(file_get_contents($file_path)));
+        $message .= "Content-Type: application/octet-stream; name=\"$file_name\"\r\n";
+        $message .= "Content-Transfer-Encoding: base64\r\n";
+        $message .= "Content-Disposition: attachment; filename=\"$file_name\"\r\n\r\n";
+        $message .= $file_content . "\r\n";
+        $message .= "--$boundary--";
+    } else {
+        $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+        $message = $htmlContent;
+    }
+
+    // Send email
+    if (mail($to, $subject, $message, $headers)) {
+        header("Location: success.php"); // Redirect to send.php on success
+        exit();
+    } else {
+        header("Location: failed.php"); // Redirect to failed.php on failure
+        exit();
+    }
+} else {
+    header("Location: index.php"); // Redirect back to index.php if accessed directly
+    exit();
+}
+?>
+
+
