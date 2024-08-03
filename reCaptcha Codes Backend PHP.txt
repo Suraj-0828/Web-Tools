@@ -1,0 +1,140 @@
+============================ ((( recaptcha ))) ==============================
+-------------- Form ----------------------
+
+<div class="form-group col-12 form-row">
+     <div class="g-recaptcha hide15" required data-sitekey="6Le1WxsqAAAAAEt2xVlOaA1VxIKOuMJJ0w5JERGw"></div>
+    ((( <span id="captcha" class="text-danger"></span>  )))
+</div>
+
+----------------Submit Button ------------------------------
+
+<button type="submit" ((( id="submitContact" ))) class="th-btn btn-fw"><span>Submit Now<i class="icon far fa-angle-right"></i></span></button>
+
+----------------- Javascript Link -----------------------
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+---------------------- Script Code ------------------------------
+
+    <script>
+        $(document).ready(function() {
+            $('.logo-carousel').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                arrows: true,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                }]
+            });
+        });
+    </script>
+
+
+    <script>
+        $(function() {
+            $("#submitContact").click(function() {
+                var v = grecaptcha.getResponse();
+                if (v.length == 0) {
+                    document.getElementById('captcha').innerHTML = "Captcha Required";
+                    return false;
+                } else {
+                    document.getElementById('captcha').innerHTML = "Captcha Verify";
+                    return true;
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        $(function() {
+            $("#submitContact").click(function() {
+                var v = grecaptcha.getResponse();
+                if (v.length == 0) {
+                    document.getElementById('captcha').innerHTML = "Captcha Required";
+                    return false;
+                } else {
+                    document.getElementById('captcha').innerHTML = "Captcha Verify";
+                    return true;
+                }
+
+            });
+        });
+    </script>
+
+
+-------------------------- use smtp method -----------------------------------
+
+<?php
+ob_start(); // Start output buffering
+
+// Enable error reporting for debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Include SwiftMailer autoload file
+require 'swiftmailer/vendor/autoload.php';
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Details of Complainant
+    $data = '<table border="1" bordercolor="#ccc" align="center" width="650" style="width:650px;" cellpadding="10" cellspacing="0">';
+    $data .= '<tr><td colspan="2" align="center" style="font-size:15px; font-weight:600;">Enquiry Details :-</td></tr>';
+    $data .= '<tr><td>Name </td><td>' . htmlspecialchars($_POST['name']) . '</td></tr>';
+    $data .= '<tr><td>Email </td><td>' . htmlspecialchars($_POST['email']) . '</td></tr>';
+    $data .= '<tr><td>Phone No </td><td>' . htmlspecialchars($_POST['phone']) . '</td></tr>';
+    $data .= '<tr><td>Company Name </td><td>' . htmlspecialchars($_POST['postcode']) . '</td></tr>';
+    $data .= '<tr><td>Message  </td><td>' . htmlspecialchars($_POST['message']) . '</td></tr>';
+    $data .= '<tr><td>IP Address  </td><td>' . $_SERVER['REMOTE_ADDR'] . '</td></tr>';
+    $data .= '</table>';
+
+
+    // Create the Transport
+    $transport = (new Swift_SmtpTransport('mail.thefernfacilityservices.co.uk', 587))
+        ->setUsername('noreply@thefernfacilityservices.co.uk')
+        ->setPassword('HI-&*D#=I)Ho');
+
+    // Create the Mailer using the created Transport
+    $mailer = new Swift_Mailer($transport);
+
+    // Create a message
+    $message = (new Swift_Message('Contact Form Query'))
+        ->setFrom(['noreply@thefernfacilityservices.co.uk' => 'Contact Form Query'])
+        ->setTo(['suraj.itarsia@gmail.com' => 'Contact Form Query'])
+        ->setBody($data, 'text/html');
+
+    // Send the message
+    try {
+        $result = $mailer->send($message);
+
+        // Check if email sent successfully
+        if ($result) {
+            header('Location: success.php');
+            exit; // Ensure script stops executing after redirection
+        } else {
+            header('Location: failed.php');
+            exit; // Ensure script stops executing after redirection
+        }
+    } catch (Exception $e) {
+        echo 'Message could not be sent. Mailer Error: ' . $e->getMessage();
+        header('Location: failed.php');
+        exit; // Ensure script stops executing after redirection
+    }
+} else {
+    exit('Invalid Request!');
+}
+
+ob_end_flush(); // Flush output buffer and send it to the browser
+
+=================================================================
