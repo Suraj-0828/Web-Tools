@@ -5,7 +5,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Textica - Textile & Fabric Industry HTML Template</title>
+	<title>Here you type your Title.....</title>
 
 	<meta name="description"
 		content="Here you type your Discription.....">
