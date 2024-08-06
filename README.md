@@ -8,7 +8,8 @@
 1. https://www.postermywall.com/ for design and redesign images..
 
 # Contact Form Activation 
-1. SMPT Mailer :- Contact Form Active using this method best.
+ Use SMTP Port: 465
+1. SMPT Mailer :- Contact Form Active using this method best. SMTP Port: 465 use 
 2. PHP Backend 100% Second option.
 3. PHP Backend Simple Method third option.
 4. Send.php use for simple
