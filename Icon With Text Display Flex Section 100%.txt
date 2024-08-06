@@ -60,6 +60,7 @@
     margin-right: 15px;
     color: white;
     margin-top: -32px;
+    transform: rotate(90deg); /* Rotating the call icon */
 }
 
 .footer-text {
