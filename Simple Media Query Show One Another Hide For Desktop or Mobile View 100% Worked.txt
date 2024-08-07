@@ -1,0 +1,47 @@
+======================== simple media query for desktop or mobile view strat ==========================
+---------------------------------------
+# First Option ********************
+---------------------------------------
+
+.mobile-view{
+    display: none;
+}
+
+@media (max-width: 700px) {
+    /* Extra small devices (phones) */
+    .desktop-view{
+     display: none;
+    }
+    .mobile-view{
+        display: block;
+    }
+  }
+
+
+
+---------------------------------------
+# Second Option *******************
+---------------------------------------
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (min-device-width: 601px) {
+  .desktop {
+      display: block;
+  }
+ 
+}
+
+@media screen and (max-device-width: 600px) {
+  .mobile {
+      display: block;
+  }
+
+}
+======================== simple media query for desktop or mobile view close ==========================
