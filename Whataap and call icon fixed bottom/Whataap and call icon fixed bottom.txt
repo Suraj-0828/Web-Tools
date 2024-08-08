@@ -1,0 +1,40 @@
+Whataap and call icon fixed 
+
+
+html file 
+images whataap include your own hand sorry for that
+
+<a href="https://wa.me/919099909968" target="_blank" class="floatwhatsapp">
+           <img src="img/whatsapp-icon.png" class="my-float1" alt="">
+       </a>
+       <a href="tel:919099909968" target="_blank" class="phone">
+           <img src="img/phone-icon.png" class="my-float1" alt="">
+       </a>
+-------------------------------------------------------------
+css file
+
+.floatwhatsapp {
+  position: fixed;
+  width: 61px;
+  height: 55px;
+  bottom: 114px;
+  right: 20px;
+  color: #FFF !important;
+  border-radius: 50px;
+  text-align: center;
+  z-index: 99999;
+  cursor: pointer;
+}
+
+.phone {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 38px;
+  right: 20px;
+  color: #FFF !important;
+  border-radius: 50px;
+  text-align: center;
+  z-index: 99999;
+  cursor: pointer;
+}
