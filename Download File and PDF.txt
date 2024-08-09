@@ -1,0 +1,12 @@
+================= Download File Start ====================
+
+<a href="path/to/your/file.pdf" download="your-file-name.pdf">
+    <button>Download PDF</button>
+</a>
+
+--------------------------
+Writting For Clean Code ->
+Step 1 : Create Folder
+Step 2 : put your file or pdf etc 
+
+================= Download File End ====================
