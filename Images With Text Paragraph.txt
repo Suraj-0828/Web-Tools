@@ -10,10 +10,11 @@
 </head>
 <body>
     <div class="container123">
+ <div class="text">
         <div class="image">
             <img src="path-to-your-image.jpg" alt="Mr. Pramod Chikerur">
         </div>
-        <div class="text">
+
             <h2>Mr. Pramod Chikerur</h2>
             <p>
                 A graduate with degrees in English, Economics, and Psychology, is the head of the TaskTranslate group and is widely recognized as a renowned figure in the field of translation. His mastery of various languages and extensive knowledge of translation distinguish him in his profession. He has compiled several English and Marathi language magazines, which have been published by leading newspaper organizations in India and distributed complimentary to their readers.
@@ -77,7 +78,7 @@ p {
     margin-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 674px) {
     .image {
         float: none; /* Reset the float on small screens */
         margin-right: 0;
