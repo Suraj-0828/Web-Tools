@@ -1,0 +1,93 @@
+==================== Images With Text Paragraph ==========================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Section Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container123">
+        <div class="image">
+            <img src="path-to-your-image.jpg" alt="Mr. Pramod Chikerur">
+        </div>
+        <div class="text">
+            <h2>Mr. Pramod Chikerur</h2>
+            <p>
+                A graduate with degrees in English, Economics, and Psychology, is the head of the TaskTranslate group and is widely recognized as a renowned figure in the field of translation. His mastery of various languages and extensive knowledge of translation distinguish him in his profession. He has compiled several English and Marathi language magazines, which have been published by leading newspaper organizations in India and distributed complimentary to their readers.
+            </p>
+            <p>
+                For the past decade, Mr. Chikerur and his team have been providing translation services to various reputed organizations, establishing a strong reputation for their expertise and reliability in the industry.
+            </p>
+            <p>
+                His ability to deliver outstanding work in multiple languages to clients on schedule is truly commendable. He consistently motivates his team, sharing his extensive knowledge across various skills.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
+================================================------------------------------------================================================
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container123 {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.image {
+    float: left; /* Allows the image to float on the left */
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.text {
+    overflow: hidden; /* Clears the floating elements */
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .image {
+        float: none; /* Reset the float on small screens */
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .text {
+        margin-top: 20px;
+    }
+}
+
+
+==================== Images With Text Paragraph ==========================
