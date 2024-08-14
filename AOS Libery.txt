@@ -1,0 +1,24 @@
+================= AOS Libery ===================
+
+Open Browser - AOS LIBERY
+
+https://michalsnik.github.io/aos/
+
+-------------------------------------------
+
+HEADER LINK 
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+-------------------------------------------
+
+SCRIPT LINK
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+-------------------------------------------
+
+================= AOS Libery ===================
