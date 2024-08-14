@@ -1,0 +1,22 @@
+===================== active pages ====================
+
+# HTML
+
+<ul>
+    <li><a href="index.php" class="<?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>">Home</a></li>
+    <li><a href="about.php" class="<?= basename($_SERVER['PHP_SELF']) == 'about.php' ? 'active' : '' ?>">About Us</a></li>
+    <li><a href="unlisted-share.php" class="<?= basename($_SERVER['PHP_SELF']) == 'unlisted-share.php' ? 'active' : '' ?>">Unlisted Share Price</a></li>
+    <li><a href="contact.php" class="<?= basename($_SERVER['PHP_SELF']) == 'contact.php' ? 'active' : '' ?>">Contact Us</a></li>
+</ul>
+
+---------------------------------------------------------------
+
+# CSS
+
+.active {
+    color: #007bff; /* Change this color to whatever you want */
+    font-weight: bold; /* Optional: make the active link bold */
+}
+
+
+===================== active pages ====================
