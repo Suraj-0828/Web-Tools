@@ -57,3 +57,7 @@ Example in Context:
 Agar 3 images hain aur unhe ek container mein daala gaya hai jiska width 100% hai, toh har image initially 30% width legi, aur remaining 10% space gap ke liye bachega. Agar container ki width badh gayi ya kam ho gayi, toh images apne size ko uske hisaab se adjust karengi.
 
 Iska fayda yeh hai ki yeh approach responsive layouts create karta hai jo different screen sizes pe achhe se kaam karte hain.
+
+# box shadow
+using for box shadow 
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
