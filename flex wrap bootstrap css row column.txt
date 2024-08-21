@@ -1,0 +1,31 @@
+=================== HTML ========================
+flex-wrap: wrap; is a CSS property used in a flexbox container to control how flex items are displayed when there isn't enough space in a single line.
+
+Here's what it does:
+Default Behavior (flex-wrap: nowrap;): By default, flex items are laid out in a single line (no wrapping), and they will shrink to fit within the container if needed. This might cause the items to become very narrow if there's not enough space.
+
+With flex-wrap: wrap;: When you set flex-wrap: wrap;, the flex container allows the items to wrap onto multiple lines if there isn't enough space in one line. Each line will be treated as a separate flex line.
+
+Example:
+
+<div class="flex-container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+  <div class="item">Item 4</div>
+</div>
+
+=================== CSS ========================
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* Items will wrap to the next line if necessary */
+}
+
+.item {
+  flex: 0 0 50%; /* Each item takes up 50% of the container's width */
+}
+
+
+Use Case:
+flex-wrap: wrap; is useful when you want to maintain the size of your flex items without forcing them to shrink too much. It ensures that the items will wrap onto new lines if there's not enough space on a single line.
