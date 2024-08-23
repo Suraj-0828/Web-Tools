@@ -1,0 +1,35 @@
+====================== Header Section ======================
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #00800040; backdrop-filter: blur(10px);">
+    <div class="container">
+      <div class="logo">
+        <a href="https://wioc.in/">
+          <img alt="logo" src="assets/img/logo.png">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-clear" style="font-size: 18px; font-weight:bold;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php#our-products">Our Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php#contact-us">Contact Us</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <a href="https://wa.me/919820348848" target="_blank" class="btn btn-outline-success"><i class="fab fa-whatsapp"></i>&nbsp;+91-9820348848</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Header end -->
+
+
+================================ Bootstrap ====================================
