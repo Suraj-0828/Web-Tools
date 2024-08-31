@@ -1,0 +1,14 @@
+====================== Header and Footer Include ==============================
+
+
+        <!-- Header Pages -->
+        <?php include 'headertwo.php'; ?>
+        <!-- Header Pages -->
+
+	
+	<!-- Footer Pages -->
+        <?php include 'footer.php'; ?>
+        <!-- Footer Pages -->
+
+
+====================== Header and Footer Include ==============================
