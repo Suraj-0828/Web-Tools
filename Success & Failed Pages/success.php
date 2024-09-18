@@ -50,6 +50,10 @@
 			margin-bottom: -20px;
 		}
 
+		  .color-success{
+          		  color: #6BC839;
+      		 }
+
 		p {
 			text-align: center;
 		}
@@ -73,7 +77,7 @@
 					<img src="images/other/success.png" />
 				</div>
 				<div class="successful text-black">
-					Your Request Has Been Successfully Submited
+					Your Request Has Been <span class="color-success">Successfully</span> Submited
 				</div>
 				<p class="text-black">
 					Our dedicated care coordinator will reach out to you as soon as possible to assist you further.
