@@ -46,6 +46,10 @@
 			color: black;
 		}
 
+	       .color-failed{
+            		color: red;
+      		}
+
 		img {
 			max-width: 100%;
 		}
@@ -86,7 +90,7 @@
 				<div class="successful text-black">
 					Your Email Has Not Send!
 				</div>
-				<p class="text-black">Something went <span class="text-danger">wrong</span> please try again after sometime.</p>
+				<p class="text-black">Something went <span class="color-failed">wrong</span> please try again after sometime.</p>
 
 			</div>
 
