@@ -22,15 +22,6 @@
 	<meta http-equiv="Pragma" content="no-cache" />
 	<!-- Title and Discription close -->
 
-
-	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/x-icon" href="images/fevicon.png">
-	
-
-	<!-- Style CSS -->
-	<link rel="stylesheet" href="css/style.css">
-
-
 	<style>
 		.success {
 			text-align: center;
@@ -71,47 +62,11 @@
 			}
 		}
 	</style>
+	
 </head>
 
 <body>
-	<!-- Page Wrapper -->
-	<div class="page-wrapper">
-
-		<!-- Header Start -->
-		<?php include 'header.php'; ?>
-		<!-- Header Close -->
-
-		<!-- Title Bar -->
-		<div class="pbmit-title-bar-wrapper">
-			<div class="container">
-				<div class="pbmit-title-bar-content">
-					<div class="pbmit-title-bar-content-inner">
-						<div class="pbmit-tbar">
-							<div class="pbmit-tbar-inner container">
-								<h1 class="pbmit-tbar-title">Success</h1>
-							</div>
-						</div>
-						<div class="pbmit-breadcrumb">
-							<div class="pbmit-breadcrumb-inner">
-								<span>
-									<a title="" href="https://shilpkarfitness.com/" class="home"><span>Home</span></a>
-								</span>
-								<span class="sep">
-									<i class="pbmit-base-icon-angle-double-right"></i>
-								</span>
-								<span><span class="post-root post post-post current-item">Success</span></span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Title Bar End-->
-
-		<!-- Page Content -->
-		<div class="page-content">
-
-
+	
 
 			<div class="container pt-5 pb-4">
 				<div class="img-size">
@@ -120,14 +75,12 @@
 				<div class="successful text-black">
 					Your Request Has Been Successfully Submited
 				</div>
-				<p class="text-black">Our dedicated care coordinator will reach out to you as soon as possible to assist you further.</p>
-
+				<p class="text-black">
+					Our dedicated care coordinator will reach out to you as soon as possible to assist you further.
+				</p>
 			</div>
 
-
-
-
-			<!-- Page Content End -->
+	
 
 			<!-- Footer Start -->
 			<?php include 'footer.php'; ?>
