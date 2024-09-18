@@ -72,42 +72,11 @@
 </head>
 
 <body>
-	<!-- Page Wrapper -->
-	<div class="page-wrapper">
 
 		<!-- Header Start -->
 		<?php include 'header.php'; ?>
 		<!-- Header Close -->
 
-		<!-- Title Bar -->
-		<div class="pbmit-title-bar-wrapper">
-			<div class="container">
-				<div class="pbmit-title-bar-content">
-					<div class="pbmit-title-bar-content-inner">
-						<div class="pbmit-tbar">
-							<div class="pbmit-tbar-inner container">
-								<h1 class="pbmit-tbar-title">Failed</h1>
-							</div>
-						</div>
-						<div class="pbmit-breadcrumb">
-							<div class="pbmit-breadcrumb-inner">
-								<span>
-									<a title="" href="https://shilpkarfitness.com/" class="home"><span>Home</span></a>
-								</span>
-								<span class="sep">
-									<i class="pbmit-base-icon-angle-double-right"></i>
-								</span>
-								<span><span class="post-root post post-post current-item">Failed</span></span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Title Bar End-->
-
-		<!-- Page Content -->
-		<div class="page-content">
 
 
 			<div class="container pt-5 pb-4">
@@ -122,7 +91,6 @@
 			</div>
 
 
-			<!-- Page Content End -->
 
 			<!-- Footer Start -->
 			<?php include 'footer.php'; ?>
