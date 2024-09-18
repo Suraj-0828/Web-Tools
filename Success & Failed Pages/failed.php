@@ -86,7 +86,7 @@
 				<div class="successful text-black">
 					Your Email Has Not Send!
 				</div>
-				<p class="text-black">Something went wrong please try again after sometime.</p>
+				<p class="text-black">Something went <span class="text-danger">wrong</span> please try again after sometime.</p>
 
 			</div>
 
