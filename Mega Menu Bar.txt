@@ -1,0 +1,118 @@
+==================== Mega Menu Bar ======================
+
+
+<nav>
+  <ul class="main-menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li class="has-submenu">
+      <a href="#">Services</a>
+      <div class="mega-menu">
+        <div class="mega-menu-column">
+          <h3>Category 1</h3>
+          <ul>
+            <li><a href="#">Service 1</a></li>
+            <li><a href="#">Service 2</a></li>
+            <li><a href="#">Service 3</a></li>
+          </ul>
+        </div>
+        <div class="mega-menu-column">
+          <h3>Category 2</h3>
+          <ul>
+            <li><a href="#">Service 4</a></li>
+            <li><a href="#">Service 5</a></li>
+            <li><a href="#">Service 6</a></li>
+          </ul>
+        </div>
+        <div class="mega-menu-column">
+          <h3>Category 3</h3>
+          <ul>
+            <li><a href="#">Service 7</a></li>
+            <li><a href="#">Service 8</a></li>
+            <li><a href="#">Service 9</a></li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+
+
+--------------------------------------------***********----------------------------------
+
+
+
+nav {
+  background-color: #333;
+}
+
+.main-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.main-menu li {
+  position: relative;
+}
+
+.main-menu a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.has-submenu .mega-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 600px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mega-menu-column {
+  width: 33.33%;
+  float: left;
+}
+
+.mega-menu-column h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  color: #333;
+}
+
+.mega-menu-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mega-menu-column ul li a {
+  display: block;
+  padding: 5px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.mega-menu-column ul li a:hover {
+  color: #007BFF;
+}
+
+.has-submenu:hover .mega-menu {
+  display: block;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+==================== Mega Menu Bar ======================
