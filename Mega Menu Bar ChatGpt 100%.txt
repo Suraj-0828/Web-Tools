@@ -1,0 +1,77 @@
+=================== Mega Menu Bar ChatGpt 100% ====================
+
+						<li class="mega-menu-item">
+                                                    <a href="our-service.php" class="mega-menu-link">Our Services</a>
+                                                    <div class="mega-submenu row">
+                                                        <div class="col-md-6">
+                                                            <ul>
+                                                                <li><a href="large-format-printing.php">Large Format Printing</a></li>
+                                                                <li><a href="recognition-and-donor-walls.php">Recognition and Donor Walls</a></li>
+                                                                <li><a href="channel-letters-sign.php">Channel Letters Sign</a></li>
+                                                                <li><a href="wayfinding-signage.php">Wayfinding Signage</a></li>
+                                                                <li><a href="vinyl-graphics.php">Vinyl Graphics</a></li>
+                                                                <li><a href="neon-signs.php">Neon Signs</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <ul>
+                                                                <li><a href="cut-out-letters-and-plaques.php">Cut-out Letters and Plaques</a></li>
+                                                                <li><a href="color-contrast-view.html">Pylon Signs</a></li>
+                                                                <li><a href="color-contrast-view.html">Custom Architectural Signage</a></li>
+                                                                <li><a href="color-contrast-view.html">Illuminated Signs & Non – Illuminated Signs</a></li>
+                                                                <li><a href="color-contrast-view.html">Vehicle Graphics</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>	
+
+
+----------------***********************************************************----------------------
+
+
+.mega-menu-item {
+    position: relative;
+}
+
+.mega-submenu {
+    display: none;
+    position: absolute;
+    width: 600px;
+    /* Adjust width as needed */
+    background-color: #fff;
+    /* White background to match design */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    margin-left: -170%;
+    /* Ensure it appears above other elements */
+}
+
+.mega-menu-item:hover .mega-submenu {
+    display: flex;
+}
+
+.mega-submenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mega-submenu li {
+    padding: 10px 0;
+}
+
+.mega-submenu a {
+    color: #333;
+    /* Set text color */
+    text-decoration: none;
+    font-size: 14px;
+    /* Adjust font size if needed */
+    transition: color 0.3s ease;
+}
+
+
+=================== Mega Menu Bar ChatGpt 100% ====================
+
+
+					
