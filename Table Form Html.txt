@@ -1,0 +1,126 @@
+======================== html code start =========================
+ <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>University Name</th>
+                                                    <th>University Type</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Harvard University</td>
+                                                    <td>Private University</td>
+                                                    <td>Cambridge</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Massachusetts Institute of Technology (MIT)</td>
+                                                    <td>Private University</td>
+                                                    <td>Cambridge, Massachusetts</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Stanford University</td>
+                                                    <td>Private University</td>
+                                                    <td>Stanford, California</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>University of California, Berkeley</td>
+                                                    <td>Public University</td>
+                                                    <td>Berkeley, California</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>University of Washington, Seattle</td>
+                                                    <td>Public University</td>
+                                                    <td>Seattle</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Columbia University</td>
+                                                    <td>Private University</td>
+                                                    <td>New York City</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>California Institute of Technology (Caltech)</td>
+                                                    <td>Private University</td>
+                                                    <td>Pasadena, California</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Johns Hopkins University</td>
+                                                    <td>Private University</td>
+                                                    <td>Baltimore, Maryland</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Yale University</td>
+                                                    <td>Private Institution</td>
+                                                    <td>New Haven, Connecticut</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>University of California, Los Angeles (UCLA)</td>
+                                                    <td>Public University</td>
+                                                    <td>Los Angeles, California</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+======================== htmlcode start ===========================
+
+======================== Css code start ===========================
+
+.table-css{
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+}
+.table-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  border: 1px solid #ddd; /* Optional: border around the container */
+  border-radius: 4px; /* Optional: rounded corners */
+}
+
+
+======================== Css code end ===========================
