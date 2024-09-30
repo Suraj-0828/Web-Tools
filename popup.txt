@@ -1,0 +1,89 @@
+css
+
+
+
+
+
+
+.close-btn {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+
+<div class="modal fade" id="modal-subscribe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="container">
+        <div class="row">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header teamauthor">
+                        <img class="popup" src="images/logo/pos-logo.png" alt="logo" class="img-fluid" width="24%">
+                        <!-- Close button to call the closeModal function -->
+                        <span class="close-btn" onclick="closeModal()">&times;</span>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="send.php" method="post" class="p-2">
+                            <div class="mb-3">
+                                <label for="Name" class="form-label">Enter Full Name</label>
+                                <input type="text" name="name" class="form-control" required>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="Mobile" class="form-label">Enter Phone No</label>
+                                        <input type="tel" name="phoneno" class="form-control" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="Email" class="form-label">Enter Email Id</label>
+                                        <input type="email" name="email" class="form-control" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="Subject" class="form-label">Subject</label>
+                                        <input type="text" name="subject" class="form-control" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="Message" class="form-label">Message</label>
+                                        <input type="text" name="message" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center pop">
+                                <button type="submit" class="btn-fill btn-gradient disabled tl-3-def-btn">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    // Function to close the modal
+    function closeModal() {
+        $('#modal-subscribe').modal('hide');  // Hide the modal when called
+    }
+
+    // Show the modal after 2 seconds when the window is ready
+    $(window).ready(function () {
+        setTimeout(function () {
+            $('#modal-subscribe').modal('show');  // Show the modal after a delay
+        }, 2000);
+    });
+</script>

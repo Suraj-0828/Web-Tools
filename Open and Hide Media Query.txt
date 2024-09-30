@@ -1,0 +1,18 @@
+========== Open and Hide Media Query ============
+
+.mobile{
+    display: none !important;
+}
+
+@media screen and (max-device-width: 1199px) {
+	.desktop {
+		display: none !important;
+	}
+
+    .mobile{
+        display: block !important;
+    }
+}
+
+
+========== Open and Hide Media Query ============
