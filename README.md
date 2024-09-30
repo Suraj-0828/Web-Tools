@@ -5,7 +5,8 @@
 2. Second Option use Bootstrap Slider.
    
 # Postermywall website
-1. https://www.postermywall.com/ for design and redesign images..
+1. Ideo Gram For logo making 
+2. https://www.postermywall.com/ for design and redesign images..
 
 # Contact Form Activation 
  Use SMTP Port: 465
