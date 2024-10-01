@@ -13,7 +13,7 @@
 
 # CSS
 
-.active {
+.active a {
     color: #007bff !important; /* Change this color to whatever you want */
     font-weight: bold; /* Optional: make the active link bold */
 }
