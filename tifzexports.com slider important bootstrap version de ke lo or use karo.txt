@@ -1,0 +1,283 @@
+=================   tifzexports.com slider important bootstrap version de ke lo or use karo ============
+
+
+<!-- header section start -->
+
+    <!-- Desktop Slider -->
+    <div class="slider desktop-slider">
+        <div><img src="images/banner/Banner1.jpg" class="slidertop header-image" alt="Image 1"></div>
+        <div><img src="images/banner/banner2.jpg" class="slidertop header-image" alt="Image 2"></div>
+        <div><img src="images/banner/banner3.jpg" class="slidertop header-image" alt="Image 3"></div>
+        <div><img src="images/banner/Banner4.jpg" class="slidertop header-image" alt="Image 3"></div>
+    </div>
+
+    <!-- Mobile Slider -->
+    <div class="slider mobile-slider">
+        <div><img src="images/banner/M-Banner1.jpg" class="slidertop header-image" alt="Image 1"></div>
+        <div><img src="images/banner/M-Banner2.jpg" class="slidertop header-image" alt="Image 2"></div>
+        <div><img src="images/banner/M-Banner3.jpg" class="slidertop header-image" alt="Image 3"></div>
+        <div><img src="images/banner/M-Banner4.jpg" class="slidertop header-image" alt="Image 3"></div>
+    </div>
+
+    <!-- header section close-->
+
+
+
+=================   tifzexports.com slider important bootstrap version de ke lo or use karo ============
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.desktop-slider').slick({
+                autoplay: true,
+                autoplaySpeed: 8000,
+                prevArrow: '<span class="prev">&#10094;</span>',
+                nextArrow: '<span class="next">&#10095;</span>'
+            });
+
+            $('.mobile-slider').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                dots: true
+            });
+        });
+    </script>
+
+
+=================   tifzexports.com slider important bootstrap version de ke lo or use karo ============
+
+/* Desktop Slider */
+
+.desktop-slider {
+	display: block;
+}
+
+.mobile-slider {
+	display: none;
+}
+
+.slider img {
+	width: 100%;
+	height: auto;
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: auto;
+	padding: 16px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 20px;
+	z-index: 100;
+}
+
+.prev {
+	left: 0;
+}
+
+.next {
+	right: 0;
+}
+
+
+.centered{
+	margin-left: 140px;
+}
+.bdt1{
+	margin-top: 20px;
+}
+
+
+/* Mobile Slider */
+@media (max-width: 768px) {
+	.desktop-slider {
+		display: none;
+	}
+
+	.mobile-slider {
+		display: block;
+	}
+
+	.prev,
+	.next {
+		font-size: 16px;
+		padding: 12px;
+	}
+
+	.centered{
+		margin-left: 10px;
+	}
+	.resize{
+		font-size: 15px;
+	}
+	.click-button{
+		font-size: 12px !important;
+		padding: 7px 14px !important;
+		border-radius: 5px;
+	}
+
+}
+
+/* Desktop Slider */
+
+.desktop-slider {
+	display: block;
+}
+
+.mobile-slider {
+	display: none;
+}
+
+.slider img {
+	width: 100%;
+	height: auto;
+}
+.slidertop{
+	margin-top: 97px;
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: auto;
+	padding: 16px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 20px;
+	z-index: 100;
+}
+
+.prev {
+	left: 0;
+}
+
+.next {
+	right: 0;
+}
+
+/* Mobile Slider */
+@media (max-width: 768px) {
+	.desktop-slider {
+		display: none;
+	}
+
+	.mobile-slider {
+		display: block;
+	}
+
+	.prev,
+	.next {
+		font-size: 16px;
+		padding: 12px;
+	}
+	.slidertop{
+		margin-top: 80px;
+	}
+	.padding-bottom{
+		padding-bottom: 10px !important;
+	}
+	.responsive-partner{
+		margin-top: 0px !important;
+	}
+}
+.padding-bottom{
+	padding-bottom: 60px;
+}
+.responsive-partner{
+	margin-top: -40px;
+	padding-bottom: 40px !important;
+}
+
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+.photobanner {
+	position: relative;
+	height: 233px;
+	margin-bottom: 30px;
+	display: flex;
+	width: 100%;
+}
+
+.photobanner img {
+  margin: 0px 25px;
+  box-shadow: 2px 2px 8px #8a8a8a;
+}
+
+.photobanner {
+  animation: bannermove 10s linear infinite alternate-reverse;
+}
+
+@keyframes bannermove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -1600px;
+  }
+}
+.locations {
+    padding: 20px;
+    text-align: center;
+    /* background-color: #fff; */
+    margin: 10px auto;
+    max-width: 1200px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.locations h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #333;
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.countries div {
+    margin: 10px 15px;
+    font-size: 30px;
+    color: #555;
+    white-space: nowrap;
+    padding: 0px 10px; /* Add some padding to make the background color more visible */
+    border-radius: 10px; /* Optional: add rounded corners */
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; /* Slower transition with easing */
+}
+
+.countries div:hover {
+    background-color: #408242; /* Green background */
+    color: #fff; /* Change text color to white for better contrast */
+    transform: scale(1.05); /* Slightly scale up the element */
+}
+
+@media (max-width: 768px) {
+    .countries div {
+        font-size: 25px;
+        margin: 8px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .countries div {
+        font-size: 0.9em;
+        margin: 5px 8px;
+    }
+}
+
+=================   tifzexports.com slider important bootstrap version de ke lo or use karo ============
