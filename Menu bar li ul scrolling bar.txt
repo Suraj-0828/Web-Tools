@@ -1,0 +1,61 @@
+================== Menu bar li ul scrolling bar ====================
+
+<li class="has-dropdown"><a href="about-us.html">OTC Products</a>
+                                                <ul class="submenu">
+                                                    <div class="scrollable-list">
+                                                        <li><a href="eno.php">Eno</a></li>
+                                                        <li><a href="iodex.php">Iodex</a></li>
+                                                        <li><a href="sensodyne.php">Sensodyne</a></li>
+                                                        <li><a href="tedibar-soap.php">Tedibar Soap</a></li>
+                                                        <li><a href="cetaphil-gentle-cleanser.php">Cetaphil Gentle Cleanser</a></li>
+                                                        <li><a href="cetaphil-moisturizer.php">Cetaphil Moisturizer</a></li>
+                                                        <li><a href="cetaphil-sunscreen.php">Cetaphil Sunscreen</a></li>
+                                                        <li><a href="dettol-antiseptic-liquid.php">Dettol Antiseptic Liquid</a></li>
+                                                        <li><a href="savlon-liquid.php">Savlon Liquid</a></li>
+                                                        <li><a href="kushal-kanthil.php">Kushal Kanthil</a></li>
+                                                        <li><a href="yogi-kantikha.php">Yogi Kantikha</a></li>
+                                                        <li><a href="monnisan-balm.php">Monnisan Balm</a></li>
+                                                        <li><a href="volini-gel.php">Volini Gel</a></li>
+                                                        <li><a href="revital-tab.php">Revital Tab</a></li>
+                                                        <li><a href="kailash-jivan.php">Kailash Jivan</a></li>
+                                                        <li><a href="kayam-churna.php">Kayam Churna</a></li>
+                                                        <li><a href="pet-saffa-churna.php">Pet Saffa Churna</a></li>
+                                                        <li><a href="abzorb-powder.php">Abzorb Powder</a></li>
+                                                        <li><a href="candid-powder.php">Candid Powder</a></li>
+                                                        <li><a href="vicks.php">Vicks</a></li>
+                                                        <li><a href="tiger-balm.php">Tiger Balm</a></li>
+                                                        <li><a href="otrivin-nasal-spray.php">Otrivin Nasal Spray</a></li>
+                                                    <div class="scrollable-list">
+                                                </ul>
+                                            </li>
+
+
+-----------------------------------------------------------------------------------------
+
+
+
+
+.scrollable-list {
+  max-height: 200px;
+  overflow-y: auto;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #aaa transparent; /* For Firefox */
+}
+
+/* Scrollbar styles for WebKit browsers (Chrome, Safari) */
+.scrollable-list::-webkit-scrollbar {
+  width: 6px; /* Make scrollbar width smaller */
+}
+
+.scrollable-list::-webkit-scrollbar-track {
+  background: transparent; /* Set the track to transparent or a light color */
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+  background-color: #aaa; /* Change the scrollbar thumb color */
+  border-radius: 10px; /* Make scrollbar edges rounded */
+  border: 2px solid transparent; /* Add some space around scrollbar thumb */
+}
+
+
+================== Menu bar li ul scrolling bar ====================
