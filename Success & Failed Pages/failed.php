@@ -41,7 +41,7 @@
 		.successful {
 			text-align: center;
 			margin: auto;
-			padding: 40px 50px 20px 50px;
+			padding: 60px 50px 20px 50px;
 			font-size: 50px !important;
 			color: black;
 		}
@@ -50,7 +50,7 @@
             		color: red;
       		}
 
-		img {
+		.imgg {
 			max-width: 100%;
 		}
 
@@ -61,8 +61,11 @@
 			margin-top: 25px;
 			margin-bottom: -20px;
 		}
+        .text-black{
+            padding-bottom: 30px;
+        }
 
-		p {
+		.pp {
 			text-align: center;
 		}
 
@@ -83,14 +86,14 @@
 
 
 
-			<div class="container pt-5 pb-4">
+			 <div class="container pt-5 pb-4">
 				<div class="img-size">
-					<img src="images/other/multiply.png" />
+					<img class="imgg" src="assets/imgs/successorfailed/failed.png" />
 				</div>
 				<div class="successful text-black">
 					Your Email Has Not Send!
 				</div>
-				<p class="text-black">Something went <span class="color-failed">wrong</span> please try again after sometime.</p>
+				<div class="pp text-black">Something went <span class="color-failed">wrong</span> please try again after sometime.</div>
 
 			</div>
 
