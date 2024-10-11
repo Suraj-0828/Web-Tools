@@ -24,47 +24,51 @@
 
 	<style>
 		.success {
-			text-align: center;
-			margin: auto;
-			background-color: gray;
-			color: black;
-		}
+            text-align: center;
+            margin: auto;
+            background-color: gray;
+            color: black;
+        }
 
-		.successful {
-			text-align: center;
-			margin: auto;
-			padding: 40px 50px 20px 50px;
-			font-size: 45px !important;
-			color: black;
-		}
+        .successful {
+            text-align: center;
+            margin: auto;
+            padding: 60px 50px 20px 50px;
+            font-size: 45px !important;
+            color: black;
+        }
 
-		img {
-			max-width: 100%;
-		}
+        .imgg {
+            max-width: 100%;
+        }
 
-		.img-size {
-			width: 100px;
-			height: 100px;
-			margin: auto;
-			margin-top: 25px;
-			margin-bottom: -20px;
-		}
+        .img-size {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            margin-top: 25px;
+            margin-bottom: -20px;
+        }
 
-		  .color-success{
-          		  color: #6BC839;
-      		 }
+        .text-black {
+            padding-bottom: 30px;
+        }
 
-		p {
-			text-align: center;
-		}
+        .color-success {
+            color: #6BC839;
+        }
 
-		@media (max-width: 576px) {
+        .pp {
+            text-align: center;
+        }
 
-			/* Extra small devices (phones) */
-			.successful{
-				font-size: 15px !important;
-			}
-		}
+        @media (max-width: 576px) {
+
+            /* Extra small devices (phones) */
+            .successful {
+                font-size: 15px !important;
+            }
+        }
 	</style>
 	
 </head>
@@ -73,17 +77,16 @@
 	
 
 			<div class="container pt-5 pb-4">
-				<div class="img-size">
-					<img src="images/other/success.png" />
-				</div>
-				<div class="successful text-black">
-					Your Request Has Been <span class="color-success">Successfully</span> Submited
-				</div>
-				<p class="text-black">
-					Our dedicated care coordinator will reach out to you as soon as possible to assist you further.
-				</p>
-			</div>
-
+            <div class="img-size">
+                <img class="imgg" src="assets/imgs/successorfailed/success.png" />
+            </div>
+            <div class="successful text-black">
+                Your Request Has Been <span class="color-success">Successfully</span> Submited
+            </div>
+            <div class="pp text-black">
+                Our dedicated care coordinator will reach out to you as soon as possible to assist you further.
+            </div>
+        </div>
 	
 
 			<!-- Footer Start -->
