@@ -1,0 +1,37 @@
+=========================== Direct url Access Page Block ===========================
+
+1. PHP Se Block Karna
+
+<?php
+// Allowed referrer
+$allowed_referer = 'https://yourwebsite.com/';
+
+if (!isset($_SERVER['HTTP_REFERER']) || strpos($_SERVER['HTTP_REFERER'], $allowed_referer) === false) {
+    header('Location: /error.html'); // Redirect to error page
+    exit();
+}
+?>
+
+
+----------------------------------------
+
+2. JavaScript Se Block Karna
+
+window.onload = function() {
+    if (document.referrer === "") {
+        window.location.href = '/error.html'; // Redirect to error page
+    }
+};
+
+
+----------------------------------------
+
+3. .htaccess Se Block Karna
+
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^https://yourwebsite.com/.*$ [NC]
+RewriteRule ^.*$ /error.html [L]
+
+
+
+=========================== Direct url Access Page Block ===========================

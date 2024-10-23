@@ -1,0 +1,121 @@
+============ 3-col box gallery section type 2 ================
+
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+======================================
+
+# html
+
+ <div class="container box-padding">
+            <h2 class="text-center pb-4">Our Trusted Partners</h2>
+            <div class="row gallery">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="card mb-4">
+                        <img src="assets/imgs/clientele/australia-1.jpg" class="card-img-top" alt="Image 1">
+                        <div class="card-text">Image 1 Description</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="card mb-4">
+                        <img src="assets/imgs/clientele/australia-1.jpg" class="card-img-top" alt="Image 2">
+                        <div class="card-text">Image 2 Description</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="card mb-4">
+                        <img src="assets/imgs/clientele/australia-1.jpg" class="card-img-top" alt="Image 2">
+                        <div class="card-text">Image 2 Description</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="card mb-4">
+                        <img src="assets/imgs/clientele/australia-1.jpg" class="card-img-top" alt="Image 3">
+                        <div class="card-text">Image 3 Description</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="card mb-4">
+                        <img src="assets/imgs/clientele/australia-1.jpg" class="card-img-top" alt="Image 4">
+                        <div class="card-text">Image 4 Description</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="card mb-4">
+                        <img src="assets/imgs/clientele/australia-1.jpg" class="card-img-top" alt="Image 5">
+                        <div class="card-text">Image 5 Description</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="card mb-4">
+                        <img src="assets/imgs/clientele/australia-1.jpg" class="card-img-top" alt="Image 6">
+                        <div class="card-text">Image 6 Description</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="card mb-4">
+                        <img src="assets/imgs/clientele/australia-1.jpg" class="card-img-top" alt="Image 6">
+                        <div class="card-text">Image 6 Description</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="card mb-4">
+                        <img src="assets/imgs/clientele/australia-1.jpg" class="card-img-top" alt="Image 6">
+                        <div class="card-text">Image 6 Description</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+============================================================================================
+
+
+
+# css
+
+
+.gallery img {
+  transition: transform 0.2s; /* Animation */
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.gallery .card {
+  position: relative; /* Position relative for text overlay */
+  overflow: hidden; /* Ensure overlay does not exceed card */
+}
+
+.gallery .card-text {
+  position: absolute; /* Positioning overlay text */
+  bottom: 10px; /* Position from bottom */
+  left: 10px; /* Position from left */
+  color: white; /* Text color */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 10px 20px;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 15px;
+}
+
+.gallery img:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.box-padding{
+  padding: 40px 0 40px 0;
+}
+.text-center{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+=================================
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+====================================

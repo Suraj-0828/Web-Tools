@@ -1,0 +1,22 @@
+=========================== Single page Direct url Access Page Block  ======================================
+
+1. PHP
+
+<?php
+if ($_SERVER['REQUEST_URI'] == '/about-us.php') {
+    header('Location: /error.html');
+    exit();
+}
+?>
+
+
+----------------------
+
+2. JavaScript Se Block Karna
+
+if (window.location.pathname === '/about-us.php') {
+    window.location.href = '/error.html';
+}
+
+
+=========================== Single page Direct url Access Page Block  ======================================
