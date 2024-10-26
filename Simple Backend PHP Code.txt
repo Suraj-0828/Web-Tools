@@ -4,44 +4,55 @@
 <?php
 
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+if($_SERVER['REQUEST_METHOD']=='POST')
+{
 
-    $to = 'suraj.itarsia@gmail.com';
+    $to = 'suraj.itarsia@gmail.com';  
     $subject = 'Contact Us - Form Enquiry';
 
 
-    $data = '<table border="1" bordercolor="#ccc" align="center" width="650" style="width:650px;" cellpadding="10" cellspacing="0">';
+    $data='<table border="1" bordercolor="#ccc" align="center" width="650" style="width:650px;" cellpadding="10" cellspacing="0">';
 
-    $data .= '<tr><td colspan="2" align="center">Contact Details </td></tr>';/* field name */
+            $data.='<tr><td colspan="2" align="center">Contact Details </td></tr>';/* field name */
 
-    $data .= '<tr><td>Full Name: </td><td>' . $_POST['name'] . '</td></tr>';
-    $data .= '<tr><td>Email ID: </td><td>' . $_POST['email'] . '</td></tr>';
-    $data .= '<tr><td>Phone No: </td><td>' . $_POST['phone'] . '</td></tr>';
-    $data .= '<tr><td>PostCode: </td><td>' . $_POST['postcode'] . '</td></tr>';
-    $data .= '<tr><td>Message: </td><td>' . $_POST['message'] . '</td></tr>';
+            $data.='<tr><td>Name:</td><td>'.$_POST['name'].'</td></tr>';
 
-    $data .= '<tr><td>IP Adderss  </td><td>' . $_SERVER['REMOTE_ADDR'] . '</td></tr>';
+            $data.='<tr><td>Email ID: </td><td>'.$_POST['email'].'</td></tr>';
 
-    $data .= '</table>';
+            $data.='<tr><td>Phone No: </td><td>'.$_POST['phoneno'].'</td></tr>';
 
-    $message = $data;
+            $data.='<tr><td>Subject: </td><td>'.$_POST['subject'].'</td></tr>';
 
-    $headers = "MIME-Version: 1.0" . "\r\n";
+           
 
-    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+            $data.='<tr><td>Message: </td><td>'.$_POST['message'].'</td></tr>';
+            
+             $data .= '<tr><td>IP Adderss  </td><td>' . $_SERVER['REMOTE_ADDR'] . '</td></tr>';
 
-    $headers .= 'From: Contact Us <info@thefernfacilityservices.co.uk>' . "\r\n";
+            $data.='</table>';
 
-    header('Content-Type: application/json');
+            $message=$data;
 
-    if (mail($to, $subject, $message, $headers)) {
+            $headers = "MIME-Version: 1.0" . "\r\n";
 
-        header('Location: success.php');
-    } else {
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-        header('Location: failed.php');
-    }
-}
+            $headers .= 'From: Contact Us <no-reply@sakuntalafoundation.com>' . "\r\n";
 
+            header('Content-Type: application/json');
+
+            if(mail($to,$subject,$message,$headers)){
+                
+                header('Location: success.php');
+               
+            }
+            else
+            {
+               
+                header('Location: failed.php');
+            }
+            }
+
+?>
 
 ============================== Simple Backend PHP Code ==================================
