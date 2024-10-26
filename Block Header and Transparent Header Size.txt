@@ -1,0 +1,19 @@
+==========================  Block Header and Transparent Header Size ============================
+
+
+# Block Header
+
+Desktop Size - 1920 x 700 / 800
+
+Mobile Size - 500 x 600
+
+-----------------------------------------------
+
+# Transparent Header 
+
+Desktop Size - 1920 x 900
+
+Mobile Size - 700 
+
+
+==========================  Block Header and Transparent Header Size ============================
