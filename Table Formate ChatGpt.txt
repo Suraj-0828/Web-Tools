@@ -1,0 +1,122 @@
+=================== Table Formate ChatGpt =========================
+
+# Html
+
+<div class="container">
+  <div class="header">PRODUCT INFORMATION</div>
+  <table class="table">
+    <tr>
+      <th>PRODUCT</th>
+      <td>Decorative Façade for Wooden Fence</td>
+    </tr>
+    <tr>
+      <th>APPLICATION AREA</th>
+      <td>Outdoor Fencing</td>
+    </tr>
+    <tr>
+      <th>STANDARD FACADE SIZE</th>
+      <td>47 in Height X 20 in Width X 3 mm Thick and 65 in Height X 20 in Width X 3 mm Thick</td>
+    </tr>
+    <tr>
+      <th>STANDARD IMAGE SIZE</th>
+      <td>45 in Height X 18 in Width and 63 in Height X 18 in Width</td>
+    </tr>
+    <tr>
+      <th>FACADE COLOURS</th>
+      <td>Milky White, back ground</td>
+    </tr>
+    <tr>
+      <th>THEME IMAGES OPTIONS</th>
+      <td>Egyptian Art & Culture, Indian Mythology, Musical Instruments, Flower Images and Customized Theme</td>
+    </tr>
+    <tr>
+      <th>IMAGE PATTERN LAYOUTS</th>
+      <td>Vertical Straight</td>
+    </tr>
+    <tr>
+      <th>PRICE</th>
+      <td>
+        US$ 49.00 per Facade of Size 45 in X 18 in, FOB Mumbai-India<br>
+        US$ 69.00 per Facade of Size 63 in X 18 in, FOB Mumbai-India<br>
+        &gt; 5% Off for Minimum Order value of US $ 3000.00<br>
+        &gt; 10% Off for Minimum Order value of US $ 5000.00<br>
+        &gt; 15% Off for Order value of US $ 9000.00 and above
+      </td>
+    </tr>
+    <tr>
+      <th>PAYMENT TERMS</th>
+      <td>50% of Ordered Value along with Purchase Order<br>Balance 50% against Delivery Ready Proforma Invoice</td>
+    </tr>
+    <tr>
+      <th>DELIVERY SCHEDULE</th>
+      <td>
+        ➤ Delivery within 90 Days after the receipt Order<br>
+        ➤ Free Delivery within Houston Territorial Area for Order value of US $ 9000.00<br>
+        ➤ 50% Off on Actual Freight Charges for Order value of Above US $ 5000.00<br>
+        ➤ 25% Off on Actual Freight Charges for Order value of Above US $ 3000.00<br>
+        ➤ Actual Freight Charges to be borne by the Buyer for Order value Below US $ 3000.00
+      </td>
+    </tr>
+    <tr>
+      <th>INSTALLATION</th>
+      <td>Easy Installation of Facade on Wooden Plank of Fence, using Brass Screws</td>
+    </tr>
+    <tr>
+      <th>RETURN POLICY</th>
+      <td>
+        ➤ Free Replacement of Facade, damaged during Delivery<br>
+        ➤ Free Replacement of Facade, with Blurred Images<br>
+        ➤ Facade Damaged during Installation, not covered under Free Replacement Guarantee
+      </td>
+    </tr>
+    <tr>
+      <th>REMARKS</th>
+      <td>
+        ➤ Price for Customized Sizes - On Request<br>
+        ➤ Alternatively, provide us with the view of your present style of the fence in your backyard, with width & height of individual wooden planks of the fence along with your preferred theme.
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+-----------------------------------------------------------
+
+
+# Css
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 2px solid #008cba;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .header {
+    background-color: #008cba;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .table th, .table td {
+    border: 1px solid #008cba;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+  }
+  .table th {
+    background-color: #d1ecf1;
+    color: #004085;
+    font-weight: bold;
+    width: 30%;
+  }
+
+
+=================== Table Formate ChatGpt =========================
