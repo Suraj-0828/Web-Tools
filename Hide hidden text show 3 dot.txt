@@ -1,0 +1,30 @@
+================ Hide hidden text show 3 dots ==================
+
+
+
+# Html
+
+    <div class="box">
+        Yeh ek bohot lamba text hai jo box ke andar pura fit nahi aata, isliye ye 3 dots me truncate hoga.
+    </div>
+
+------------------------------------------
+
+# Css 
+
+<style>
+        .box {
+            width: 200px; /* Yeh box ka width define karta hai */
+            height: 50px; /* Yeh box ka height define karta hai */
+            overflow: hidden; /* Extra text ko box ke bahar jaane se rokta hai */
+            text-overflow: ellipsis; /* Text ko 3 dots se truncate karta hai */
+            white-space: nowrap; /* Text ko ek hi line me rakhne ke liye */
+            border: 1px solid #ccc; /* Box ke aas paas border ke liye */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+
+
+
+================ Hide hidden text show 3 dots ==================
