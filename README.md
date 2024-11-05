@@ -62,3 +62,97 @@ Iska fayda yeh hai ki yeh approach responsive layouts create karta hai jo differ
 # box shadow
 using for box shadow 
    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+
+# VS Code ShortCut
+1. Basic Editing Shortcuts
+New File: Ctrl + N
+Save File: Ctrl + S
+Save All Open Files: Ctrl + K, S
+Close File: Ctrl + W
+2. Navigation Shortcuts
+Go to File: Ctrl + P (File name type karke kisi bhi file par jaldi se ja sakte hain)
+Go to Line: Ctrl + G
+Go to Symbol: Ctrl + Shift + O (file ke functions ya variables ke symbols ko jaldi se dhoondhna)
+Toggle Sidebar: Ctrl + B (sidebar ko show/hide karne ke liye)
+3. Multi-Cursor Editing
+Add Cursor to Multiple Lines: Alt + Click (Multiple cursors lagane ke liye)
+Add Cursor Above/Below: Ctrl + Alt + Up/Down Arrow (Upar ya neeche naya cursor add karne ke liye)
+Select Next Occurrence of Word: Ctrl + D (Ek hi word ke multiple occurrences ko select karne ke liye)
+4. Search and Replace
+Search: Ctrl + F
+Replace: Ctrl + H
+Search Across All Files: Ctrl + Shift + F
+Replace in All Files: Ctrl + Shift + H
+5. Code Formatting and Folding
+Format Document: Shift + Alt + F (Pura document auto-format ho jata hai)
+Format Selected Code: Ctrl + K, Ctrl + F (Jo code select hai, usko format karna)
+Fold Code Block: Ctrl + Shift + [ (code ko collapse karne ke liye)
+Unfold Code Block: Ctrl + Shift + ] (code ko expand karne ke liye)
+6. Command Palette
+Open Command Palette: Ctrl + Shift + P (Isme commands aur settings ko search kar sakte hain)
+7. Terminal Shortcuts
+New Terminal: Ctrl + `` (Backtick key ke sath) (New terminal open karne ke liye)
+Toggle Terminal: Ctrl + ' (Terminal ko hide/show karne ke liye)
+8. Debugging Shortcuts
+Start Debugging: F5
+Stop Debugging: Shift + F5
+Step Over: F10
+Step Into: F11
+9. Other Useful Shortcuts
+Zen Mode: Ctrl + K Z (Distraction-free mode mein kaam karne ke liye)
+Toggle Word Wrap: Alt + Z (Long lines ko wrap/unwrap karne ke liye)
+Quick Open Recent Files: Ctrl + R
+In shortcuts ko use karke aapka kaam aur bhi efficient aur fast ho jayega!
+
+
+
+
+
+
+You said:
+or bhi do joh joh mostlty use hote hai 
+ChatGPT said:
+ChatGPT
+Sure! Yahan par kuch aur commonly used VS Code shortcuts hain jo aapko development aur coding mein madad karenge:
+
+10. Text Manipulation
+Undo: Ctrl + Z
+Redo: Ctrl + Y (ya Ctrl + Shift + Z)
+Cut Line (or selected text): Ctrl + X
+Copy Line (or selected text): Ctrl + C
+Paste: Ctrl + V
+Select All: Ctrl + A
+Move Line Up/Down: Alt + Up/Down Arrow (line ko upar ya neeche move karne ke liye)
+Delete Line: Ctrl + Shift + K (current line ko delete karne ke liye)
+11. Selection Shortcuts
+Expand Selection: Shift + Alt + Right Arrow (selection ko expand karne ke liye)
+Shrink Selection: Shift + Alt + Left Arrow (selection ko shrink karne ke liye)
+Select Current Line: Ctrl + L (current line ko select karne ke liye)
+Select Word: Ctrl + Shift + Right/Left Arrow (word ko select karne ke liye)
+12. File Management
+Open Recent File: Ctrl + R (Recent files list open karne ke liye)
+Show Explorer: Ctrl + Shift + E
+Show Search: Ctrl + Shift + F
+Show Extensions: Ctrl + Shift + X
+13. Code Snippets
+Insert Snippet: Ctrl + Shift + P ke baad type karein Insert Snippet (Ya Tab key ke through snippet expand karein)
+Generate Code (Auto-complete): Ctrl + Space (contextual suggestions ke liye)
+14. Debugging & Testing
+Restart Debugging: Ctrl + Shift + F5
+Debug Console: Ctrl + Shift + Y (debug console open karne ke liye)
+15. Source Control
+Show Source Control: Ctrl + Shift + G
+Stage Changes: Ctrl + Shift + U
+Commit: Ctrl + Enter (commit window open karne ke liye)
+16. Editor Management
+Split Editor: Ctrl + \ (editor ko split karne ke liye)
+Switch Editor Group: Ctrl + 1, Ctrl + 2, etc. (Different editor groups switch karne ke liye)
+Close Editor: Ctrl + F4
+17. Extension Shortcuts
+Install Extension: Ctrl + Shift + X
+Disable/Enable Extension: Ctrl + Shift + P ke baad type karein Disable ya Enable
+18. Miscellaneous Shortcuts
+Open Settings: Ctrl + ,
+Toggle Full Screen: F11
+Toggle Developer Tools: Ctrl + Shift + I
