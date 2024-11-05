@@ -1,6 +1,7 @@
 ==================== Products Box Card Container ========================
 
 # Html
+------------------------- using css grid -----------------------------------
 
     <div class="main-wrapper">
         <div class="content-box">
@@ -84,6 +85,125 @@
             </ul>
         </div>
     </div>
+
+------------------------- using css grid -----------------------------------
+
+------------------------- using Bootsrap row col -----------------------------------
+
+<div class="main-wrapper margin-top padding-bottom">
+            <div class="content-box">
+                <h2 class="section-title">Top Job Roles</h2>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/1.png" alt="Work from Home">
+                            <div class="role-title">Work from Home</div>
+                            <div class="role-count">399 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/2.png" alt="Accountant">
+                            <div class="role-title">Accountant</div>
+                            <div class="role-count">1197 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/3.png" alt="BPO / Customer Care">
+                            <div class="role-title">BPO / Customer Care</div>
+                            <div class="role-count">19078 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/4.png" alt="Data Entry / Back Office">
+                            <div class="role-title">Data Entry / Back Office</div>
+                            <div class="role-count">399 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/5.png" alt="Sales / Marketing">
+                            <div class="role-title">Sales / Marketing</div>
+                            <div class="role-count">999 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/6.png" alt="Receptionist / Front Office">
+                            <div class="role-title">Receptionist / Front Office</div>
+                            <div class="role-count">162 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/7.png" alt="Hospitality Executives">
+                            <div class="role-title">Hospitality Executives</div>
+                            <div class="role-count">120 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/8.png" alt="Delivery">
+                            <div class="role-title">Delivery</div>
+                            <div class="role-count">165 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/9.png" alt="Cook / Chef">
+                            <div class="role-title">Cook / Chef</div>
+                            <div class="role-count">420 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/10.png" alt="Driver">
+                            <div class="role-title">Driver</div>
+                            <div class="role-count">1120 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/11.png" alt="Beauticians / Spa">
+                            <div class="role-title">Beauticians / Spa</div>
+                            <div class="role-count">30 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/12.png" alt="Mechanic">
+                            <div class="role-title">Mechanic</div>
+                            <div class="role-count">174 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/13.png" alt="IT Software Engineer">
+                            <div class="role-title">IT Software Engineer</div>
+                            <div class="role-count">1170 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/14.png" alt="Retail / Store Executive">
+                            <div class="role-title">Retail / Store Executive</div>
+                            <div class="role-count">112 Active Jobs</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="role-card">
+                            <img class="role-icon" src="assets/images/icon/15.png" alt="Cleaner / Washer">
+                            <div class="role-title">Cleaner / Washer</div>
+                            <div class="role-count">110 Active Jobs</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+------------------------- using Bootsrap row col -----------------------------------
 
 
 ---------------------------------------------------------------------------------------------
