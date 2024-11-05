@@ -1,0 +1,181 @@
+============= VS Code ShortCut =================
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Shortcuts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        h1 {
+            color: #007bff;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #e9ecef;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        code {
+            background: #343a40;
+            color: #ffffff;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>VS Code Shortcuts</h1>
+    
+    <h2>1. Basic Editing Shortcuts</h2>
+    <ul>
+        <li><code>New File:</code> <code>Ctrl + N</code></li>
+        <li><code>Save File:</code> <code>Ctrl + S</code></li>
+        <li><code>Save All Open Files:</code> <code>Ctrl + K, S</code></li>
+        <li><code>Close File:</code> <code>Ctrl + W</code></li>
+    </ul>
+
+    <h2>2. Navigation Shortcuts</h2>
+    <ul>
+        <li><code>Go to File:</code> <code>Ctrl + P</code></li>
+        <li><code>Go to Line:</code> <code>Ctrl + G</code></li>
+        <li><code>Go to Symbol:</code> <code>Ctrl + Shift + O</code></li>
+        <li><code>Toggle Sidebar:</code> <code>Ctrl + B</code></li>
+    </ul>
+
+    <h2>3. Multi-Cursor Editing</h2>
+    <ul>
+        <li><code>Add Cursor to Multiple Lines:</code> <code>Alt + Click</code></li>
+        <li><code>Add Cursor Above/Below:</code> <code>Ctrl + Alt + Up/Down Arrow</code></li>
+        <li><code>Select Next Occurrence of Word:</code> <code>Ctrl + D</code></li>
+    </ul>
+
+    <h2>4. Search and Replace</h2>
+    <ul>
+        <li><code>Search:</code> <code>Ctrl + F</code></li>
+        <li><code>Replace:</code> <code>Ctrl + H</code></li>
+        <li><code>Search Across All Files:</code> <code>Ctrl + Shift + F</code></li>
+        <li><code>Replace in All Files:</code> <code>Ctrl + Shift + H</code></li>
+    </ul>
+
+    <h2>5. Code Formatting and Folding</h2>
+    <ul>
+        <li><code>Format Document:</code> <code>Shift + Alt + F</code></li>
+        <li><code>Format Selected Code:</code> <code>Ctrl + K, Ctrl + F</code></li>
+        <li><code>Fold Code Block:</code> <code>Ctrl + Shift + [</code></li>
+        <li><code>Unfold Code Block:</code> <code>Ctrl + Shift + ]</code></li>
+    </ul>
+
+    <h2>6. Command Palette</h2>
+    <ul>
+        <li><code>Open Command Palette:</code> <code>Ctrl + Shift + P</code></li>
+    </ul>
+
+    <h2>7. Terminal Shortcuts</h2>
+    <ul>
+        <li><code>New Terminal:</code> <code>Ctrl + `</code></li>
+        <li><code>Toggle Terminal:</code> <code>Ctrl + '</code></li>
+    </ul>
+
+    <h2>8. Debugging Shortcuts</h2>
+    <ul>
+        <li><code>Start Debugging:</code> <code>F5</code></li>
+        <li><code>Stop Debugging:</code> <code>Shift + F5</code></li>
+        <li><code>Step Over:</code> <code>F10</code></li>
+        <li><code>Step Into:</code> <code>F11</code></li>
+    </ul>
+
+    <h2>9. Other Useful Shortcuts</h2>
+    <ul>
+        <li><code>Zen Mode:</code> <code>Ctrl + K Z</code></li>
+        <li><code>Toggle Word Wrap:</code> <code>Alt + Z</code></li>
+        <li><code>Quick Open Recent Files:</code> <code>Ctrl + R</code></li>
+    </ul>
+
+    <h2>10. Text Manipulation</h2>
+    <ul>
+        <li><code>Undo:</code> <code>Ctrl + Z</code></li>
+        <li><code>Redo:</code> <code>Ctrl + Y</code> (or <code>Ctrl + Shift + Z</code>)</li>
+        <li><code>Cut Line:</code> <code>Ctrl + X</code></li>
+        <li><code>Copy Line:</code> <code>Ctrl + C</code></li>
+        <li><code>Paste:</code> <code>Ctrl + V</code></li>
+        <li><code>Select All:</code> <code>Ctrl + A</code></li>
+        <li><code>Move Line Up/Down:</code> <code>Alt + Up/Down Arrow</code></li>
+        <li><code>Delete Line:</code> <code>Ctrl + Shift + K</code></li>
+    </ul>
+
+    <h2>11. Selection Shortcuts</h2>
+    <ul>
+        <li><code>Expand Selection:</code> <code>Shift + Alt + Right Arrow</code></li>
+        <li><code>Shrink Selection:</code> <code>Shift + Alt + Left Arrow</code></li>
+        <li><code>Select Current Line:</code> <code>Ctrl + L</code></li>
+        <li><code>Select Word:</code> <code>Ctrl + Shift + Right/Left Arrow</code></li>
+    </ul>
+
+    <h2>12. File Management</h2>
+    <ul>
+        <li><code>Open Recent File:</code> <code>Ctrl + R</code></li>
+        <li><code>Show Explorer:</code> <code>Ctrl + Shift + E</code></li>
+        <li><code>Show Search:</code> <code>Ctrl + Shift + F</code></li>
+        <li><code>Show Extensions:</code> <code>Ctrl + Shift + X</code></li>
+    </ul>
+
+    <h2>13. Code Snippets</h2>
+    <ul>
+        <li><code>Insert Snippet:</code> <code>Ctrl + Shift + P</code> and type <code>Insert Snippet</code></li>
+        <li><code>Generate Code (Auto-complete):</code> <code>Ctrl + Space</code></li>
+    </ul>
+
+    <h2>14. Debugging & Testing</h2>
+    <ul>
+        <li><code>Restart Debugging:</code> <code>Ctrl + Shift + F5</code></li>
+        <li><code>Debug Console:</code> <code>Ctrl + Shift + Y</code></li>
+    </ul>
+
+    <h2>15. Source Control</h2>
+    <ul>
+        <li><code>Show Source Control:</code> <code>Ctrl + Shift + G</code></li>
+        <li><code>Stage Changes:</code> <code>Ctrl + Shift + U</code></li>
+        <li><code>Commit:</code> <code>Ctrl + Enter</code></li>
+    </ul>
+
+    <h2>16. Editor Management</h2>
+    <ul>
+        <li><code>Split Editor:</code> <code>Ctrl + \</code></li>
+        <li><code>Switch Editor Group:</code> <code>Ctrl + 1</code>, <code>Ctrl + 2</code>, etc.</li>
+        <li><code>Close Editor:</code> <code>Ctrl + F4</code></li>
+    </ul>
+
+    <h2>17. Extension Shortcuts</h2>
+    <ul>
+        <li><code>Install Extension:</code> <code>Ctrl + Shift + X</code></li>
+        <li><code>Disable/Enable Extension:</code> <code>Ctrl + Shift + P</code> and type <code>Disable</code> or <code>Enable</code></li>
+    </ul>
+
+    <h2>18. Markdown Shortcuts</h2>
+    <ul>
+        <li><code>Toggle Preview:</code> <code>Ctrl + K V</code></li>
+    </ul>
+
+    <h2>19. Live Server Shortcuts</h2>
+    <ul>
+        <li><code>Open with Live Server:</code> <code>Alt + L</code> then <code>Alt + O</code></li>
+    </ul>
+
+</body>
+</html>
+
+
+============= VS Code ShortCut =================
