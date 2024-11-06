@@ -1,0 +1,15 @@
+============== rotate icon simbol ================
+
+# Html
+
+<i class="fa fa-icon" id="my-icon"></i>
+
+--------------------------
+
+# Css
+
+#my-icon {
+    transform: rotate(45deg);
+}
+
+============== rotate icon simbol ================
