@@ -1,0 +1,13 @@
+===================== Phone Email Hyperlink =====================
+
+# Phone
+<a href="tel:+919920028121">+91 9920028121</a>
+
+# Email
+<a href="mailto:example@email.com">example@email.com</a>
+
+# Address
+<a href="https://www.google.com/maps/search/?api=1&query=123+Main+Street,+Mumbai,+India" target="_blank">123 Main Street, Mumbai, India</a>
+
+
+===================== Phone Email Hyperlink =====================
