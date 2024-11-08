@@ -59,6 +59,32 @@
                                 <label for="tripStart" class="form-label">Date</label>
                                 <input name="tripStart" id="tripStart" type="date" class="form-control" required>
                             </div>
+<div class="mb-3 col-md-6">
+    <label for="designation" class="form-label">Designation</label>
+    <div id="designation">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="designation" id="cmd" value="CMD" required>
+            <label class="form-check-label" for="cmd">CMD</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="designation" id="md" value="MD" required>
+            <label class="form-check-label" for="md">MD</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="designation" id="director" value="Director" required>
+            <label class="form-check-label" for="director">Director</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="designation" id="partner" value="Partner" required>
+            <label class="form-check-label" for="partner">Partner</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="designation" id="proprietor" value="Proprietor" required>
+            <label class="form-check-label" for="proprietor">Proprietor</label>
+        </div>
+    </div>
+</div>
+
                         </div>
                         <!-- Submit Button -->
                         <div class="text-center">
