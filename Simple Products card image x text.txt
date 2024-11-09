@@ -1,0 +1,122 @@
+================= Simple Products card image x text =================
+
+
+# Html
+
+<div class="main-wrapper margin-top padding-bottom">
+			<div class="content-box">
+				<div class="row justify-content-center">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-25">
+						<div class="role-card">
+							<img class="role-icon" src="assets/images/all-material/analysis.png" alt="Work from Home">
+							<div class="textwidget">Developing and expanding new frontiers by exploring, supporting, upgrading and innovating.</div>
+
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-25">
+						<div class="role-card">
+							<img class="role-icon" src="assets/images/all-material/internet.png" alt="Work from Home">
+							<div class="textwidget">Building on India's economic success through global business.</div>
+
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-25">
+						<div class="role-card">
+							<img class="role-icon" src="assets/images/all-material/up.png" alt="Work from Home">
+							<div class="textwidget">Creating and delivering value to our customers.</div>
+
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-25">
+						<div class="role-card">
+							<img class="role-icon" src="assets/images/all-material/hand-shake.png" alt="Work from Home">
+							<div class="textwidget">Maintaining trust, respect and openness in all our relationships.</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+-----------------------------------------------------------------------------
+
+# Css 
+
+.main-wrapper {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Center vertically */
+    background-color: #f4f5f7;
+  }
+  
+  .content-box {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .content-box .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .role-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .role-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .role-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .role-title {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .role-count {
+    font-size: 14px;
+    color: #ff3b30;
+  }
+  .pb-25{
+    padding-bottom: 25px;
+  }
+  
+  @media (max-width: 768px) {
+    .role-title {
+      font-size: 14px;
+    }
+  
+    .role-count {
+      font-size: 12px;
+    }
+  }
+
+
+================= Simple Products card image x text =================
