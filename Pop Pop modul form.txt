@@ -59,7 +59,7 @@
                                 <label for="tripStart" class="form-label">Date</label>
                                 <input name="tripStart" id="tripStart" type="date" class="form-control" required>
                             </div>
-<div class="mb-3 col-md-6">
+<div class="mb-3 col-md-12">
     <label for="designation" class="form-label">Designation</label>
     <div id="designation">
         <div class="form-check form-check-inline">
