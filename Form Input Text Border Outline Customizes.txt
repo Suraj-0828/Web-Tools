@@ -1,0 +1,13 @@
+============== Form Input Text Border Outline Customizes ==================
+
+
+
+input:focus {
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 0 5px #ff5733; /* Add a custom shadow (use any color) */
+    border-color: #ff5733; /* Optionally, change the border color */
+}
+
+
+
+============== Form Input Text Border Outline Customizes ==================

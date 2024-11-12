@@ -1,0 +1,202 @@
+================= Pop Pop bootsrap form modul ===================
+
+# HTML
+
+* hyper link *
+<-----------------
+***** important nahi hai *******
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+----------------------------->
+
+<!-- jQuery (required for Bootstrap JS) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+<div class="modal fade" id="modal-subscribe" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content shadow-lg rounded-3">
+					<div class="modal-header bg-primary text-white">
+						<h5 class="modal-title text-white" id="myModalLabel">Enquiry Form</h5>
+						<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+
+					<div class=" bg-primary text-white pb-2 pt-1">
+						<span class="modal-title text-white" id="myModalLabel">Connecting Businesses & Advancing Construction Technology with Rapid Innovation-We'll be in touch soon!</span>
+					</div>
+
+					<div class="modal-body bg-light p-4 pop-radius">
+						<form method="post" action="backend">
+							<input type="hidden" name="dzToDo" value="Contact">
+							<div class="row">
+								<!-- Child's Name -->
+								<div class="mb-3 col-md-12">
+
+									<input name="construction-name" id="childName" type="text" class="form-control" required placeholder="Name of Construction company">
+								</div>
+								<!-- Admission Grade -->
+								<div class="mb-3 col-md-6">
+
+									<input name="name" id="admissionGrade" type="text" class="form-control" required placeholder="Name of Person">
+								</div>
+								<!-- Father's Name -->
+								<div class="mb-3 col-md-6">
+
+									<input name="brand" id="fatherName" type="text" class="form-control" required placeholder="Brand">
+								</div>
+
+								<div class="mb-3 col-md-12">
+									<label for="designation" class="form-label">Designation</label>
+									<div id="designation">
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="radio" name="designation" id="cmd" value="CMD" required>
+											<label class="form-check-label" for="cmd">CMD</label>
+										</div>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="radio" name="designation" id="md" value="MD" required>
+											<label class="form-check-label" for="md">MD</label>
+										</div>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="radio" name="designation" id="director" value="Director" required>
+											<label class="form-check-label" for="director">Director</label>
+										</div>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="radio" name="designation" id="partner" value="Partner" required>
+											<label class="form-check-label" for="partner">Partner</label>
+										</div>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="radio" name="designation" id="proprietor" value="Proprietor" required>
+											<label class="form-check-label" for="proprietor">Proprietor</label>
+										</div>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="radio" name="designation" id="proprietor" value="Proprietor" required>
+											<label class="form-check-label" for="proprietor">Other</label>
+										</div>
+									</div>
+								</div>
+
+								<!-- Email Address -->
+								<div class="mb-3 col-md-6">
+
+									<input name="email" id="dzEmail" type="email" class="form-control" required placeholder="Email your email">
+								</div>
+
+								<!-- Mother's Name -->
+								<div class="mb-3 col-md-6">
+
+									<input name="phone" id="motherName" type="text" class="form-control" required placeholder="Phone No">
+								</div>
+
+							</div>
+							<!-- Submit Button -->
+							<div class="text-center">
+								<button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+----------------------------------------------------------------------------------------------------
+
+
+* Script *
+    <script>
+        $(document).ready(function() {
+            setTimeout(function() {
+                $('#modal-subscribe').modal('show');
+            }, 500);
+        });
+    </script>
+
+
+----------------------------------------------------------------------------------------------------
+
+# CSS
+
+* Css *
+<style>
+    /* Modal styling */
+    .modal-content {
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 20px;
+    }
+
+    /* Modal Header */
+    .modal-header {
+        border-bottom: 2px solid #e9ecef;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    /* Input field styling */
+    .form-control {
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #ced4da;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    }
+
+    /* Submit button */
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Hover effect on button */
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    /* Close button (white cross) */
+    .btn-close-white {
+        background-color: #fff;
+        border-radius: 50%;
+    }
+
+    /* Modal body background */
+    .modal-body {
+        background-color: #f8f9fa;
+    }
+
+    /* Modal spacing */
+    .modal-lg {
+        max-width: 850px;
+    }
+
+    /* Smoother shadow */
+    .modal-content {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .pop-radius{
+    border-radius: 20px;
+}
+
+input:focus {
+  outline: none; /* Remove the default outline */
+  box-shadow: 0 0 5px #0c6460 !important; /* Add a custom shadow (use any color) */
+  border-color: #0c6460 !important; /* Optionally, change the border color */
+}
+
+.pop-bg{
+    border-radius: 23px;
+}
+
+</style>
+
+
+================= Pop Pop bootsrap form modul ===================
+
