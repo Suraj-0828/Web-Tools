@@ -1,0 +1,128 @@
+=================== Vision Mission Section =====================
+
+# Html 
+
+<div class="main-wrapper margin-top padding-bottom">
+         <div class="content-box">
+            <h3 class="tp-section-title pb-30">Guiding Principles of Care </h3>
+            <div class="row justify-content-center">
+               <div class="col-lg-5 col-md-6 col-sm-12 col-12 pb-25">
+                  <div class="role-card">
+                     <img class="role-icon" src="assets/img/about/shared-vision.png" alt="Vision">
+                     <div class="role-title">Vision</div>
+                     <div class="role-count">To be a leader in healthcare services, dedicated to enhancing life quality for all ages. We aim to provide compassionate care that supports dignity, independence, and overall well-being. Our vision is to empower individuals to thrive in a safe and supportive environment.</div>
+                  </div>
+               </div>
+               <div class="col-lg-5 col-md-6 col-sm-12 col-12 pb-25">
+                  <div class="role-card">
+                     <img class="role-icon" src="assets/img/about/targeting.png" alt="Mission">
+                     <div class="role-title">Mission</div>
+                     <div class="role-count">Our mission is to deliver personalized, high-quality care tailored to each person’s unique needs. We focus on fostering health, comfort, and independence within the comfort of home. Through empathy and expertise, we strive to make a positive difference in every life we touch.</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+---------------------------------------------------------
+
+# Css
+
+.main-wrapper {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    /* Center vertically */
+    background-color: #f4f5f7;
+  }
+  
+  .content-box {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .content-box .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .role-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .role-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .role-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .role-title {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .role-count {
+    font-size: 14px;
+    color: gray;
+  }
+  .pb-25{
+    padding-bottom: 25px;
+  }
+  
+  @media (max-width: 768px) {
+    .role-title {
+      font-size: 14px;
+    }
+  
+    .role-count {
+      font-size: 12px;
+    }
+    .role-card{
+      margin: 20px;
+    }
+  }
+
+  @media (max-width: 768px) { 
+    .role-card{
+      margin: 20px;
+    }
+    .content-box{
+      padding-bottom: 0px !important;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Medium devices (landscape tablets) */
+    .role-card{
+      margin: 20px;
+    }
+  }
+
+
+=================== Vision Mission Section =====================
