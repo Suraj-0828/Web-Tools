@@ -1,0 +1,74 @@
+============================ Video Link On Youtube ============================
+
+# HTML
+
+  <section id="video-section">
+    <h2>Watch Our Video</h2>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+      <i class="fa fa-play-circle"></i>
+    </a>
+    <p>Click the icon to watch on YouTube</p>
+  </section>
+
+
+# CSS
+
+ body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #video-section {
+      position: relative;
+      text-align: center;
+      color: white;
+      height: 400px;
+      background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    }
+
+    #video-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
+    }
+
+    #video-section h2 {
+      position: relative;
+      font-size: 2.5rem;
+      margin-top: 50px;
+      z-index: 1;
+    }
+
+    #video-section a {
+      position: relative;
+      display: inline-block;
+      z-index: 1;
+      margin-top: 20px;
+    }
+
+    #video-section i {
+      font-size: 80px;
+      color: #ff0000;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    #video-section i:hover {
+      transform: scale(1.2);
+      color: #cc0000;
+    }
+
+    #video-section p {
+      position: relative;
+      z-index: 1;
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+
+
+
+============================ Video Link On Youtube ============================

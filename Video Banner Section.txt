@@ -1,0 +1,143 @@
+================ Video Banner Section ==================
+
+# HTML
+
+<section class="outter hero-video">
+  <section class="video-container">
+    <video src="https://cdn.shopify.com/s/files/1/1463/8748/files/54ed8c2510027bcfd981767b551eb733.mp4?v=1591041687" autoplay loop playsinline muted></video>
+    <div class="callout">
+      <h1>STORE &amp; SAVE MORE<br>FOOD THAN EVER BEFORE</h1>
+      <!-- Optional description can be added here -->
+      <a class="button" href="/collections/all">SHOP ABEEGO FOOD WRAPS</a>
+    </div>
+  </section>
+</section>
+
+
+--------------------------------------------
+
+# CSS
+
+/* Hero Video */
+.outter.hero-video {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .outter.hero-video {
+    height: 325px;
+  }
+}
+
+.hero-video .video-container {
+  height: 550px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .hero-video .video-container {
+    height: 325px;
+  }
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  height: 550px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 767px) {
+  video {
+    height: 325px;
+  }
+}
+
+.video-container::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0 0 1rem;
+  padding: 0;
+  line-height: 1;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 52px;
+  }
+}
+
+.desc {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.callout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  z-index: 10;
+  width: 70%;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .callout {
+    width: 90%;
+  }
+}
+
+.button {
+  text-transform: uppercase;
+  background-color: #82bb00;
+  margin-top: 20px;
+  padding: 15px 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .button {
+    padding: 10px 20px;
+  }
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #6e9e01;
+}
+
+
+================ Video Banner Section ==================
