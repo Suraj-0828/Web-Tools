@@ -1,0 +1,43 @@
+==============  active page php 3  ================
+
+
+<div class="collapse navbar-collapse" id="mainNavigation">
+    <ul class="navbar-nav ml-auto">
+        <?php
+        // Get the current file name
+        $current_page = basename($_SERVER['PHP_SELF']);
+        ?>
+
+        <!-- Home -->
+        <li class="nav__item <?php echo $current_page == 'index.php' ? 'active' : ''; ?>">
+            <a href="index.php" class="nav__item-link">Home</a>
+        </li><!-- /.nav-item -->
+
+        <!-- About Us -->
+        <li class="nav__item <?php echo $current_page == 'about-us.php' ? 'active' : ''; ?>">
+            <a href="about-us.php" class="nav__item-link">About Us</a>
+        </li><!-- /.nav-item -->
+
+        <!-- Our Products Dropdown -->
+        <li class="nav__item has-dropdown <?php echo in_array($current_page, ['decorative-facade.php', 'backyard-dinette.php']) ? 'active' : ''; ?>">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Our Products</a>
+            <ul class="dropdown-menu">
+                <li class="nav__item <?php echo $current_page == 'decorative-facade.php' ? 'active' : ''; ?>">
+                    <a href="decorative-facade.php" class="nav__item-link">Decorative Facade</a>
+                </li><!-- /.nav-item -->
+                <li class="nav__item <?php echo $current_page == 'backyard-dinette.php' ? 'active' : ''; ?>">
+                    <a href="backyard-dinette.php" class="nav__item-link">Backyard Dinette</a>
+                </li><!-- /.nav-item -->
+            </ul><!-- /.dropdown-menu -->
+        </li><!-- /.nav-item -->
+
+        <!-- Contact Us -->
+        <li class="nav__item <?php echo $current_page == 'contact-us.php' ? 'active' : ''; ?>">
+            <a href="contact-us.php" class="nav__item-link">Contact Us</a>
+        </li><!-- /.nav-item -->
+    </ul><!-- /.navbar-nav -->
+    <button class="close-mobile-menu d-block d-lg-none"><i class="fas fa-times"></i></button>
+</div><!-- /.navbar-collapse -->
+
+
+==============  active page php 3  ================
