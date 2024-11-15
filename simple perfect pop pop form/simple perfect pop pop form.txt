@@ -1,0 +1,64 @@
+============= simple perfect pop pop form =============
+
+
+<div class="modal fade" id="modal-subscribe" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content shadow-lg rounded-3">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title text-white" id="myModalLabel">Enquiry Form</h5>
+        <!-- Pop-close Button -->
+        <button type="button" class="btn-close btn-close-white" id="close-modal" aria-label="Close"><img src="assets/images/banners/600x600123/close.png"/></button>
+      </div>
+
+      <div class="bg-primary text-white pb-2 pt-1">
+        <span class="modal-title text-white" id="myModalLabel">Enhance your outdoor space with custom-designed, durable decorative façades.</span>
+      </div>
+
+      <div class="modal-body bg-light p-4 pop-radius">
+        <form method="post" action="backend">
+          <input type="hidden" name="dzToDo" value="Contact">
+          <div class="row">
+
+            <!-- Name Field -->
+            <div class="mb-3 col-md-6">
+              <input name="name" id="admissionGrade" type="text" class="form-control" required placeholder="Name of Person">
+            </div>
+
+            <!-- Email Field -->
+            <div class="mb-3 col-md-6">
+              <input name="email" id="dzEmail" type="email" class="form-control" required placeholder="Email your email">
+            </div>
+
+            <!-- Phone Number Field -->
+            <div class="mb-3 col-md-12">
+              <input name="phone" id="motherName" type="text" class="form-control" required placeholder="Phone No">
+            </div>
+
+          </div>
+          <!-- Submit Button -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+--------------------------------------------
+
+
+
+<script>
+  $(document).ready(function() {
+    // Close the modal when the close button is clicked
+    $('#close-modal').click(function() {
+      $('#modal-subscribe').modal('hide');
+    });
+  });
+</script>
+
+
+
+============= simple perfect pop pop form =============

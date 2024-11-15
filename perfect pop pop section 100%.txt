@@ -1,0 +1,74 @@
+======================= perfect pop pop section 100% ======================
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+-----------------------------------------
+
+
+<!-- Bootstrap JS and Popper.js (for modal functionality) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+
+-----------------------------------------
+
+<!-- Modal Trigger Button -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-subscribe">
+  Open Enquiry Form
+</button>
+
+-----------------------------------------
+
+<!-- Modal -->
+<div class="modal fade" id="modal-subscribe" tabindex="-1" aria-labelledby="modalSubscribeLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content shadow-lg rounded-3">
+      
+      <!-- Modal Header -->
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="modalSubscribeLabel">Enquiry Form</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <!-- Modal Subheader -->
+      <div class="bg-primary text-white pb-2 pt-1">
+        <p class="mb-0 text-center">Enhance your outdoor space with custom-designed, durable decorative façades.</p>
+      </div>
+      
+      <!-- Modal Body -->
+      <div class="modal-body bg-light p-4">
+        <form method="post" action="backend">
+          <input type="hidden" name="dzToDo" value="Contact">
+          <div class="row">
+            
+            <!-- Name -->
+            <div class="mb-3 col-md-6">
+              <input name="name" id="admissionGrade" type="text" class="form-control" required placeholder="Name of Person">
+            </div>
+            
+            <!-- Email -->
+            <div class="mb-3 col-md-6">
+              <input name="email" id="dzEmail" type="email" class="form-control" required placeholder="Your Email">
+            </div>
+            
+            <!-- Phone -->
+            <div class="mb-3 col-md-12">
+              <input name="phone" id="motherName" type="text" class="form-control" required placeholder="Phone No">
+            </div>
+            
+          </div>
+          <!-- Submit Button -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+          </div>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+======================= perfect pop pop section 100% ======================
