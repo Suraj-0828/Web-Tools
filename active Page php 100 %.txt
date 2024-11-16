@@ -1,6 +1,17 @@
 =============== active Page php 100 % ==================
 
+************************************* Start **********************************************************
 
+	# Method 1 Direct use in website 
+	class="<?php echo basename($_SERVER['PHP_SELF']) == 'index.php#contact-us' ? 'active' : ''; ?>
+
+************************************* The End *********************************************************
+
+
+
+********************************************
+# Method 2 yeh use karo website me 
+********************************************
 
 	  <?php
           $current_page = basename($_SERVER['PHP_SELF']); // Get the current file name
