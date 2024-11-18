@@ -1,0 +1,35 @@
+===============  text background text write shadow ================
+
+# HTML
+
+		<!-- Breadcrumbs Start -->
+		<div class="rs-breadcrumbs img1">
+			<div class="container">
+				<div class="breadcrumbs-inner">
+					<h1 class="page-title">
+						About Us
+						<span class="watermark">About Us</span>
+					</h1>
+					<span class="sub-text">Learn more about our journey, values, and commitment to excellence. We’re dedicated to creating impactful solutions and building strong connections with our clients.</span>
+				</div>
+			</div>
+		</div>
+		<!-- Breadcrumbs End -->
+
+------------------------------------
+
+# CSS
+
+.rs-breadcrumbs .breadcrumbs-inner .page-title {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+===============  text background text write shadow ================
