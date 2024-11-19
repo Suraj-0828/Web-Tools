@@ -1,0 +1,143 @@
+=================== Near by location ====================
+
+# Html
+
+<!-- Near by place start -->
+		<div id="nearby" class="container building-status location-box mt-10">
+			<div class="row mr-auto mb-10">
+				<div class="col-md-7 map-location p-4">
+					<iframe class="map-location-media" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.9124889572904!2d72.8637653!3d19.242645299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1002a76d1bd%3A0xba05e79f11347687!2sVRINDAVAN!5e0!3m2!1sen!2sin!4v1721450834286!5m2!1sen!2sin"" width=" 100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div class="col-md-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+					<div class="div1">
+						<ul>
+							<li class="location-bg">
+								<div class="title color-text design location-bg">
+									Discover Local Treasures.
+								</div>
+							</li>
+							<li class="location-bg">
+								<div class="diva">
+									<img class="img-size" src="assets/images/home/motorway.png" />
+								</div>
+								<div class="divb">
+									Mumbai - Delhi Express way 15kms
+								</div>
+							</li>
+							<li class="location-bg">
+								<div class="diva">
+									<img class="img-size" src="assets/images/home/devi-temple.jpg" />
+								</div>
+								<div class="divb">
+									Mahalaxmi Devi Temple - 25kms
+								</div>
+							</li>
+							<li class="location-bg">
+								<div class="diva">
+									<img class="img-size" src="assets/images/home/location.png" />
+								</div>
+								<div class="divb">
+									Charoti Naka - 20kms
+								</div>
+							</li>
+							<li class="location-bg">
+								<div class="diva">
+									<img class="img-size" src="assets/images/home/market.png" />
+								</div>
+								<div class="divb">
+									Ashagad Market - 5kms
+								</div>
+							</li>
+							<li class="location-bg">
+								<div class="diva">
+									<img class="img-size" src="assets/images/home/beach.png" />
+								</div>
+								<div class="divb">
+									Dahanu Beach - 10kms
+								</div>
+							</li>
+							<li class="location-bg">
+								<div class="diva">
+									<img class="img-size" src="assets/images/home/hospital.png" />
+								</div>
+								<div class="divb">
+									Vedanta Hospital - 22kms
+								</div>
+							</li>
+							<li class="location-bg">
+								<div class="diva">
+									<img class="img-size" src="assets/images/home/fuel-pump.png" />
+								</div>
+								<div class="divb">
+									Petrol Pimp - 7kms
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Near by place End -->
+
+
+-------------------------------------------------------------
+
+
+# Css
+
+
+  .map-location-media {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
+  .location-box {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .color-text {
+    color: #06393F !important;
+  }
+  
+  .design {
+    font-family: 'Playfair Display', serif !important;
+  }
+  
+  .div1 {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .divb {
+    margin-right: 20px;
+  }
+  
+  .img-size {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .location-bg {
+    background-color: #F2F6F7;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  .div1 ul li {
+    margin: 10px;
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.color-text {
+  color: #06393F !important;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+
+=================== Near by location ====================
