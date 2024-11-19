@@ -1,0 +1,132 @@
+=========================== Simple Box Card ===========================
+
+#Html
+
+<div class="rs-services services-style9 gray-bg4 pt-120 pb-120">
+			<div class="container">
+				<div class="sec-title text-center mb-45 md-mb-25">
+					<span class="sub-text sub-text6">Latest Services</span>
+					<h2 class="title">
+						Our professional carpenter<br>
+						services solutions
+					</h2>
+				</div>
+				<div class="row">
+					<div class="col-xl-3 col-md-6 mb-20">
+						<div class="services-item">
+							<div class="services-image">
+								<a href="services-style1.html"><img src="assets/images/services/style9/service1.jpg" alt="Images"></a>
+							</div>
+							<div class="services-text">
+								<h4 class="title"><a href="services-style1.html">General Carpentry</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6 mb-20">
+						<div class="services-item">
+							<div class="services-image">
+								<a href="services-style1.html"><img src="assets/images/services/style9/service2.jpg" alt="Images"></a>
+							</div>
+							<div class="services-text">
+								<h4 class="title"><a href="services-style1.html">Furniture Paint & Polish</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6 mb-20">
+						<div class="services-item">
+							<div class="services-image">
+								<a href="services-style1.html"><img src="assets/images/services/style9/service3.jpg" alt="Images"></a>
+							</div>
+							<div class="services-text">
+								<h4 class="title"><a href="services-style1.html">Furniture Assembly</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6 mb-20">
+						<div class="services-item">
+							<div class="services-image">
+								<a href="services-style1.html"><img src="assets/images/services/style9/service4.jpg" alt="Images"></a>
+							</div>
+							<div class="services-text">
+								<h4 class="title"><a href="services-style1.html">Furniture Repair & Fixes</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6 md-mb-20">
+						<div class="services-item">
+							<div class="services-image">
+								<a href="services-style1.html"><img src="assets/images/services/style9/service5.jpg" alt="Images"></a>
+							</div>
+							<div class="services-text">
+								<h4 class="title"><a href="services-style1.html">Furniture Design</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6 md-mb-20">
+						<div class="services-item">
+							<div class="services-image">
+								<a href="services-style1.html"><img src="assets/images/services/style9/service6.jpg" alt="Images"></a>
+							</div>
+							<div class="services-text">
+								<h4 class="title"><a href="services-style1.html">indoor & Outdoor</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6 sm-mb-20">
+						<div class="services-item">
+							<div class="services-image">
+								<a href="services-style1.html"><img src="assets/images/services/style9/service7.jpg" alt="Images"></a>
+							</div>
+							<div class="services-text">
+								<h4 class="title"><a href="services-style1.html">indoor & Outdoor</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6">
+						<div class="services-item">
+							<div class="services-image">
+								<a href="services-style1.html"><img src="assets/images/services/style9/service8.jpg" alt="Images"></a>
+							</div>
+							<div class="services-text">
+								<h4 class="title"><a href="services-style1.html">Renovation & Decoration</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+------------------------------------------------------------------------
+
+# Css
+
+.rs-services.services-style9 .services-item .services-image a img {
+    height: 100%;
+    width: 100%;
+    max-width: unset;
+}
+
+.rs-services.services-style9 .services-item .services-text {
+    padding: 20px 0px 20px 0px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+
+
+-------------- Extra Me Loo ----------------
+
+@media (min-width: 1200px) {
+    .col-xl-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
+
+-------------- Extra Me Loo ----------------
+
+
+=========================== Simple Box Card ===========================
+
