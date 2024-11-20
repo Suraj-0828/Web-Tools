@@ -1,0 +1,13 @@
+============= img src center ================
+
+
+
+<div id="global-publicity" class="rs-about about-style2 margin-top d-flex justify-content-center align-items-center vh-100">
+    <div class="about-img wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0s">
+        <img class="img-fluid radius-left" src="assets/images/all-material/map-3.png" alt="Images">
+    </div>
+</div>
+
+
+
+============= img src center ================
