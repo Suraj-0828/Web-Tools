@@ -1,0 +1,315 @@
+===================== php Name parameter using for handling =========================
+
+
+Step 1 : HTML PAGE
+
+<input name="name" type="text" required placeholder="Name">
+
+
+--------------------------------------------------------------------------
+**************************************************************************
+--------------------------------------------------------------------------
+
+
+step 2 : BACKEND PAGE
+
+
+<?php
+// Enable error reporting for debugging
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Sanitize and collect form data
+    $name = htmlspecialchars(trim($_POST['name']));
+    $email = htmlspecialchars(trim($_POST['email']));
+    $phone = htmlspecialchars(trim($_POST['phone']));
+    $address = htmlspecialchars(trim($_POST['address']));
+    $message_content = htmlspecialchars(trim($_POST['message']));
+    $ip_address = $_SERVER['REMOTE_ADDR'];
+
+    // Recipient email
+    $to = 'alpha.konn@gmail.com';
+    $subject = 'Contact Us - Form Enquiry';
+
+    // Create the HTML table for email content
+    $data = '<table border="1" bordercolor="#ccc" align="center" width="650" style="width:650px;" cellpadding="10" cellspacing="0">';
+    $data .= '<tr><td colspan="2" align="center"><strong>Contact Details</strong></td></tr>';
+    $data .= '<tr><td>Name:</td><td>' . $name . '</td></tr>';
+    $data .= '<tr><td>Email ID:</td><td>' . $email . '</td></tr>';
+    $data .= '<tr><td>Phone No:</td><td>' . $phone . '</td></tr>';
+    $data .= '<tr><td>Address:</td><td>' . $address . '</td></tr>';
+    $data .= '<tr><td>Message:</td><td>' . $message_content . '</td></tr>';
+    $data .= '<tr><td>IP Address:</td><td>' . $ip_address . '</td></tr>';
+    $data .= '</table>';
+
+    // Email headers
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type: text/html; charset=UTF-8" . "\r\n";
+    $headers .= 'From: Contact Us <no-reply@alphakonnect.org>' . "\r\n";
+
+    // Send the email and redirect based on success or failure
+    if (mail($to, $subject, $data, $headers)) {
+        // Redirect to success page with the name as a URL parameter
+        header('Location: success.php?name=' . urlencode($name));      
+        exit();
+    } else {
+        // Redirect to failure page if mail fails
+        header('Location: failed.php?name=' . urlencode($name));
+        exit();
+    }
+}
+?>
+
+
+
+--------------------------------------------------------------------------
+**************************************************************************
+--------------------------------------------------------------------------
+
+
+step 3 : SUCCESS PAGE 
+
+--------
+
+Get Parameter
+
+--------------------------------------------
+
+<?php
+// Check if the 'name' parameter is set in the URL
+if (isset($_GET['name'])) {
+    // Get the name from the URL parameter
+    $name = htmlspecialchars($_GET['name']);
+} else {
+    $name = "Guest";  // Default value if no name is provided
+}
+?>
+
+---------------------------------------------------------
+
+<style>
+		.success {
+            text-align: center;
+            margin: auto;
+            background-color: gray;
+            color: black;
+        }
+
+        .successful {
+            text-align: center;
+            margin: auto;
+            padding: 60px 50px 20px 50px;
+            font-size: 45px !important;
+            color: black;
+        }
+
+        .imgg {
+            max-width: 100%;
+        }
+
+        .img-size {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            margin-top: 25px;
+            margin-bottom: -20px;
+        }
+
+        .text-black {
+            padding-bottom: 30px;
+        }
+
+        .color-success {
+            color: #6BC839;
+        }
+		.bold-name {
+            font-weight: bold;
+        }
+
+        .pp {
+            text-align: center;
+        }
+
+        @media (max-width: 576px) {
+
+            /* Extra small devices (phones) */
+            .successful {
+                font-size: 15px !important;
+            }
+        }
+	</style>
+
+
+----------------------------------------
+
+
+<div class="container pt-5 pb-4">
+            <div class="img-size">
+                <img class="imgg" src="assets/images/success-failed/success.png" />
+            </div>
+            <div class="successful text-black">
+			Thank you, <span class="font-weight-bold"><?php echo $name; ?>,</span> for your inquiry!<br>
+                Your Request Has Been <span class="bold-name">Successfully</span> Submited
+            </div>
+            <div class="pp text-black">
+                Our dedicated care coordinator will reach out to you as soon as possible to assist you further.
+            </div>
+        </div>
+
+
+
+--------------------------------------------
+
+--------------------------------------------------------------------------
+**************************************************************************
+--------------------------------------------------------------------------
+
+step 4 : FAILED PAGE 
+
+--------
+
+Get Parameter
+
+--------------------------------------------
+
+<?php
+// Check if the 'name' parameter is set in the URL
+if (isset($_GET['name'])) {
+    // Get the name from the URL parameter
+    $name = htmlspecialchars($_GET['name']);
+} else {
+    $name = "Guest";  // Default value if no name is provided
+}
+?>
+
+
+----------------------------------------
+
+
+<style>
+		.success {
+			text-align: center;
+			margin: auto;
+			background-color: gray;
+			color: black;
+		}
+
+		.successful {
+			text-align: center;
+			margin: auto;
+			padding: 60px 50px 20px 50px;
+			font-size: 50px !important;
+			color: black;
+		}
+
+	       .color-failed{
+            		color: red;
+      		}
+
+		.imgg {
+			max-width: 100%;
+		}
+
+		.img-size {
+			width: 100px;
+			height: 100px;
+			margin: auto;
+			margin-top: 25px;
+			margin-bottom: -20px;
+		}
+        .text-black{
+            padding-bottom: 30px;
+        }
+
+		.pp {
+			text-align: center;
+		}
+
+		@media (max-width: 576px) {
+			/* Extra small devices (phones) */
+			.successful {
+				font-size: 20px !important;
+			}
+		}
+	</style>
+
+
+----------------------------------------
+
+
+			<div class="container pt-5 pb-4">
+				<div class="img-size">
+					<img class="imgg" src="assets/images/success-failed/failed.png" />
+				</div>
+				<div class="successful text-black">
+					Your Email Has Not Send!
+				</div>
+				<div class="pp text-black">Something went <span class="color-failed">wrong</span> please try again after sometime.</div>
+
+			</div>
+
+
+------------------------------ OR -------------------------------
+
+
+<?php
+// Display an error message if the form submission fails
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Failed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 50px;
+        }
+        .error-message {
+            background-color: #ffcccc;
+            color: #d9534f;
+            border: 1px solid #d9534f;
+            padding: 20px;
+            border-radius: 5px;
+            display: inline-block;
+            font-size: 18px;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="error-message">
+        <h2>Oops! Something went wrong with your submission.</h2>
+        <p>Please try again later or contact support if the issue persists.</p>
+    </div>
+
+    <a href="contact.php" class="back-button">Go Back to Contact Form</a>
+
+</body>
+</html>
+
+
+
+
+===================== php Name parameter using for handling =========================
+
+
+
+

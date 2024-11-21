@@ -1,0 +1,104 @@
+==================== Learn php Name parameter using for handling =====================
+
+
+Step 1 : Contact Form Page
+
+
+------------------------------
+******************************
+------------------------------
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <form action="submit-form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+
+------------------------------
+******************************
+------------------------------
+
+
+Step 2 : PHP Backend Page 
+
+--------------------------- Main Code ---------------------------------
+
+<?php
+// Check if the 'name' parameter is set in the URL
+if (isset($_GET['name'])) {
+    $name = htmlspecialchars($_GET['name']);  // Get the name from URL
+} else {
+    $name = "Guest";  // Default if no name is passed
+}
+?>
+
+<h1>Thank you, <?php echo $name; ?>, for your inquiry!</h1>
+
+--------------------------- OR ---------------------------------
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    
+    // Store or process the data as needed (e.g., save to database or send email)
+
+    // Redirect to the success page with the name as a query parameter
+    header("Location: success.php?name=" . urlencode($name));
+    exit();
+}
+?>
+
+
+------------------------------
+******************************
+------------------------------
+
+
+Step 3 : Next Page Success Page
+
+
+<?php
+if (isset($_GET['name'])) {
+    $name = htmlspecialchars($_GET['name']);
+} else {
+    $name = "Guest";
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+</head>
+<body>
+    <h1>Thank you, <?php echo $name; ?>, for submitting the form!</h1>
+</body>
+</html>
+
+
+------------------------------
+******************************
+------------------------------
+
+
+==================== Learn php Name parameter using for handling =====================

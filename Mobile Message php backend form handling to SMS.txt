@@ -1,0 +1,113 @@
+================== Mobile Message php backend form handling to SMS ====================
+
+
+
+To send a form submission as a text message (SMS) to a mobile number instead of sending it via email, you will need to integrate an SMS API service. Here's an overview of how you can do this using one of the popular services like Twilio or Nexmo (now Vonage).
+
+Steps:
+Sign up for an SMS gateway: You'll need an account with an SMS service provider such as:
+
+Twilio: https://www.twilio.com/
+Vonage (Nexmo): https://www.vonage.com/
+Get the API credentials: Once you sign up, you'll get an API key, API secret, and a phone number to send messages from.
+
+Install the necessary libraries: If you're using Twilio or Vonage, you can use their PHP SDK. For example, with Twilio, you would need to install the Twilio SDK via Composer:
+
+bash
+Copy code
+composer require twilio/sdk
+Update the PHP code to send an SMS instead of email. Here is an example of how to send an SMS using Twilio:
+
+
+
+====================================================
+****************************************************
+====================================================
+
+
+<?php
+// Include the Twilio PHP SDK
+require_once 'vendor/autoload.php'; // Make sure this points to your Composer's autoload.php
+
+use Twilio\Rest\Client;
+
+// Enable error reporting for debugging
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Sanitize and collect form data
+    $company_name = htmlspecialchars(trim($_POST['company_name']));
+    $name = htmlspecialchars(trim($_POST['name']));
+    $brand = htmlspecialchars(trim($_POST['brand']));
+    $designation = htmlspecialchars(trim($_POST['designation']));
+    $email = htmlspecialchars(trim($_POST['email']));
+    $phone = htmlspecialchars(trim($_POST['phone']));
+    $ip_address = $_SERVER['REMOTE_ADDR'];
+
+    // Twilio credentials (replace with your actual credentials)
+    $sid = 'your_twilio_sid'; // Your Twilio SID
+    $token = 'your_twilio_auth_token'; // Your Twilio Auth Token
+    $twilio_phone_number = 'your_twilio_phone_number'; // Your Twilio phone number
+    $destination_phone_number = 'recipient_phone_number'; // The phone number where the SMS should be sent
+
+    // Create the message to be sent
+    $message_content = "New Contact Form Submission:\n";
+    $message_content .= "Company Name: $company_name\n";
+    $message_content .= "Name: $name\n";
+    $message_content .= "Brand: $brand\n";
+    $message_content .= "Designation: $designation\n";
+    $message_content .= "Email: $email\n";
+    $message_content .= "Phone: $phone\n";
+    $message_content .= "IP Address: $ip_address";
+
+    // Send the SMS using Twilio API
+    $client = new Client($sid, $token);
+    try {
+        $message = $client->messages->create(
+            $destination_phone_number, // To phone number
+            [
+                'from' => $twilio_phone_number, // From Twilio phone number
+                'body' => $message_content // The message content
+            ]
+        );
+        // Redirect to success page
+        header('Location: success.php?name=' . urlencode($name));  // Pass the name to success page
+        exit();
+    } catch (Exception $e) {
+        // If an error occurs, redirect to the failure page
+        header('Location: failed.php');
+        exit();
+    }
+}
+?>
+
+====================================================
+****************************************************
+====================================================
+
+
+Steps to Implement:
+Install the Twilio SDK:
+
+Use Composer to install the Twilio SDK as mentioned earlier.
+Replace the credentials:
+
+Replace your_twilio_sid, your_twilio_auth_token, and your_twilio_phone_number with your Twilio account SID, Auth Token, and Twilio phone number respectively.
+Replace recipient_phone_number with the mobile number where you want to receive the SMS.
+Send the form data as an SMS:
+
+The code will send the form submission details as an SMS to the phone number you specify.
+Redirect to success or failed page:
+
+If the SMS is sent successfully, the user is redirected to the success.php page.
+If there is an error (e.g., wrong credentials or API failure), it will redirect to failed.php.
+Additional Notes:
+Twilio offers a free trial with limited credit, so you can test the SMS functionality without initially spending money.
+Make sure to have a phone number with the appropriate country code (e.g., for India, the country code is +91).
+This method will send an SMS to your phone instead of an email. If you use Vonage (Nexmo), the process will be similar, and you can refer to their PHP documentation for the integration.
+
+Let me know if you need help setting up or using other SMS APIs!
+
+
+================== Mobile Message php backend form handling to SMS ====================
