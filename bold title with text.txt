@@ -1,0 +1,18 @@
+================ bold title with text ===============
+
+
+<div>
+    <h3><b>Hex Bolt</b></h3>
+    <p>
+        Hex bolts are used for fastening structures and beams. Heavy hex bolts and high-tensile bolts are classifications of Hex Bolts.
+    </p>
+    <p>
+        <b>Specification:</b> As per IS, EN, ISO, BS, DIN, ASTM, and as per customer drawing.
+    </p>
+    <p>
+        <b>Material Grade:</b> 8.8, 10.9, 12.9, A2-70 (304), A4-80 (316), SS 904, B7, B8, Inconel.
+    </p>
+</div>
+
+
+================ bold title with text ===============
