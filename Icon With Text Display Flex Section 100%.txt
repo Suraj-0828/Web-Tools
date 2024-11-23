@@ -12,29 +12,38 @@
                 </div>
             </div>
             <div class="footer-item">
-                <div style="transform: rotate(90deg); /* Rotating the call icon */" class="footer-icon">
-                    <i class="fa fa-phone"></i>
-                </div>
-                <div class="footer-text">
-                    +44-7934809600
-                </div>
-            </div>
-            <div class="footer-item">
-                <div style="transform: rotate(90deg); /* Rotating the call icon */" class="footer-icon">
-                    <i class="fa fa-phone"></i>
-                </div>
-                <div class="footer-text">
-                    +44-7459235058
-                </div>
-            </div>
-            <div class="footer-item">
-                <div class="footer-icon">
-                    <i class="fa fa-envelope"></i>
-                </div>
-                <div class="footer-text">
-                    info@thefernfacilityservices.co.uk
-                </div>
-            </div>
+    <div style="transform: rotate(90deg); /* Rotating the call icon */" class="footer-icon">
+        <i class="fa fa-phone"></i>
+    </div>
+    <div class="footer-text">
+        <a href="tel:+919920027999" style="text-decoration: none; color: inherit;">+91-9920027999</a>
+    </div>
+</div>
+<div class="footer-item">
+    <div style="transform: rotate(90deg); /* Rotating the call icon */" class="footer-icon">
+        <i class="fa fa-phone"></i>
+    </div>
+    <div class="footer-text">
+        <a href="tel:+919819757887" style="text-decoration: none; color: inherit;">+91-9819757887</a>
+    </div>
+</div>
+<div class="footer-item">
+    <div class="footer-icon">
+        <i class="fa fa-envelope"></i>
+    </div>
+    <div class="footer-text">
+        <a href="mailto:info@prathamindustries.in" style="text-decoration: none; color: inherit;">info@prathamindustries.in</a>
+    </div>
+</div>
+<div class="footer-item">
+    <div class="footer-icon">
+        <i class="fa fa-envelope"></i>
+    </div>
+    <div class="footer-text">
+        <a href="mailto:Pratham.sales01@gmail.com" style="text-decoration: none; color: inherit;">Pratham.sales01@gmail.com</a>
+    </div>
+</div>
+
         </div>
     </div>
 </div>
