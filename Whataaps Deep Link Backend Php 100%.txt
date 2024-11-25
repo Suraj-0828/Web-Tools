@@ -1,0 +1,49 @@
+================= Whataaps Deep Link Backend Php 100% ================
+
+
+
+
+<?php
+// Enable error reporting for debugging
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Sanitize and collect form data
+    $name = htmlspecialchars(trim($_POST['name']));
+    $email = htmlspecialchars(trim($_POST['email']));
+    $phone = htmlspecialchars(trim($_POST['phone']));
+    $address = htmlspecialchars(trim($_POST['subject']));
+    $message_content = htmlspecialchars(trim($_POST['message']));
+    $ip_address = $_SERVER['REMOTE_ADDR'];
+
+    // WhatsApp number where the message will be sent (include country code)
+    $whatsapp_number = '919833360716'; // Replace with your WhatsApp number
+
+    // Create the message content for WhatsApp
+    $whatsapp_message = "*New Inquiry Form:*\n\n";
+    $whatsapp_message .= "-----------------------------------\n";
+    $whatsapp_message .= "*Field*                : *Details*\n";
+    $whatsapp_message .= "-----------------------------------\n";
+    $whatsapp_message .= "*Name*                 : $name\n";
+    $whatsapp_message .= "*Email*                : $email\n";
+    $whatsapp_message .= "*Phone*                : $phone\n";
+    $whatsapp_message .= "*Subject*              : $subject\n";
+    $whatsapp_message .= "*Message*              : $message_content\n";
+    $whatsapp_message .= "*IP Address*           : $ip_address\n";
+    $whatsapp_message .= "-----------------------------------";
+
+    // Encode the message for URL
+    $encoded_message = urlencode($whatsapp_message);
+
+    // WhatsApp deep link
+    $whatsapp_url = "https://wa.me/$whatsapp_number?text=$encoded_message";
+
+    // Redirect to WhatsApp
+    header("Location: $whatsapp_url");
+    exit();
+}
+
+
+
+================= Whataaps Deep Link Backend Php 100% ================

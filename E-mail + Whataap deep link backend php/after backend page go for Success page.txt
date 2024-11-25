@@ -1,0 +1,85 @@
+================= after backend page go for Success page ================
+
+-------------------------------------------------------------
+
+<?php
+// Check if the form data is passed through URL parameters
+if (isset($_GET['name']) && isset($_GET['email']) && isset($_GET['phone']) && isset($_GET['address']) && isset($_GET['message'])) {
+    // Collect form data from URL parameters
+    $name = htmlspecialchars($_GET['name']);
+    $email = htmlspecialchars($_GET['email']);
+    $phone = htmlspecialchars($_GET['phone']);
+    $address = htmlspecialchars($_GET['address']);
+    $message_content = htmlspecialchars($_GET['message']);
+
+    // Create WhatsApp message with the data
+    $whatsapp_message = "*New Inquiry Form*:\n\n";
+    $whatsapp_message .= "*Name*: $name\n";
+    $whatsapp_message .= "*Email*: $email\n";
+    $whatsapp_message .= "*Phone*: $phone\n";
+    $whatsapp_message .= "*Address*: $address\n";
+    $whatsapp_message .= "*Message*: $message_content\n";
+    
+    // Encode the message for URL
+    $encoded_message = urlencode($whatsapp_message);
+
+    // WhatsApp deep link
+    $whatsapp_url = "https://wa.me/8657374916?text=$encoded_message";
+}
+?>
+
+------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Page</title>
+
+----------------------------------------------------------
+
+    <script>
+        // Show a pop-up after the page loads and then redirect to WhatsApp
+        window.onload = function() {
+            setTimeout(function() {
+                // Automatically redirect to WhatsApp
+                window.location.href = "<?php echo $whatsapp_url; ?>";
+            }, 1000); // Wait for 1 second before redirecting
+        }
+    </script>
+
+-----------------------------------------------------------
+
+</head>   -> head ke andar script rahna chahiye important note
+
+
+-------------------------------------------------------
+<!-- filed name parameter -->
+
+   <?php
+	// Check if the 'name' parameter is set in the URL
+	if (isset($_GET['name'])) {
+		// Get the name from the URL parameter
+		$name = htmlspecialchars($_GET['name']);
+	} else {
+		$name = "Guest";  // Default value if no name is provided
+	}
+   ?>
+
+------------------------------------------------------
+
+
+<body>
+
+    <h2>Thank You, <span class="font-weight-bold"><?php echo $name; ?>,</span> for Your Submission!</h2>
+    <p>Your form has been submitted successfully. You will be redirected to WhatsApp shortly...</p>
+
+</body>
+</html>
+
+
+
+================= after backend page go for Success page ================
