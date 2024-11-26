@@ -1,19 +1,60 @@
-========================= Map Location =================================
+================ Map Location Section =================
 
-   <!-- Map Section start -->
-    <div class="above-sidebar-wrapper">
-            <section id="content-section-1">
-                <div class="greennature-full-size-wrapper gdlr-show-all no-skin" style="padding-top: 18px; padding-bottom: 0px;  background-color: #ffffff; ">
-                    <div class="greennature-item greennature-content-item" style="margin-bottom: 0px;">
-                        <iframe style="width:100%; height:480px; border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.644763428796!2d72.88945307425301!3d19.12323395048986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c98e15b59b4d%3A0xbd5c28d19d9693c!2snew%20home%20furnishing%20and%20mattresses!5e0!3m2!1sen!2sin!4v1719591109703!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <div style="position: absolute;width: 80%;bottom: 20px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;">
-                    </div>
-                    <div class="clear"></div>
-                    <div class="clear"></div>
-                </div>
-                <div class="clear"></div>
-            </section>
-        </div>
-     <!-- Map Section close -->
 
-========================= Map Location =================================
+	<!-- Map Column -->
+		<section class="map-section mb-70">
+			<div class="auto-container">
+				<div class="inner-container">
+					<!-- Map Outer -->
+					<div class="map-outer">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15051.601820674394!2d72.83856713599589!3d19.41670654718848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a93da77cdf4f%3A0x13a799c6cce3b601!2sYamini%20Industrial%20Estate!5e0!3m2!1sen!2sin!4v1732422436256!5m2!1sen!2sin" allowfullscreen=""></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!-- End Map Column -->
+
+
+-----------------------------------------------
+
+
+
+		.map-section .inner-container {
+		position: relative;
+		padding: 20px 20px;
+		border-radius: 5px;
+		background-color: var(--white-color);
+		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+		}
+		.auto-container {
+		position: static;
+		max-width: 1300px;
+		padding: 0px 15px;
+		margin: 0 auto;
+		}
+		.map-section {
+		position: relative;
+		z-index: 1;
+		}
+
+		.map-section{
+		position:relative;
+		z-index:1;
+		}
+
+		.map-section .inner-container{
+		position:relative;
+		padding:20px 20px;
+		border-radius:5px;
+		background-color:var(--white-color);
+		box-shadow:0px 0px 15px rgba(0,0,0,0.10);
+		}
+
+		.map-section iframe{
+		position:relative;
+		width:100%;
+		height:500px;
+		}
+
+
+================ Map Location Section =================
