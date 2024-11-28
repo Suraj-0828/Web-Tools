@@ -1,0 +1,72 @@
+================== simple pop up boostrap 5.3 version =================
+
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="justify-content-center">
+                    <img src="assets/imgs/logo/client-logo.png" class="pop-logo" alt="logo not found">
+                </div>
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="backendone" method="post">
+                    <div class="row" style="padding: 10px !important;">
+                        <div class="col-md-12 mb-4">
+                            <input type="text" placeholder="Full Name" class="form-control pop-style" id="recipient-name">
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <input type="tel" placeholder="Phone Number" class="form-control pop-style" id="recipient-name">
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <input type="email" placeholder="Email Id" class="form-control pop-style" id="recipient-name">
+                        </div>
+                        <div class="col-md-12 mb-4">
+                            <input type="text" placeholder="Products Name" class="form-control pop-style" id="recipient-name">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="submit" class="btn btn-primary bt-button">Send message</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+---------------------------------------------------------------------------
+
+
+input:focus {
+    outline: none !important; /* Remove the default outline */
+    box-shadow: 0 0 5px #54703C !important; /* Add a custom shadow (use any color) */
+    border-color: #54703C !important; /* Optionally, change the border color */
+}
+
+.bt-button{
+  color: white;
+  background-color: #233A1C !important;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.bt-button:hover{
+background-color: #54703C !important;
+}
+
+.pop-logo{
+  width: 200px;
+}
+
+.pop-bg-color{
+  background-color: #E5F9ED !important;
+}
+
+
+================== simple pop up boostrap 5.3 version =================
