@@ -1,0 +1,34 @@
+================= social whataaap phone email message file hyper link code ===============
+
+<!-- WhatsApp -->
+<a href="https://wa.me/919920028121" target="_blank">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- Phone -->
+<a href="tel:+919920028121" target="_blank">
+  <i class="fa-solid fa-phone"></i>
+</a>
+
+<!-- Email -->
+<a href="mailto:info@example.com" target="_blank">
+  <i class="fa-solid fa-envelope"></i>
+</a>
+
+<!-- Address (Link to Google Maps) -->
+<a href="https://www.google.com/maps?q=Mumbai,+India" target="_blank">
+  <i class="fa-solid fa-location-dot"></i>
+</a>
+
+<!-- Message -->
+<a href="https://wa.me/919920028121" target="_blank">
+  <i class="fa-solid fa-comment-dots"></i>
+</a>
+
+<!-- File (Downloadable link) -->
+<a href="/uploads/file.pdf" download>
+  <i class="fa-solid fa-file"></i>
+</a>
+
+
+================= social whatsaap phone email message file hyper link code ===============
