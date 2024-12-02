@@ -1,0 +1,201 @@
+================= rotate images box card with text ================
+
+# HTML
+
+ <div class="section gap" style=" background-image:url('assets/images/banner/small-bg.png');">
+        <div class="section-title text-center mb-lg-9 mb-md-7 mb-5">
+            <h2 class="title">Sectors <span>We Serve</span></h2>
+
+        </div>
+        <div id="content">
+            <div class="container1 col-lg-4 col-6">
+                <div class="flipper">
+                    <div class="front">
+                        <img class="sector" src="assets/images/logo/hospitality.jpg" alt="img">
+                        <p class="caption">Hotels & Hospitality</p>
+                    </div>
+                    <div class="back">
+
+                        <p class="description">Designing & building dream hotels within budget—your vision, our
+                            expertise!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container1 col-lg-4 col-6">
+                <div class="flipper">
+                    <div class="front">
+                        <img class="sector" src="assets/images/logo/healthcare.jpg" alt="img">
+                        <p class="caption">Hospitals & Healthcare</p>
+                    </div>
+                    <div class="back">
+
+                        <p class="description">Modern hospital construction with top-notch facilities for superior
+                            patient care.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container1 col-lg-4 col-6">
+                <div class="flipper">
+                    <div class="front">
+                        <img class="sector" src="assets/images/logo/educations.jpg" alt="img">
+                        <p class="caption">Schools & Colleges</p>
+                    </div>
+                    <div class="back">
+
+                        <p class="description">Comprehensive school project management from start to finish.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container1 col-lg-4 col-6">
+                <div class="flipper">
+                    <div class="front">
+                        <img class="sector" src="assets/images/logo/residental-office.jpg" alt="img">
+                        <p class="caption">Residentials & Commercials</p>
+                    </div>
+                    <div class="back">
+
+                        <p class="description">Bringing dream homes and offices to life with professional construction
+                            expertise.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container1 col-lg-4 col-6">
+                <div class="flipper">
+                    <div class="front">
+                        <img class="sector" src="assets/images/logo/ware-house.jpg" alt="img">
+                        <p class="caption">Industrials & Warehouses</p>
+                    </div>
+                    <div class="back">
+
+                        <p class="description">Industry-leading warehouse designs offering flexible, attractive spaces
+                            for businesses.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container1 col-lg-4 col-6">
+                <div class="flipper">
+                    <div class="front">
+                        <img class="sector" src="assets/images/logo/infrastructure.jpg" alt="img">
+                        <p class="caption">Infrastructure Development</p>
+                    </div>
+                    <div class="back">
+
+
+                        <p class="description">Cost-effective, precise solutions for top-quality infrastructure
+                            projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container1 col-lg-4 col-6">
+                <div class="flipper">
+                    <div class="front">
+                        <img class="sector" src="assets/images/logo/interior-work.jpg" alt="img">
+                        <p class="caption">Corporate Interior Projects</p>
+                    </div>
+                    <div class="back">
+
+                        <p class="description">Premium construction for residential & commercial spaces, from design to
+                            delivery.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container1 col-lg-4 col-6">
+                <div class="flipper">
+                    <div class="front">
+                        <img class="sector" src="assets/images/logo/fabricatation.jpg" alt="img">
+                        <p class="caption">Structural Fabrication Projects</p>
+                    </div>
+                    <div class="back">
+
+                        <p class="description">Steel structure solutions tailored to meet and exceed your requirements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+-----------------------------------------------------------------------
+
+
+# CSS 
+
+.caption,
+h1 {
+    font-size: 2em;
+    padding: 10px 10px 0 10px;
+}
+
+.date {
+    font-size: 0.75em;
+}
+
+.description {
+    font-size: 0.9em;
+    padding: 50px 20px 20px 20px;
+    text-align: left;
+}
+
+.container1 {
+    perspective: 1000px;
+    display: inline-block;
+    margin: 3%;
+}
+
+.container1:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.container1,
+.front,
+.back {
+    width: 220px;
+    height: 180px;
+}
+
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.front {
+    z-index: 2;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+#content {
+    text-align: center;
+}
+
+.sector {
+    width: 66%;
+}
+
+
+================= rotate images box card with text ================
