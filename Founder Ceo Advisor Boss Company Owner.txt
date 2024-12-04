@@ -1,0 +1,117 @@
+================ Founder Ceo Advisor Boss Company Owner ==================
+
+
+# HTML 
+
+
+ <!-- Founder Ceo Start -->
+    <div class="background-color pt-70 mt-70 pb-70">
+        <div class="container">
+            <div class="section-styling-area mb-50">
+                <h2 class="text-center mb-40">Expert Advisor</h2>
+                <p class="icon-border"><i aria-hidden="true" class="fa fa-clone"></i></p>
+            </div>
+            <div class="row">
+                <!-- Team Member 2 -->
+                <div class="col-md-12">
+                    <div class="team-member-card">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <!-- Image Section -->
+                                <div class="team-member-image">
+                                    <img class="ceo-image" src="img/home/4.jpg" alt="John Doe" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <!-- Text Section -->
+                                <div class="team-member-text">
+                                    <h5>Parthiv Mehta</h5>
+                                    <p><strong>Founder</strong></p>
+                                    <p>Parthiv Mehta, the founder of P Surfaces, is a dynamic entrepreneur with a strong vision for transforming the laminate industry. With years of experience and a keen eye for market trends, he has led the company to innovate and create cutting-edge laminate solutions. His dedication to quality and customer satisfaction has made P Surfaces a trusted name in the industry. Parthiv believes in sustainable growth and strives to push boundaries through continuous product innovation. His leadership continues to inspire the team to achieve excellence and stay ahead of industry trends.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Founder Ceo Close -->
+
+
+------------------------------------------------------------------------------------
+
+
+# CSS
+
+
+
+.background-color {
+    background-color: #eec55f6b;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.team-member-card {
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 30px; */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+/* .team-member-card:hover {
+    transform: translateY(-10px);
+  } */
+
+.team-member-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 200px;
+    margin: auto;
+}
+
+.ceo-image {
+    border-radius: 15px;
+}
+
+.team-member-text {
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.team-member-text h5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team-member-text p {
+    font-size: 16px;
+    color: black;
+}
+
+/* For responsive design */
+@media (max-width: 768px) {
+    .team-member-card {
+        flex-direction: column;
+    }
+}
+
+
+-----------------------------------
+
+
+================ Founder Ceo Advisor Boss Company Owner ==================
