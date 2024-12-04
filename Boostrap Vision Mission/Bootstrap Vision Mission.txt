@@ -44,6 +44,9 @@
 # CSS
 
  /* Custom styles for cards */
+.card-body {
+    padding: 24px;
+}
 .custom-card {
     border: 1px solid #ddd;
     border-radius: 8px;
