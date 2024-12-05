@@ -1,0 +1,68 @@
+============ button animation code =============
+
+ <div class="button-wrapper">
+                                <button class="slide-button">
+                                    <span class="slide-content">
+                                        <span class="text">Download</span>
+                                        <span class="icon">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </span>
+                                    </span>
+                                </button>
+                            </div>
+
+
+
+
+----------------------------------------
+
+
+
+/* Elegant Slide Button */
+.slide-button {
+    position: relative;
+    padding: 1.2rem 2.4rem;
+    font-size: 1.1rem;
+    color: white;
+    background: none;
+    border: 2px solid #60a5fa;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.slide-content {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    position: relative;
+    z-index: 1;
+}
+
+.slide-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #60a5fa, #a78bfa);
+    transition: all 0.5s ease;
+    z-index: 0;
+}
+
+.slide-button:hover::before {
+    left: 0;
+}
+
+.slide-content .icon i {
+    transition: transform 0.3s ease;
+}
+
+.slide-button:hover .icon i {
+    transform: translateX(4px);
+}
+
+
+============ button animation code =============
