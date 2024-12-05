@@ -1,4 +1,4 @@
-==========================  Block Header and Transparent Header Size ============================
+==========================  Banner Size for desktop ============================
 
 
 # Block Header
@@ -16,4 +16,4 @@ Desktop Size - 1920 x 900
 Mobile Size - 700 
 
 
-==========================  Block Header and Transparent Header Size ============================
+==========================  Banner Size for desktop  ============================
