@@ -8,7 +8,7 @@ input:focus {
     border-color: #ff5733; /* Optionally, change the border color */
 }
 
-<!-- optional hai if you use teaxtarea -->
+/* optional hai if you use teaxtarea */
 textarea:focus {
     outline: none; /* Remove the default outline */
     box-shadow: 0 0 5px #EEC55F !important; /* Add a custom shadow (use any color) */
