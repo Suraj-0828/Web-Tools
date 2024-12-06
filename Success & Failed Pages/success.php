@@ -81,8 +81,9 @@
             <div class="img-size">
                 <img class="imgg" src="assets/imgs/successorfailed/success.png" />
             </div>
-            <div class="successful text-black">
-                Your Request Has Been <span class="color-success">Successfully</span> Submited
+           <div class="successful text-black">
+            Thank you, <span class="font-weight-bold"><?php echo $name; ?>,</span> for your inquiry!<br>
+            Your Request Has Been <span class="bold-name">Successfully</span> Submited
             </div>
             <div class="pp text-black">
                 Our dedicated care coordinator will reach out to you as soon as possible to assist you further.
