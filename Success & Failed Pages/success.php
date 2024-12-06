@@ -34,7 +34,8 @@
             text-align: center;
             margin: auto;
             padding: 60px 50px 20px 50px;
-            font-size: 45px !important;
+            font-size: 40px !important;
+            line-height: 50px;
             color: black;
         }
 
