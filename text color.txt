@@ -1,0 +1,12 @@
+============ text color ============
+
+
+    <span class="span-color">ABCDEFGH</span>
+
+    .span-color{
+      color: red;
+    /* font-weight: bold; */
+    }
+
+
+============ text color ============
