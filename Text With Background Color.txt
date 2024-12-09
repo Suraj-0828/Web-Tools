@@ -1,0 +1,15 @@
+============= Text With Background Color =============
+
+
+
+.text-background {
+  color: white !important;
+  background-color: #e32948b3;
+  padding: 10px 20px;
+  display: inline-block; /* Text jitna hi width ka background */
+  border-radius: 20px;
+}
+
+
+
+============= Text With Background Color =============
