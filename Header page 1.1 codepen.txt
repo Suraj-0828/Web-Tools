@@ -1,0 +1,380 @@
+===================== Header page 1.1 ========================
+
+
+<header class="section header">
+	<a href="/" class="header__logo">
+		<span class="logo primary"></span>
+	</a>
+
+	<nav class="nav" id="nav">
+		<ul class="nav__list">
+			<li class="nav__item active">
+				<a href="#" class="nav__link">Home</a>
+			</li>
+			<li class="nav__item">
+				<a href="#" class="nav__link">Mission</a>
+			</li>
+			<li class="nav__item">
+				<a href="#" class="nav__link">IPO&ICO</a>
+			</li>
+			<li class="nav__item">
+				<a href="#" class="nav__link">How It Works</a>
+			</li>
+			<li class="nav__item">
+				<a href="#" class="nav__link">Quotes</a>
+			</li>
+			<li class="nav__item">
+				<a href="#" class="nav__link">History</a>
+			</li>
+		</ul>
+		<button type="button" class="btn secondary">Get Started</button>
+	</nav>
+	<div class="header__btns">
+		<button type="button" class="btn secondary">Get Started</button>
+
+		<button class="btn-menu" id="toggleNav">
+			<svg viewBox="0 0 64 48">
+				<path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+				<path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+				<path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+			</svg>
+		</button>
+	</div>
+</header>
+
+
+----------------------------------------------------------------------
+
+
+:root {
+	--header-bg-color: #010314;
+
+	--link-color: rgba(255, 255, 255, 0.5);
+	--link-hover-color: rgba(255, 255, 255, 1);
+	--link-active-color: rgba(255, 255, 255, 1);
+
+	--nav-bg-color: #010314;
+
+	--btn-secondary-bg-color: #ffffff;
+	--btn-secondary-color: #0e1014;
+	--btn-secondary-shadow-color: rgba(0, 0, 0, 0.1);
+	--btn-secondary-hover-bg-color: #3f71f6;
+	--btn-secondary-hover-color: #ffffff;
+	--btn-secondary-hover-border-color: #3f71f6;
+	--btn-secondary-hover-shadow-color: rgba(63, 113, 246, 0.3);
+	--btn-secondary-active-bg-color: #2a53b5;
+	--btn-secondary-active-shadow-color: rgba(0, 0, 0, 0.2);
+	--btn-secondary-focus-color: #ffffff;
+	--btn-secondary-focus-shadow-color: rgba(63, 113, 246, 0.5);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1440 - 320)));
+}
+
+ul {
+	list-style: none;
+}
+
+@mixin link {
+	padding: 14px 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	text-decoration: none;
+	cursor: pointer;
+	&:hover {
+		color: var(--link-hover-color);
+		transition: all 0.3s ease-in-out;
+		text-shadow: 0 0 3px rgba(255, 255, 255, 0.8),
+			0 0 15px rgba(255, 255, 255, 0.6);
+	}
+	&:active {
+		color: var(--link-active-color);
+		text-shadow: 0 0 3px rgba(255, 255, 255, 0.8),
+			0 0 15px rgba(255, 255, 255, 0.6);
+	}
+}
+
+@mixin btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	border-radius: 0;
+	border: 1px solid transparent;
+	background-color: transaprent;
+}
+
+.logo {
+	width: 100%;
+	max-width: 200px;
+	height: 100%;
+	max-height: 35px;
+	display: block;
+	&.primary {
+		width: 200px;
+		min-width: 200px;
+		height: 35px;
+		min-height: 35px;
+		background: url(https://cdn.worldvectorlogo.com/logos/codepen.svg) no-repeat
+			50% 50% / contain;
+	}
+}
+
+.btn {
+	@include btn;
+	&.secondary {
+		height: 50px;
+		padding: 11px 16px;
+		border-radius: 10px;
+		background-color: var(--btn-secondary-bg-color);
+		color: var(--btn-secondary-color);
+		font-weight: 500;
+		transition: all 0.3s ease;
+		box-shadow: 0 4px 6px var(--btn-secondary-shadow-color);
+		&:hover {
+			background-color: var(--btn-secondary-hover-bg-color);
+			color: var(--btn-secondary-hover-color);
+			border: 1px solid var(--btn-secondary-hover-border-color);
+			box-shadow: 0 8px 16px var(--btn-secondary-hover-shadow-color);
+			transform: translateY(-3px);
+		}
+		&:active {
+			background-color: var(--btn-secondary-active-bg-color);
+			box-shadow: 0 4px 10px var(--btn-secondary-active-shadow-color);
+			transform: translateY(2px);
+		}
+		&:focus {
+			outline: none;
+			box-shadow: 0 0 0 3px var(--btn-secondary-focus-shadow-color);
+			&:not(:hover) {
+				background-color: var(--btn-secondary-bg-color);
+				color: var(--btn-secondary-color);
+				border: 1px solid transparent;
+				box-shadow: 0 4px 6px var(--btn-secondary-shadow-color);
+			}
+		}
+	}
+}
+
+.btn-menu {
+	width: 50px;
+	min-width: 50px;
+	height: 50px;
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	background-color: var(--btn-secondary-bg-color);
+	cursor: pointer;
+
+	svg {
+		width: 50px;
+		height: 50px;
+		stroke: var(--btn-secondary-color);
+		stroke-width: 2px;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		fill: none;
+		display: block;
+		position: absolute;
+
+		path {
+			transition: stroke-dasharray 0.85s ease 0s, stroke-dashoffset 0.85s ease 0s;
+			stroke-dasharray: 26px 100px;
+			stroke-dashoffset: 126px;
+			transform: translateZ(0);
+
+			&:nth-child(2) {
+				transition-duration: 0.7s;
+				transition-timing-function: ease-in;
+				stroke-dashoffset: 100px;
+				stroke-dasharray: 26px 74px;
+			}
+
+			&:nth-child(3) {
+				stroke-dashoffset: 133px;
+				stroke-dasharray: 26px 107px;
+			}
+		}
+	}
+
+	&.active {
+		svg {
+			path {
+				stroke-dashoffset: 57px;
+
+				&:nth-child(1),
+				&:nth-child(3) {
+					transition-delay: 0.15s;
+					transition-timing-function: cubic-bezier(0.2, 0.4, 0.2, 1.1);
+				}
+
+				&:nth-child(2) {
+					transition-duration: 0.4s;
+					stroke-dashoffset: 2px;
+					stroke-dasharray: 1px 100px;
+				}
+
+				&:nth-child(3) {
+					stroke-dashoffset: 58px;
+				}
+			}
+		}
+	}
+}
+
+.section {
+	&.header {
+		padding: 20px 5vw;
+		@media screen and (min-width: 768px) and (max-width: 1239.98px) {
+			padding: 20px;
+		}
+		@media screen and (max-width: 767.98px) {
+			padding: 20px;
+		}
+	}
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	background-color: var(--header-bg-color);
+	&__logo {
+		min-width: 200px;
+	}
+	&__btns {
+		min-width: 200px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 20px;
+		@media screen and (max-width: 463.98px) {
+			min-width: auto;
+		}
+		& .btn-menu {
+			display: none;
+			@media screen and (min-width: 768px) and (max-width: 1239.98px) {
+				display: flex;
+			}
+			@media screen and (max-width: 767.98px) {
+				display: flex;
+			}
+		}
+		& > .btn.secondary {
+			@media screen and (max-width: 767.98px) {
+				display: none;
+			}
+		}
+	}
+}
+
+.nav {
+	@media screen and (min-width: 768px) and (max-width: 1239.98px) {
+		position: fixed;
+		top: 0;
+		right: -100vw;
+		width: 300px;
+		height: 100vh;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		transition: right 0.3s ease-in-out;
+		background-color: var(--nav-bg-color);
+		&.show {
+			right: 0;
+		}
+	}
+	@media screen and (max-width: 767.98px) {
+		position: fixed;
+		top: 0;
+		right: -100vw;
+		width: 300px;
+		height: 100vh;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		transition: right 0.3s ease-in-out;
+		background-color: var(--nav-bg-color);
+		&.show {
+			right: 0;
+		}
+	}
+	&__list {
+		display: flex;
+		align-items: center;
+
+		@media screen and (min-width: 768px) and (max-width: 1239.98px) {
+			width: 100%;
+			flex-direction: column;
+			margin: auto;
+		}
+		@media screen and (max-width: 767.98px) {
+			width: 100%;
+			flex-direction: column;
+			margin: auto;
+		}
+	}
+	&__item {
+		width: 100%;
+		flex: 1 1 calc(100% / 6 - 20px);
+		&.active {
+			& .nav__link {
+				color: var(--link-active-color);
+				text-shadow: 0 0 3px rgba(255, 255, 255, 0.8),
+					0 0 15px rgba(255, 255, 255, 0.6);
+			}
+		}
+	}
+	&__link {
+		@include link;
+
+		color: var(--link-color);
+		white-space: nowrap;
+		transition: all 0.3s ease-in-out;
+	}
+
+	& .btn.secondary {
+		display: none;
+		@media screen and (max-width: 767.98px) {
+			display: flex;
+			width: 100%;
+		}
+	}
+}
+
+
+--------------------------------------------------------------------
+
+
+document.querySelectorAll(".btn-menu").forEach((btn) => {
+	btn.addEventListener("click", (e) => {
+		btn.classList.toggle("active");
+	});
+});
+
+const toggleMenu = document.getElementById("toggleNav");
+const menu = document.getElementById("nav");
+
+toggleMenu.addEventListener("click", () => {
+	menu.classList.toggle("show");
+});
+
+
+
+===================== Header page 1.1 codepen ========================
