@@ -1,0 +1,31 @@
+============ create FTP Account using c panel ==============
+
+
+Step 1 :  open C panel
+
+
+Step 2 :  look in file section 
+
+
+Step 3 :  click FTP Account
+
+
+Step 4 : 
+
+1. domain name ok
+
+2. create FTP Id 
+
+3. create password (you can also add generate strong password )
+
+
+Step 5 :  Directory (Defalut)  (path add kar sakte ho aage piche but yeh defalut rahta hai)
+
+
+Step 6 :  Quota MB Size ( Defalut )
+
+
+Step 7 :  Create Ok 
+
+
+============ create fpt account using c panel ==============
