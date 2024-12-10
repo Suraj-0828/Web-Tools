@@ -1,0 +1,24 @@
+============= C panel Business Email id create ==============
+
+
+
+Step 1 : open c panel
+
+
+Step 2 : look Email section
+
+
+Step 3 : Click Email Account
+
+
+Step 4 : click right side -> create button
+
+
+Step 5 : Add username or password    ( also  you can generate strong password )
+
+
+Step 6 : Create Okay
+
+
+
+============= C panel Business Email id create ==============
