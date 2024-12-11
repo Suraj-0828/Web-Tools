@@ -1,0 +1,18 @@
+================ background image using inline css ==================
+
+
+<div style="background-image: url('your-image-path.jpg');"></div>
+
+
+----------------------------------------------------
+
+
+<div style="background-image: url('https://example.com/image.jpg'); 
+                height: 300px; 
+                width: 500px; 
+                background-size: cover; 
+                background-position: center;">
+    </div>
+
+
+================ background image using inline css ==================
