@@ -1,14 +1,18 @@
 ============================ ((( recaptcha ))) ==============================
+
+SiteKey sir dete hai client ke Domain se
+securite key yeh bhi dete hai   ( Isme sirf sitekey use hua hai securite key nahi hai )
+
 -------------- Form ----------------------
 
 <div class="form-group col-12 form-row">
      <div class="g-recaptcha hide15" required data-sitekey="6Le1WxsqAAAAAEt2xVlOaA1VxIKOuMJJ0w5JERGw"></div>
-    ((( <span id="captcha" class="text-danger"></span>  )))
+     <span id="captcha" class="text-danger"></span>  
 </div>
 
 ----------------Submit Button ------------------------------
 
-<button type="submit" ((( id="submitContact" ))) class="th-btn btn-fw"><span>Submit Now<i class="icon far fa-angle-right"></i></span></button>
+<button type="submit"  id="submitContact"  class="th-btn btn-fw"><span>Submit Now<i class="icon far fa-angle-right"></i></span></button>
 
 ----------------- Javascript Link -----------------------
 
