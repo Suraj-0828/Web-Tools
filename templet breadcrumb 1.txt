@@ -1,0 +1,113 @@
+================== templet breadcrumb 1 =================
+
+
+<!--<< Breadcrumb Section Start >>-->
+        <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/bg-header-banner.jpg');">
+            <div class="container">
+                <div class="page-heading">
+                    <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".3s">
+                        <li>
+                            <a href="index.php">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>
+                        </li>
+                        <li>
+                            About Us
+                        </li>
+                    </ul>
+                    <h1 class="wow fadeInUp" data-wow-delay=".5s">About Us</h1>
+                </div>
+            </div>
+        </div>
+
+--------------------------------------------------------
+
+
+.breadcrumb-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.breadcrumb-wrapper::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(12, 20, 46, 0.6);
+}
+.breadcrumb-wrapper .page-heading {
+  position: relative;
+  padding: 140px 0;
+  text-align: center;
+  z-index: 9;
+}
+@media (max-width: 991px) {
+  .breadcrumb-wrapper .page-heading {
+    padding: 120px 0;
+  }
+}
+@media (max-width: 767px) {
+  .breadcrumb-wrapper .page-heading {
+    padding: 100px 0;
+  }
+}
+@media (max-width: 575px) {
+  .breadcrumb-wrapper .page-heading {
+    padding: 80px 0;
+  }
+}
+.breadcrumb-wrapper .page-heading .breadcrumb-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+@media (max-width: 575px) {
+  .breadcrumb-wrapper .page-heading .breadcrumb-items {
+    margin-top: 15px;
+  }
+}
+.breadcrumb-wrapper .page-heading .breadcrumb-items li {
+  color: rgba(255, 255, 255, 0.7019607843);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+}
+.breadcrumb-wrapper .page-heading .breadcrumb-items li a {
+  color: rgba(255, 255, 255, 0.7019607843);
+  transition: all 0.4s ease-in-out;
+}
+.breadcrumb-wrapper .page-heading .breadcrumb-items li a:hover {
+  color: var(--theme);
+}
+.breadcrumb-wrapper .page-heading .breadcrumb-items li i {
+  color: rgba(255, 255, 255, 0.7019607843);
+}
+.breadcrumb-wrapper .page-heading h1 {
+  color: var(--white);
+  font-size: 50px;
+  position: relative;
+  z-index: 9;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  .breadcrumb-wrapper .page-heading h1 {
+    font-size: 42px;
+  }
+}
+@media (max-width: 575px) {
+  .breadcrumb-wrapper .page-heading h1 {
+    font-size: 36px;
+  }
+}
+
+
+
+================== templet breadcrumb 1 =================

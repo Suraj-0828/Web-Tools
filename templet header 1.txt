@@ -1,0 +1,473 @@
+=============== templet header 1 ===============
+
+
+<!-- Offcanvas Area Start -->
+<div class="fix-area">
+    <div class="offcanvas__info">
+        <div class="offcanvas__wrapper">
+            <div class="offcanvas__content">
+                <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                    <div class="offcanvas__logo">
+                        <a href="index.php">
+                            <img class="logo-fix" src="assets/img/about/logo-3.png" alt="logo-img">
+                        </a>
+                    </div>
+                    <div class="offcanvas__close">
+                        <button>
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                <p class="text d-none d-xl-block">
+                    Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                </p>
+                <div class="mobile-menu fix mb-3"></div>
+                <div class="offcanvas__contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li class="d-flex align-items-center">
+                            <div class="offcanvas__contact-icon">
+                                <i class="fal fa-map-marker-alt"></i>
+                            </div>
+                            <div class="offcanvas__contact-text">
+                                <a target="_blank" href="#">7 Yawini Street, Lautoka.</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <div class="offcanvas__contact-icon mr-15">
+                                <i class="fal fa-envelope"></i>
+                            </div>
+                            <div class="offcanvas__contact-text">
+                                <a href="mailto:naidurentalsfj@gmail.com"><span class="mailto:naidurentalsfj@gmail.com"> naidurentalsfj@gmail.com</span></a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <div class="offcanvas__contact-icon mr-15">
+                                <i class="fal fa-clock"></i>
+                            </div>
+                            <div class="offcanvas__contact-text">
+                                <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <div class="offcanvas__contact-icon mr-15">
+                                <i class="far fa-phone"></i>
+                            </div>
+                            <div class="offcanvas__contact-text">
+                                <a href="tel:+11002345909">+91-xxxxxxxxxx</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="header-button mt-4">
+                        <a href="contact.html" class="theme-btn text-center">
+                            <span>Get A Quote<i class="fa-solid fa-arrow-right-long"></i></span>
+                        </a>
+                    </div>
+                    <div class="social-icon d-flex align-items-center">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="offcanvas__overlay"></div>
+
+<!-- Header Section Start -->
+<header class="header-section">
+    <div class="header-top-section style-two">
+        <div class="container-fluid">
+            <div class="header-top-wrapper style-2">
+                <ul class="contact-list">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto: naidurentalsfj@gmail.com" class="link"> naidurentalsfj@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        7 Yawini Street, Lautoka.
+                    </li>
+                </ul>
+                <div class="header-top-right">
+                    <div class="social-icon d-flex align-items-center">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header-sticky" class="header-3">
+        <div class="container-fluid">
+            <div class="mega-menu-wrapper">
+                <div class="header-main">
+                    <div class="header-left">
+                        <div class="logo">
+                            <a href="index.php" class="header-logo-1">
+                                <img class="logo-fix" src="assets/img/about/logo-2.png" alt="logo-img">
+                            </a>
+                            <a href="index.php" class="header-logo-2">
+                                <img class="logo-fix" src="assets/img/about/logo-2.png" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="mean__menu-wrapper">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="index.php">
+                                                Home
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="about-us.php">
+                                                About Us
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="our-fleet.php">
+                                            Our Fleet
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="faq.php">
+                                            FAQ
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="contact-us.php">
+                                                Contact Us
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-right d-flex justify-content-end align-items-center">
+                        <div class="icon-items">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="content">
+                                <p>Call Anytime</p>
+                                <h6><a href="tel:+9288009850">+91-xxxxxxxxxx</a></h6>
+                            </div>
+                        </div>
+                        
+        
+                        <div class="header__hamburger d-xl-none my-auto">
+                            <div class="sidebar__toggle">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+-----------------------------------------------------
+
+
+.header-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.header-3 .container-fluid {
+  padding: 0 60px;
+}
+@media (max-width: 1399px) {
+  .header-3 .container-fluid {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 991px) {
+  .header-3 .container-fluid {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 575px) {
+  .header-3 .container-fluid {
+    padding: 0 15px;
+  }
+}
+.header-3 .header-main .main-menu ul li a {
+  color: var(--white);
+}
+.header-3 .header-main .main-menu ul li a:hover {
+  color: var(--theme) !important;
+}
+.header-3 .header-main .header-left {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+}
+.header-3 .header-main .header-left .header-logo-2 {
+  display: none;
+}
+.header-3 .header-main .header-right {
+  gap: 70px;
+}
+@media (max-width: 1199px) {
+  .header-3 .header-main .header-right {
+    gap: 25px;
+  }
+}
+.header-3 .header-main .header-right .search-icon {
+  color: var(--white);
+  font-size: 24px;
+  border-left: 1px solid var(--border);
+  padding-left: 30px;
+}
+.header-3 .header-main .header-right .search-icon:hover {
+  color: var(--theme);
+}
+@media (max-width: 1199px) {
+  .header-3 .header-main .header-right .search-icon {
+    border: none;
+    padding: 0;
+  }
+}
+@media (max-width: 1600px) {
+  .header-3 .header-main .header-right .header-button {
+    display: none;
+  }
+}
+.header-3 .header-main .header-right .icon-items {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+@media (max-width: 1399px) {
+  .header-3 .header-main .header-right .icon-items {
+    display: none;
+  }
+}
+.header-3 .header-main .header-right .icon-items .icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.101);
+  color: var(--white);
+}
+.header-3 .header-main .header-right .icon-items .content p {
+  color: var(--white);
+  font-size: 14px;
+}
+.header-3 .header-main .header-right .icon-items .content h6 {
+  font-size: 16px;
+}
+.header-3 .header-main .header-right .icon-items .content h6 a {
+  color: var(--white);
+}
+.header-3 .header-main .header-right .header__hamburger .sidebar__toggle {
+  font-size: 20px;
+  color: var(--white);
+}
+
+.sidebar__toggle {
+  cursor: pointer;
+}
+
+.sticky {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: all 0.9s;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+.sticky.header-3 .header-main .main-menu ul li a {
+  color: var(--header);
+}
+.sticky.header-3 .header-main .main-menu ul li a:hover {
+  color: var(--theme);
+}
+.sticky.header-3 .header-main .header-right .search-icon {
+  color: var(--header);
+}
+.sticky.header-3 .header-main .header-right .search-icon:hover {
+  color: var(--theme);
+}
+.sticky.header-3 .header-main .header-right .icon-items .icon {
+  background-color: var(--theme);
+  color: var(--white);
+}
+.sticky.header-3 .header-main .header-right .icon-items .content p {
+  color: var(--text);
+}
+.sticky.header-3 .header-main .header-right .icon-items .content h6 a {
+  color: var(--header);
+}
+.sticky.header-3 .header-main .header-right .header__hamburger .sidebar__toggle {
+  color: var(--header);
+}
+.sticky.header-3 .header-left .header-logo-1 {
+  display: none;
+}
+.sticky.header-3 .header-left .header-logo-2 {
+  display: block;
+}
+
+.offcanvas__info {
+  background: var(--bg) none repeat scroll 0 0;
+  border-left: 2px solid var(--theme2);
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 400px;
+  height: 100%;
+  -webkit-transform: translateX(calc(100% + 80px));
+  -moz-transform: translateX(calc(100% + 80px));
+  -ms-transform: translateX(calc(100% + 80px));
+  -o-transform: translateX(calc(100% + 80px));
+  transform: translateX(calc(100% + 80px));
+  -webkit-transition: transform 0.45s ease-in-out, opacity 0.45s ease-in-out;
+  -moz-transition: transform 0.45s ease-in-out, opacity 0.45s ease-in-out;
+  transition: transform 0.45s ease-in-out, opacity 0.45s ease-in-out;
+  z-index: 99999;
+  overflow-y: scroll;
+  overscroll-behavior-y: contain;
+  scrollbar-width: none;
+}
+.offcanvas__info::-webkit-scrollbar {
+  display: none;
+}
+
+.offcanvas__info.info-open {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.offcanvas__logo a img {
+  width: 150px;
+}
+
+.offcanvas__wrapper {
+  position: relative;
+  height: 100%;
+  padding: 30px 30px;
+}
+.offcanvas__wrapper .offcanvas__content .text {
+  color: var(--text);
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__close {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--theme);
+  position: relative;
+  z-index: 9;
+  cursor: pointer;
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__close i {
+  color: var(--white);
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact {
+  margin-top: 20px;
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul {
+  margin-top: 20px;
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li a {
+  color: var(--text);
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li .offcanvas__contact-icon {
+  margin-right: 20px;
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li .offcanvas__contact-icon i {
+  color: var(--theme);
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact span {
+  text-transform: initial;
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact .header-button .theme-btn {
+  width: 100%;
+  padding: 16px 40px;
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact .social-icon {
+  margin-top: 30px;
+  gap: 10px;
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact .social-icon a {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  background: transparent;
+  color: var(--text);
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+  border: 1px solid var(--border);
+}
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact .social-icon a:hover {
+  background-color: var(--theme);
+  color: var(--white);
+}
+
+.offcanvas__overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #151515;
+  z-index: 900;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  right: 0;
+}
+
+.offcanvas__overlay.overlay-open {
+  opacity: 0.8;
+  visibility: visible;
+}
+
+@media (max-width: 450px) {
+  .offcanvas__info {
+    width: 300px;
+  }
+}
+@media (max-width: 575px) {
+  .offcanvas__wrapper {
+    padding: 20px;
+  }
+}
+
+
+=============== templet header 1 ===============
