@@ -1,0 +1,39 @@
+=========== placeholder color ============
+
+css 
+
+
+/* Placeholder color change */
+input::placeholder {
+  color: gray; /* Placeholder ka desired color */
+  font-style: italic; /* Optional: style change */
+}
+
+textarea::placeholder {
+  color: gray; /* Placeholder ka desired color */
+  font-style: italic; /* Optional: style change */
+}
+
+
+-----------------------
+
+
+inline css
+
+
+<input type="text" placeholder="Your Name" style="color: gray;" />
+
+
+
+--------------------------
+
+
+for all browser 
+
+
+input[name="email"]::placeholder {
+  color: blue; /* Specific field ke liye color */
+}
+
+
+=========== placeholder color ============

@@ -1,0 +1,121 @@
+=========== Our team section ==========
+
+left right section
+
+-----------------------------------------------
+
+
+ <!-- Team Start -->
+        <div class="rs-team-single pt-20 pb-20 md-pt-80 md-pb-80">
+            <div class="container">
+                <div class="btm-info-team">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 md-mb-50">
+                            <div class="images-part">
+                                <img src="assets/images/team/1.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="con-info">
+                                <span class="designation-info">Head - (HR Operations and client relations.)</span>
+                                <h2 class="title">Ms. Pooja Sharma</h2>
+                                <div class="short-desc">
+                                Pooja Sharma is the Head of HR Operations & Client Relations at Keephuman Management Pvt. Ltd. With her meticulous approach, strong discipline, and work ethic, she drives Administration and Operations at Keephuman. Adept at Personnel Management, she inspires her team to deliver time-efficient and high-quality services
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+<!-- Team Start -->
+        <div class="rs-team-single pt-20 pb-20 md-pt-80 md-pb-80">
+            <div class="container">
+                <div class="btm-info-team">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8">
+                            <div class="con-info">
+                                <span class="designation-info">Head of Accounts & Finance</span>
+                                <h2 class="title">Mr. Anurag Pandey </h2>
+                                <div class="short-desc">
+                                With over 7 years of experience in financial management and strategic planning, Mr. Anurag Pandey serves as the Head of Accounts & Finance at Keephuman Management Pvt. Ltd. He brings a wealth of knowledge and expertise to the role, driving financial excellence and fostering sustainable growth. Mr. Pandey has been instrumental in implementing robust financial controls, optimizing operational efficiency, and leading successful financial transformations at Keephuman Management Pvt. Ltd.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 md-mb-50">
+                            <div class="images-part">
+                                <img src="assets/images/team/1.jpg" alt="images">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+-----------------------------------------------------------------
+
+
+.text-center {
+    text-align: center !important;
+}
+h1 {
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 700;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.rs-team-single .btm-info-team {
+    position: relative;
+    box-shadow: 0px 0px 32px 0px rgba(7, 28, 31, 0.05);
+    background: #fff;
+    padding: 40px;
+}
+
+.rs-team-single .btm-info-team .images-part {
+    padding: 0 30px 0 0;
+}
+
+.rs-team-single .btm-info-team .con-info .short-desc {
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #454545;
+    margin-bottom: 25px;
+}
+
+.rs-team-single .btm-info-team .con-info .title {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    color: #101010;
+    margin-bottom: 15px;
+}
+
+.rs-team-single .btm-info-team .con-info .short-desc {
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #454545;
+    margin-bottom: 25px;
+}
+
+.rs-team-single .btm-info-team .con-info .short-desc {
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #454545;
+    margin-bottom: 25px;
+}
+
+
+=========== Our team section ==========
+
