@@ -1,0 +1,193 @@
+=================== images circle round animation ====================
+
+
+
+<!--==================================================-->
+	<!-- Start Toptech Working Process Area  Style Two-->
+	<!--==================================================-->
+	<div class="working-proces-area style-two mt-1" style="padding: 67px 0 40px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-title center style-two">
+						<h1>Why Choose Us?</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="working-process-box before-transprent after-transprent">
+						<div class="process-thumb">
+							<img src="assets/images/home-2/process-1.png" alt="">
+
+						</div>
+						<div class="process-content">
+							<h4>Personalized Service</h4>
+							<p>Dedicated Account Managers respond to your needs instantly.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="working-process-box after-transprent">
+						<div class="process-thumb">
+							<img src="assets/images/home-2/process-2.png" alt="">
+
+						</div>
+						<div class="process-content">
+							<h4>Compliance Covered</h4>
+							<p>We handle all legal and process requirements seamlessly.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="working-process-box before-transprent">
+						<div class="process-thumb">
+							<img src="assets/images/home-2/process-3.png" alt="">
+
+						</div>
+						<div class="process-content">
+							<h4>Trusted Partner</h4>
+							<p>Top companies trust us for reliable recruitment services.</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-lg-3 col-md-6">
+					<div class="working-process-box after-transprent">
+						<div class="process-thumb">
+							<img src="assets/images/home-2/process-2.png" alt="">
+
+						</div>
+						<div class="process-content">
+							<h4>Pan India Support</h4>
+							<p>Our presence ensures service anywhere in India.</p>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!-- End Toptech Working Process Area  Style Two-->
+	<!--==================================================-->
+
+
+
+-------------------------------------------------------------------------------
+
+
+/*---=====================================================
+   <!--Toptech Portfolio Area Css Home Two-->
+=========================================================---*/
+.style-two.working-proces-area {
+    background: #021533;
+    padding: 98px 0 90px;
+    margin-top: -79px;
+}
+
+.style-two.working-proces-area .section-title.center {
+    margin-bottom: 72px;
+}
+
+.style-two.working-proces-area .section-title h1 {
+    font-size: 42px;
+    color: #ffff;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+
+.style-two .working-process-box {
+    text-align: center;
+    padding: 0 50px 0;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.style-two .working-process-box:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: -81px;
+    top: 73px;
+    background: url(../images/home-2/porcess-shape1.png);
+    background-repeat: no-repeat;
+}
+
+.style-two .working-process-box.before-transprent:before {
+    background: transparent;
+}
+
+.style-two .working-process-box:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: -81px;
+    top: 73px;
+    background: url(../images/home-2/porcess-shape2.png);
+    background-repeat: no-repeat;
+}
+
+.style-two .working-process-box.after-transprent:after {
+    background: transparent;
+}
+
+.style-two .process-thumb {
+    position: relative;
+    margin-bottom: 44px;
+}
+
+.style-two .process-thumb:before {
+    position: absolute;
+    content: "";
+    width: 244px;
+    height: 244px;
+    left: 36px;
+    top: -13px;
+    border: 2px dashed #0c5adb;
+    border-radius: 50%;
+    animation: rotateme 20s linear infinite;
+}
+
+.style-two .process-number span {
+    position: absolute;
+    left: 12%;
+    top: 13%;
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0c5adb;
+    transition: .5s;
+}
+
+.style-two .process-number.two span {
+    left: 11%;
+    top: 69%;
+}
+
+.style-two .process-content h4 {
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 0 10px;
+    transition: .5s;
+}
+
+.style-two .process-content p {
+    opacity: 0.502;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
+    transition: .5s;
+}
+
+
+
+=================== images circle round animation ====================

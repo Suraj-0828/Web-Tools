@@ -1,0 +1,278 @@
+==================== vision or mission or core value ========================
+
+<div class="feature-area style-two" style="background: #f3f8fd;">
+		<div class="container pt-5">
+			<div class="row ">
+				<div class="col-lg-3 col-md-6">
+					<div class="single-feature-box text-center shadow-box">
+						<div class="feature-icon">
+							<img src="assets/images/vision.png" alt="">
+						</div>
+						<div class="feature-content">
+							<h4>Our Vision</h4>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-6">
+					<div class="vis shadow-box" style="  padding: 26px 30px 18px;">
+						<div class="single-choose-us-item feature-content">
+							<div class="mission-content">
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 10px;">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0">To become a trusted leader in HR consultancy and recruitment.</p>
+									</div>
+								</div>
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 10px;">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0">To bridge the gap between talent and opportunities effectively.</p>
+									</div>
+								</div>
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 10px;">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0">To empower businesses with innovative workforce solutions.</p>
+									</div>
+								</div>
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 10px;">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0">To contribute to organizational success through tailored HR strategies.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container pt-5 ">
+			<div class="row ">
+				<div class="col-lg-3 col-md-6">
+					<div class="single-feature-box text-center shadow-box">
+						<div class="feature-icon">
+							<img src="assets/images/mission.png" alt="">
+						</div>
+						<div class="feature-content">
+							<h4>Our Mission</h4>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-6">
+					<div class="vis shadow-box" style="  padding: 26px 30px 18px;">
+						<div class="single-choose-us-item feature-content">
+							<div class="mission-content">
+
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 10px;">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0">To deliver reliable and efficient recruitment services across industries.</p>
+									</div>
+								</div>
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 10px;">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0">To simplify HR challenges for our clients with expert solutions.</p>
+									</div>
+								</div>
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 10px;">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0">To provide opportunities that match skills with the right roles.</p>
+									</div>
+								</div>
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 10px;">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0">To build lasting relationships based on trust and mutual growth.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container pt-5 pb-5">
+			<div class="row ">
+				<div class="col-lg-3 col-md-6">
+					<div class="single-feature-box text-center shadow-box">
+						<div class="feature-icon">
+							<img src="assets/images/value.png" alt="">
+						</div>
+						<div class="feature-content">
+							<h4>Our Value</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-6">
+					<div class="vis shadow-box" style="  padding: 26px 30px 18px;">
+						<div class="single-choose-us-item feature-content">
+							<div class="mission-content">
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 15px;    ">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0"><b>Integrity:</b> Maintaining honesty and transparency in all interactions.</p>
+									</div>
+								</div>
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 10px;">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0"><b>Excellence:</b> Delivering services that exceed client expectations.</p>
+									</div>
+								</div>
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 10px;">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0"><b>Innovation:</b> Adopting modern practices to stay ahead in the industry.</p>
+									</div>
+								</div>
+								<div class="single-icon-box d-flex  pb-2" style="column-gap: 10px;">
+									<div class="about-icon">
+										<img src="assets/images/about-inner/about-icon.png" alt="">
+									</div>
+									<div class="sigle-icon-desc">
+										<p class="mb-0"><b>Commitment:</b> Ensuring quality and timely delivery in all our solutions.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+---------------------------------------------------------------------------------
+
+
+
+.style-two.feature-area {
+    padding: 22px 0 0;
+}
+
+.pt-5 {
+    padding-top: 3rem !important;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+}
+
+.style-two .single-feature-box {
+    /* text-align: center; */
+    filter: drop-shadow(0px 10px 10px rgba(207, 218, 235, 0.2));
+    background: #fff;
+    padding: 56px 42px 33px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 23px;
+}
+
+.shadow-box {
+    box-shadow: rgb(100 100 111 / 49%) 0px 7px 29px 0px;
+}
+
+.pb-2 {
+    padding-bottom: .5rem !important;
+}
+
+.d-flex {
+    display: flex !important
+;
+}
+
+.style-two .feature-icon:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 201%;
+    left: 0;
+    right: 0;
+    top: -30px;
+    background: url(../images/home-2/feature-shape-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.style-two .feature-content h4 {
+    transition: .5s;
+    padding: 35px 0 13px 0;
+    font-size: 26px;
+    color: #041424;
+    font-weight: 700;
+    font-family: "Rajdhani";
+    text-align: center;
+}
+
+.style-two .single-feature-box {
+    /* text-align: center; */
+    filter: drop-shadow(0px 10px 10px rgba(207, 218, 235, 0.2));
+    background: #fff;
+    padding: 56px 42px 33px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 23px;
+}
+
+.style-two.feature-area {
+    padding: 22px 0 0;
+}
+
+
+==================== vision or mission or core value ========================
