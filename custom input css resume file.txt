@@ -1,0 +1,15 @@
+============ custom input css reume file =============
+
+
+<input class="from-control custom-input-css" type="file" id="file" name="document1" placeholder="" required="" required="">
+
+
+-----------------------------------
+
+
+.custom-input-css{
+    padding: 20px 20px !important;
+}
+
+
+============ custom input css reume file =============
