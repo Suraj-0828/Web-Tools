@@ -1,0 +1,78 @@
+============== about us section col 6 image col 6 text =================
+
+
+
+<section class="about-section">
+		<div class="container">
+			<div class="row align-items-center ">
+				<!-- Image -->
+				<div class="col-lg-6 mb-lg-0 about-img-padding">
+					<img src="assets/images/about-inner/background-verification.png" alt="About Us" class="img-fluid about-image">
+				</div>
+				<!-- Content -->
+				<div class="col-lg-6">
+					<div class="about-title">Ascent Enterprises & Ascent Risk Management Private Limited</div>
+					<div class="about-text">
+						Ascent Enterprises & Ascent Risk Management Private Limited is a preferred partner for providing human resource services to the best of industries across India since the year 2020, with intent to deliver integrated solutions.
+					</div>
+					<div class="about-text">
+						We are a tech-driven, people-oriented HR solutions company relentlessly delivering reliable and seamless end-to-end HR services to our partners. With over two decades of experience, PAN India reach, an exhaustive database, and automation, we are determined to offer the right workforce for you.
+					</div>
+					<a href="#contact" class="custom-button">Contact Now</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+------------------------------------------------------------------------------
+
+
+
+.about-section {
+    padding: 70px 0;
+    background-color: #f8f9fa;
+}
+
+.about-title {
+    color: #000;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.about-img-padding {
+    padding-right: 50px;
+}
+
+.custom-button {
+    background-color: #ff6f42;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.custom-button:hover {
+    background-color: #e95e35;
+    color: #fff;
+}
+
+.about-image {
+    border-radius: 8px;
+}
+
+
+============== about us section col 6 image col 6 text =================
