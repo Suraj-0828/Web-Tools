@@ -1,0 +1,37 @@
+============== vertical fixed button ==================
+
+
+
+<a href="#contact" class="fix-button-1 btn">Book a Consultation</a>
+
+
+
+---------------------------------------------
+
+
+
+.fix-button-1 {
+  position: fixed; /* Fixes the button on the screen */
+  top: 50%; /* Centers the button vertically */
+  right: 0; /* Fixes the button to the right edge */
+  transform: translateY(-50%); /* Adjusts for exact vertical centering */
+  writing-mode: vertical-rl; /* Rotates text vertically */
+  transform-origin: center; /* Ensures the text rotates around its center */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  text-align: center;
+  padding: 10px 15px; /* Adjust padding as needed */
+  border: none; /* Removes border */
+  border-radius: 5px 0 0 5px; /* Optional: rounded left corner */
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none; /* Removes underline from the link */
+}
+
+.fix-button-1:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+
+
+============== vertical fixed button ==================
