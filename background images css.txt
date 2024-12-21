@@ -1,0 +1,15 @@
+================ background images css =================
+
+
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-image: url('your-image.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Makes the image cover the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+================ background images css =================
