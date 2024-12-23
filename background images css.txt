@@ -12,4 +12,10 @@
 }
 
 
+-----------------------------------------------
+
+
+If it is not working then also you can use inline css ( Important )
+
+
 ================ background images css =================
