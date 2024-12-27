@@ -1,0 +1,35 @@
+============== social icon flex ===============
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+------------------------------------
+
+
+ .social-icons {
+            display: flex;
+            gap: 10px;
+            font-size: 24px;
+        }
+        .social-icons i {
+            color: #333;
+            transition: color 0.3s;
+        }
+        .social-icons i:hover {
+            color: #007bff; /* Change color on hover */
+        }
+
+
+-----------------------------------
+
+
+<div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+    </div>
+
+
+
+============== social icon flex ===============
