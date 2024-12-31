@@ -1,0 +1,114 @@
+================== google submission process =================
+
+
+
+
+Google Submission ka Complete Process (Step-by-Step)
+Step 1: Google Search Console Setup
+Google Search Console Open Karein:
+Google Search Console par jaayein.
+
+
+Login Karein:
+Apne ya client ke Gmail account se login karein (preferably client ke account se).
+
+
+Website Property Add Karein:
+
+
+URL Prefix ka option select karein agar aap sirf ek specific URL verify karna chahte hain (e.g., https://example.com).
+Domain Property select karein agar aap puri domain (e.g., example.com aur uske subdomains) verify karna chahte hain.
+Verification Method Select Karein:
+
+
+Google aapko HTML file download karne ka option dega.
+File download karein aur website ke root directory me upload karein.
+Upload karne ke baad "Verify" button click karein.
+Step 2: Sitemap Submit Karein
+Sitemap File Generate Karein:
+
+
+Agar WordPress use kar rahe hain, to Yoast SEO ya Rank Math jaise plugins ka use karein.
+Agar custom website hai, to free tools ka use karke sitemap generate karein, jaise: XML Sitemap Generator.
+Sitemap URL Find Karein:
+
+
+Ye URL aksar hota hai:
+https://example.com/sitemap.xml.
+Sitemap Google Search Console Me Submit Karein:
+
+
+Google Search Console ke "Sitemap" section me jaayein.
+Sitemap URL paste karein aur "Submit" button par click karein.
+Step 3: Website URLs Index Karwana
+Manually URLs Submit Karein:
+
+
+Google Search Console me "URL Inspection Tool" par jaayein.
+Website ka har important page ka URL ek-ek karke paste karein aur "Request Indexing" button par click karein.
+Site Index Check Karein:
+
+
+Google me search karein:
+makefile
+Copy code
+site:example.com
+Agar URLs show ho rahe hain, to indexing successful hai. Agar nahi, to Google bots ko thoda time lagta hai.
+Step 4: Robots.txt File Check Karein
+Robots.txt File Banayein (Agar nahi hai):
+
+
+File ka content kuch aisa hona chahiye:
+makefile
+Copy code
+User-agent: *
+Disallow:
+Sitemap: https://example.com/sitemap.xml
+Is file ko website ke root directory me upload karein.
+Google Search Console Me Test Karein:
+
+
+Tools & Settings me "Robots.txt Tester" use karein.
+Step 5: Google Analytics Setup Karein
+Google Analytics Account Banayein:
+
+Google Analytics par jaayein aur new account create karein.
+Website ka name, URL aur other details fill karein.
+Tracking Code Add Karein:
+
+
+Aapko ek tracking ID milega (UA-XXXXXXXXX-X ya G-XXXXXXXXXX).
+Is code ko website ke <head> section me add karein.
+Real-time Tracking Test Karein:
+
+
+Analytics dashboard me "Real-time" section check karein aur ensure karein ki tracking work kar raha hai.
+Step 6: Website Speed Test Karein
+Google PageSpeed Insights par website test karein:
+PageSpeed Insights.
+Website ko optimize karein agar speed slow hai.
+Step 7: Mobile-Friendly Test Karein
+Google Mobile-Friendly Test Tool ka use karein:
+Mobile-Friendly Test.
+Ensure karein ki website responsive hai aur mobile pe properly work kar rahi hai.
+Step 8: Regular Monitoring aur Maintenance
+Performance Check Karein:
+
+
+Google Search Console me "Performance" tab me clicks aur impressions analyze karein.
+Errors Resolve Karein:
+
+
+"Coverage" tab me jaake crawling aur indexing errors fix karein.
+Backlinks Monitor Karein:
+
+
+"Links" tab me aapki website ke backlinks ki list milegi.
+Final Output:
+Aapki website Google me visible ho jayegi.
+Client ke liye analytics aur performance ka data access karna asaan ho jayega.
+Aap regular SEO aur maintenance kar sakenge.
+Agar kuch unclear ho ya kisi step me issue aaye, to poochhna bilkul mat bhoolna! 😊
+
+
+================== google submission process =================

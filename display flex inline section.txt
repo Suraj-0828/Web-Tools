@@ -1,0 +1,55 @@
+================ display flex inline section ================
+
+
+----------------------------------------
+
+
+Plan A
+
+<p><strong>Experience:</strong> 5 years &nbsp; | &nbsp; <strong>Salary:</strong> ₹20,000 &nbsp; | &nbsp; <strong>Education:</strong> Bachelor of Business Administration (BBA) / Master of Arts (M.A.)</p>
+
+
+-----------------------------------------
+
+
+
+Plan B   -  Using Bootstrap
+
+
+<div class="d-flex justify-content-between">
+  <div><strong>Experience:</strong> 5 years</div>
+  <div><strong>Salary:</strong> ₹20,000</div>
+  <div><strong>Education:</strong> BBA / M.A.</div>
+</div>
+
+
+--------------------------------------------
+
+
+
+Plan C   -  Using CSS
+
+
+<div class="info-container">
+  <div class="info-item"><strong>Experience:</strong> 5 years</div>
+  <div class="info-item"><strong>Salary:</strong> ₹20,000</div>
+  <div class="info-item"><strong>Education:</strong> BBA / M.A.</div>
+</div>
+
+
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-item {
+  margin: 0 10px; /* Adjust spacing between items */
+}
+
+
+--------------------------------------------
+
+
+================ display flex inline section ================
