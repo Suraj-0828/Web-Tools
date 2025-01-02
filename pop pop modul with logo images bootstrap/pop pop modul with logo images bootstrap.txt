@@ -25,7 +25,7 @@
 			<div class="modal-content shadow-lg rounded-3">
 				<div class="modal-header text-white">
 					<img src="assets/images/home/palash-logo.png" />
-					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+					<button type="button" class="btn-close btn-close-white mt-10" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 
 				<div class=" text-white pb-2 pt-1">
@@ -94,6 +94,10 @@
   border-top-right-radius: 15px;
   background-color: white;
   color: #fff;
+}
+
+.mt-10{
+  margin-top: 10px !important;
 }
 
 /* Input field styling */
