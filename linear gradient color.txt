@@ -1,0 +1,9 @@
+========== linear gradient color ==========
+
+
+
+ background: linear-gradient(204deg, #29AAE2 0%, #607ca2 100%);
+
+
+
+========== linear gradient color ==========

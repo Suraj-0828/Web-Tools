@@ -1,0 +1,18 @@
+========== background image with color ============
+
+
+
+/* Section Styling */
+.contact-section {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('your-image.jpg');
+  /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 30px;
+  color: #fff;
+}
+
+
+
+========== background image with color ============
