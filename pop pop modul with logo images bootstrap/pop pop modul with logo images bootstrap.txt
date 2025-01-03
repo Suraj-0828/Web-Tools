@@ -62,6 +62,7 @@
 
 ----------------------------------------------------------------------------------------------------
 
+// this javascript use when your page is open / website open then show pop up
 
 * Script *
     <script>
@@ -71,6 +72,46 @@
             }, 500);
         });
     </script>
+
+
+*********************************************************************************
+
+
+// this javascript use when you click button then show pop up modul  here use method id method ( work only one place )
+
+<!-- Button to Trigger Modal -->
+<button       id="open-popup-btn"      class="btn btn-primary">Open Popup</button>
+
+<!-- Script -->
+<script>
+    $(document).ready(function() {
+        // Show modal on button click
+        $('#open-popup-btn').on('click', function() {
+            $('#modal-subscribe').modal('show');
+        });
+    });
+</script>
+
+
+*********************************************************************************
+
+
+// this javascript use for multiple places beacuse here we write a code - class method ( work in multiple place )
+
+<!-- Buttons to Trigger Modal -->
+<button class="open-popup-btn btn btn-primary">Open Popup 1</button>
+<button class="open-popup-btn btn btn-secondary">Open Popup 2</button>
+<button class="open-popup-btn btn btn-success">Open Popup 3</button>
+
+
+<script>
+    $(document).ready(function() {
+        // Add click event listener to all buttons with the class 'open-popup-btn'
+        $(document).on('click', '.open-popup-btn', function() {
+            $('#modal-subscribe').modal('show');
+        });
+    });
+</script>
 
 
 ----------------------------------------------------------------------------------------------------
