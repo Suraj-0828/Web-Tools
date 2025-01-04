@@ -1,0 +1,151 @@
+============= brand slider section ===============
+
+# HTML
+
+
+  <!-- brand area start -->
+        <div class="brand__area grey-bg pt-50 pb-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="brand__slider owl-carousel">
+                            <div class="brand__item">
+                                <img src="assets/img/brand/s1.png" alt="">
+                            </div>
+                            <div class="brand__item">
+                                <img src="assets/img/brand/s2.png" alt="">
+                            </div>
+                            <div class="brand__item">
+                                <img src="assets/img/brand/s3.png" alt="">
+                            </div>
+                            <div class="brand__item">
+                                <img src="assets/img/brand/s4.png" alt="">
+                            </div>
+                            <div class="brand__item">
+                                <img src="assets/img/brand/s1.png" alt="">
+                            </div>
+                            <div class="brand__item">
+                                <img src="assets/img/brand/s2.png" alt="">
+                            </div>
+                            <div class="brand__item">
+                                <img src="assets/img/brand/s3.png" alt="">
+                            </div>
+                            <div class="brand__item">
+                                <img src="assets/img/brand/s4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- brand area end -->
+
+
+
+--------------------------------------------------------------------------
+
+
+# Javascript
+
+
+// Related Job Slider
+$('.related-job-slider').owlCarousel({
+    loop: true,
+    margin: 15,
+    autoplay: false,
+    autoplayTimeout: 3000,
+    smartSpeed: 500,
+    items: 6, // Default items to show if screen size isn't in the responsive range
+    navText: [
+        '<button><i class="fal fa-angle-left"></i></button>',
+        '<button><i class="fal fa-angle-right"></i></button>'
+    ],
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        576: {
+            items: 2
+        },
+        767: {
+            items: 3
+        },
+        992: {
+            items: 4
+        },
+        1200: {
+            items: 6
+        },
+        1600: {
+            items: 6 // Maintain 6 items for larger screens
+        }
+    }
+});
+
+// Brand Slider
+$('.brand__slider').owlCarousel({
+    loop: true,
+    margin: 15,
+    autoplay: false,
+    autoplayTimeout: 3000,
+    smartSpeed: 500,
+    items: 6, // Default items to show if screen size isn't in the responsive range
+    navText: [
+        '<button><i class="fal fa-angle-left"></i></button>',
+        '<button><i class="fal fa-angle-right"></i></button>'
+    ],
+    nav: false,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        576: {
+            items: 2
+        },
+        767: {
+            items: 3
+        },
+        992: {
+            items: 4
+        },
+        1200: {
+            items: 6
+        },
+        1600: {
+            items: 6 // Maintain 6 items for larger screens
+        }
+    }
+});
+
+
+
+----------------------------------------------------------------------------------------
+
+# CSS 
+
+.owl-carousel.version-1,
+.owl-carousel.version-2 {
+  position: relative;
+  padding: 15px 35px 0;
+}
+
+.logo-slider-1,
+.logo-slider-2 {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.owl-carousel .owl-item {
+  background: #fff;
+  padding: 0 20px;
+}
+
+
+
+============= brand slider section ===============
+
