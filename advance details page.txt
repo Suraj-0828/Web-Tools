@@ -1,0 +1,474 @@
+========== advance details page ===========
+
+
+<div class="container pt-70 pb-20">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-10 col-lg-10">
+                    <div class="job-card">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div>
+                                <h5 class="job-title">Front End Developer</h5>
+                                <p class="job-meta">Nexpro247</p>
+                            </div>
+                            <!-- <a href="#" class="text-primary">Send me jobs like this</a> -->
+                        </div>
+                        <div class="d-flex flex-wrap my-3">
+                            <div class="me-4">
+                                <i class="bi bi-calendar"></i> 0 - 5 years
+                            </div>
+                            <div class="me-4">
+                                <i class="bi bi-currency-rupee"></i> 3-8 Lacs P.A.
+                            </div>
+                            <div>
+                                <i class="bi bi-laptop"></i> Hybrid
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-start job-location">
+                            <p class="">
+                                <i class="bi bi-geo-alt"></i> Mumbai, Pune, Delhi / NCR
+                            </p>
+                            <a href="#" class="text-primary job-deatils-1">Send me jobs like this</a>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <p class="mb-0">Posted: <span class="text-black">11 days ago</span> | Openings: <span class="text-black">10</span> | Applicants: <span class="text-black">4949</span></p>
+                            <div>
+                                <a href="#" class="btn btn-custom me-2">Apply Job</a>
+                                <!-- <a href="#" class="btn btn-custom1">Login to apply</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pb-20">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-10 col-lg-10">
+                    <div class="job-card">
+                        <h5 class="section-title">Job description</h5>
+                        <p>Designing & implementing user-friendly interfaces using HTML, CSS & JavaScript.<br>
+                            Collaborating with backend team to integrate with APIs & server functionality.</p>
+
+                        <p class="span-1">Thanks<br> Nexpro247</p>
+
+                        <h5 class="section-title span-1">Required Candidate profile</h5>
+                        <p>Should have excellent problem-solving, communication & collaboration skills.<br>
+                            Optimizing website performance for speed & scalability.<br>
+                            Writing clean, well-documented & maintainable code.</p>
+
+                        <h5 class="section-title span-1">Role Details</h5>
+                        <p><strong class="text-black">Role:</strong> Front End Developer<br>
+                            <strong class="text-black">Industry Type:</strong> IT Services & Consulting<br>
+                            <strong class="text-black">Department:</strong> Engineering - Software & QA<br>
+                            <strong class="text-black">Employment Type:</strong> Full Time, Permanent<br>
+                            <strong class="text-black">Role Category:</strong> Software Development
+                        </p>
+
+                        <h5 class="section-title span-1">Education</h5>
+                        <p><strong class="text-black">UG:</strong> Any Graduate, Post Graduate, B Tech.</p>
+
+                        <h5 class="section-title span-1">Key Skills</h5>
+                        <div class="key-skills job-2">
+                            <p>Skills highlighted with ‘&#9733;‘ are preferred keyskills</p>
+                            <span>&#9733; Front End</span>
+                            <span>&#9733; Frontend Development</span>
+                            <span>&#9733; Front End Design</span>
+                            <br>
+                            <span>HTML5</span>
+                            <span>OpenCart</span>
+                            <span>Dreamweaver</span>
+                            <span>Web Designing</span>
+                            <span>Laravel</span>
+                            <span>CodeIgniter</span>
+                            <span>DHTML</span>
+                            <span>CakePHP</span>
+                            <span>Web Development</span>
+                            <span>AJAX</span>
+                            <span>CSS</span>
+                            <span>CMS</span>
+                            <span>JQuery</span>
+                            <span>Joomla</span>
+                            <span>Drupal</span>
+                            <span>Web Services</span>
+                            <span>GIT</span>
+                            <span>Responsive Web Design</span>
+                            <span>Symfony</span>
+                            <span>UI Development</span>
+                            <span>WordPress</span>
+                            <span>Magento</span>
+                            <span>XHTML</span>
+                            <span>PHP</span>
+                            <span>MVC</span>
+                        </div>
+
+                        <div class="d-flex mt-3">
+                            <a href="javascript:void(0)" class="me-3 text-dark">
+                                <img src="assets/img/about/whatsapp.png" />
+                            </a>
+                            <a href="javascript:void(0)" class="me-3 text-dark">
+                                <img src="assets/img/about/facebook.png" />
+                            </a>
+                            <a href="javascript:void(0)" class="me-3 text-dark">
+                                <img src="assets/img/about/instagram.png" />
+                            </a>
+                            <a href="javascript:void(0)" class="text-dark">
+                                <img src="assets/img/about/linkedin.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pb-20">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-10 col-lg-10">
+                    <div class="job-card">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div>
+                                <h5 class="job-title">About company</h5>
+                                <p class="job-meta">Hiring for our reputed client</p>
+                            </div>
+                            <!-- <a href="#" class="text-primary">Send me jobs like this</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pb-20">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-10 col-lg-10">
+                    <div class="job-card">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div>
+                                <h5 class="job-title">Beware of imposters!</h5>
+                                <p class="job-meta">Hr Solution does not promise a job or an interview in exchange of money. Fraudsters may ask you to pay in the pretext of registration fee, Refundable Fee…<a class="text-primary" href="javascript:void(0)">Read more</a></p>
+                            </div>
+                            <!-- <a href="#" class="text-primary">Send me jobs like this</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pb-70">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-10 col-lg-10">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div>
+                            <h3 class=" pb-20 pt-10">Similar jobs</h3>
+                            <!-- <p class="job-meta">Nexpro247</p> -->
+                        </div>
+                        <!-- <a href="#" class="text-primary">Send me jobs like this</a> -->
+                    </div>
+
+                    <!-- Job 1 -->
+                    <div class="job-item job-item-3 mb-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <div class="job-wrapper">
+                                    <div class="banck-icon">
+                                        <i class="flaticon-dashboard"></i>
+                                    </div>
+                                    <div class="job-instructor-profile">
+
+                                        <div class="job-instructor-title">
+                                            <div class="job-tag mb-20">
+                                                <span class="tag-normal">full time</span>
+                                                <span class="tag-urgent">urgent</span>
+                                            </div>
+                                            <h5><a href="job-details.php">Senior Graphics Designer</a></h5>
+                                            <p><strong>Experience:</strong> 5 years &nbsp; | &nbsp; <strong>Salary:</strong> ₹20,000 &nbsp; | &nbsp; <strong>Education:</strong> BBA / M.A.</p>
+                                            <p><strong>Keywords:</strong> Website Designer, Graphic Designer, Software Developer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="job-btn text-right">
+                                    <img src="assets/img/job/j-06.png" alt="">
+                                </div>
+                                <div class="job-btn text-right">
+                                    <p>Deadline: Jan 30, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job 2 -->
+                    <div class="job-item job-item-3 mb-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <div class="job-wrapper">
+                                    <div class="banck-icon">
+                                        <i class="flaticon-dashboard"></i>
+                                    </div>
+                                    <div class="job-instructor-profile">
+
+                                        <div class="job-instructor-title">
+                                            <div class="job-tag mb-20">
+                                                <span class="tag-normal">part time</span>
+                                                <span class="tag-urgent">urgent</span>
+                                            </div>
+                                            <h5><a href="job-details.php">Junior Web Developer</a></h5>
+                                            <p><strong>Experience:</strong> 2 years &nbsp; | &nbsp; <strong>Salary:</strong> ₹15,000 &nbsp; | &nbsp; <strong>Education:</strong> BCA / MCA</p>
+                                            <p><strong>Keywords:</strong> Frontend Developer, JavaScript, HTML, CSS.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="job-btn text-right">
+                                    <img src="assets/img/job/j-08.png" alt="">
+                                </div>
+                                <div class="job-btn text-right">
+                                    <p>Deadline: Feb 10, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job 3 -->
+                    <div class="job-item job-item-3 mb-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <div class="job-wrapper">
+                                    <div class="banck-icon">
+                                        <i class="flaticon-dashboard"></i>
+                                    </div>
+                                    <div class="job-instructor-profile">
+
+                                        <div class="job-instructor-title">
+                                            <div class="job-tag mb-20">
+                                                <span class="tag-normal">full time</span>
+                                                <span class="tag-urgent">urgent</span>
+                                            </div>
+                                            <h5><a href="job-details.php">Data Analyst</a></h5>
+                                            <p><strong>Experience:</strong> 3 years &nbsp; | &nbsp; <strong>Salary:</strong> ₹25,000 &nbsp; | &nbsp; <strong>Education:</strong> B.Sc. in IT</p>
+                                            <p><strong>Keywords:</strong> Data Analysis, Python, SQL, Excel.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="job-btn text-right">
+                                    <img src="assets/img/job/j-09.png" alt="">
+                                </div>
+                                <div class="job-btn text-right">
+                                    <p>Deadline: Mar 5, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job 4 -->
+                    <div class="job-item job-item-3 mb-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <div class="job-wrapper">
+                                    <div class="banck-icon">
+                                        <i class="flaticon-dashboard"></i>
+                                    </div>
+                                    <div class="job-instructor-profile">
+
+                                        <div class="job-instructor-title">
+                                            <div class="job-tag mb-20">
+                                                <span class="tag-normal">full time</span>
+                                                <span class="tag-urgent">urgent</span>
+                                            </div>
+                                            <h5><a href="job-details.php">SEO Specialist</a></h5>
+                                            <p><strong>Experience:</strong> 4 years &nbsp; | &nbsp; <strong>Salary:</strong> ₹22,000 &nbsp; | &nbsp; <strong>Education:</strong> B.Com / M.Com</p>
+                                            <p><strong>Keywords:</strong> SEO, Google Analytics, SEM, Link Building.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="job-btn text-right">
+                                    <img src="assets/img/job/j-04.png" alt="">
+                                </div>
+                                <div class="job-btn text-right">
+                                    <p>Deadline: Apr 12, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job 5 -->
+                    <div class="job-item job-item-3 mb-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <div class="job-wrapper">
+                                    <div class="banck-icon">
+                                        <i class="flaticon-dashboard"></i>
+                                    </div>
+                                    <div class="job-instructor-profile">
+
+                                        <div class="job-instructor-title">
+                                            <div class="job-tag mb-20">
+                                                <span class="tag-normal">part time</span>
+                                                <span class="tag-urgent">urgent</span>
+                                            </div>
+                                            <h5><a href="job-details.php">Content Writer</a></h5>
+                                            <p><strong>Experience:</strong> 2 years &nbsp; | &nbsp; <strong>Salary:</strong> ₹18,000 &nbsp; | &nbsp; <strong>Education:</strong> B.A. in English</p>
+                                            <p><strong>Keywords:</strong> Content Writing, Copywriting, SEO, Blog Writing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="job-btn text-right">
+                                    <img src="assets/img/job/j-05.png" alt="">
+                                </div>
+                                <div class="job-btn text-right">
+                                    <p>Deadline: May 25, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job 6 -->
+                    <div class="job-item job-item-3 mb-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <div class="job-wrapper">
+                                    <div class="banck-icon">
+                                        <i class="flaticon-dashboard"></i>
+                                    </div>
+                                    <div class="job-instructor-profile">
+
+                                        <div class="job-instructor-title">
+                                            <div class="job-tag mb-20">
+                                                <span class="tag-normal">full time</span>
+                                                <span class="tag-urgent">urgent</span>
+                                            </div>
+                                            <h5><a href="job-details.php">Project Manager</a></h5>
+                                            <p><strong>Experience:</strong> 6 years &nbsp; | &nbsp; <strong>Salary:</strong> ₹40,000 &nbsp; | &nbsp; <strong>Education:</strong> MBA</p>
+                                            <p><strong>Keywords:</strong> Project Planning, Team Management, Agile, Scrum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="job-btn text-right">
+                                    <img src="assets/img/job/j-11.png" alt="">
+                                </div>
+                                <div class="job-btn text-right">
+                                    <p>Deadline: Jun 1, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+----------------------------------------------------------------------
+
+
+
+
+
+.job-card {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0 6px 12px rgba(30, 10, 58, .04);
+}
+.job-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.job-meta {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+.job-location {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  color: #495057;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.job-deatils-1{
+  font-weight: bold;
+}
+.job-deatils-1:hover{
+  text-decoration: underline;
+}
+.btn-custom {  
+  border-radius: 20px;
+  padding: 8px 20px;
+  color: white;
+  background-color: #FE9703;
+  font-weight: 600;
+}
+.btn-custom1 {  
+  border-radius: 20px;
+  padding: 8px 20px;
+  color: white;
+  background-color: #26AE61;
+  font-weight: 600;
+}
+.send-jobs-link {
+  font-size: 0.9rem;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+.btn-custom:hover{
+ background-color: #26AE61;
+ color: white;
+}
+.btn-custom1:hover{
+  background-color: #FE9703;
+  color: white;
+ }
+
+
+
+
+ .job-description-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.key-skills span {
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+  padding: 5px 10px;
+  border: 1px solid #e7e7f1;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: #474d6a;
+}
+.key-skills span.highlight {
+  background-color: #007bff;
+  color: #fff;
+}
+.key-skills span:hover{
+  border: 1px solid #FE9703;
+  color: #FE9703;
+}
+.span-1{
+  padding-top: 15px;
+}
+.job-2 {
+  margin-top: 8px;
+  color: #495057;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+
+========== advance details page ===========

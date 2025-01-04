@@ -1,0 +1,110 @@
+================ job details section =================
+
+
+  <div class="container pt-70 pb-70">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="job-card">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div>
+                                <h5 class="job-title">Front END Developer</h5>
+                                <p class="job-meta">Nexpro247</p>
+                            </div>
+                            <!-- <a href="#" class="text-primary">Send me jobs like this</a> -->
+                        </div>
+                        <div class="d-flex flex-wrap my-3">
+                            <div class="me-4">
+                                <i class="bi bi-calendar"></i> 0 - 5 years
+                            </div>
+                            <div class="me-4">
+                                <i class="bi bi-currency-rupee"></i> 3-8 Lacs P.A.
+                            </div>
+                            <div>
+                                <i class="bi bi-laptop"></i> Hybrid
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-start job-location">
+                            <p class="">
+                                <i class="bi bi-geo-alt"></i> Mumbai, Pune, Delhi / NCR
+                            </p>
+                            <a href="#" class="text-primary job-deatils-1">Send me jobs like this</a>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <p class="mb-0">Posted: <span class="text-black">11 days ago</span> | Openings: <span class="text-black">10</span> | Applicants: <span class="text-black">4949</span></p>
+                            <div>
+                                <a href="#" class="btn btn-custom me-2">Register to apply</a>
+                                <a href="#" class="btn btn-custom1">Login to apply</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+.job-card {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0 6px 12px rgba(30, 10, 58, .04);
+}
+.job-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.job-meta {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+.job-location {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  color: #495057;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.job-deatils-1{
+  font-weight: bold;
+}
+.job-deatils-1:hover{
+  text-decoration: underline;
+}
+.btn-custom {  
+  border-radius: 20px;
+  padding: 8px 20px;
+  color: white;
+  background-color: #FE9703;
+  font-weight: 600;
+}
+.btn-custom1 {  
+  border-radius: 20px;
+  padding: 8px 20px;
+  color: white;
+  background-color: #26AE61;
+  font-weight: 600;
+}
+.send-jobs-link {
+  font-size: 0.9rem;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+.btn-custom:hover{
+ background-color: #26AE61;
+ color: white;
+}
+.btn-custom1:hover{
+  background-color: #FE9703;
+  color: white;
+ }
+
+
+================ job details section =================
