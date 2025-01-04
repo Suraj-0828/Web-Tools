@@ -1,9 +1,9 @@
 ========== advance details page ===========
 
 
-<div class="container pt-70 pb-20">
+ <div class="container pt-70 pb-20">
             <div class="row justify-content-center">
-                <div class="col-10 col-md-10 col-lg-10">
+                <div class="col-12 col-md-12 col-lg-10">
                     <div class="job-card">
                         <div class="d-flex justify-content-between align-items-start">
                             <div>
@@ -27,7 +27,7 @@
                             <p class="">
                                 <i class="bi bi-geo-alt"></i> Mumbai, Pune, Delhi / NCR
                             </p>
-                            <a href="#" class="text-primary job-deatils-1">Send me jobs like this</a>
+                            <a href="#" class="text-primary job-deatils-1 media-8">Send me jobs like this</a>
                         </div>
                         <div class="d-flex justify-content-between align-items-center mt-3">
                             <p class="mb-0">Posted: <span class="text-black">11 days ago</span> | Openings: <span class="text-black">10</span> | Applicants: <span class="text-black">4949</span></p>
@@ -43,7 +43,7 @@
 
         <div class="container pb-20">
             <div class="row justify-content-center">
-                <div class="col-10 col-md-10 col-lg-10">
+                <div class="col-12 col-md-12 col-lg-10">
                     <div class="job-card">
                         <h5 class="section-title">Job description</h5>
                         <p>Designing & implementing user-friendly interfaces using HTML, CSS & JavaScript.<br>
@@ -122,7 +122,7 @@
 
         <div class="container pb-20">
             <div class="row justify-content-center">
-                <div class="col-10 col-md-10 col-lg-10">
+                <div class="col-12 col-md-12 col-lg-10">
                     <div class="job-card">
                         <div class="d-flex justify-content-between align-items-start">
                             <div>
@@ -138,7 +138,7 @@
 
         <div class="container pb-20">
             <div class="row justify-content-center">
-                <div class="col-10 col-md-10 col-lg-10">
+                <div class="col-12 col-md-12 col-lg-10">
                     <div class="job-card">
                         <div class="d-flex justify-content-between align-items-start">
                             <div>
@@ -154,7 +154,7 @@
 
         <div class="container pb-70">
             <div class="row justify-content-center">
-                <div class="col-10 col-md-10 col-lg-10">
+                <div class="col-12 col-md-12 col-lg-10">
                     <div class="d-flex justify-content-between align-items-start">
                         <div>
                             <h3 class=" pb-20 pt-10">Similar jobs</h3>
@@ -372,6 +372,91 @@
 
 
 
+
+.media-1 {
+  padding-bottom: 40px;
+}
+
+
+@media (max-width: 576px) {
+
+  /* Extra small devices (phones) */
+  .media-1 {
+    padding-bottom: 0px;
+  }
+
+  .pt-60 {
+    padding-top: 30px !important;
+  }
+
+  .pt-70 {
+    padding-top: 30px !important;
+  }
+
+  .pb-70 {
+    padding-bottom: 30px !important;
+  }
+
+  .media-2 {
+    display: none;
+  }
+
+  .media-3 {
+    padding-bottom: 16px;
+  }
+
+  .media-4 {
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .media-5 {
+    padding: none;
+    border: none;
+    background-color: none;
+    box-shadow: none;
+    border-radius: none;
+  }
+
+  .media-6 {
+    padding: 0px !important;
+  }
+
+  .media-7 {
+    margin-bottom: 30px;
+  }
+
+  .media-8 {
+    display: none;
+  }
+}
+
+
+@media (min-width: 577px) and (max-width: 767px) {
+
+  /* Small devices (tablets) */
+  .media-1 {
+    padding-bottom: 0px;
+  }
+
+  .pt-60 {
+    padding-top: 30px !important;
+  }
+
+  .pt-70 {
+    padding-top: 30px !important;
+  }
+
+  .pb-70 {
+    padding-bottom: 30px !important;
+  }
+
+}
+
+
+
+
 .job-card {
   border: 1px solid #ddd;
   border-radius: 20px;
@@ -379,14 +464,17 @@
   background-color: #fff;
   box-shadow: 0 6px 12px rgba(30, 10, 58, .04);
 }
+
 .job-title {
   font-size: 1.25rem;
   font-weight: bold;
 }
+
 .job-meta {
   font-size: 0.9rem;
   color: #6c757d;
 }
+
 .job-location {
   font-size: 0.9rem;
   margin-top: 8px;
@@ -394,55 +482,64 @@
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
 }
-.job-deatils-1{
+
+.job-deatils-1 {
   font-weight: bold;
 }
-.job-deatils-1:hover{
+
+.job-deatils-1:hover {
   text-decoration: underline;
 }
-.btn-custom {  
+
+.btn-custom {
   border-radius: 20px;
   padding: 8px 20px;
   color: white;
   background-color: #FE9703;
   font-weight: 600;
 }
-.btn-custom1 {  
+
+.btn-custom1 {
   border-radius: 20px;
   padding: 8px 20px;
   color: white;
   background-color: #26AE61;
   font-weight: 600;
 }
+
 .send-jobs-link {
   font-size: 0.9rem;
   margin-top: -10px;
   margin-bottom: 15px;
   text-decoration: underline;
 }
-.btn-custom:hover{
- background-color: #26AE61;
- color: white;
+
+.btn-custom:hover {
+  background-color: #26AE61;
+  color: white;
 }
-.btn-custom1:hover{
+
+.btn-custom1:hover {
   background-color: #FE9703;
   color: white;
- }
+}
 
 
 
 
- .job-description-card {
+.job-description-card {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .section-title {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 .key-skills span {
   display: inline-block;
   margin: 5px 10px 5px 0;
@@ -452,17 +549,21 @@
   font-size: 0.85rem;
   color: #474d6a;
 }
+
 .key-skills span.highlight {
   background-color: #007bff;
   color: #fff;
 }
-.key-skills span:hover{
+
+.key-skills span:hover {
   border: 1px solid #FE9703;
   color: #FE9703;
 }
-.span-1{
+
+.span-1 {
   padding-top: 15px;
 }
+
 .job-2 {
   margin-top: 8px;
   color: #495057;
