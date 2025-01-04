@@ -13,10 +13,17 @@
 <!-- form ke andar -->
 
 <div class="form-group col-md-12">
-   <input class="" type="file" id="file" name="document1" placeholder="" required="">
+   <input class="custom-input-css" type="file" id="file" name="document1" placeholder="" required="">
 </div>
 
 ------------------- step 4 ------------------------
+<!-- resume input ka custom css -->
+.custom-input-css{
+  padding: 10px 20px !important;
+  line-height: 32px !important;
+}
+
+------------------- step 5 ------------------------
 <!-- Backend Page -->
 
 <?php
