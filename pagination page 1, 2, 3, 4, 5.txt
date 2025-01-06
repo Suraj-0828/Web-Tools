@@ -1,0 +1,97 @@
+================== pagination page 1, 2, 3, 4, 5 ==================
+
+
+
+<div class="pagination-container pb-70">
+            <ul class="pagination">
+                <li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
+                <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                <li class="page-item"><a href="#" class="page-link">3</a></li>
+                <li class="page-item"><a href="#" class="page-link">4</a></li>
+                <li class="page-item"><a href="#" class="page-link">5</a></li>
+                <li class="page-item"><a href="#" class="page-link"><span class="nexttab">Next</span></a></li>
+            </ul>
+        </div>
+
+
+------------------------------------------------------
+
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 60px 0;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: #FE9703;
+  color: white;
+}
+
+.page-item.active .page-link {
+  background-color: #FE9703;
+  color: white;
+  border-color: #FE9703;
+}
+
+.nexttab{
+  color: #26AE61;
+}
+
+.nexttab:hover{
+  color: white;
+}
+
+.page-item.disabled .page-link {
+  color: #aaa;
+  cursor: not-allowed;
+}
+@media (max-width: 576px) {
+  .page-link {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+}
+
+
+--------------------------------------------------------------
+
+javascript is optional hai 
+
+
+const pagination = document.querySelector('.pagination');
+
+pagination.addEventListener('click', function (e) {
+  if (e.target.classList.contains('page-link')) {
+    const current = document.querySelector('.pagination .active');
+    if (current) {
+      current.classList.remove('active');
+    }
+    e.target.parentElement.classList.add('active');
+  }
+});
+
+
+================== pagination page 1, 2, 3, 4, 5 ==================
