@@ -1,0 +1,114 @@
+=================== before and after css effect use ====================
+
+1. Before 
+
+How It Works:
+::before:
+
+Yeh kisi element ke actual content ke aage extra content add karta hai.
+Yeh pseudo-element as an inline-block ya block element ke roop mein behave karta hai, agar explicitly set kiya jaye.
+::after:
+
+Yeh kisi element ke actual content ke baad extra content add karta hai.
+Content Property:
+
+Yeh batata hai ki pseudo-element mein kya dikhana hai.
+Examples:
+"text": Kuch text dikhane ke liye.
+" ": Ek empty space.
+"": Kuch bhi nahi dikhane ke liye.
+"• ": Ek special symbol, jaise dots ya emojis.
+CSS Styling:
+
+In pseudo-elements ko kisi bhi tarah style kar sakte hain, jaise ki color, font-size, margin, padding, aur positioning.
+
+
+--------------------------------------------------------------
+
+
+
+				<div class="dot-dot">
+                                    <ul>
+                                        <li>Post misleading job advertisements.</li>
+                                        <li>Share confidential job-related information without consent.</li>
+                                        <li>Use the platform for spam or fraudulent purposes.</li>
+                                    </ul>
+                                </div>
+
+
+--------------------------------------------------------------
+
+dot-dot class use kiya ho -> dot-dot class ke andar hi work ho naa ki bahar other class ho disturbe nahi hogi
+
+---------------------------
+
+.dot-dot ul {
+  list-style: none; /* Default bullets ko hatana */
+  padding: 0;
+}
+.dot-dot li::before {
+  content: "• "; /* Dots lagane ke liye */
+  color: black; /* Dot ka color */
+  font-size: 20px; /* Dot ka size */
+  margin-left: 15px; /* Dot aur text ke beech ka gap */
+  margin-right: 5px;
+}
+
+--------------------------------------------------------------
+
+
+******************************************************************************************************************************
+
+
+2. After 
+
+-----------------------------------------------------------------------
+
+<p>This is an important paragraph.</p>
+
+------------------------------------------------------------------------
+
+
+p::after {
+      content: " (Read More)";
+      color: blue;
+      font-style: italic;
+      margin-left: 10px;
+    }
+
+
+=================== before and after css effect use ====================
+
+
+------------------------ for practices -----------------------
+
+Practical Uses of ::before and ::after:
+Decorative Elements:
+
+Borders, symbols, or icons for buttons, headings, or list items.
+Dynamic Content:
+
+Adding tooltips, notifications, or labels dynamically without modifying the HTML.
+Styling Quotation Marks:
+
+blockquote::before {
+  content: "“";
+  font-size: 2rem;
+  color: gray;
+}
+blockquote::after {
+  content: "”";
+  font-size: 2rem;
+  color: gray;
+}
+
+Custom Bullets in Lists:
+
+Replace default bullets with emojis, images, or custom shapes.
+Buttons with Icons:
+
+button::before {
+  content: "🔍 ";
+}
+
+
