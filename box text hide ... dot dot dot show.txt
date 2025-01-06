@@ -1,0 +1,72 @@
+=============== box text hide ... dot dot dot show ==================
+
+
+<div class="text-box">
+  <p class="text-content">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </p>
+  <button class="read-more-btn">Read More</button>
+</div>
+
+
+-----------------------------------------------------------------
+
+
+
+.text-box {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.text-content {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of visible lines */
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  height: auto; /* Adjust this for different line heights */
+  line-height: 1.5em; /* Line height */
+  max-height: 4.5em; /* line-height * number of lines (1.5 * 3) */
+}
+
+.read-more-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.read-more-btn:hover {
+  background-color: #0056b3;
+}
+
+
+-----------------------------------------------------------------------------------------
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const textContent = document.querySelector(".text-content");
+  const readMoreBtn = document.querySelector(".read-more-btn");
+
+  readMoreBtn.addEventListener("click", function () {
+    if (readMoreBtn.textContent === "Read More") {
+      textContent.style.display = "block";
+      textContent.style.overflow = "visible";
+      textContent.style.webkitLineClamp = "unset";
+      readMoreBtn.textContent = "Read Less";
+    } else {
+      textContent.style.display = "-webkit-box";
+      textContent.style.overflow = "hidden";
+      textContent.style.webkitLineClamp = 3;
+      readMoreBtn.textContent = "Read More";
+    }
+  });
+});
+
+
+=============== box text hide ... dot dot dot show ==================
