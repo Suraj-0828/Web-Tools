@@ -1,0 +1,182 @@
+=================== Gallery Tab ===================
+
+
+<section class="gallery1">
+                <div class="filters">
+                    <button data-filter="all" class="filter-btn active">ALL</button>
+                    <button data-filter="fleet" class="filter-btn">FLEET</button>
+                    <button data-filter="market-displays" class="filter-btn">MARKET DISPLAYS</button>
+                    <button data-filter="office" class="filter-btn">OFFICE</button>
+                    <button data-filter="logistics" class="filter-btn">LOGISTICS</button>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item fleet">
+                        <img src="assets/images/gallery/gallery4.png" alt="Alpro" onclick="openModal(this)">
+                    </div>
+                    <div class="gallery-item logistics">
+                        <img src="assets/images/gallery/gallery4.png" alt="Al Shifa" onclick="openModal(this)">
+                    </div>
+                    <div class="gallery-item office">
+                        <img src="assets/images/gallery/gallery4.png" alt="Barilla" onclick="openModal(this)">
+                    </div>
+                    <div class="gallery-item market-displays">
+                        <img src="assets/images/gallery/gallery4.png" alt="Bazooka" onclick="openModal(this)">
+                    </div>
+                    <div class="gallery-item fleet">
+                        <img src="assets/images/gallery/gallery4.png" alt="Campfire" onclick="openModal(this)">
+                    </div>
+                    <div class="gallery-item logistics">
+                        <img src="assets/images/gallery/gallery4.png" alt="Crespo" onclick="openModal(this)">
+                    </div>
+                </div>
+            </section>
+
+
+---------------------------------------------------------------------------------
+
+
+
+.gallery1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background: #d32f2f;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.filter-btn.active {
+  background: #b71c1c;
+}
+
+.filter-btn:hover {
+  background: #9c1a1a;
+}
+
+/* Grid Layout */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Modal Styles */
+.modal1 {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content1 {
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#caption {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin: 20px 0 0;
+  display: none;
+}
+
+
+------------------------------------------------------------------
+
+
+<!-- Modal -->
+            <div id="imageModal" class="modal1">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content1" id="modalImage">
+                <div id="caption"></div>
+            </div>
+
+------------------------------------------------
+
+    <script>
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelector('.filter-btn.active').classList.remove('active');
+                button.classList.add('active');
+                const filter = button.getAttribute('data-filter');
+                galleryItems.forEach(item => {
+                    if (filter === 'all' || item.classList.contains(filter)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Modal Functionality
+        const modal = document.getElementById('imageModal');
+        const modalImage = document.getElementById('modalImage');
+        const caption = document.getElementById('caption');
+
+        function openModal(image) {
+            modal.style.display = 'flex';
+            modalImage.src = image.src;
+            caption.innerHTML = image.alt;
+        }
+
+        function closeModal() {
+            modal.style.display = 'none';
+        }
+        </script>
+
+
+=================== Gallery Tab images show open ===================
