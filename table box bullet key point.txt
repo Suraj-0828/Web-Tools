@@ -1,0 +1,129 @@
+================== table box bullet key point ===================
+
+
+
+
+      <div class="body-services-section">
+         <div class="services-section">
+            <!-- Title and Description -->
+            <div class="services-header">
+               <h2>Our Specialized Care Services</h2>
+               <p>
+                  We are dedicated to providing comprehensive care tailored to the unique needs of individuals of all ages.
+                  Our specialized services ensure the highest level of support for adults, children, and those with specific health conditions.
+               </p>
+            </div>
+
+            <!-- Services List -->
+            <ul class="services-list">
+               <li>Complex care</li>
+               <li>Personal care</li>
+               <li>Caring for adults (18 to 65 years and over)</li>
+               <li>Caring for children (0 - 18 years)</li>
+               <li>Dementia</li>
+               <li>Learning disabilities</li>
+               <li>Mental health conditions</li>
+               <li>Physical disabilities</li>
+               <li>Sensory impairments</li>
+            </ul>
+         </div>
+      </div>
+
+
+-------------------------------------------------------------------
+
+
+.body-services-section {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  /* background-color: #f9f9f9; */
+  color: #333;
+  /* padding: 20px; */
+}
+
+.services-section {
+  max-width: 1200px;
+  margin: 45px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.services-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services-header h2 {
+  font-size: 28px;
+  color: #001C4C;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.209;
+  margin-bottom: 10px;
+}
+
+.services-header p {
+  font-size: 18px;
+  color: #555;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.services-list li {
+  background-color: #f1f9ff;
+  border: 1px solid #d1e7ff;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 18px;
+  color: #333;
+  display: flex;
+  align-items: center;
+
+}
+
+.services-list li::before {
+  content: "✔";
+  color: #0056b3;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .services-header h2 {
+    font-size: 24px;
+  }
+
+  .services-header p {
+    font-size: 16px;
+  }
+
+  .services-list li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-header h2 {
+    font-size: 20px;
+  }
+
+  .services-header p {
+    font-size: 14px;
+  }
+
+  .services-list li {
+    font-size: 14px;
+  }
+}
+
+
+================== table box bullet key point ===================
