@@ -13,7 +13,7 @@
 <!-- form ke andar -->
 
 <div class="form-group col-md-12">
-   <input class="custom-input-css" type="file" id="file" name="document1" placeholder="" required="">
+   <input class="custom-input-css" type="file" id="file" multiple name="document1" placeholder="" required="">  <!-- here multiple use for seleted multiple file -->
 </div>
 
 ------------------- step 4 ------------------------
