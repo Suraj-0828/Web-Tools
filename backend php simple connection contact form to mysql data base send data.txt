@@ -1,0 +1,47 @@
+================== backend php simple connection contact form to mysql data base send data ====================
+
+
+
+
+<?php
+
+// for server connection
+$con = mysqli_connect('localhost', 'root', 'admin');
+
+
+// for connection pass  
+if ($con) {
+    echo "Connection Successfully";
+} else {
+    echo "No Connection";
+}
+
+
+// database connection
+mysqli_select_db($con, "suraj_database");
+
+$user = $_POST['user'];
+$email = $_POST['email'];
+$mobile = $_POST['phone'];
+$message = $_POST['message'];
+
+
+// Variable to => add data in Database 
+$query = "insert into suraj_table (user, email, mobile, message) 
+values ('$user', '$email', '$mobile', '$message')";
+
+
+// Print on browser 
+echo "$query";
+
+
+// mysqli_query yeh function hai yeh is $query variable se data my sql connation data base me bhej raha hai 
+mysqli_query($con, $query);
+
+
+// yeh data sumbit hone ke baad return home page per jana 
+header('location:index.php');
+
+?>
+
+================== backend php simple connection contact form to mysql data base send data ====================
