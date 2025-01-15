@@ -5,30 +5,38 @@
 
 
  <!-- Founder Ceo Start -->
-    <div class="background-color pt-70 mt-70 pb-70">
-        <div class="container">
-            <div class="section-styling-area mb-50">
-                <h2 class="text-center mb-40">Expert Advisor</h2>
-                <p class="icon-border"><i aria-hidden="true" class="fa fa-clone"></i></p>
-            </div>
-            <div class="row">
-                <!-- Team Member 2 -->
-                <div class="col-md-12">
-                    <div class="team-member-card">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <!-- Image Section -->
-                                <div class="team-member-image">
-                                    <img class="ceo-image" src="img/home/4.jpg" alt="John Doe" class="img-fluid">
+     <div class="background-color pt-70 pb-70">
+            <div class="container">
+                <div class="section-styling-area mb-50">
+                    <h2 class="text-center mb-40">Visionary Behind Avantika HR</h2>
+                </div>
+                <div class="row">
+                    <!-- Team Member 2 -->
+                    <div class="col-md-12">
+                        <div class="team-member-card">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <!-- Image Section -->
+                                    <div class="team-member-image">
+                                        <img class="ceo-image" src="assets/images/about/anil.png" alt="Anil Pandey" class="img-fluid">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <!-- Text Section -->
-                                <div class="team-member-text">
-                                    <h5>Parthiv Mehta</h5>
-                                    <p><strong>Founder</strong></p>
-                                    <p>Parthiv Mehta, the founder of P Surfaces, is a dynamic entrepreneur with a strong vision for transforming the laminate industry. With years of experience and a keen eye for market trends, he has led the company to innovate and create cutting-edge laminate solutions. His dedication to quality and customer satisfaction has made P Surfaces a trusted name in the industry. Parthiv believes in sustainable growth and strives to push boundaries through continuous product innovation. His leadership continues to inspire the team to achieve excellence and stay ahead of industry trends.
-                                    </p>
+                                <div class="col-lg-8">
+                                    <!-- Text Section -->
+                                    <div class="team-member-text">
+                                        <h5>Mr. Anil Kumar Pandey</h5>
+                                        <p><strong>Managing Director</strong></p>
+                                        <p>With a passion for transforming the HR landscape, Mr. Anil Kumar Pandey established Avantika HR to deliver innovative and comprehensive human resource solutions. Drawing from years of experience in HR and consultancy services, Mr. Anil Kumar Pandey envisioned a company that not only supports businesses with their workforce needs but also builds lasting partnerships based on trust and excellence.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row pt-40">
+                                    <div class="col-lg-12">
+                                        <p class="color-black">Under Mr. Anil Kumar Pandey leadership, Avantika HR has grown to become a trusted name in the industry, offering expertise in Contract Labour, Third-Party Payroll, IR Advisory, Government Liaisoning, HR Set-Up, and Housekeeping Staff. With a strong focus on client satisfaction and compliance, Mr. Anil Kumar Pandey is dedicated to driving success for businesses across various sectors.</p>
+                                        <p class="color-black"><strong>Message from the Founder:</strong>
+                                            "At Avantika HR, we believe in empowering businesses by streamlining their HR processes and providing them with the tools they need to succeed. Our mission is to create value for our clients through customized solutions that address their unique challenges. Together, we can build a workforce that drives growth and innovation."
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +44,6 @@
                 </div>
             </div>
         </div>
-    </div>
     <!-- Founder Ceo Close -->
 
 
