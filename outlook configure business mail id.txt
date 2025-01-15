@@ -1,0 +1,97 @@
+============== outlook configure business mail id =================
+
+
+Welcome to Outlook dikhega starting me
+
+
+
+--------- Step 1 ---------
+
+Add business email id 
+ 
+
+
+--------- Step 2 ---------
+
+choose method 
+
+--- always (recommended) perfect 100%
+--- IMAP
+
+you can also use POP method
+
+
+
+--------- Step 3 ---------
+
+1. add email password
+
+2. check show more option
+--- clcik here 
+
+3. IMAP incoming server*
+( importants notes add karo agar nahi hai toh vaise automatic fach kar leta hai i mean le leta hai )
+
+--- mail.kaypharma.co.in 		port : 993
+
+4. Secure connection type
+--- SSL / TLS (recommended)
+
+5. SMTP Configuration 
+
+SMTP username 
+--- add business email 
+
+SMTP password
+--- add business email password
+
+6. SMTP Outgoing server
+
+--- mail.kaypharma.co.in 		port : 465
+
+
+7. Secure connection type
+--- SSL / TLS (recommended)
+
+
+
+--------- Step 4 ---------
+
+--- containue
+
+--- next
+
+
+
+--------- Step 4 ---------
+
+Do you want to send optional data about Outlook to Microsoft?
+click
+
+--- Yes
+
+--- containue
+
+
+
+--------- Step 5 ---------
+
+If you want logout account form outlook soooo
+
+1. click right top conner
+
+--- setting button click
+
+
+2. click right side manage account button
+
+
+3. click remove button
+
+--- click remove form your device  
+
+--- click Okay button
+
+
+
+============== outlook configure business mail id =================
