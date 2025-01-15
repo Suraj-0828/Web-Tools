@@ -1,0 +1,44 @@
+=============== flex social media icon section ================
+
+
+
+<ul class="social-icons">
+    <li><a href="#"><img src="assets/images/home/whatsapp.png" alt="WhatsApp" /></a></li>
+    <li><a href="#"><img src="assets/images/home/facebook.png" alt="Facebook" /></a></li>
+    <li><a href="#"><img src="assets/images/home/linkedin.png" alt="LinkedIn" /></a></li>
+    <li><a href="#"><img src="assets/images/home/youtube.png" alt="YouTube" /></a></li>
+    <li><a href="#"><img src="assets/images/home/instagram.png" alt="Instagram" /></a></li>
+</ul>
+
+
+
+------------------------------------------------
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center align */
+    gap: 10px; /* Add spacing between icons */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px; /* Set a responsive size for the icons */
+    height: auto;
+    transition: transform 0.3s ease; /* Add hover effect */
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
+
+
+
+=============== flex social media icon section ================
