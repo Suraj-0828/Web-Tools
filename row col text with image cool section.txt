@@ -1,0 +1,71 @@
+================ row col text with image cool section =================
+
+
+
+<div class="container pt-70 pb-70">
+            <div class="row cooling-section">
+                <!-- Image Column -->
+                <div class="col-md-5 order-md-2 cooling-image">
+                    <img src="assets/images/index/ss-1.png" alt="Cooling Image">
+                </div>
+                <!-- Text Column -->
+                <div class="col-md-7 order-md-1 cooling-content">
+                    <h2 class="cooling-heading">Cooling</h2>
+                    <p class="cooling-text">Get comfortable this summer with our top-quality and effective cooling solutions.</p>
+                    <div class="cooling-text-1">Keeping cool shouldn’t mean draining your wallet. We have the solutions to fit the bill to keep your home cool during those hot summer months.</div>
+                    <a href="#" class="btn btn-primary cooling-button">Read our Cooling Services &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+
+
+--------------------------------------------------
+
+
+
+
+.cooling-section {
+  background-color: #eef7ff;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cooling-heading {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 90px;
+  color: var(--text-black);
+}
+
+.cooling-text {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  color: var(--text-black);
+  margin: 20px 0;
+}
+
+.cooling-text-1{
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--text-gray);
+  margin: 0;
+}
+
+.cooling-button {
+  margin-top: 15px;
+}
+
+.cooling-image img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+
+
+================ row col text with image cool section =================
