@@ -1,0 +1,60 @@
+================== order row col text and image after image and text ===================
+
+mobile view
+[ Image ]
+[ Text  ]
+
+desktop view
+[ Text  ][ Image ]
+
+
+
+<div class="row">
+  <!-- Image Column -->
+  <div class="col-md-6 order-md-2">
+    <img src="image.jpg" alt="Cooling Image" class="img-fluid">
+  </div>
+  
+  <!-- Text Column -->
+  <div class="col-md-6 order-md-1">
+    <h2>Cooling</h2>
+    <p>Text goes here...</p>
+  </div>
+</div>
+
+
+-------------------------------------------------------------
+
+Breakpoints in Bootstrap:
+
+xs (Extra small, <576px): Default stacking.
+sm (Small, ≥576px).
+md (Medium, ≥768px): Apply order-md-* for medium and above.
+lg (Large, ≥992px), xl (Extra large, ≥1200px): Adjust as needed.
+
+
+-------------------------------------------------------
+
+Key Notes on Column Ordering with Bootstrap:
+Default Behavior:
+
+In a Bootstrap row, columns stack vertically (one on top of the other) on small screens (mobile), and appear horizontally side by side on larger screens.
+Using order-* Classes:
+
+order-1: Makes the column appear first.
+order-2: Makes the column appear second, and so on.
+You can use order-md-* to apply this logic starting from the medium screen size (md breakpoint).
+Mobile View Adjustment:
+
+By default, columns stack vertically in the order they appear in the HTML.
+To make an image appear first (on top) in mobile view:
+Leave the default stack order for smaller screens (xs).
+Use order-md-2 to push the image column second for medium and larger screens.
+Desktop View Adjustment:
+
+To make the text appear first (on the left) in larger screens:
+Apply order-md-1 to the text column.
+This ensures it takes precedence over the image column on medium and larger screens.
+
+
+================== order row col text and image after image and text ===================
