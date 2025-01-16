@@ -1,0 +1,26 @@
+=========== text transition animation ===========
+
+
+ <span>The Cool Deals Are Back with a Bang, &nbsp;<a href="javascript:void(0)" class="top-header-learn-more">Learn More <i class="fa fa-arrow-circle-right"></i></a></span>
+
+
+-----------------------------
+
+
+.top-header-1{
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  padding: 8px;
+  
+}
+
+.top-header-learn-more{
+  color: white;
+  transition: color 0.5s ease-in-out;
+}
+
+
+=========== text transition animation ===========
