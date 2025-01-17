@@ -1,0 +1,108 @@
+============= row column tamba images wala section cool =================
+
+
+
+  <div class="body-promotion-section">
+            <div class="container pt-70 pb-70">
+                <div class="row promo-section">
+                    <!-- Left Column -->
+                    <div class="col-md-5">
+                        <h3>Offers and <span style="color: #0099ff;">Promotions</span></h3>
+                        <p>Take a look at our latest offers and incentives! Discover financing and warranty solutions to meet your needs.</p>
+                        <a href="#" class="btn btn-learn-more">Learn More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-md-7">
+                        <div class="promo-card pb-30">
+                            <img src="assets/images/home/imagesservi/0hjb.png" alt="Promotional Offer">
+                            <div class="promo-content">
+                                <h5>Rebates are Back!</h5>
+                                <p>Limited Spots, Big Savings! <br> Get up to $5,000 in Rebates.</p>
+                                <a href="#" class="btn btn-learn-more">Learn More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="promo-card pb-30">
+                            <img src="assets/images/home/imagesservi/ac-banner-222.png" alt="Promotional Offer">
+                            <div class="promo-content">
+                                <h5>Rebates are Back!</h5>
+                                <p>Limited Spots, Big Savings! <br> Get up to $5,000 in Rebates.</p>
+                                <a href="#" class="btn btn-learn-more">Learn More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="promo-card">
+                            <img src="assets/images/home/imagesservi/ac-banner-3333.png" alt="Promotional Offer">
+                            <div class="promo-content">
+                                <h5>Rebates are Back!</h5>
+                                <p>Limited Spots, Big Savings! <br> Get up to $5,000 in Rebates.</p>
+                                <a href="#" class="btn btn-learn-more">Learn More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+-----------------------------------------------------------------------------------
+
+
+
+.body-promotion-section {
+  background-color: #f0f8ff;
+  /* Light blue background */
+}
+
+.promo-section {
+  /* background-color: #f0f8ff; */
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.promo-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.promo-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.promo-content {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+  background-color: rgba(0, 153, 255, 0.8);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.promo-content h5 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.promo-content p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.btn-learn-more {
+  background-color: #0099ff;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+.btn-learn-more:hover {
+  background-color: #007acc;
+}
+
+
+============= row column tamba images wala section cool =================
