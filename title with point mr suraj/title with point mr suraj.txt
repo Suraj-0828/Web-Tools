@@ -1,0 +1,121 @@
+============== title with point mr suraj ===============
+
+
+ <div class="body-service-card">
+            <div class="container pt-100 pb-70">
+                <h1 class="text-center mb-4 white-white">LG Home Comfort Services</h1>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <div class="icon"><img src="assets/images/about/maintenance.png" class="msi-1" /></div>
+                            <h3>Repair</h3>
+                            <ul>
+                                <li><a href="#">Heating &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Cooling &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Water Heaters &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Air Purification &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Water Purification &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Heat Pumps &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <div class="icon"><img src="assets/images/about/maintenance-2.png" class="msi-1" /></div>
+                            <h3>Maintenance</h3>
+                            <ul>
+                                <li><a href="#">Heating &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Cooling &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Water Heaters &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Air Purification &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Water Quality &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Heat Pumps &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <div class="icon"><img src="assets/images/about/maintenance-3.png" class="msi-1" /></div>
+                            <h3>Installation</h3>
+                            <ul>
+                                <li><a href="#">Heating &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Cooling &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Water Heaters &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Air Purification &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Water Quality &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                                <li><a href="#">Heat Pumps &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+-------------------------------------------------------------------------
+
+
+
+
+.body-service-card {
+  background-color: #28A3DF;
+  /* Match the background color */
+}
+
+.service-card {
+  background-color: #fff;
+  color: #00aaff;
+  border-radius: 10px;
+  padding: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h3 {
+  color: #29AAE2;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+  margin: 15px 0;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-card ul li {
+  margin-bottom: 10px;
+}
+
+.service-card ul li a {
+  text-decoration: none;
+  color: #00aaff;
+  background-color: #e0f7ff;
+  border-radius: 20px;
+  font-size: 18px;
+  display: inline-block;
+  transition: all 0.3s;
+  width: auto;
+  padding: 10px 30px;
+}
+
+.service-card ul li a:hover {
+  background-color: #00aaff;
+  color: #fff;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.msi-1 {
+  max-width: 80px;
+}
+
+.arrow-90{
+  transform: rotate(315deg);
+}
+
+
+============== title with point mr suraj ===============
