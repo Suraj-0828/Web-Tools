@@ -2,19 +2,19 @@
 
 
 <section class="features-layout2">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="main-box">
-                        <div class="box-1">
-                            <span>Get a <strong class="blue">FREE Estimate</strong> & Find Out How to Qualify for <strong class="blue">$5,000 in Rebates</strong></span>
-                        </div>
-                        <div class="box-2">
-                            <a href="contact-us.php" class="fix-button-simple">Let’s Get Started!</a>
-                        </div>
-                    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-box">
+                <div class="box-1">
+                    <span>Get a <strong class="blue">FREE Estimate</strong> & Find Out How to Qualify for <strong class="blue">$5,000 in Rebates</strong></span>
+                </div>
+                <div class="box-2">
+                    <a href="contact-us.php" class="fix-button-simple">Let’s Get Started!</a>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
 
 
@@ -23,7 +23,6 @@
 
 
 .fix-button-simple {
-
   background-color: #29AAE2;
   color: white;
   text-align: center;
@@ -40,7 +39,7 @@
   transition: 0.5s;
 }
 
-.main-box{
+.main-box {
   display: flex;
   justify-content: center;
   background-color: black;
@@ -49,7 +48,7 @@
   text-align: center;
 }
 
-.box-1 span{
+.box-1 span {
   color: white;
   align-items: center;
   padding-right: 30px;
@@ -57,9 +56,27 @@
   font-weight: 500;
 }
 
-.blue{
+.blue {
   color: #29AAE2;
 }
+
+@media (max-width: 768px) {
+  .main-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .box-1 {
+    margin-bottom: 15px;
+  }
+
+  .fix-button-simple {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 
 
 =================== discount line ==================
