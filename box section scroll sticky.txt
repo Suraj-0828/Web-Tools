@@ -1,0 +1,61 @@
+================ box section scroll sticky ================
+
+
+
+	<div class="container">
+                <div class="row">
+                    <!-- Left Column -->
+                    <div class="col-md-5">
+                        <div class="box-section-sticky">
+                            <h3>Offers and <span style="color: #0099ff; font-size: 54px;">Promotions</span></h3>
+                            <p style="font-size: 30px;">Take a look at our latest offers and incentives! Discover financing and warranty solutions to meet your needs.</p>
+                            <a href="#" class="btn btn-learn-more">Learn More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-md-7">
+                        <div class="promo-card pb-30">
+                            <img src="assets/images/home/imagesservi/0hjb.png" alt="Promotional Offer">
+                            <div class="promo-content">
+                                <h5 class="nox-1">Rebates are Back!</h5>
+                                <p>Limited Spots, Big Savings! <br> Get up to ₹5,000/- in Rebates.</p>
+                                <a href="#" class="btn btn-learn-more">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="promo-card pb-30">
+                            <img src="assets/images/home/imagesservi/ac-banner-222.png" alt="Promotional Offer">
+                            <div class="promo-content">
+                                <h5 class="nox-1">₹40,000/- at 0%</h5>
+                                <p>Get up to Interest for Energy<br> Efficient Home Improvements.</p>
+                                <a href="#" class="btn btn-learn-more">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="promo-card">
+                            <img src="assets/images/home/imagesservi/ac-banner-3333.png" alt="Promotional Offer">
+                            <div class="promo-content">
+                                <h5 class="nox-1">₹10,000/-</h5>
+                                <p class="text-black">SWITCH FROM OIL TO ELECTRIC!<br> Get Up to by switching from an<br>
+                                    Oil Furnace to electric Heat Pump.</p>
+                                <a href="#" class="btn btn-learn-more">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
+
+
+---------------------------------------------------------------------------------------
+
+# important css for box sticky scroll section 
+
+.box-section-sticky{
+  position: sticky;
+  overflow: hidden;
+  top: 150px;
+}
+
+
+================ box section scroll sticky ================
