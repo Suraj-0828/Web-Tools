@@ -1,0 +1,64 @@
+================= learn display flex property ==================
+
+
+<section class="features-layout2">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-box">
+                <div class="box-1">
+                    <span>Get a <strong class="blue">FREE Estimate</strong> & Find Out How to Qualify for <strong class="blue">$5,000 in Rebates</strong></span>
+                </div>
+                <div class="box-2">
+                    <a href="contact-us.php" class="fix-button-simple">Let’s Get Started!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+--------------------------------------------
+
+
+.main-box {
+  display: flex;    <--------------------------------
+  justify-content: center;                           |
+  background-color: black;                           |
+  padding: 40px 0px;                                 |
+  align-items: center;                               |
+  text-align: center;                                |--------------------> ek line me agar do div hai or usse mobile view me responsive
+						     |				 or proper uper niche div lana ho toh use this method
+}                                                    |
+                                                     |
+@media (max-width: 768px) {                          |
+  .main-box {                                        |
+    flex-direction: column;    <---------------------
+    text-align: center;
+  }
+
+  .box-1 {
+    margin-bottom: 15px;
+  }
+
+  .fix-button-simple {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+-----------------------------------------------
+
+Learn how to give one proper section css style
+
+------------------------------------------------
+
+.box-1 span {
+  color: white;
+  align-items: center;
+  padding-right: 30px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+--------------------------------------
