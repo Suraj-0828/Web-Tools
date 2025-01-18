@@ -1,0 +1,32 @@
+============ white danda white bambu =============
+
+
+			<div class="herostats">
+                            <div class="herostat short-banner-box-border"> <b>24/7 </b> <span>Emergency Service </span> </div>
+                            <div class="herostat"> <b class="lazyloaded">10,000+</b> <span> Satisfied Clients</span> </div>
+                        </div>
+
+
+------------------------------------------------
+
+
+
+.short-banner-box-border {
+  border-right: 1px solid white !important;
+}
+
+
+.herostats {
+  margin: 45px 0 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herostat {
+  padding: 0 65px;
+  border-right: 1px solid var(--text-white) !important;
+}
+
+
+============ white danda =============
