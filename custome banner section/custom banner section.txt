@@ -1,0 +1,540 @@
+================ custom banner section =================
+
+
+
+ <div class="container-fluid">
+            <div class="row align-items-center banner-section">
+                <!-- Left Section -->
+                <div class="col-md-8 text-center text-md-start short-banner-2" style=" background: url('assets/images/about/a111.jpg') no-repeat  center center/cover;">
+                    <div class="banner-section-1">
+                        <h1 class="text-white">Expert Heating, Cooling, and Water Services</h1>
+                        <div class="herostats">
+                            <div class="herostat short-banner-box-border"> <b>24/7 </b> <span>Emergency Service </span> </div>
+                            <div class="herostat"> <b class="lazyloaded">10,000+</b> <span> Satisfied Clients</span> </div>
+                        </div>
+                        <a href="contact-us.php" class="fix-button-3">Contact Us Today &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a>
+                    </div>
+                </div>
+
+
+                <!-- Right Section with Background Image -->
+                <div class="col-md-4 right-section" style=" background: url('assets/images/about/homebaner -image.jpg') no-repeat   center center/cover;">
+                    <div>
+                        <h2 class="text-white"><span class="text-warning">Stop Renting</span> Your Water Heater! Own it and Save Thousands.</h2>
+                        <p>Did you know you might be unknowingly paying for a water heater rental through your utility bills? It’s time to end this hidden expense!</p>
+                        <div class="pb-30"><img src="assets/images/about/youtube-icon.png" class="youtube-icon-img" /></div>
+                        <div class="button-problem-solve">
+                            <button class="mb-40"><a href="contact-us.php" class="fix-button-3 mb-30">Contact Us &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></button>
+
+                            <button><a href="contact-us.php" class="fix-button-4">Write a Review &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+----------------------------------------------------------------
+
+
+
+
+
+
+.arrow-90 {
+  transform: rotate(315deg);
+}
+
+
+
+.body-promotion-section {
+  background-color: #f0f8ff;
+  /* Light blue background */
+}
+
+.promo-section {
+  /* background-color: #f0f8ff; */
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.promo-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.promo-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.promo-content {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+  /* background-color: rgba(0, 153, 255, 0.8); */
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.nox-1 {
+  color: white;
+  background-color: #29AAE2;
+  padding: 10px 15px;
+  border-radius: 50px;
+  display: inline;
+}
+
+.promo-content h5 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.promo-content p {
+  margin: 5px 0;
+  font-size: 30px;
+}
+
+.btn-learn-more {
+  background-color: #29AAE2;
+  color: white;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.btn-learn-more:hover {
+  background-color: #29AAE2;
+  color: white;
+}
+
+.contact-us-color-bg-color {
+  color: white !important;
+  background-color: #29AAE2 !important;
+  box-shadow: 10px 20px 50px rgba(83, 166, 242, 0.5);
+}
+
+.contact-us-color-bg-color-1 {
+  background-color: white !important;
+  color: black !important;
+}
+
+.text-blue {
+  color: #29AAE2 !important;
+}
+
+.box-section-sticky {
+  position: sticky;
+  overflow: hidden;
+  top: 150px;
+}
+
+.pr {
+  padding-right: 100px;
+}
+
+.review-section h2 {
+  font-weight: bold;
+}
+
+.review-section h2 span {
+  color: #29AAE2;
+  /* Bootstrap primary blue for 'Customers' */
+}
+
+.review-section p {
+  color: #6c757d;
+  /* Bootstrap secondary gray for the text */
+}
+
+.cta-buttons a {
+  margin-right: 10px;
+}
+
+.cta-buttons a:last-child {
+  margin-right: 0;
+}
+
+.review-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-box h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.review-box p {
+  margin-bottom: 5px;
+}
+
+.review-box p:last-child {
+  font-weight: 600;
+}
+
+.banner-section {
+  background-color: #000;
+  color: white;
+  /* padding: 60px 0; */
+}
+
+/* Right Section Background Image */
+.right-section {
+  min-height: 665px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 80px 30px;
+}
+
+.btn-primary {
+  background-color: #0099ff;
+  border: none;
+}
+
+.btn-outline-light {
+  border: 2px solid white;
+}
+
+.herostats {
+  margin: 45px 0 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herostat {
+  padding: 0 65px;
+  border-right: 1px solid var(--text-white) !important;
+}
+
+.short-banner-box-border {
+  border-right: 1px solid white !important;
+}
+
+.short-banner-2 {
+  min-height: 660px;
+}
+
+.herostat b {
+  display: block;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.herostat span {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+}
+
+.banner-section-1 {
+  padding: 120px 60px 100px 60px;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.button-problem-solve {
+  display: flex;
+  flex-direction: column;
+}
+
+.youtube-icon-img {
+  max-width: 55px !important;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+
+  /* Extra small devices (phones) */
+  .banner-section-1 {
+    padding: 78px 20px 20px 20px;
+  }
+
+  .herostat b {
+    display: block;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 60px;
+  }
+
+  .herostat {
+    padding: 0px 30px;
+  }
+
+  .fix-button-3 {
+    background-color: #29AAE2;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    border: 2px solid #29AAE2;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .short-banner-2 {
+    min-height: 490px;
+  }
+
+  .right-section {
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 80px 30px;
+  }
+
+  h1 {
+    font-size: 29px;
+  }
+
+  .pb-30 {
+    padding-bottom: 20px !important;
+  }
+
+  .mb-40 {
+    margin-bottom: 34px !important;
+  }
+
+  .fix-button-4 {
+    background-color: white;
+    color: #29AAE2;
+    text-align: center;
+    padding: 12px 18px;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .cooling-heading {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 35px !important;
+    line-height: 90px;
+    color: var(--text-black);
+  }
+
+  .cooling-text {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: var(--text-black);
+    margin: -20px 0 10px 0px;
+  }
+
+  .cooling-section {
+    background-color: #eef7ff;
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 20px 50px rgba(83, 166, 242, .5);
+    border-radius: 20px;
+  }
+
+  .media-1 {
+    font-weight: 700;
+    font-size: 32px !important;
+  }
+
+  .service-card {
+    background-color: #fff;
+    color: #00aaff;
+    border-radius: 10px;
+    padding: 40px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+
+  .promo-content h5 {
+    margin: 0;
+    font-size: 17px;
+  }
+
+  .promo-content p {
+    margin: 5px 0;
+    font-size: 17px;
+  }
+
+  .btn:not(.btn__link) {
+    font-size: 13px;
+    min-width: 98px;
+    height: 35px;
+  }
+
+  .pr {
+    padding-right: 0px;
+  }
+
+  .contact-details {
+    display: none !important;
+  }
+
+  .box-section-sticky {
+    position: sticky;
+    overflow: hidden;
+    top: 150px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+
+  /* Small devices (tablets) */
+  .banner-section-1 {
+    padding: 78px 20px 20px 20px;
+  }
+
+  .herostat b {
+    display: block;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 60px;
+  }
+
+  .herostat {
+    padding: 0px 30px;
+  }
+
+  .fix-button-3 {
+    background-color: #29AAE2;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    border: 2px solid #29AAE2;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .short-banner-2 {
+    min-height: 490px;
+  }
+
+  .right-section {
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 80px 30px;
+  }
+
+  h1 {
+    font-size: 29px;
+  }
+
+  .pb-30 {
+    padding-bottom: 20px !important;
+  }
+
+  .mb-40 {
+    margin-bottom: 34px !important;
+  }
+
+  .fix-button-4 {
+    background-color: white;
+    color: #29AAE2;
+    text-align: center;
+    padding: 12px 18px;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .cooling-heading {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 35px !important;
+    line-height: 90px;
+    color: var(--text-black);
+  }
+
+  .cooling-text {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: var(--text-black);
+    margin: -20px 0 10px 0px;
+  }
+
+  .cooling-section {
+    background-color: #eef7ff;
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 20px 50px rgba(83, 166, 242, .5);
+    border-radius: 20px;
+  }
+
+  .media-1 {
+    font-weight: 700;
+    font-size: 32px !important;
+  }
+
+  .service-card {
+    background-color: #fff;
+    color: #00aaff;
+    border-radius: 10px;
+    padding: 40px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+
+  .promo-content h5 {
+    margin: 0;
+    font-size: 17px;
+  }
+
+  .promo-content p {
+    margin: 5px 0;
+    font-size: 17px;
+  }
+
+  .btn:not(.btn__link) {
+    font-size: 13px;
+    min-width: 98px;
+    height: 35px;
+  }
+
+  .pr {
+    padding-right: 0px;
+  }
+
+  .contact-details {
+    display: none !important;
+  }
+
+  .box-section-sticky {
+    position: sticky;
+    overflow: hidden;
+    top: 150px;
+    padding-bottom: 40px;
+  }
+}
+
+
+
+================ custom banner section =================
+
