@@ -1,0 +1,41 @@
+=========== simple button hover ===========
+
+
+ <a href="contact-us.php" class="fix-button-3">Read our Heat Pumps Services &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a>
+
+
+---------------------------------
+
+
+.fix-button-2 {
+
+  background-color: white;
+  /* Button background color */
+  color: #29AAE2;
+  /* Button text color */
+  text-align: center;
+  padding: 10px 18px;
+  /* Adjust padding as needed */
+  border: 2px solid #29AAE2;
+  /* Removes border */
+  border-radius: 50px;
+  /* Optional: rounded left corner */
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.fix-button-2:hover {
+  background-color: #003E77;
+  /* Darker background on hover */
+  color: white;
+}
+
+.arrow-90 {
+  transform: rotate(315deg);
+}
+
+
+
+=========== simple button hover ===========
+

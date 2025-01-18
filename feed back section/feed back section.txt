@@ -1,0 +1,205 @@
+============== feed back section ===============
+
+
+
+  <div class="hbdv" style="background-color: #F0F8FF;">
+            <div class="container pt-70 pb-70">
+                <div class="row">
+                    <!-- Left Column -->
+                    <div class="col-lg-7 review-section pr">
+                        <div class="box-section-sticky">
+                            <h2>Our <span>Customer Feedback!</span> Have a Lot to Say!</h2>
+                            <p>We don’t like to brag, so we let our customers do it for us. Check out what our customers have to say about our services.</p>
+                            <div class="cta-buttons pt-30 mb-50">
+                                <a href="contact-us.php" class="fix-button-2">Contact Us &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a>
+                                <a href="contact-us.php" class="fix-button-2">Write a Review &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Column -->
+                    <div class="col-lg-5">
+                        <div class="review-box mb-20">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h3>10/10</h3>
+                                </div>
+                                <div class="col-md-9">
+                                    <p>I got my home AC repaired, and I was very impressed with their service. The technician arrived on time and did the work neatly. My AC feels brand new now! Highly recommended!</p>
+                                    <p>Anjali Sharma</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-box mb-20">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h3>10/10</h3>
+                                </div>
+                                <div class="col-md-9">
+                                    <p>Their installation service is top-notch. I had a new split AC installed, and the entire job was completed professionally and quickly. The staff is knowledgeable and friendly.</p>
+                                    <p>Ravi Kumar</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-box">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h3>10/10</h3>
+                                </div>
+                                <div class="col-md-9">
+                                    <p>I needed maintenance for my office HVAC system, and they did the job very efficiently. They answered all my queries and provided quality service. Definitely a long-term partner.</p>
+                                    <p>Priya Mehta</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+------------------------------------------------------------------------------
+
+
+
+.arrow-90 {
+  transform: rotate(315deg);
+}
+
+
+
+.body-promotion-section {
+  background-color: #f0f8ff;
+  /* Light blue background */
+}
+
+.promo-section {
+  /* background-color: #f0f8ff; */
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.promo-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.promo-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.promo-content {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+  /* background-color: rgba(0, 153, 255, 0.8); */
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.nox-1 {
+  color: white;
+  background-color: #29AAE2;
+  padding: 10px 15px;
+  border-radius: 50px;
+  display: inline;
+}
+
+.promo-content h5 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.promo-content p {
+  margin: 5px 0;
+  font-size: 30px;
+}
+
+.btn-learn-more {
+  background-color: #29AAE2;
+  color: white;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.btn-learn-more:hover {
+  background-color: #29AAE2;
+  color: white;
+}
+
+.contact-us-color-bg-color {
+  color: white !important;
+  background-color: #29AAE2 !important;
+  box-shadow: 10px 20px 50px rgba(83, 166, 242, 0.5);
+}
+
+.contact-us-color-bg-color-1 {
+  background-color: white !important;
+  color: black !important;
+}
+
+.text-blue {
+  color: #29AAE2 !important;
+}
+
+.box-section-sticky {
+  position: sticky;
+  overflow: hidden;
+  top: 150px;
+}
+
+.pr {
+  padding-right: 100px;
+}
+
+.review-section h2 {
+  font-weight: bold;
+}
+
+.review-section h2 span {
+  color: #29AAE2;
+  /* Bootstrap primary blue for 'Customers' */
+}
+
+.review-section p {
+  color: #6c757d;
+  /* Bootstrap secondary gray for the text */
+}
+
+.cta-buttons a {
+  margin-right: 10px;
+}
+
+.cta-buttons a:last-child {
+  margin-right: 0;
+}
+
+.review-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-box h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.review-box p {
+  margin-bottom: 5px;
+}
+
+.review-box p:last-child {
+  font-weight: 600;
+}
+
+
+============== feed back section ===============
