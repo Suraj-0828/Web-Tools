@@ -1,0 +1,84 @@
+================= custom form banner section 3 ==================
+
+
+
+ <div class="features-layout2" style=" background: url('assets/images/about/a444.jpg') no-repeat center center/cover;">
+            <div class="container banner-section-121">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center">
+                        <div class="info-box">
+                            <img src="assets/images/about/short-banner-2.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-box">
+                            <h3 class="text-center text-white">Transform Your Home With No Extra Costs!</h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control form-control-1" placeholder="First Name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control form-control-1" placeholder="Last Name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control form-control-1" placeholder="Phone Number" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control form-control-1" placeholder="City" required>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="email" class="form-control form-control-1" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-primary w-100 bg-white text-black">Check Your Eligibility Now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+----------------------------------------------------------------------
+
+
+
+
+.banner-section-121 {
+  padding: 50px 0;
+  color: #000;
+}
+
+.form-box {
+  background: #34AFDF;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.form-control-1 {
+  font-size: 14px;
+  height: 60px;
+  padding: 0 20px;
+  border-radius: 10px !important;
+  background-color: #ffffff;
+  border: solid 1px #ccc8c8;
+}
+
+
+================= custom form banner section 3 ==================
