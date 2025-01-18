@@ -1,0 +1,64 @@
+=================== custom banner section 2 ===================
+
+
+
+  <section class="features-layout2" style=" background: url('assets/images/about/a444.jpg') no-repeat center center/cover;">
+            <div class="container banner-section-121">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center">
+                        <div class="info-box">
+                            <h4>Did you miss out on rebates last time?</h4>
+                            <h2>Don't Worry</h2>
+                            <h1><strong>Rebates Are Back</strong></h1>
+                            <p>Unlock <strong>$5000</strong> HVAC Rebates!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-box">
+                            <h3 class="text-center">Transform Your Home With No Extra Costs!</h3>
+                            <form>
+                                <input type="text" class="form-control" placeholder="First Name" required>
+                                <input type="text" class="form-control" placeholder="Last Name" required>
+                                <input type="text" class="form-control" placeholder="Phone Number" required>
+                                <input type="text" class="form-control" placeholder="City" required>
+                                <input type="email" class="form-control" placeholder="Email Address" required>
+                                <button type="submit" class="btn btn-primary w-100">Check Your Eligibility Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+--------------------------------------------------------------------
+
+
+
+
+.banner-section-121 {
+  padding: 50px 0;
+  color: #000;
+}
+
+.info-box,
+.form-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+
+=================== custom banner section 2 ===================
