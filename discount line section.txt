@@ -1,0 +1,65 @@
+=================== discount line ==================
+
+
+<section class="features-layout2">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-box">
+                        <div class="box-1">
+                            <span>Get a <strong class="blue">FREE Estimate</strong> & Find Out How to Qualify for <strong class="blue">$5,000 in Rebates</strong></span>
+                        </div>
+                        <div class="box-2">
+                            <a href="contact-us.php" class="fix-button-simple">Let’s Get Started!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+----------------------------------------------
+
+
+
+.fix-button-simple {
+
+  background-color: #29AAE2;
+  color: white;
+  text-align: center;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+.fix-button-simple:hover {
+  background-color: white;
+  /* Darker background on hover */
+  color: #29AAE2;
+  transition: 0.5s;
+}
+
+.main-box{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 40px 0px;
+  align-items: center;
+  text-align: center;
+}
+
+.box-1 span{
+  color: white;
+  align-items: center;
+  padding-right: 30px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.blue{
+  color: #29AAE2;
+}
+
+
+=================== discount line ==================
