@@ -1,0 +1,54 @@
+============= color and bg background color ==============
+
+
+.color-white { color: white; }
+.color-black { color: black; }
+.color-red { color: red; }
+.color-blue { color: blue; }
+.color-green { color: green; }
+.color-yellow { color: yellow; }
+.color-orange { color: orange; }
+.color-purple { color: purple; }
+.color-pink { color: pink; }
+.color-brown { color: brown; }
+.color-gray { color: gray; }
+.color-lightgray { color: lightgray; }
+.color-darkgray { color: darkgray; }
+.color-cyan { color: cyan; }
+.color-magenta { color: magenta; }
+.color-lime { color: lime; }
+.color-teal { color: teal; }
+.color-navy { color: navy; }
+.color-olive { color: olive; }
+.color-maroon { color: maroon; }
+
+
+
+-----------------------------------------------------
+
+
+
+.bg-color-white { background-color: white; }
+.bg-color-black { background-color: black; }
+.bg-color-red { background-color: red; }
+.bg-color-blue { background-color: blue; }
+.bg-color-green { background-color: green; }
+.bg-color-yellow { background-color: yellow; }
+.bg-color-orange { background-color: orange; }
+.bg-color-purple { background-color: purple; }
+.bg-color-pink { background-color: pink; }
+.bg-color-brown { background-color: brown; }
+.bg-color-gray { background-color: gray; }
+.bg-color-lightgray { background-color: lightgray; }
+.bg-color-darkgray { background-color: darkgray; }
+.bg-color-cyan { background-color: cyan; }
+.bg-color-magenta { background-color: magenta; }
+.bg-color-lime { background-color: lime; }
+.bg-color-teal { background-color: teal; }
+.bg-color-navy { background-color: navy; }
+.bg-color-olive { background-color: olive; }
+.bg-color-maroon { background-color: maroon; }
+
+
+
+============= color and bg background color ==============
