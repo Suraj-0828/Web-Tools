@@ -1,0 +1,88 @@
+================ image ke uper text proper chatgpt 100% ================
+
+
+
+<section class="values-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Our <span class="text-primary">Values</span></h2>
+      <p class="text-center mb-30">Everything we do at LG Home Comfort is based on our core values:</p>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="value-card">
+            <img src="https://via.placeholder.com/400x200" alt="Professionalism">
+            <div class="overlay">
+              <h3>Professionalism</h3>
+              <p>We deliver personalized solutions for our customers while maintaining a high level of honesty and integrity.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="value-card">
+            <img src="https://via.placeholder.com/400x200" alt="Flexibility">
+            <div class="overlay">
+              <h3>Flexibility</h3>
+              <p>Our team of experts has the knowledge and experience to solve any issue in your home while upholding our high standard of work.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="value-card">
+            <img src="https://via.placeholder.com/400x200" alt="Safety">
+            <div class="overlay">
+              <h3>Safety</h3>
+              <p>Our family cares about your family, so we always take all the necessary steps and precautions to ensure the job is completed safely.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+----------------------------------------------------------------------------
+
+
+
+.values-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+.value-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #000; /* For fallback in case the image doesn't load */
+  border-radius: 20px;
+}
+.value-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8; /* Slight dark overlay effect */
+  border-radius: 20px;
+}
+.value-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+}
+.value-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.value-card p {
+  font-size: 1rem;
+  margin: 0 20px;
+}
+
+
+================ image ke uper text proper chatgpt 100% ================
