@@ -1,0 +1,30 @@
+=============== background opacity color ==============
+
+
+	<div class="col-md-4">
+          <div class="value-card">
+            <img src="assets/images/about/a-1.png" alt="Professionalism">
+          </div>
+        </div>
+
+
+-------------------------------------
+
+
+.value-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #000; /* For fallback in case the image doesn't load */
+  border-radius: 20px;
+}
+.value-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8; /* Slight dark overlay effect */
+  border-radius: 20px;
+}
+
+
+=============== background opacity color ==============
