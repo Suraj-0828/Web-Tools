@@ -1,0 +1,132 @@
+================== socal media animation tooltip pop up ==================
+
+
+<div class="social-icons circle mt-30">
+                            <ul class="list-inline">
+                                <li class="social-facebook"><a class="tooltip-top" target="_blank" href="https://www.facebook.com/preyantechnosys19" data-tooltip="Facebook"><i class="fa fa-facebook text-black"></i></a></li>
+                                <!-- <li class="social-twitter"><a class="tooltip-top" target="_blank" href="https://twitter.com/PreyanTechnosys" data-tooltip="twitter"><i class="fa fa-twitter text-black"></i></a></li> -->
+                                <li class="social-instagram"><a class="tooltip-top" target="_blank" href="https://www.instagram.com/preyan_technosys/" data-tooltip="instagram"><i class="fa fa-instagram text-black"></i></a></li>
+                                <li class="social-linkedin"><a class="tooltip-top" target="_blank" href="https://www.linkedin.com/in/preyan-technosys-pvt-ltd/" data-tooltip="Linkedin"><i class="fa fa-linkedin text-black"></i></a></li>
+                            </ul>
+                        </div>
+
+
+-----------------------------------------------------------------
+
+
+
+.tooltip-top {
+    position: relative;
+}
+
+.tooltip:after,
+.tooltip:before,
+[data-tooltip]:after,
+[data-tooltip]:before {
+    position: absolute;
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity .2s ease-in-out, visibility .2s ease-in-out, -webkit-transform .2s cubic-bezier(.71, 1.7, .77, 1.24);
+    -moz-transition: opacity .2s ease-in-out, visibility .2s ease-in-out, -moz-transform .2s cubic-bezier(.71, 1.7, .77, 1.24);
+    transition: opacity .2s ease-in-out, visibility .2s ease-in-out, transform .2s cubic-bezier(.71, 1.7, .77, 1.24);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    pointer-events: none;
+}
+
+.tooltip:before,
+[data-tooltip]:before {
+    z-index: 1001;
+    border: 6px solid transparent;
+    background: 0 0;
+    content: "";
+}
+
+.tooltip-top:before,
+.tooltip:before,
+[data-tooltip]:before {
+    margin-left: -6px;
+    margin-bottom: -12px;
+    border-top-color: #000;
+    border-top-color: hsla(0, 0%, 20%, .9);
+}
+
+.tooltip-top:after,
+.tooltip-top:before,
+.tooltip:after,
+.tooltip:before,
+[data-tooltip]:after,
+[data-tooltip]:before {
+    bottom: 100%;
+    left: 50%;
+}
+
+.tooltip-bottom:after {
+    bottom: -100%;
+}
+
+.tooltip-bottom:before {
+    margin-left: -6px;
+    margin-bottom: -12px;
+    border-top-color: transparent !important;
+}
+
+.tooltip-bottom:before {
+    bottom: -7px;
+}
+
+.tooltip-top:focus:after,
+.tooltip-top:focus:before,
+.tooltip-top:hover:after,
+.tooltip-top:hover:before,
+.tooltip:focus:after,
+.tooltip:focus:before,
+.tooltip:hover:after,
+.tooltip:hover:before,
+[data-tooltip]:focus:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:hover:before {
+    -webkit-transform: translateY(-12px);
+    -moz-transform: translateY(-12px);
+    transform: translateY(-12px);
+}
+
+.tooltip-top:after,
+.tooltip:after,
+[data-tooltip]:after {
+    margin-left: -60px;
+}
+
+.tooltip:after,
+[data-tooltip]:after {
+    z-index: 1000;
+    padding: 8px;
+    width: 120px;
+    color: #fff;
+    content: attr(data-tooltip);
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tooltip:focus:after,
+.tooltip:focus:before,
+.tooltip:hover:after,
+.tooltip:hover:before,
+[data-tooltip]:focus:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:hover:before {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(Opacity=100);
+    opacity: 1;
+}
+
+
+================== socal media animation tooltip pop up ==================
