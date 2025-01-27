@@ -1,0 +1,94 @@
+============== manual ssl install ==================
+
+
+step 1 : domain / c panel open karo
+
+
+step 2 : security -> SSL / TLS ( also you can serach it )
+
+
+step 3 : open SSL / TSL 
+
+
+-> open manage ssl sites  ( CSR )
+
+-> Certificate Signing Requests (CSR)
+
+-> Generate a New Certificate Signing Request (CSR)
+
+-> fill up all input 
+
+Generate a new “RSA, 2,048-bit” key.
+
+domain ---
+
+city ---
+
+state ---
+
+email --- ( add your email own )
+
+Passphrase ---  ( add for more security )
+
+
+
+step 4 : Click generate Okay
+
+
+step 5 : 
+
+Encoded CSR:
+
+-----BEGIN CERTIFICATE REQUEST-----
+
+-----
+----
+---     ( copy only andar ka data karo )
+---
+-----
+
+-----END CERTIFICATE REQUEST-----
+
+
+step 6 : open this site for creating free ssl certificate 
+
+https://zerossl.com/
+
+get free ssl 
+
+login karo
+
+dashboard open hona 
+
+-- click certificate 
+
+
+---------------  fill form --------------
+
+step 7 : 
+
+-> New Certificate
+
+-> add domain 
+1. cleanwheel.co.in
+also add 2. www.cleanwheel.co.in
+
+
+step 8 :
+
+-> add validity
+
+step 9 : directly
+
+CSR & Contact   ( close -> auto-generate-CSR )
+
+CSR & Contact   ( Paste Existing CSR ) joh cpane me create kiye the aapne paste here 
+
+step 10 : finalize 
+
+free plan choose 
+
+
+
+
+

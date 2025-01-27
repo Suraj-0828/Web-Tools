@@ -1,0 +1,68 @@
+================= tm new design ===================
+
+
+
+<div class="tt-obj tt-obj-cart js-dropdown-cart">
+<a href="#" class="tt-obj__btn"><i class="icon-808584"></i>
+								<div class="tt-obj__badge">2</div>
+							</a>
+							<div class="tt-obj__dropdown"></div>
+						</div>
+
+
+
+---------------------------------------------------
+
+
+
+@media (min-width: 1025px) {
+    body {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .tt-obj-cart .tt-obj__btn {
+        position: relative;
+        display: inline-block;
+        font-size: 19px;
+        line-height: 19px;
+        top: 4px;
+        color: #fff;
+        padding: 8px 8px 8px 5px;
+        transition: color .2s linear;
+    }
+}
+
+[class*=" icon-"], [class^=icon-] {
+    font-family: var(--default_font_icon) !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 1025px) {
+    .tt-obj-cart .tt-obj__btn .tt-obj__badge {
+        position: absolute;
+        right: -5px;
+        top: -1px;
+        pointer-events: none;
+        background-color: var(--default_color);
+        border-radius: 50%;
+        width: 17px;
+        height: 17px;
+        font-size: 10px;
+        line-height: 18px;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+
+================= tm new design ===================
