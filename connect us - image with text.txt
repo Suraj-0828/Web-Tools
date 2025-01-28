@@ -1,0 +1,120 @@
+============= connect us - image with text ============
+
+
+
+<section class="cta__area-two">
+            <div class="container">
+                <div class="cta__wrap-two cta__wrap-three">
+                    <div class="cta__img">
+                        <img src="assets/img/images/cta_img.jpg" alt="img">
+                    </div>
+                    <div class="cta__content-two cta__content-three">
+                        <div class="content__left">
+                            <h2 class="title">Would you Like to get The Best Transport Services?</h2>
+                            <p>Dapibus interdum senectus malesuada est nec morbi cursus.</p>
+                        </div>
+                        <div class="cta__btn-two cta__btn-three">
+                            <a href="contact.html" class="btn">Read More <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg" data-inject-url="https://themeadapt.com/tf/logistex/assets/img/icon/right_arrow.svg" class="injectable">
+<path d="M1 12.0969L12.0969 0.999996M12.0969 0.999996H1M12.0969 0.999996V12.0969" stroke="currentcolor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M1 12.0969L12.0969 0.999996M12.0969 0.999996H1M12.0969 0.999996V12.0969" stroke="currentcolor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+--------------------------------------------------
+
+
+.cta__area-two {
+    background: var(--tg-color-gray-12);
+}
+
+.cta__wrap-three {
+    margin-top: -100px;
+    background: var(--tg-color-white-default);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-image: initial;
+}
+
+.cta__wrap-three {
+    margin-top: -100px;
+    background: var(--tg-color-white-default);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-image: initial;
+}
+
+.cta__wrap-two {
+    display: flex
+;
+    position: relative;
+    z-index: 2;
+    background: var(--tg-theme-primary);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.cta__img {
+    width: 387px;
+    flex: 0 0 auto;
+}
+
+.cta__content-two {
+    display: flex;
+    align-items: center;
+    padding: 50px 65px;
+    gap: 30px;
+}
+
+.cta__btn-three .btn {
+    color: var(--tg-color-white-default);
+    background: var(--tg-theme-secondary);
+}
+
+.cta__btn-two .btn {
+    color: var(--tg-theme-primary);
+    background: var(--tg-color-white-default);
+}
+
+.btn {
+    user-select: none;
+    color: var(--tg-color-white-default);
+    cursor: pointer;
+    display: inline-flex
+;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 1;
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    touch-action: manipulation;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    font-family: var(--tg-heading-font-family);
+    --arrow-hover-move-x: 110%;
+    --arrow-hover-move-y: 100%;
+    background: var(--tg-theme-primary) none repeat scroll 0 0;
+    border-width: medium;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 6px;
+    padding: 17px 28px;
+    transition: 0.3s ease-out;
+    white-space: nowrap;
+    overflow: hidden;
+    gap: 10px;
+}
+
+
+============= connect us - image with text ============
