@@ -51,6 +51,20 @@
                                         </li>
 
 
+
+                                        <li class="flex mt-2">
+                                            <div style="background-color: #001B90;" class="flex h-10 w-10 items-center justify-center                                                         rounded text-gray-50">
+                                                <i class="fab fa-whatsapp text-2xl"></i>
+                                            </div>
+                                            <div class="ml-4">
+                                                <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-                                                                        white">WhatsApp</h3>
+                                                <p onclick="location.href='https://wa.me/6799300572';" style="cursor: pointer;"                                                                class="text-gray-600 dark:text-slate-400 hover-red">Chat: +679-9300572</p>
+                                            </div>
+                                        </li>
+
+
+
+
                                         <li class="flex">
                                             <div class="flex h-10 w-10 items-center justify-center rounded bg-danger text-gray-50">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
