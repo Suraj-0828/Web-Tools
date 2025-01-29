@@ -1,0 +1,9 @@
+============ website fav icon =============
+
+
+
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/home/feb-con.png">
+
+
+
+============ website fav icon =============
