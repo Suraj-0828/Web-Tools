@@ -1,0 +1,161 @@
+=========== phone number pro design ==============
+
+
+
+<div class="dbJWmZ">
+            <div class="s363oz"><label for="phone" class="xHV8y_">Phone number</label></div>
+            <div class="EoRgBr">
+                <div class="Y0_dfK">
+                    <div class="pREfMt"><i class="flag-icon flag-icon-in kstJ5y"></i><input readonly="" type="text" class="RxTWI4" value="+91">
+                        <div class="TdFqWt"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.40405 7.48492C6.58804 7.48492 6.77213 7.55514 6.91234 7.69559L9.99943 10.7814L13.087 7.6939C13.3679 7.41301 13.8229 7.41301 14.1038 7.6939C14.3847 7.97479 14.3847 8.42983 14.1038 8.71073L10.5084 12.3061C10.2275 12.587 9.77247 12.587 9.49158 12.3061L5.8962 8.71073C5.61531 8.42983 5.61531 7.97479 5.8962 7.6939C6.03552 7.55458 6.21978 7.48492 6.40405 7.48492Z" fill="#000C37"></path>
+                            </svg></div>
+                        <div class="eDMYNV"></div>
+                    </div><input id="phone" name="phone" type="tel" class="qIxXL6 XAV2px" value="">
+                </div>
+            </div>
+        </div>
+
+
+
+-----------------------------------------
+
+
+
+.dbJWmZ {
+    padding-bottom: 32px;
+}
+
+.s363oz {
+    display: flex
+;
+    padding-bottom: 8px;
+}
+
+.xHV8y_ {
+    color: #000c37;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .6px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.EoRgBr {
+    border: 1px solid #c9cfdb;
+    border-radius: 6px;
+    position: relative;
+    transition: border-color .2s linear;
+}
+
+.Y0_dfK {
+    display: flex
+;
+}
+
+.pREfMt {
+    cursor: pointer;
+    display: flex
+;
+    flex-shrink: 0;
+    justify-content: center;
+    min-width: 115px;
+    position: relative;
+}
+
+.pREfMt .kstJ5y {
+    border-radius: 2px;
+    cursor: pointer;
+    height: 16px;
+    left: 16px;
+    min-height: 16px;
+    min-width: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+}
+
+.RxTWI4 {
+    border: none;
+    border-radius: 6px 0 0 6px;
+    color: #000c37;
+    cursor: pointer;
+    font-size: 14px;
+    max-width: 115px;
+    padding: 12.5px 23px 12.5px 48px;
+    width: 100%;
+}
+
+.TdFqWt {
+    display: flex
+;
+    height: 20px;
+    position: absolute;
+    right: 8px;
+    top: 14px;
+    transition: all .4s ease;
+    width: 20px;
+}
+
+svg {
+    height: calc(var(--height)* 10px);
+    width: calc(var(--width)* 10px);
+}
+
+.TdFqWt {
+    display: flex
+;
+    height: 20px;
+    position: absolute;
+    right: 8px;
+    top: 14px;
+    transition: all .4s ease;
+    width: 20px;
+}
+
+.eDMYNV, .kBNhS8 {
+    position: absolute;
+}
+
+.eDMYNV {
+    background-color: #e0e4ec;
+    height: 100%;
+    max-height: 32px;
+    right: 0;
+    top: 8px;
+    width: 1px;
+}
+
+.XAV2px {
+    border: none;
+}
+
+.qIxXL6 {
+    background: #fff;
+    border: 1px solid #c9cfdb;
+    border-radius: 6px;
+    color: #000c37;
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 48px;
+    padding: 12.5px 16px;
+    transition: border-color .2s linear;
+    width: 100%;
+}
+
+.Y0_dfK {
+    display: flex
+;
+}
+
+.EoRgBr {
+    border: 1px solid #c9cfdb;
+    border-radius: 6px;
+    position: relative;
+    transition: border-color .2s linear;
+}
+
+
+
+=========== phone number pro design ==============

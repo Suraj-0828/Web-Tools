@@ -1,0 +1,163 @@
+============ nav tab pro button Chatgpt work 200% ============
+
+
+
+<div class="quote-container">
+    <h4 class="mb-3">Request a Quote</h4>
+    
+    <!-- Tabs -->
+    <ul class="nav nav-tabs" id="quoteTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="shipping-tab" data-bs-toggle="tab" data-bs-target="#shipping" type="button" role="tab">Shipping</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="warehouse-tab" data-bs-toggle="tab" data-bs-target="#warehouse" type="button" role="tab">Warehouse</button>
+        </li>
+    </ul>
+
+    <div class="tab-content mt-3" id="quoteTabContent">
+        <!-- Shipping Form -->
+        <div class="tab-pane fade show active" id="shipping" role="tabpanel">
+            <h5>Cargo Details</h5>
+            <div class="mb-3">
+                <label class="form-label">Category</label>
+                <input type="text" class="form-control" placeholder="Select or search product from dropdown">
+            </div>
+
+            <h5>Request Details</h5>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Transportation By</label>
+                    <select class="form-select">
+                        <option>Full container load</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Container Type</label>
+                    <select class="form-select">
+                        <option>20' Standard</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Container Quantity</label>
+                    <input type="number" class="form-control" value="1">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Weight</label>
+                    <input type="number" class="form-control" value="0">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">From</label>
+                    <input type="text" class="form-control" placeholder="Select city, port">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">To</label>
+                    <input type="text" class="form-control" placeholder="City, terminal, zip code, etc.">
+                </div>
+            </div>
+        </div>
+
+        <!-- Warehouse Form -->
+        <div class="tab-pane fade" id="warehouse" role="tabpanel">
+            <h5>Cargo Details</h5>
+            <div class="mb-3">
+                <label class="form-label">Category</label>
+                <input type="text" class="form-control" placeholder="Select or search product from dropdown">
+            </div>
+
+            <h5>Request Details</h5>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Warehouse Type</label>
+                    <select class="form-select">
+                        <option>Open</option>
+                        <option>Bonded Warehouse</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Warehouse Location</label>
+                    <input type="text" class="form-control" placeholder="Select city, port">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Required Space</label>
+                    <input type="number" class="form-control" placeholder="0 m²">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Booking Period</label>
+                    <input type="text" class="form-control" placeholder="Select">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h5>Associated Services</h5>
+    <div class="checkbox-group">
+        <label><input type="checkbox"> Insurance</label>
+        <label><input type="checkbox"> Customs Clearance</label>
+        <label><input type="checkbox"> Certification</label>
+        <label><input type="checkbox"> Inspection Services</label>
+        <label><input type="checkbox"> Handling</label>
+        <label><input type="checkbox"> Stuffing</label>
+    </div>
+</div>
+
+
+
+----------------------------------------------------------
+
+
+
+ body {
+            background-color: #f8f9fc;
+        }
+        .quote-container {
+            max-width: 900px;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin: 40px auto;
+        }
+        .nav-tabs .nav-link {
+            border: none;
+            font-weight: bold;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .nav-tabs .nav-link.active {
+            background: #0052cc;
+            color: white;
+        }
+        .form-control, .form-select {
+            border-radius: 6px;
+            height: 45px;
+        }
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .checkbox-group label {
+            background: #f1f3f5;
+            padding: 8px 12px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .checkbox-group input {
+            margin-right: 8px;
+        }
+
+
+
+--------------------------------------------------------------
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+============ nav tab pro button Chatgpt work 200% ============

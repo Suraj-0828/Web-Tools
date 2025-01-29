@@ -1,0 +1,137 @@
+================== nav tab button Chatgpt work 100% ===================
+
+
+
+ <div class="container mt-4">
+        <div class="container-box">
+            <h3>Request a Quote</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-tabs" id="quoteTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="shipping-tab" data-bs-toggle="tab" data-bs-target="#shipping" type="button" role="tab">Shipping</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="warehouse-tab" data-bs-toggle="tab" data-bs-target="#warehouse" type="button" role="tab">Warehouse</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content mt-3" id="quoteTabsContent">
+                <div class="tab-pane fade show active" id="shipping" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="form-label">Transportation By</label>
+                            <select class="form-control">
+                                <option>Full container load</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Container Type</label>
+                            <select class="form-control">
+                                <option>20' Standard</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Container Quantity</label>
+                            <input type="number" class="form-control" value="1">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Weight (mt)</label>
+                            <input type="number" class="form-control" value="0">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <label class="form-label">From</label>
+                            <input type="text" class="form-control" placeholder="Select city, port">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">To</label>
+                            <input type="text" class="form-control" placeholder="City, terminal, zip code, etc.">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Ready to Load</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Freight Basis (Liner Terms)</label>
+                            <select class="form-control">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12 checkbox-group">
+                            <label><input type="checkbox"> Insurance</label>
+                            <label><input type="checkbox"> Customs Clearance</label>
+                            <label><input type="checkbox"> Certification</label>
+                            <label><input type="checkbox"> Inspection Services</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="warehouse" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="form-label">Storage Duration</label>
+                            <input type="text" class="form-control" placeholder="Enter duration">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Warehouse Location</label>
+                            <input type="text" class="form-control" placeholder="Enter location">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <label class="form-label">Special Instructions</label>
+                            <textarea class="form-control" rows="3" placeholder="Enter instructions"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+------------------------------------------------------------------
+
+
+
+<style>
+        .container-box {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .nav-tabs .nav-link {
+            border: none;
+            font-weight: bold;
+        }
+        .nav-tabs .nav-link.active {
+            background: #0056b3;
+            color: white;
+            border-radius: 8px;
+        }
+        .form-label {
+            font-weight: bold;
+        }
+        .checkbox-group label {
+            margin-right: 15px;
+        }
+    </style>
+
+
+---------------------------------------------------
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+================== nav tab button Chatgpt work 100% ===================
