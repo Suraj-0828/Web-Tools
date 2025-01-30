@@ -8,7 +8,9 @@
 
 ----------------------------------------
 
-
+.eDMYNV, .kBNhS8 {
+  position: absolute;
+}
 
 .eDMYNV {
     background-color: #e0e4ec;
