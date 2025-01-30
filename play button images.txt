@@ -1,0 +1,16 @@
+========= play button images =========
+
+
+<div class="pb-30"><img src="assets/images/about/youtube-icon.png" class="youtube-icon-img" /></div>
+
+
+------------------------
+
+
+.youtube-icon-img {
+    max-width: 55px !important;
+    cursor: pointer;
+}
+
+
+========= play button images =========
