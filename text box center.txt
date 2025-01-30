@@ -1,0 +1,34 @@
+=========== text box center ===========
+
+
+<div class="promotion-container">
+      <div class="promotion">Welcome Promotion</div>
+    </div>
+
+
+---------------------------------
+
+
+<style>
+    .promotion-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    .promotion {
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+      /* background: #007bff; */
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
+
+
+=========== text box center ===========
