@@ -1,0 +1,34 @@
+============= horizontal line =============
+
+
+<div class="horizontal-line"></div>
+
+
+-------------------------------
+
+
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  margin-top: 5px; /* Adjust space if needed */
+}
+
+
+============= horizontal line =============
+
+
+example here
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 bg-primary text-white text-center p-3">
+            Column 1
+        </div>
+        <div class="col-6 bg-secondary text-white text-center p-3">
+            Column 2
+        </div>
+    </div>
+    <div class="horizontal-line"></div> <!-- Horizontal Line -->
+</div>

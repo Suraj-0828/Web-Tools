@@ -1,0 +1,37 @@
+============= vertical line ============
+
+
+<div class="vertical-line"></div>
+
+
+------------------------
+
+
+.vertical-line {
+  width: 1px;
+  background-color: white;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+}
+
+
+============= vertical line ============
+
+
+example here:
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 bg-primary text-white text-center p-3">
+            Column 1
+        </div>
+        <div class="vertical-line"></div>
+        <div class="col-6 bg-secondary text-white text-center p-3">
+            Column 2
+        </div>
+    </div>
+</div>
