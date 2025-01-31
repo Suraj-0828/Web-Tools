@@ -1,0 +1,115 @@
+=============== nav tab 5 chatgpt 100% ===============
+
+
+  <div class="quote-container">
+            <ul class="nav nav-tabs" id="quoteTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab">
+                        <i class="fa fa-circle-info"></i> Overview
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="graphs-tab" data-bs-toggle="tab" data-bs-target="#graphs" type="button" role="tab">
+                        <i class="fa fa-chart-line"></i> Graphs
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab">
+                        <i class="fa fa-cog"></i> Settings
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="install-tab" data-bs-toggle="tab" data-bs-target="#install" type="button" role="tab">
+                        <i class="fa fa-download"></i> Install
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tasks-tab" data-bs-toggle="tab" data-bs-target="#tasks" type="button" role="tab">
+                        <i class="fa fa-tasks"></i> Tasks And Logs
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="networking-tab" data-bs-toggle="tab" data-bs-target="#networking" type="button" role="tab">
+                        <i class="fa fa-network-wired"></i> Networking
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content mt-3" id="quoteTabContent">
+                <div class="tab-pane fade show active" id="overview" role="tabpanel">
+                    <p>Welcome to Overview</p>
+                </div>
+                <div class="tab-pane fade" id="graphs" role="tabpanel">
+                    <p>Welcome to Graphs</p>
+                </div>
+                <div class="tab-pane fade" id="settings" role="tabpanel">
+                    <p>Welcome to Settings</p>
+                </div>
+                <div class="tab-pane fade" id="install" role="tabpanel">
+                    <p>Welcome to Install</p>
+                </div>
+                <div class="tab-pane fade" id="tasks" role="tabpanel">
+                    <p>Welcome to Tasks And Logs</p>
+                </div>
+                <div class="tab-pane fade" id="networking" role="tabpanel">
+                    <p>Welcome to Networking</p>
+                </div>
+            </div>
+        </div>
+
+
+
+----------------------------------------------------------
+
+
+
+.quote-container {
+  max-width: 900px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+}
+.nav-tabs {
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+}
+.nav-tabs .nav-link {
+  font-weight: bold;
+  color: #000C37;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(58, 112, 191, .1);
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  transition: .2s;
+  margin-right: 10px;
+  background: #F5F7FA;
+}
+.nav-tabs .nav-link.active {
+  background: white;
+  color: #000C37;
+  padding: 10px 20px;
+  border: 1px solid #000C37;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: .2s;
+  box-shadow: 0 4px 15px rgba(58, 112, 191, .1);
+  font-weight: bold;
+  align-items: center;
+}
+.tab-content {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+=============== nav tab 5 chatgpt 100% ===============
