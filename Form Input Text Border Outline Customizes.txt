@@ -15,4 +15,10 @@ textarea:focus {
     border-color: #EEC55F !important; /* Optionally, change the border color */
 }
 
+.form-select:focus {
+  outline: 0;
+  border-color: #08f;
+  box-shadow: 0 0 0 2px #dceeff;
+}
+
 ============== Form Input Text Border Outline Customizes ==================
