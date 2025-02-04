@@ -1,0 +1,144 @@
+==================== form validation using javascript =====================
+
+
+
+<!-- Contact Form Start -->
+    <div class="container">
+    <form id="myForm" action="backend.php" method="post" onsubmit="return validateForm()">
+        <div class="logo-box">
+            <img class="logo-fix" src="assets/images/vihnag-logo.webp" />
+        </div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <span id="nameError" class="error"></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span id="emailError" class="error"></span>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <span id="phoneError" class="error"></span>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+    <!-- Contact Form Close -->
+
+
+--------------------------------------------------------------------------
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo-fix{
+    max-width: 140px;
+}
+
+.logo-box{
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+
+-------------------------------------------------------------
+
+
+
+<script>
+
+function validateForm() {
+    var nameInput = document.getElementById('name');
+    var emailInput = document.getElementById('email');
+    var phoneInput = document.getElementById('phone');
+
+    var name = nameInput.value.trim();
+    var email = emailInput.value.trim();
+    var phone = phoneInput.value.trim();
+
+    var namePattern = /^[a-zA-Z\s]+$/;
+    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    var phonePattern = /^\d+$/;
+
+    var isValid = true;
+
+    if (!namePattern.test(name)) {
+        document.getElementById('nameError').textContent = 'Please enter a valid name (only alphabets and spaces)';
+        isValid = false;
+    } else {
+        document.getElementById('nameError').textContent = '';
+    }
+
+    if (!emailPattern.test(email)) {
+        document.getElementById('emailError').textContent = 'Please enter a valid email address';
+        isValid = false;
+    } else {
+        document.getElementById('emailError').textContent = '';
+    }
+
+    if (!phonePattern.test(phone)) {
+        document.getElementById('phoneError').textContent = 'Please enter a valid phone number (only digits)';
+        isValid = false;
+    } else {
+        document.getElementById('phoneError').textContent = '';
+    }
+
+    return isValid;
+}
+
+</script>
+
+
+
+==================== form validation using javascript =====================
