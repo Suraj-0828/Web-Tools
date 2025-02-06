@@ -1,0 +1,53 @@
+=========== footer ke niche line design ============
+
+
+<div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="footer__widget">
+                        <h4 class="footer__widget-title">Quick Link</h4>
+                        <div class="footer__link">
+                            <ul class="list-wrap">
+                                <li><a href="index.php">Home</a></li>
+
+                                <li><a href="about-us.php">About Us</a></li>
+
+                                <li><a href="our-services.php">Our Services</a></li>
+
+                                <li><a href="contact-us.php">contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+------------------------------------------------
+
+
+.footer__widget {
+  margin-bottom: 40px;
+}
+
+.footer__widget-title {
+  margin-bottom: 15px;
+  color: var(--tg-color-white-default);
+  font-size: 24px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.footer__widget-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 29px;
+  height: 4px;
+  background: white;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+
+
+=========== footer ke niche line design ============
