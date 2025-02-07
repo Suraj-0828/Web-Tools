@@ -6,7 +6,8 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                        <span style="color: #0580E4">The fern facility services</span>, All Rights and Reserved. Powered by <a 						href="https://www.itarsia.com/" target="_blank" style="color: #0580E4">Itarsia India Limited</a>.
+                        <span style="color: #0580E4">The fern facility services</span>, All Rights and Reserved. Powered by 
+<a 						href="https://www.itarsia.com/" target="_blank" style="color: #0580E4">Itarsia India Limited</a>.
                     </span>
                 </div>
          </div>
