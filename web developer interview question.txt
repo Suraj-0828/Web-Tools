@@ -1,0 +1,88 @@
+=============== web developer interview ================
+
+
+1. HTML5
+-> <!DOCTYPE html>
+
+
+2. <meta> Tag ka Kya Use Hai?
+-> SEO improvement ke liye (keywords, description).
+-> Responsive design ensure karne ke liye (viewport).
+
+
+3. Semantic HTML Kya Hota Hai?
+-> Non-Semantic	Semantic
+<header>
+<article>
+<strong>
+<footer>
+<section>
+
+
+4. <div>/<p> or <span> me Kya Difference Hai?
+-> div -> Block-level element
+-> Haan, yeh automatically naye line me chala jata hai
+
+-> <p> <span> -> Inline element
+-> Text ke chhote parts ko modify karne ke liye
+
+
+5. Different Types of CSS Selectors
+-> Universal (*)
+-> Class (.)
+-> ID (#)
+
+
+6. position: absolute, relative, fixed, sticky me kya
+-> relative ->	Normal position ke respect me move hota hai
+
+-> absolute ->	Parent ke relative move hota hai, agar koi relative parent na ho to pura page ka reference leta hai
+
+-> fixed ->  Yeh viewport pe fix ho jata hai, scroll karne pe bhi wahi rehta hai
+
+-> sticky ->  Scroll hone pe ek certain position tak stick karta hai, uske baad normal behave karta hai
+
+
+7. display: inline, block, inline-block, flex, grid me kya
+-> inline ->	Sirf jitna space chahiye utna leta hai, width set nahi kar sakte
+
+-> block ->	Puri width le leta hai, naye line pe chala jata hai
+
+-> inline-block -> 	Inline ki tarah behave karta hai but height/width set ho sakta hai
+
+-> flex ->	Flexible layout ke liye use hota hai
+
+-> grid ->	Grid-based layout design ke liye
+
+
+
+8. boostrap ka konsa Version chal raha hai
+-> recentle 5.3 hai 
+
+
+9. php ka konsa Version chal raha hai
+-> 8.4
+
+
+10. contact us me (get) or (post) me kya different hai
+-> (get) secure nahi hai jab aap form ke input me email or password fill karte ho aache submit karne ke liye toh data url ke jariye show hota hai get method me 
+
+-> (post) method me secure submit hota hai proper yeh thoda slow hota hai.
+
+
+
+11. 
+
+
+
+
+
+=============== web developer interview ================
+
+
+
+
+
+
+
+
