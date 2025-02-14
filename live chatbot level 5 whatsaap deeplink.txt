@@ -1,0 +1,349 @@
+================= live chatbot level 5 whatsaap deeplink ==================
+
+
+
+<!-- Footer Chat Icon -->
+    <div class="chat-icon" onclick="openChat()">
+        <img src="assets/img/icon/avatar.png" alt="Chat with us" />
+    </div>
+
+    <!-- Chatbox Container -->
+    <div class="chat-container" id="chatContainer" style="display: none;">
+        <div class="chat-header">
+            <span>Shreya</span>
+            <button onclick="closeChat()">✖</button>
+        </div>
+        <div class="chatbox" id="chatbox"></div>
+        <div class="chat-input">
+            <input type="text" id="userInput" class="input-box" placeholder="Type a message..." oninput="enableSubmitButton()" onkeydown="checkSubmit(event)">
+            <button id="sendButton" class="send-btn" onclick="sendMessage()" disabled>
+                <i class="bi bi-send"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Thank You or Failed Popup -->
+    <div id="thankYouPopup" class="thank-you-popup" style="display: none;">
+        <div class="popup-content">
+            <p id="popupMessage"></p>
+        </div>
+    </div>
+
+
+
+---------------------------------------------------------------
+
+
+
+   <script>
+        let chatStage = 0;
+        let userName = "";
+        let userPhone = "";
+        let userQuery = "";
+        let chatLocked = false; // Prevents further input after final message
+
+        function openChat() {
+            document.getElementById("chatContainer").style.display = "flex";
+            if (chatStage === 0) {
+                setTimeout(() => {
+                    displayMessage("Hi! How can I assist you today?", 'bot');
+                    chatStage = 1;
+                }, 500);
+            }
+        }
+
+        function closeChat() {
+            document.getElementById("chatContainer").style.display = "none";
+
+            // Show pop-up message after chatbot closes
+            setTimeout(() => {
+                showPopup("Thank you, we will connect with you as soon as possible.");
+            }, 500); // Ensure chatbot closes first, then pop-up appears
+        }
+
+        function enableSubmitButton() {
+            let userInput = document.getElementById("userInput").value.trim();
+            document.getElementById("sendButton").disabled = userInput === "" || chatLocked;
+        }
+
+        function checkSubmit(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        function sendMessage() {
+            let userMessage = document.getElementById("userInput").value.trim();
+            if (userMessage === "" || chatLocked) return;
+
+            document.getElementById("userInput").value = "";
+            displayMessage(userMessage, 'user');
+
+            setTimeout(() => processChatFlow(userMessage), 1000);
+        }
+
+        function displayMessage(message, sender) {
+            let messageElement = document.createElement('p');
+            messageElement.classList.add(sender === 'user' ? 'user-message' : 'bot-message');
+            messageElement.innerHTML = `<strong>${sender === 'user' ? 'You' : 'Shreya'}:</strong> ${message}`;
+            document.getElementById("chatbox").appendChild(messageElement);
+            document.getElementById("chatbox").scrollTop = document.getElementById("chatbox").scrollHeight;
+        }
+
+        function processChatFlow(userMessage) {
+            if (chatStage === 1) {
+                userQuery = userMessage;
+                displayMessage("May I know your name?", 'bot');
+                chatStage = 2;
+            } else if (chatStage === 2) {
+                userName = userMessage;
+                displayMessage(`Nice to meet you, ${userName}! Can you please provide your 10-digit phone number?`, 'bot');
+                chatStage = 3;
+            } else if (chatStage === 3) {
+                if (/^\d{10}$/.test(userMessage)) {
+                    userPhone = userMessage;
+                    displayMessage(`Thank you, ${userName}! We will contact you as soon as possible.`, 'bot');
+
+                    // Send Data to WhatsApp via Deeplink
+                    sendDataToWhatsApp(userQuery, userName, userPhone);
+
+                    // Lock chat to prevent further input
+                    chatLocked = true;
+                    document.getElementById("sendButton").disabled = true;
+
+                    // Close chatbot after 2 seconds
+                    setTimeout(() => closeChat(), 4000);
+                } else {
+                    displayMessage("Please enter a valid 10-digit mobile number.", 'bot');
+                }
+            }
+        }
+
+        function sendDataToWhatsApp(query, name, phone) {
+            let whatsappNumber = "918657374916"; // Aapka WhatsApp number
+            let whatsappMessage = `🔹 *New Customer Inquiry* 🔹\n\n` +
+                `📌 *Customer Name:* ${name}\n` +
+                `📌 *Phone Number:* ${phone}\n` +
+                `📌 *Query:* ${query}\n\n` +
+                `🚀 Please contact them as soon as possible!`;
+
+            let whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+            // Redirect to WhatsApp
+            window.location.href = whatsappURL;
+        }
+
+        function showPopup(message) {
+            document.getElementById("popupMessage").innerText = message;
+            document.getElementById("thankYouPopup").style.display = "block";
+
+            // Auto-hide pop-up after 3 seconds
+            setTimeout(() => {
+                document.getElementById("thankYouPopup").style.display = "none";
+            }, 3000);
+        }
+    </script>
+
+
+
+-------------------------------------------------------------
+
+
+
+
+
+
+ /* Chat Icon */
+ .chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+.chat-icon img {
+  width: 35px;
+  height: 35px;
+}
+
+/* Chat Container */
+.chat-container {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 100%;
+  max-width: 400px;
+  height: 450px;
+  background: #fff;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  animation: chatAppear 0.3s ease;
+}
+
+/* Chat Header */
+.chat-header {
+  background: #25d366;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Chatbox */
+.chatbox {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chatbox p {
+  margin: 0;
+  animation: messageFadeIn 0.5s ease;
+}
+
+.bot-message {
+  background: #e1f5fe;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.user-message {
+  background: #dcf8c6;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 80%;
+  align-self: flex-end;
+}
+
+/* Input Box and Submit Button */
+.chat-input {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.input-box {
+  width: 85%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.send-btn {
+  width: 10%;
+  padding: 10px;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.send-btn:disabled {
+  background-color: #e1e1e1;
+  cursor: not-allowed;
+}
+
+.thank-you-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .chat-container {
+      max-width: 100%;
+  }
+
+  .chat-input {
+      flex-direction: row;
+  }
+
+  .send-btn {
+      width: 15%;
+      margin-left: 10px;
+  }
+
+  .chat-container {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      width: 340px;
+      /* max-width: 400px; */
+      height: 470px;
+      background: #fff;
+      border-radius: 10px;
+      display: none;
+      flex-direction: column;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+      z-index: 9999;
+      animation: chatAppear 0.3s ease;
+  }
+}
+
+/* Animations */
+@keyframes chatAppear {
+  0% {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes messageFadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+
+================= live chatbot level 5 whatsaap deeplink ==================
+
+
+
