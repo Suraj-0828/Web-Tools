@@ -1,0 +1,17 @@
+============= javascript modual open and close with timer second ==============
+
+
+
+	document.addEventListener("DOMContentLoaded", function() {
+		setTimeout(() => {
+			document.getElementById("chatMessage").style.display = "flex";
+		}, 2000);
+	});
+
+	function closeChatMessage() {
+		document.getElementById("chatMessage").style.display = "none";
+	}
+
+
+
+============= javascript modual open and close with timer second ==============

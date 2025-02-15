@@ -1,0 +1,22 @@
+================ hover animation 3d =================
+
+
+<div class="icon-container">
+
+
+/* On hover, apply shake animation */
+.icon-container:hover {
+  animation: shake 0.5s ease-in-out;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Shake animation */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
+  75% { transform: translateX(-2px); }
+}
+
+
+================ hover animation 3d =================
