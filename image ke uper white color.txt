@@ -1,0 +1,45 @@
+=============== image ke uper white color ================
+
+
+
+<div class="about-us-content" data-aos="fade-up">
+                        <div class="icons-rounded-box">
+                            <figure class="mb-0"><img src="assets/images/about/vision.png" alt="">
+                            </figure>
+                        </div>
+                        <h4>Security Services</h4>
+                        <p class="security-services-p">Donec pede justo, fringilla vel, aliquet nec vulputate
+                            eget, arcu. In enim justo, rhoncus ut imperdiet.</p>
+                    </div>
+
+
+
+--------------------------------------
+
+
+
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+.about-us-section-start .about-us-content {
+  background: var(--e-global-color-black-cards-bacground);
+  border-radius: 5px;
+  padding: 37px 28px 28px 36px;
+  transition: 0s allease-in-out;
+  cursor: pointer;
+  border-bottom: 3px solid var(--e-global-color-black-cards-bacground);
+  transition: transformease 300ms;
+}
+
+.about-us-section-start .about-us-content:hover .icons-rounded-box figure img {
+  color: var(--e-global-color-white-banner-text);
+  filter: brightness(0) invert(1) !important;
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+}
+
+
+=============== image ke uper white color ================
