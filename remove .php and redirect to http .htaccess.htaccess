@@ -4,9 +4,9 @@
 RewriteEngine On
 RewriteBase /
 
-# Redirect HTTP to HTTPS
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+# Redirect HTTPS to HTTP
+RewriteCond %{HTTPS} on
+RewriteRule ^(.*)$ http://%{HTTP_HOST}/$1 [R=301,L]
 
 # Remove .php from URL
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
@@ -14,6 +14,7 @@ RewriteRule ^ %1 [R=301,L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*?)/?$ $1.php [NC,L]
+
 
 
 ============ remove .php .htaccess ============
