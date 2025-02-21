@@ -1,0 +1,13 @@
+=========== onclick function javascript ==========
+
+
+Add this in your div section 
+
+--------------------------------------------------------------------------
+
+ onclick="location.href='job-details.php';" style="cursor: pointer;"
+
+--------------------------------------------------------------------------
+
+
+=========== onclick function javascript ==========
