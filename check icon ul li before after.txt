@@ -1,0 +1,46 @@
+================ check icon ul li before after ================
+
+
+
+<section>
+    <h2>Why Choose NSF Group?</h2>
+    <ul class="custom-list">
+        <li>Highly trained and professional security personnel.</li>
+        <li>24/7 monitoring and emergency response services.</li>
+        <li>Customized security plans tailored to your specific needs.</li>
+        <li>Integration of modern technology with traditional security measures.</li>
+        <li>A trusted name with a strong reputation for reliability and efficiency.</li>
+    </ul>
+</section>
+
+<!-- Font Awesome (agar use kar rahe ho) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+
+----------------------------------
+
+
+
+.custom-list {
+    list-style: none; /* Default bullets hatane ke liye */
+    padding: 0;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 30px; /* Icon aur text ke beech gap */
+}
+
+.custom-list li::before {
+    content: "\f00c"; /* Font Awesome check icon */
+    font-family: "Font Awesome 6 Free"; 
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: green; /* Icon color */
+    font-size: 16px;
+}
+
+
+================ check icon ul li before after ================
