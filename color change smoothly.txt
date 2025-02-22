@@ -1,0 +1,34 @@
+============= color change smoothly =============
+
+
+<div class="about-us-content about-margin-bottom height-2" data-aos="fade-up">
+                        <div class="icons-rounded-box">
+                            <figure class="mb-0"><i class="fa-solid fa-shield-halved custom-icon"></i>
+                            </figure>
+                        </div>
+                        <h4 class="custom-service">Security Services</h4>
+                        <p class="security-services-p">Complete protection for all sectors.</p>
+                    </div>
+
+
+
+--------------------------------
+
+
+
+
+.custom-icon{
+  font-size: 30px;
+  color: #999999;
+}
+
+.custom-icon {
+  transition: color 0.3s ease-in-out;
+}
+
+.about-us-content:hover .custom-icon {
+  color: white;
+}
+
+
+============= color change smoothly =============

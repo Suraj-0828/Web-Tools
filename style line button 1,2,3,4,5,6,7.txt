@@ -1,0 +1,73 @@
+============== style line button 1,2,3,4,5,6,7 ===============
+
+
+
+ <div class="key-skills job-2">
+                    <p>Skills highlighted with ‘&#9733;‘ are preferred keyskills</p>
+                    <span>&#9733; Front End</span>
+                    <span>&#9733; Frontend Development</span>
+                    <span>&#9733; Front End Design</span>
+                    <br>
+                    <span>HTML5</span>
+                    <span>OpenCart</span>
+                    <span>Dreamweaver</span>
+                    <span>Web Designing</span>
+                    <span>Laravel</span>
+                    <span>CodeIgniter</span>
+                    <span>DHTML</span>
+                    <span>CakePHP</span>
+                    <span>Web Development</span>
+                    <span>AJAX</span>
+                    <span>CSS</span>
+                    <span>CMS</span>
+                    <span>JQuery</span>
+                    <span>Joomla</span>
+                    <span>Drupal</span>
+                    <span>Web Services</span>
+                    <span>GIT</span>
+                    <span>Responsive Web Design</span>
+                    <span>Symfony</span>
+                    <span>UI Development</span>
+                    <span>WordPress</span>
+                    <span>Magento</span>
+                    <span>XHTML</span>
+                    <span>PHP</span>
+                    <span>MVC</span>
+                  </div>
+
+
+
+------------------------------------------------------------------
+
+
+
+
+.key-skills span {
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+  padding: 5px 10px;
+  border: 1px solid #e7e7f1;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: #474d6a;
+}
+
+.key-skills span.highlight {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.key-skills span:hover {
+  border: 1px solid #FE9703;
+  color: #FE9703;
+}
+
+.job-2 {
+  margin-top: 8px;
+  color: #495057;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+
+============== style line button 1,2,3,4,5,6,7 ===============
