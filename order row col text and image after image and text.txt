@@ -25,6 +25,13 @@ desktop view
 
 -------------------------------------------------------------
 
+important note use first this 
+order-1 
+order-2
+
+-------------------------------------------------------------
+
+
 Breakpoints in Bootstrap:
 
 xs (Extra small, <576px): Default stacking.
