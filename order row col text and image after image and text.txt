@@ -11,12 +11,12 @@ desktop view
 
 <div class="row">
   <!-- Image Column -->
-  <div class="col-md-6 order-md-2">
+  <div class="col-md-6 order-2">
     <img src="image.jpg" alt="Cooling Image" class="img-fluid">
   </div>
   
   <!-- Text Column -->
-  <div class="col-md-6 order-md-1">
+  <div class="col-md-6 order-1">
     <h2>Cooling</h2>
     <p>Text goes here...</p>
   </div>
