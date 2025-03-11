@@ -1,0 +1,209 @@
+==================   OpenCart Path Link =================
+
+
+
+**Complete OpenCart File Path List**
+
+---
+
+### **1. Header & Footer (For Adding Links, CSS, Meta Tags, Scripts, etc.)**
+- **Header (Navigation, Meta Tags, CSS, Font, etc.)**  
+  `catalog/view/theme/your-theme-name/template/common/header.twig`
+
+- **Footer (Copyrights, Social Links, JavaScript, etc.)**  
+  `catalog/view/theme/your-theme-name/template/common/footer.twig`
+
+---
+
+### **2. Stylesheets (For Custom CSS Files & Theme Styling)**
+- **Main Theme CSS File**  
+  `catalog/view/theme/your-theme-name/stylesheet/stylesheet.css`
+
+- **Custom CSS File (If Needed)**  
+  `catalog/view/theme/your-theme-name/stylesheet/custom.css`
+
+---
+
+### **3. JavaScript Files (For Custom Scripts & Functions)**
+- **Main JavaScript File**  
+  `catalog/view/theme/your-theme-name/javascript/custom.js`
+
+---
+
+### **4. Language Files (For Changing Text, Labels & Titles)**
+- **For Frontend (Website Side)**  
+  `catalog/language/en-gb/en-gb.php`
+
+  - **Header Text**  
+    `catalog/language/en-gb/common/header.php`
+
+  - **Footer Text**  
+    `catalog/language/en-gb/common/footer.php`
+
+  - **Contact Us Page Text**  
+    `catalog/language/en-gb/information/contact.php`
+
+  - **About Us Page Text**  
+    `catalog/language/en-gb/information/about.php`
+
+  - **Product Page Text**  
+    `catalog/language/en-gb/product/product.php`
+
+  - **Category Page Text**  
+    `catalog/language/en-gb/product/category.php`
+
+  - **Cart & Checkout Page Text**  
+    `catalog/language/en-gb/checkout/checkout.php`
+
+  - **Blog Module Text (If Using Blog Module)**  
+    `catalog/language/en-gb/extension/module/blog.php`
+
+- **For Admin Panel (Dashboard, Settings, etc.)**  
+  `admin/language/en-gb/en-gb.php`
+
+---
+
+### **5. Homepage Files (For Layout, Banners, etc.)**
+- **Homepage Template File**  
+  `catalog/view/theme/your-theme-name/template/common/home.twig`
+
+---
+
+### **6. Blog Section Files (If Blog Module is Installed)**
+- **Blog Template File**  
+  `catalog/view/theme/your-theme-name/template/extension/module/blog.twig`
+
+- **Blog Controller File**  
+  `catalog/controller/extension/module/blog.php`
+
+- **Blog Language File**  
+  `catalog/language/en-gb/extension/module/blog.php`
+
+---
+
+### **7. Product & Category Pages Files**
+- **Product Details Page (Single Product Page)**  
+  - **Template File**  
+    `catalog/view/theme/your-theme-name/template/product/product.twig`
+
+  - **Controller File**  
+    `catalog/controller/product/product.php`
+
+  - **Language File**  
+    `catalog/language/en-gb/product/product.php`
+
+- **Product Category Page (Category Wise Listing)**  
+  - **Template File**  
+    `catalog/view/theme/your-theme-name/template/product/category.twig`
+
+  - **Controller File**  
+    `catalog/controller/product/category.php`
+
+  - **Language File**  
+    `catalog/language/en-gb/product/category.php`
+
+---
+
+### **8. Contact Us Page Files**
+- **Contact Us Template**  
+  `catalog/view/theme/your-theme-name/template/information/contact.twig`
+
+- **Contact Controller**  
+  `catalog/controller/information/contact.php`
+
+- **Contact Language File**  
+  `catalog/language/en-gb/information/contact.php`
+
+---
+
+### **9. About Us Page Files**
+- **About Us Template**  
+  `catalog/view/theme/your-theme-name/template/information/about.twig`
+
+- **About Us Controller**  
+  `catalog/controller/information/about.php`
+
+- **About Us Language File**  
+  `catalog/language/en-gb/information/about.php`
+
+---
+
+### **10. Shopping Cart & Checkout Page Files**
+- **Shopping Cart Page**  
+  `catalog/view/theme/your-theme-name/template/checkout/cart.twig`
+
+- **Checkout Page**  
+  `catalog/view/theme/your-theme-name/template/checkout/checkout.twig`
+
+- **Checkout Controller**  
+  `catalog/controller/checkout/checkout.php`
+
+- **Checkout Language File**  
+  `catalog/language/en-gb/checkout/checkout.php`
+
+---
+
+### **11. Admin Panel Files**
+- **Admin Dashboard Template**  
+  `admin/view/template/common/dashboard.twig`
+
+- **Admin Dashboard Controller**  
+  `admin/controller/common/dashboard.php`
+
+- **Admin Dashboard Language**  
+  `admin/language/en-gb/common/dashboard.php`
+
+---
+
+### **12. Error Pages (404, Maintenance Mode, etc.)**
+- **404 Error Page**  
+  `catalog/view/theme/your-theme-name/template/error/not_found.twig`
+
+- **Maintenance Mode Page**  
+  `catalog/view/theme/your-theme-name/template/error/maintenance.twig`
+
+---
+
+### **13. Modifications & Cache Clearing Files**
+- **Modification Files (For Extensions & Theme Updates)**  
+  `system/storage/modification/`
+
+- **Cache Folder (Clear This After Any Change)**  
+  `system/storage/cache/`
+
+- **Log Files (For Debugging Errors)**  
+  `system/storage/logs/`
+
+---
+
+### **14. Database Configuration Files**
+- **Database Connection Config File**  
+  `config.php`
+
+- **Admin Panel Database Config File**  
+  `admin/config.php`
+
+---
+
+### **15. SEO & Robots File (For Google & Search Engines)**
+- **Robots.txt (For SEO Indexing Control)**  
+  `robots.txt`
+
+- **.htaccess (For URL Rewriting & Security Rules)**  
+  `.htaccess`
+
+---
+
+### **🚀 Important Steps After Making Any Changes:**
+✅ **1. Admin Panel → Extensions → Modifications → Refresh Button Click Karein**  
+✅ **2. System Cache Clear Karein (`system/storage/cache/` Folder Empty Kar Dein)**  
+✅ **3. Browser Cache Clear Karke Check Karein (Ctrl + Shift + R / Hard Refresh)**  
+
+---
+
+### **💯 This is the Full OpenCart Path List!**  
+Agar aur koi specific file ka path chahiye, toh batao! 😃🔥
+
+
+
+================== OpenCart Path Link =================
