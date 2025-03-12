@@ -1,0 +1,68 @@
+================== cursor image zoom out =================
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card with Zoom Effect</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .product-card {
+            width: 300px;
+            height: 400px;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid #ddd;
+            cursor: zoom-in; /* Cursor ko plus sign banane ke liye */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .product-card .product-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.2s ease, transform-origin 0.2s ease;
+        }
+    </style>
+</head>
+<body>
+
+<div class="product-card">
+    <img src="assets/img/about/about/value-added-services.jpg" alt="Product Image" class="product-image">
+</div>
+
+<script>
+    const productCard = document.querySelector('.product-card');
+    const productImage = productCard.querySelector('.product-image');
+
+    productCard.addEventListener('mousemove', (e) => {
+        const { left, top, width, height } = productCard.getBoundingClientRect();
+        const x = ((e.clientX - left) / width) * 100;
+        const y = ((e.clientY - top) / height) * 100;
+
+        productImage.style.transformOrigin = `${x}% ${y}%`;
+        productImage.style.transform = `scale(2)`; // Zoom level 2x
+    });
+
+    productCard.addEventListener('mouseleave', () => {
+        productImage.style.transformOrigin = `center center`;
+        productImage.style.transform = `scale(1)`;
+    });
+</script>
+
+</body>
+</html>
+
+
+================== cursor image zoom out =================
