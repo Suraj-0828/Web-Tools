@@ -1,0 +1,53 @@
+============== running aids slider news ================
+
+
+<!-- Our Scrolling Ticker Section Start -->
+    <div class="our-scrolling-ticker">
+        <!-- Scrolling Ticker Start -->
+        <div class="scrolling-ticker-box">
+            <div class="scrolling-content">
+                <span><img src="images/icon-sparkles.svg" alt="">Emergency No. : (+01) 789 856 258</span>
+                <span><img src="images/icon-sparkles.svg" alt="">For any additional inqueries : info@domainname.com</span>
+                <span><img src="images/icon-sparkles.svg" alt="">Book Appointment: (+01) 879 526 789</span>
+                <span><img src="images/icon-sparkles.svg" alt="">Working Hourse : Mon to Fri : 10:00 To 6:00 </span>
+            </div>
+
+            <div class="scrolling-content">
+                <span><img src="images/icon-sparkles.svg" alt="">Emergency No. : (+01) 789 856 258</span>
+                <span><img src="images/icon-sparkles.svg" alt="">For any additional inqueries : info@domainname.com</span>
+                <span><img src="images/icon-sparkles.svg" alt="">Book Appointment: (+01) 879 526 789</span>
+                <span><img src="images/icon-sparkles.svg" alt="">Working Hourse : Mon to Fri : 10:00 To 6:00 </span>
+            </div>
+        </div>
+    </div>
+    <!-- Scrolling Ticker Section End -->
+
+
+---------------------------------------------
+
+
+.our-scrolling-ticker {
+    background-color: var(--secondary-color);
+    padding: 30px 0;
+}
+
+.scrolling-ticker-box {
+    --gap: 40px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    align-items: center;
+}
+
+.scrolling-content {
+    flex-shrink: 0;
+    display: flex;
+    gap: var(--gap);
+    min-width: 100%;
+    animation: scroll 24s linear infinite;
+}
+
+
+============== running aids slider news ================
