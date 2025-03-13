@@ -55,6 +55,10 @@
             padding-bottom: 30px;
         }
 
+        .bold-name{
+            color: green;
+        }
+
         .color-success {
             color: #6BC839;
         }
