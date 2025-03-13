@@ -1,14 +1,6 @@
 =========== Rahul All media query ============
 
 
-
-@media screen and (max-width: 991px) { 
-  .class1{display: none;
-
-  }
-}
-
-
 @media (max-width: 576px) {
   /* Extra small devices (phones) */
   .class1{
@@ -20,6 +12,12 @@
   /* Small devices (tablets) */
   .class1{
    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) { 
+  .class1{
+  display: none;
   }
 }
 
