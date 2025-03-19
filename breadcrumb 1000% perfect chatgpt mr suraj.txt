@@ -1,0 +1,81 @@
+==================== breadcrumb 1000% perfect chatgpt mr suraj =====================
+
+
+
+<section class="page-header" style="background-image: url('assets/img/breadcrumb.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-content">
+                    <h1 class="header-title">About Us</h1>
+                    <nav class="header-nav">
+                        <a href="index.php">Home</a>
+                        <span class="nav-separator">/</span>
+                        <span>About Us</span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CSS -->
+<style>
+.page-header {
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.header-nav {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.nav-separator {
+    margin: 0 5px;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 30px 0;
+    }
+
+    .header-title {
+        font-size: 20px;
+    }
+
+    .header-nav {
+        font-size: 14px;
+    }
+}
+</style>
+
+
+==================== breadcrumb 1000% perfect chatgpt mr suraj =====================
