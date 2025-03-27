@@ -1,0 +1,27 @@
+=========== whatsapp plugin image ==========
+
+
+
+<div class="whatsapp-button">
+    <a href="https://wa.me/919920028121" target="_blank">
+        <img src="https://medhealthcare.co.in/image/catalog/whatsaap-plugin/whatsapp-button.png" alt="WhatsApp Button">
+    </a>
+</div>
+
+<style>
+    .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+
+    .whatsapp-button img {
+        width: 60px;
+        height: auto;
+        cursor: pointer;
+    }
+</style>
+
+
+=========== whatsapp plugin image ==========
