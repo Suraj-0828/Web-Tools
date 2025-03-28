@@ -1,7 +1,7 @@
 =========== simple button hover ===========
 
 
- <a href="contact-us.php" class="fix-button-3">Read our Heat Pumps Services &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a>
+ <a href="contact-us.php" class="fix-button-2">Read our Heat Pumps Services &nbsp;<i class="fa fa-arrow-right arrow-90"></i></a>
 
 
 ---------------------------------
