@@ -1,0 +1,66 @@
+=========== box image title contain 100% ============
+
+
+<div style="background-color: #EFF3F9;">
+      <div class="container mb-70 feature-container">
+        <h2 class="text-center mb-4">Why Choose Us</h2>
+        <p class="text-center text-muted">We provide expert advice and quality service to ensure the best experience for our customers.</p>
+        <div class="row g-4 mt-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-box">
+              <i class="fas fa-industry"></i>
+              <h5>Trusted Brands</h5>
+              <p>We source our products from industry-leading brands to ensure high quality and durability.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-box">
+              <i class="fas fa-tools"></i>
+              <h5>Expert Solutions</h5>
+              <p>Our team offers customized solutions tailored to your specific needs for the best results.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-box">
+              <i class="fas fa-tags"></i>
+              <h5>No Hidden Costs</h5>
+              <p>Transparent pricing with no unexpected charges—what we quote is what you pay.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-box">
+              <i class="fas fa-handshake"></i>
+              <h5>Customer Satisfaction</h5>
+              <p>We prioritize customer satisfaction with dedicated support and reliable service.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+------------------------------------------------------
+
+
+
+.feature-container{
+  padding: 70px 0;
+}
+
+.feature-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 100%;
+}
+
+.feature-box i {
+  font-size: 40px;
+  color: #d92332;
+  margin-bottom: 15px;
+}
+
+
+=========== box image title contain 100% ============
