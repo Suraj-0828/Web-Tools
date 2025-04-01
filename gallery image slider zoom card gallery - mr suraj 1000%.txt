@@ -14,6 +14,9 @@
 
 <div class="container my-5">
     <div class="row">
+<div class="gallery-title">
+    <h2>Timeless Treasures</h2>
+</div>
         <!-- Looping Images -->
         <div class="col-md-4 col-sm-4 col-4 mb-3">
             <div class="img-container">
@@ -103,6 +106,29 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.gallery-title h2 {
+    font-family: 'Georgia', serif; /* Elegant font for title */
+    font-size: 40px; /* Title size */
+    color: #b58e4e; /* Golden color for the title text */
+    text-align: center; /* Center alignment */
+    text-transform: uppercase; /* Capital letters for style */
+    letter-spacing: 3px; /* Slight space between letters */
+    padding: 20px 0; /* Top and bottom padding */
+    position: relative;
+    display: inline-block;
+}
+
+.gallery-title h2::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: #b58e4e; /* Golden underline effect */
+    bottom: 0;
+    left: 25%;
+}
+
     </style>
 
 
