@@ -1,0 +1,50 @@
+============ text title style 2 ===========
+
+
+ <div class="section-title text-center">
+  <h2 class="title">The Luxe Collection</h2>
+ </div>
+
+
+-------------------------
+
+
+.section-title {
+    margin-top: -7px;
+    margin-bottom: 37px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .section-title .title {
+        font-size: 26px;
+    }
+}
+
+.section-title .title {
+    text-transform: capitalize;
+    background: -webkit-gradient(linear, left top, right top, from(#c29958), color-stop(#000), to(#c29958));
+    background: -webkit-linear-gradient(left, #c29958, #000, #c29958);
+    background: -o-linear-gradient(left, #c29958, #000, #c29958);
+    background: linear-gradient(90deg, #c29958, #000, #c29958);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    -webkit-animation: shine 3s linear infinite;
+    animation: shine 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    color: #222222;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+}
+
+
+============ text title style 2 ===========
