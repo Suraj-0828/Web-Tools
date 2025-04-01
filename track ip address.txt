@@ -1,0 +1,7 @@
+========== track ip address ========
+
+
+$data .= '<tr><td>IP Address</td><td>' . $_SERVER['REMOTE_ADDR'] . '</td></tr>';
+
+
+========== track ip address ========
