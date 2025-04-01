@@ -1,0 +1,36 @@
+============= text title style ===========
+
+
+<div class="gallery-title">
+    <h2>Timeless Treasures</h2>
+</div>
+
+
+------------------------------
+
+
+
+.gallery-title h2 {
+    font-family: 'Georgia', serif; /* Elegant font for title */
+    font-size: 40px; /* Title size */
+    color: #b58e4e; /* Golden color for the title text */
+    text-align: center; /* Center alignment */
+    text-transform: uppercase; /* Capital letters for style */
+    letter-spacing: 3px; /* Slight space between letters */
+    padding: 20px 0; /* Top and bottom padding */
+    position: relative;
+    display: inline-block;
+}
+
+.gallery-title h2::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: #b58e4e; /* Golden underline effect */
+    bottom: 0;
+    left: 25%;
+}
+
+
+============= text title style ===========
