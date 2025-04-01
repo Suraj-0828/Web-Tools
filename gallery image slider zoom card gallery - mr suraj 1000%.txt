@@ -1,0 +1,114 @@
+=========== gallery image slider zoom card gallery | mr suraj 1000% ===========
+
+
+-------------------------------
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    
+
+----------------------------------
+
+
+
+<div class="container my-5">
+    <div class="row">
+        <!-- Looping Images -->
+        <div class="col-md-4 col-sm-4 col-4 mb-3">
+            <div class="img-container">
+                <a href="assets/img/about/a1.jpg" data-fancybox="gallery">
+                    <img src="assets/img/about/a1.jpg" alt="Image 1">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-4 mb-3">
+            <div class="img-container">
+                <a href="assets/img/about/a2.jpg" data-fancybox="gallery">
+                    <img src="assets/img/about/a2.jpg" alt="Image 2">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-4 mb-3">
+            <div class="img-container">
+                <a href="assets/img/about/a3.jpg" data-fancybox="gallery">
+                    <img src="assets/img/about/a3.jpg" alt="Image 3">
+                </a>
+            </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="col-md-4 col-sm-4 col-4 mb-3">
+            <div class="img-container">
+                <a href="assets/img/about/a4.jpg" data-fancybox="gallery">
+                    <img src="assets/img/about/a4.jpg" alt="Image 4">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-4 mb-3">
+            <div class="img-container">
+                <a href="assets/img/about/a5.jpg" data-fancybox="gallery">
+                    <img src="assets/img/about/a5.jpg" alt="Image 5">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-4 mb-3">
+            <div class="img-container">
+                <a href="assets/img/about/a6.jpg" data-fancybox="gallery">
+                    <img src="assets/img/about/a6.jpg" alt="Image 6">
+                </a>
+            </div>
+        </div>
+
+        <!-- Third Row -->
+        <div class="col-md-4 col-sm-4 col-4 mb-3">
+            <div class="img-container">
+                <a href="assets/img/about/a7.jpg" data-fancybox="gallery">
+                    <img src="assets/img/about/a7.jpg" alt="Image 7">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-4 mb-3">
+            <div class="img-container">
+                <a href="assets/img/about/a8.jpg" data-fancybox="gallery">
+                    <img src="assets/img/about/a8.jpg" alt="Image 8">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-4 mb-3">
+            <div class="img-container">
+                <a href="assets/img/about/a9.jpg" data-fancybox="gallery">
+                    <img src="assets/img/about/a9.jpg" alt="Image 9">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+-----------------------------------------------------------
+
+
+    <style>
+        .img-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: pointer; /* Pointer cursor for click */
+        }
+    </style>
+
+
+---------------------------------------------------------------
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+--------------------------------------------------------------------
+
+
+
+=========== gallery image slider zoom card gallery | mr suraj 1000% ===========
