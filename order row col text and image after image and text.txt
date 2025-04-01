@@ -1,8 +1,8 @@
 ================== order row col text and image after image and text ===================
 
 mobile view
-[ Image ]
-[ Text  ]
+[ Image ]  order-2 order-lg-1
+[ Text  ]  order-1 order-lg-2
 
 desktop view
 [ Text  ][ Image ]
@@ -11,12 +11,12 @@ desktop view
 
 <div class="row">
   <!-- Image Column -->
-  <div class="col-md-6 order-2">
+  <div class="col-md-6 order-2 order-lg-1">
     <img src="image.jpg" alt="Cooling Image" class="img-fluid">
   </div>
   
   <!-- Text Column -->
-  <div class="col-md-6 order-1">
+  <div class="col-md-6 order-1 order-lg-2">
     <h2>Cooling</h2>
     <p>Text goes here...</p>
   </div>
