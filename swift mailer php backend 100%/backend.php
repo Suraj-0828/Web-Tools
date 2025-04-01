@@ -15,24 +15,22 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $data .= '<tr><td>Name </td><td>' . htmlspecialchars($_POST['name']) . '</td></tr>';
     $data .= '<tr><td>Email </td><td>' . htmlspecialchars($_POST['email']) . '</td></tr>';
     $data .= '<tr><td>Phone No </td><td>' . htmlspecialchars($_POST['phone']) . '</td></tr>';
-    $data .= '<tr><td>Company Name </td><td>' . htmlspecialchars($_POST['company']) . '</td></tr>';
-    $data .= '<tr><td>Subject </td><td>' . htmlspecialchars($_POST['user_role']) . '</td></tr>';
-    $data .= '<tr><td>Message  </td><td>' . htmlspecialchars($_POST['message']) . '</td></tr>';
-    $data .= '<tr><td>IP Address  </td><td>' . $_SERVER['REMOTE_ADDR'] . '</td></tr>';
+    $data .= '<tr><td>Phone No </td><td>' . htmlspecialchars($_POST['subject']) . '</td></tr>';
+    $data .= '<tr><td>Phone No </td><td>' . htmlspecialchars($_POST['message']) . '</td></tr>';
     $data .= '</table>';
 
     
     // Create the Transport
-    $transport = (new Swift_SmtpTransport('mail.tifzexports.com', 587))
-        ->setUsername('info@photokala.in')
-        ->setPassword('info@1245');
+    $transport = (new Swift_SmtpTransport('mail.adjewelleries.com', 587))
+        ->setUsername('no-reply@adjewelleries.com')
+        ->setPassword('H$B_7H$(*+d)');
 
     // Create the Mailer using the created Transport
     $mailer = new Swift_Mailer($transport);
 
     // Create a message
     $message = (new Swift_Message('Contact Form Query'))
-        ->setFrom(['info@photokala.in' => 'Contact Form Query'])
+        ->setFrom(['no-reply@adjewelleries.com' => 'Contact Form Query'])
         ->setTo(['suraj.itarsia@gmail.com' => 'Contact Form Query'])
         ->setBody($data, 'text/html');
 
