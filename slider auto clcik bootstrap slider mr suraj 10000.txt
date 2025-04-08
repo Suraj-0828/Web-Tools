@@ -1,0 +1,75 @@
+=========== slider auto clcik bootstrap slider mr suraj 10000 ============
+
+
+
+<!-- Bootstrap Carousel (Works in All Versions) -->
+<div id="customCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#customCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#customCarousel" data-slide-to="1"></li>
+        <li data-target="#customCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/about-us/banner.jpg" alt="Slide 1">
+        </div>
+        <div class="item">
+            <img src="images/about-us/banner.jpg" alt="Slide 2">
+        </div>
+        <div class="item">
+            <img src="images/about-us/banner.jpg" alt="Slide 3">
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#customCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#customCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+<!-- jQuery & Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var autoSlide = setInterval(function () {
+            $("#customCarousel").carousel("next");
+        }, 3000); // Auto-slide interval (3 sec)
+
+        // Stop auto-slide on button click
+        $(".carousel-control").on("click", function () {
+            clearInterval(autoSlide);
+        });
+
+        // Restart auto-slide after 5 sec when user stops clicking
+        $(".carousel-control").on("mouseup", function () {
+            setTimeout(function () {
+                autoSlide = setInterval(function () {
+                    $("#customCarousel").carousel("next");
+                }, 3000);
+            }, 5000);
+        });
+
+        // Stop auto-slide on hover & resume when mouse leaves
+        $("#customCarousel").hover(
+            function () {
+                clearInterval(autoSlide);
+            },
+            function () {
+                autoSlide = setInterval(function () {
+                    $("#customCarousel").carousel("next");
+                }, 3000);
+            }
+        );
+    });
+</script>
+
+
+=========== slider auto clcik bootstrap slider mr suraj 10000 ============

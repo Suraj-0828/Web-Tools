@@ -1,0 +1,122 @@
+============ slider auto click slider perfect 100000 % mr suraj ============
+
+
+
+        <div class="custom-slider" id="customSlider">
+            <div class="slider-wrapper">
+                <div class="slider-item"><img src="images/about-us/banner.jpg" alt="Slide 1"></div>
+                <div class="slider-item"><img src="images/about-us/banner.jpg" alt="Slide 2"></div>
+                <div class="slider-item"><img src="images/about-us/banner.jpg" alt="Slide 3"></div>
+            </div>
+            <div class="slider-controls">
+                <button id="prevSlide">&#10094;</button>
+                <button id="nextSlide">&#10095;</button>
+            </div>
+        </div>
+
+        <script>
+            (function() {
+                const slider = document.querySelector("#customSlider .slider-wrapper");
+                const slides = document.querySelectorAll("#customSlider .slider-item");
+                let index = 0;
+                let totalSlides = slides.length;
+                let autoSlideInterval;
+
+                // Clone first slide & append at the end for infinite effect
+                const firstClone = slides[0].cloneNode(true);
+                slider.appendChild(firstClone);
+
+                function showSlide() {
+                    index++;
+                    slider.style.transition = "transform 0.5s ease-in-out";
+                    slider.style.transform = `translateX(-${index * 100}%)`;
+
+                    // Reset to first slide (loop effect)
+                    if (index === totalSlides) {
+                        setTimeout(() => {
+                            slider.style.transition = "none";
+                            index = 0;
+                            slider.style.transform = `translateX(0)`;
+                        }, 500); // Wait for transition to complete
+                    }
+                }
+
+                function startAutoSlide() {
+                    autoSlideInterval = setInterval(showSlide, 6000);
+                }
+
+                function stopAutoSlide() {
+                    clearInterval(autoSlideInterval);
+                }
+
+                document.getElementById("nextSlide").addEventListener("click", function() {
+                    stopAutoSlide();
+                    showSlide();
+                });
+
+                document.getElementById("prevSlide").addEventListener("click", function() {
+                    stopAutoSlide();
+                    index--;
+                    if (index < 0) {
+                        index = totalSlides - 1;
+                        slider.style.transition = "none";
+                        slider.style.transform = `translateX(-${index * 100}%)`;
+                    }
+                    setTimeout(() => {
+                        slider.style.transition = "transform 0.5s ease-in-out";
+                        slider.style.transform = `translateX(-${index * 100}%)`;
+                    }, 10);
+                });
+
+                // Restart auto-slide when user stops clicking
+                document.getElementById("nextSlide").addEventListener("mouseup", startAutoSlide);
+                document.getElementById("prevSlide").addEventListener("mouseup", startAutoSlide);
+
+                // Start auto-slide initially
+                startAutoSlide();
+            })();
+        </script>
+
+
+----------------------------------------------------------------------------------
+
+
+.custom-slider {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slider-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.slider-item img {
+  width: 100%;
+  height: auto;
+}
+.slider-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+.slider-controls button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.slider-controls button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+============ slider auto click slider perfect 100000 % mr suraj ============
