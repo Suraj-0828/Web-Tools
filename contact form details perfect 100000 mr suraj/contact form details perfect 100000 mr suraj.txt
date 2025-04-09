@@ -1,0 +1,223 @@
+================ contact form details ================
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+---------------------------------------------------------------------
+
+
+<!-- start of contact-section -->
+        <section class="custom-contact-wrapper">
+
+            <!-- Left: Contact Info -->
+            <div class="custom-contact-box">
+                <h3 class="custom-contact-heading">Contact Information</h3>
+                <p style="color: #555; margin-bottom: 20px;">
+                    Q Lub is a trusted lubricant brand, offering high-performance oils and greases.
+                    We provide reliable solutions for engines, machines, and hydraulic systems.
+                </p>
+                <div class="custom-contact-info">
+                    <div class="custom-contact-item">
+                        <div class="custom-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="custom-text">Office Add.: 99/300, Sumitra Niwas, The Angel CHS., Shirdhon - 416121.</div>
+                    </div>
+                    <div class="custom-contact-item">
+                        <div class="custom-icon"><i class="fas fa-phone"></i></div>
+                        <div class="custom-text">
+                            <a href="tel:+918104128712">+91-8104128712</a>
+                        </div>
+                    </div>
+
+                    <div class="custom-contact-item">
+                        <div class="custom-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div class="custom-text">
+                            <a href="https://wa.me/918104128712" target="_blank">+91-8104128712</a>
+                        </div>
+                    </div>
+
+                    <div class="custom-contact-item">
+                        <div class="custom-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="custom-text"><a href="mailto:info@q-lub.in">info@q-lub.in</a></div>
+                    </div>
+                </div>
+
+                <div class="custom-working-hours">
+                    <strong>Working Hours:</strong><br>
+                    Mon - Sat: 10:00 AM - 7:00 PM<br>
+                    Sat - Sun: Closed
+                </div>
+
+                <div class="custom-social-media">
+                    <a href="https://www.instagram.com/yourhandle" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/yourpage" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/company/yourcompany" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/channel/yourchannel" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+
+            </div>
+
+            <!-- Right: Contact Form -->
+            <div class="custom-contact-box">
+                <h3 class="custom-contact-heading">Send a Message</h3>
+                <form action="backend" method="post" class="custom-contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+        <!-- end of contact-section -->
+
+
+----------------------------------------------------------------------
+
+
+
+.custom-contact-wrapper {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.custom-contact-box {
+  background: #fff;
+  padding: 30px;
+  flex: 1 1 48%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.custom-contact-heading {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.custom-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.custom-contact-item {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  color: #444;
+}
+
+.custom-icon {
+  font-size: 18px;
+  color: #ff8e31;
+  min-width: 25px;
+  margin-top: 2px;
+}
+
+.custom-text {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.custom-contact-wrapper .custom-contact-info .custom-contact-item a {
+  color: #444;
+}
+
+.custom-contact-wrapper .custom-contact-info .custom-contact-item a:hover {
+  color: #ff8e31;
+}
+
+.custom-contact-wrapper .custom-contact-info .custom-contact-item .custom-icon:hover {
+  color: black;
+}
+
+.custom-working-hours {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #555;
+}
+
+.custom-contact-form input,
+.custom-contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 17px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.custom-contact-form button {
+  background-color: #ff8e31;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.custom-contact-form button:hover {
+  background-color: black;
+  border: 1px solid#ff8e31;
+}
+
+input:focus {
+  outline: none;
+  /* Remove the default outline */
+
+  border-color: #ff8e31;
+  /* Optionally, change the border color */
+}
+
+/* optional hai if you use teaxtarea */
+textarea:focus {
+  outline: none;
+  /* Remove the default outline */
+
+  border-color: #ff8e31 !important;
+  /* Optionally, change the border color */
+}
+
+.custom-social-media {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 18px;
+  color: #444;
+  background-color: #f0f0f0;
+  padding: 7px 13px;
+  border-radius: 23%;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: white;
+  background-color: #ff8e31;
+}
+
+
+@media (max-width: 768px) {
+  .custom-contact-box {
+    flex: 1 1 100%;
+  }
+
+  .custom-contact-wrapper {
+    margin: 30px auto;
+  }
+}
+
+
+================ contact form details ================
