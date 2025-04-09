@@ -1,0 +1,37 @@
+========== social medai icon display flex =========
+
+
+<div class="custom-social-media">
+                    <a href="https://www.instagram.com/yourhandle" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/yourpage" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/company/yourcompany" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/channel/yourchannel" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+
+
+------------------
+
+
+.custom-social-media {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 18px;
+  color: #444;
+  background-color: #f0f0f0;
+  padding: 7px 13px;
+  border-radius: 23%;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: white;
+  background-color: #ff8e31;
+}
+
+
+========== social medai icon display flex =========
