@@ -1,0 +1,16 @@
+=========== visited this link ===========
+
+
+<a href="our-services.php" class="read-more"><i class="fa fa-plus-square-o" aria-hidden="true"></i> Read More</a>
+ 
+
+--------------------------------------------------
+
+
+/* already visited this link */
+a:focus{
+  color: red;
+}
+
+
+=========== visited this link ===========
