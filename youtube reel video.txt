@@ -1,0 +1,15 @@
+========== youtube reel video ===========
+
+
+<div class="container pt-50 pb-50">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LqMzCEm6WH4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+
+========== youtube reel video ===========
+
+
