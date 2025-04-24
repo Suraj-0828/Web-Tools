@@ -1,0 +1,121 @@
+================ image ke uper text discound card offer ==============
+
+
+
+
+<section class="" data-pos-for="#tour-sec" data-sec-pos="bottom-half">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-30 mb-xl-0">
+                    <div class="offer-card" data-bg-src="assets/img/home/offer_bg_1.jpg">
+                        <!-- <h2 class="offer-card__offer">45% OFF</h2> -->
+                        <h3 class="offer-card__text box-title">Best rates on domestic & international custom tours.</h3><a
+                            href="contact-us.php" class="ot-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="offer-card" data-bg-src="assets/img/home/offer_bg_2.jpg">
+                        <!-- <h2 class="offer-card__offer">35% OFF</h2> -->
+                        <h3 class="offer-card__text box-title"> Tailored plans for FIT, GIT, group tours, events & more.</h3><a
+                            href="contact-us.php" class="ot-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+------------------------------------------------------------
+
+
+.offer-card {
+    background-position: left center;
+    padding: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.background-image, [data-bg-src] {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.offer-card__text {
+    color: var(--white-color);
+    max-width: 274px;
+    margin-bottom: 35px;
+}
+
+.box-title {
+    font-size: 22px;
+    line-height: 1.417;
+    margin-top: -0.34em;
+    font-weight: 700;
+}
+
+.offer-card .ot-btn {
+    background-color: var(--white-color);
+    color: var(--theme-color);
+}
+
+a:active, a.nice-select.open, a:focus, a:hover, a:visited {
+    text-decoration: none;
+    outline: 0;
+}
+
+.ot-btn {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--theme-color);
+    color: var(--white-color);
+    font-family: var(--body-font);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 21px 29px;
+    min-width: 160px;
+    border-radius: 5px;
+}
+
+a {
+    color: var(--theme-color);
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+}
+
+.offer-card {
+    background-position: left center;
+    padding: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.offer-card .ot-btn {
+    background-color: var(--white-color);
+    color: var(--theme-color);
+}
+
+.offer-card .ot-btn:hover {
+    color: var(--white-color);
+}
+
+.offer-card .ot-btn {
+    background-color: var(--white-color);
+    color: var(--theme-color);
+}
+
+.ot-btn:hover, .ot-btn.active {
+    color: var(--white-color);
+}
+
+
+================ image ke uper text discound card offer ==============
