@@ -1,0 +1,242 @@
+============== faq level 2 ==============
+
+
+----------------- header section ----------------
+
+
+ <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Font (Optional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+
+-------------------- body -------------------------------
+
+
+
+<!-- FAQ Section -->
+<section class="faq-section py-5 bg-light">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col text-center">
+        <h2 class="fw-bold text-gradient">Frequently Asked Questions</h2>
+        <p class="text-muted">Everything you need to know about the Tourist Club Card membership.</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="accordion" id="faqAccordion">
+
+          <!-- FAQ 1 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="faqHeading1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1">
+                <i class="bi bi-person-check me-2 text-primary"></i> Why become a member of the Tourist Club Card?
+              </button>
+            </h2>
+            <div id="faqCollapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                The Tourist Club Cards offer to its members:
+                <ul>
+                  <li>Best package compared to market</li>
+                  <li>Money earning on each booking done by us</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="faqHeading2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2">
+                <i class="bi bi-bank2 me-2 text-success"></i> Who gets the benefit?
+              </button>
+            </h2>
+            <div id="faqCollapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Each booking must be initiated by members only, as all benefits are transferred directly to the member’s account number.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="faqHeading3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3">
+                <i class="bi bi-gift-fill me-2 text-warning"></i> What is the benefit for guests?
+              </button>
+            </h2>
+            <div id="faqCollapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Guests get the best rate offers and applied benefits if the booking request is sent through the registered mobile number of a member.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="faqHeading4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4">
+                <i class="bi bi-cash-coin me-2 text-danger"></i> Can guest booking get monetary benefit?
+              </button>
+            </h2>
+            <div id="faqCollapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                All benefit amounts from guest bookings are transferred to the member’s account only.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="faqHeading5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5">
+                <i class="bi bi-graph-up me-2 text-info"></i> On what basis does each booking earn monetary benefit?
+              </button>
+            </h2>
+            <div id="faqCollapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Based on low-profit postings and higher profit sharing with members on B2C profit margins.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="faqHeading6">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6">
+                <i class="bi bi-bar-chart-fill me-2 text-secondary"></i> Why does the company share high profit with members?
+              </button>
+            </h2>
+            <div id="faqCollapse6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                The company gains captive clients and higher profit in the long term by operating with lower profit margins.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="faqHeading7">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse7">
+                <i class="bi bi-piggy-bank me-2 text-primary"></i> Can we compare the profit with mutual fund returns?
+              </button>
+            </h2>
+            <div id="faqCollapse7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Yes, and you may find even higher returns by becoming a Tourist Club member under Travel Wanders Hub Pvt Ltd.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="faqHeading8">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse8">
+                <i class="bi bi-person-plus-fill me-2 text-success"></i> How can I become a member?
+              </button>
+            </h2>
+            <div id="faqCollapse8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Visit <a href="https://www.travelwandershub.com" target="_blank">www.travelwandershub.com</a> or call us at <strong>9324325726</strong> to become a member.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 9 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="faqHeading9">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse9">
+                <i class="bi bi-stars me-2 text-warning"></i> Is this a new concept in tourism?
+              </button>
+            </h2>
+            <div id="faqCollapse9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Yes, this is a unique concept combining best rates and earning potential — first of its kind in the tourism world.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+--------------------------- footer ----------------------
+
+
+ <!-- Bootstrap JS (Add before </body>) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>\
+
+
+------------------------------ css -----------------------------------
+
+
+
+.faq-section {
+    background: #f8f9fa;
+    animation: fadeInUp 0.8s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+
+.accordion-button {
+    background: #ffffff;
+    border-radius: 0 !important;
+    font-weight: 500;
+    box-shadow: none !important;
+    transition: background 0.3s ease;
+}
+
+.accordion-button:hover {
+    background: #e3f2fd;
+    color: #007bff;
+}
+
+.accordion-body {
+    background-color: #ffffff;
+    border-left: 3px solid #007bff;
+    padding-left: 1.5rem;
+    color: #333;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #000000, #00b9ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.accordion-button {
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #e9f5ff;
+    color: #007bff;
+}
+
+.accordion-item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+
+============== faq level 2 ==============

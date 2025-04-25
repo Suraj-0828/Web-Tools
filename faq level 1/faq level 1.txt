@@ -1,0 +1,133 @@
+============== faq level 1 ==============
+
+
+----------------- header section ----------------
+
+
+ <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Font (Optional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+
+-------------------- body -------------------------------
+
+
+
+<section class="faq-section py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5 text-gradient">Frequently Asked Questions</h2>
+
+            <div class="accordion accordion-flush" id="faqAccordion">
+
+                <!-- Item -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1">
+                            <i class="bi bi-patch-question me-2 text-primary"></i>
+                            Why become a member of the Tourist Club Card?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            The Tourist Club Cards offer <strong>best travel packages</strong> and allow members to <strong>earn money</strong> on every booking made through us.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2">
+                            <i class="bi bi-people-fill me-2 text-success"></i>
+                            Who gets the benefit?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Only members get the benefit, as all booking-related benefits are transferred directly to their bank accounts.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more items in similar structure (3-9)... -->
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading9">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9">
+                            <i class="bi bi-globe-asia-australia me-2 text-info"></i>
+                            Is this a new concept in tourism?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, this is a <strong>first-of-its-kind program</strong> in the world — combining <strong>money-making with travel booking</strong> at the best rates.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+--------------------------- footer ----------------------
+
+
+ <!-- Bootstrap JS (Add before </body>) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>\
+
+
+------------------------------ css -----------------------------------
+
+
+
+.faq-section {
+    background: #f8f9fa;
+    animation: fadeInUp 0.8s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+
+.accordion-button {
+    background: #ffffff;
+    border-radius: 0 !important;
+    font-weight: 500;
+    box-shadow: none !important;
+    transition: background 0.3s ease;
+}
+
+.accordion-button:hover {
+    background: #e3f2fd;
+    color: #007bff;
+}
+
+.accordion-body {
+    background-color: #ffffff;
+    border-left: 3px solid #007bff;
+    padding-left: 1.5rem;
+    color: #333;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #000000, #00b9ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+============== faq level 1 ==============
