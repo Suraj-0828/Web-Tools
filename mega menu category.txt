@@ -1,0 +1,60 @@
+============ mega menu category ============
+
+
+<li class="sub-menu-down">
+    <a href="javascript:void(0);">Our Services <i class="fa fa-chevron-down"></i></a>
+    <ul class="sub-menu mega-menu">
+        <div class="mega-menu-column">
+            <li><a href="tensile.php">Tensile Structures</a></li>
+            <li><a href="awning.php">Awning</a></li>
+            <li><a href="canopies.php">Canopies</a></li>
+            <li><a href="pergolas.php">Pergolas</a></li>
+            <li><a href="sheds-roofing.php">Sheds & Roofing</a></li>
+            <li><a href="custom-metal-fabrication.php">Custom Metal Fabrication</a></li>
+        </div>
+        <div class="mega-menu-column">
+            <li><a href="structural-steel-fabrication.php">Structural Steel Fabrication</a></li>
+            <li><a href="heavy-fabrication.php">Heavy Fabrication</a></li>
+            <li><a href="mezzanine.php">Mezzanine</a></li>
+            <li><a href="led-boards.php">LED Boards</a></li>
+            <li><a href="billboards-hoardings.php">Billboards / Hoardings</a></li>
+            <li><a href="plumbing.php">Plumbing</a></li>
+            <li><a href="acp-cladding.php">ACP Cladding</a></li>
+        </div>
+    </ul>
+</li>
+
+
+--------------------------------------------
+
+
+/* Mega menu styling */
+.sub-menu.mega-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.mega-menu-column {
+    width: 48%; /* Ensures two columns are side by side */
+}
+
+.mega-menu-column li {
+    list-style: none;
+}
+
+.mega-menu-column a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 0;
+}
+
+.mega-menu-column a:hover {
+    background-color: #ddd;
+}
+
+
+============ mega menu category ============
