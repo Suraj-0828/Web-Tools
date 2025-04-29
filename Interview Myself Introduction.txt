@@ -1,0 +1,25 @@
+Final Professional Myself Introduction
+
+"Good morning/afternoon,
+My name is Suraj Jha, and I am 24 years old. I was born in Kandivali, Mumbai, and originally belong to Bihar. 
+I have completed my SSC and HSC under the Maharashtra Board, followed by a B.Sc. in Information Technology from DTSS College,
+Mumbai University, with a CGPA of 8.14. Later, I pursued my M.Sc. in Information Technology from the same college and secured a 
+CGPA of 8.75.
+
+After completing my education, I enhanced my skills by completing a Full Stack Java Developer course from Keerti Institute.
+I then completed a 1-month internship in Core Java at TrueU Technology.
+
+Following my internship, I worked for 1 year as a role of Web Developer in itarsia india service company. 
+My responsibilities included both front-end and back-end development. On the front end, I worked with technologies like HTML5, 
+CSS3, JavaScript, and Bootstrap. For the back end, I mainly used Core PHP along with MySQL database.
+
+In addition skills I have in Core Java, JSP, Servlets, and React.js. All the projects I have worked on are available on 
+my GitHub profile.
+
+Talking about my family, we are five members. My father is currently not working. My mother works as a cook in different 
+households. I have a younger brother who is currently studying in 12th standard, and I have two elder sisters who are both 
+married recently.
+
+I am passionate about software development, continuously learning new technologies, and improving my problem-solving skills. 
+I am now looking forward to working in a company where I can apply my knowledge, grow further, 
+and contribute to the team’s success."
