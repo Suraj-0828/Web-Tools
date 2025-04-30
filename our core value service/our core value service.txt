@@ -1,0 +1,112 @@
+=========== our core value service ===========
+
+
+
+<section class="core-values-section">
+    <div class="core-values-title">
+      <h2>💡 Our Core Values</h2>
+      <p>Guiding principles that shape our commitment to quality, sustainability, and customer satisfaction.</p>
+    </div>
+
+    <div class="values-grid">
+      <div class="value-box">
+        <h3><span class="value-icon">✅</span>Quality First</h3>
+        <p>We are dedicated to maintaining the highest standards in sourcing, processing, and packaging to ensure premium quality in every product we export.</p>
+      </div>
+      <div class="value-box">
+        <h3><span class="value-icon">🌎</span>Sustainability</h3>
+        <p>We believe in responsible sourcing and eco-friendly practices that protect natural resources and support long-term environmental balance.</p>
+      </div>
+      <div class="value-box">
+        <h3><span class="value-icon">🤝</span>Integrity</h3>
+        <p>Honesty, transparency, and reliability guide every aspect of our business—from farm to shipment.</p>
+      </div>
+      <div class="value-box">
+        <h3><span class="value-icon">💼</span>Customer Commitment</h3>
+        <p>We go the extra mile to meet client needs with flexible solutions, consistent service, and timely delivery.</p>
+      </div>
+      <div class="value-box">
+        <h3><span class="value-icon">🧂</span>Tradition & Innovation</h3>
+        <p>We honor the rich heritage of tea, coffee, and salt while embracing innovation to improve flavor, packaging, and supply chain efficiency.</p>
+      </div>
+      <div class="value-box">
+        <h3><span class="value-icon">👨‍🌾</span>Community & Fair Trade</h3>
+        <p>We support local farmers and producers by promoting ethical trade practices and fair compensation.</p>
+      </div>
+    </div>
+  </section>
+
+
+---------------------------------------------------
+
+
+.core-values-section {
+      background: #ffffff;
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .core-values-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .core-values-title h2 {
+      font-size: 2.5rem;
+      color: #1a5d1a;
+      margin-bottom: 10px;
+    }
+
+    .core-values-title p {
+      font-size: 1.1rem;
+      color: #555;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .value-box {
+      background: #f0fdf4;
+      border-left: 5px solid #2d7a2d;
+      padding: 20px 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .value-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .value-box h3 {
+      font-size: 1.3rem;
+      color: #2d7a2d;
+      margin-bottom: 10px;
+    }
+
+    .value-box p {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .value-icon {
+      font-size: 1.5rem;
+      margin-right: 8px;
+    }
+
+    @media (max-width: 600px) {
+      .core-values-title h2 {
+        font-size: 2rem;
+      }
+    }
+
+
+=========== our core value service ===========
