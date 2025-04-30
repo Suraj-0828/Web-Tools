@@ -70,43 +70,68 @@
 ------------ thoda row column box use karna hai toh uske liye css --------------
 
 
- .section {
-      background: #f4f4f4;
-      padding: 60px 20px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #333;
-    }
+ .vision-mission-section {
+  background: #f4f4f4;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
 
-    .row {
-      display: flex;
-      flex-wrap: wrap;
-      max-width: 1200px;
-      margin: 0 auto;
-      gap: 30px;
-    }
+.vm-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
 
-    .column {
-      flex: 1 1 45%;
-      background: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    }
+.vm-title h1 {
+  font-size: 2.5rem;
+  color: #1a5d1a;
+  margin-bottom: 10px;
+}
 
-    .column h2 {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
-      color: #2d7a2d;
-    }
+.vm-title p {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
 
-    .column p {
-      font-size: 1.05rem;
-      line-height: 1.7;
-      color: #555;
-    }
+.vm-row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
 
-    @media (max-width: 768px) {
-      .column {
-        flex: 1 1 100%;
-      }
-    }
+.vm-column {
+  flex: 1 1 45%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.vm-column h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #2d7a2d;
+}
+
+.vm-column p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .vm-column {
+    flex: 1 1 100%;
+  }
+
+  .vm-title h1 {
+    font-size: 2rem;
+  }
+}
+
+
+------------ thoda row column box use karna hai toh uske liye css --------------
