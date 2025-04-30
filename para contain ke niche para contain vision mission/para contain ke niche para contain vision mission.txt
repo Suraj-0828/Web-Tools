@@ -1,0 +1,112 @@
+=============  para contain ke niche para contain vision mission  =============
+
+    .vision-mission-section {
+      background: #f9f9f9;
+      padding: 60px 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+    }
+
+    .vision-mission-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .vision-mission-container h2 {
+      font-size: 2rem;
+      color: #2d7a2d;
+      margin-bottom: 20px;
+    }
+
+    .vision-mission-container p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 40px;
+      color: #555;
+    }
+
+    .vision-mission-divider {
+      height: 1px;
+      background: #ccc;
+      width: 60%;
+      margin: 0 auto 40px auto;
+    }
+
+    @media (max-width: 768px) {
+      .vision-mission-container h2 {
+        font-size: 1.6rem;
+      }
+      .vision-mission-container p {
+        font-size: 1rem;
+      }
+    }
+
+
+---------------------------------------------
+
+
+
+  <section class="vision-mission-section">
+    <div class="vision-mission-container">
+      <h2>🌿 Our Vision</h2>
+      <p>
+        To be a globally trusted name in the export and manufacturing of premium tea, coffee, and salt—
+        delivering nature’s finest, sustainably and ethically, to every corner of the world.
+      </p>
+      <div class="vision-mission-divider"></div>
+      <h2>🎯 Our Mission</h2>
+      <p>
+        To craft, package, and deliver high-quality tea, coffee, and salt that meet global standards 
+        while fostering strong relationships with our partners, empowering farmers, and respecting the planet.
+      </p>
+    </div>
+  </section>
+
+
+=============  para contain ke niche para contain vision mission  =============
+
+
+------------ thoda row column box use karna hai toh uske liye css --------------
+
+
+ .section {
+      background: #f4f4f4;
+      padding: 60px 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 30px;
+    }
+
+    .column {
+      flex: 1 1 45%;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .column h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #2d7a2d;
+    }
+
+    .column p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .column {
+        flex: 1 1 100%;
+      }
+    }
