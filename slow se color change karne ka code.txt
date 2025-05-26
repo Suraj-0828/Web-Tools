@@ -1,0 +1,15 @@
+======== slow se color change karne ka code =======
+
+
+.phone-links a {
+	color: black;
+	text-decoration: none;
+	transition: color 0.3s ease;          <----------- important
+  }
+  
+  .phone-links a:hover {
+	color: #FA4318;
+  }
+
+
+======== slow se color change karne ka code =======
