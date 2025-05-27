@@ -1,5 +1,8 @@
 # Tools for website design
 
+# Twitter icon
+-> fa-brands fa-x-twitter
+
 # Responsive Banner Slider
 1. Banner Slider ChatGPT 100% is perfect use for banner slider for both devices desktop or mobile view important notes Working 100%.
 2. Second Option use Bootstrap Slider.
