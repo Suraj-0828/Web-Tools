@@ -1,0 +1,179 @@
+============ car details section ===========
+
+
+ <!-- Bootstrap Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+----------------------------
+
+
+<div class="container my-5">
+                <div class="row">
+
+                    <!-- CAR ITEM -->
+                    <div class="col-md-4">
+                        <div class="car-card position-relative">
+                            <img src="images/home/home-service/mazda-cx-5-2number.jpg" class="car-img" alt="CX 5-red">
+                            <div class="price-tag">$300<br><small>/DAY</small></div>
+                            <div class="car-details">
+                                <h5>CX 5-red</h5>
+                                <div class="car-info d-flex justify-content-between text-muted small">
+                                    <span><i class="bi bi-person"></i>4 Seat</span>
+                                    <span><i class="bi bi-briefcase"></i>4 Bags</span>
+                                    <span><i class="bi bi-car-front"></i>SUV</span>
+                                </div>
+                                <p class="mt-2 text-muted">
+                                    <span class="text-danger">Petrol</span> – <del>Diesel</del> – <del>Electric</del>
+                                </p>
+                                <a href="#" class="btn btn-dark btn-sm">DETAIL</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Repeat this block with new images and car names -->
+                    <div class="col-md-4">
+                        <div class="car-card position-relative">
+                            <img src="images/home/home-service/Toyota-Wish.jpg" class="car-img" alt="Toyota Wish">
+                            <div class="price-tag">$270<br><small>/DAY</small></div>
+                            <div class="car-details">
+                                <h5>Toyota Wish</h5>
+                                <div class="car-info d-flex justify-content-between text-muted small">
+                                    <span><i class="bi bi-person"></i>4 Seat</span>
+                                    <span><i class="bi bi-briefcase"></i>4 Bags</span>
+                                    <span><i class="bi bi-car-front"></i>SUV</span>
+                                </div>
+                                <p class="mt-2 text-muted">
+                                    <span class="text-danger">Petrol</span> – <del>Diesel</del> – <del>Electric</del>
+                                </p>
+                                <a href="#" class="btn btn-dark btn-sm">DETAIL</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more car blocks like this -->
+                    <div class="col-md-4">
+                        <div class="car-card position-relative">
+                            <img src="images/home/home-service/MAZDA-BT-50-white-2.jpg" class="car-img" alt="Mazda BT-White">
+                            <div class="price-tag">$280<br><small>/DAY</small></div>
+                            <div class="car-details">
+                                <h5>Mazda BT-White</h5>
+                                <div class="car-info d-flex justify-content-between text-muted small">
+                                    <span><i class="bi bi-person"></i>4 Seat</span>
+                                    <span><i class="bi bi-briefcase"></i>4 Bags</span>
+                                    <span><i class="bi bi-car-front"></i>Pickup</span>
+                                </div>
+                                <p class="mt-2 text-muted">
+                                    <span class="text-danger">Petrol</span> – <del>Diesel</del> – <del>Electric</del>
+                                </p>
+                                <a href="#" class="btn btn-dark btn-sm">DETAIL</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Repeat for other cars -->
+                    <div class="col-md-4">
+                        <div class="car-card position-relative">
+                            <img src="images/home/home-service/Toyota-vitz.jpg" class="car-img" alt="Toyota vitz">
+                            <div class="price-tag">$200<br><small>/DAY</small></div>
+                            <div class="car-details">
+                                <h5>Toyota vitz</h5>
+                                <div class="car-info d-flex justify-content-between text-muted small">
+                                    <span><i class="bi bi-person"></i>4 Seat</span>
+                                    <span><i class="bi bi-briefcase"></i>2 Bags</span>
+                                    <span><i class="bi bi-car-front"></i>Hatch</span>
+                                </div>
+                                <p class="mt-2 text-muted">
+                                    <span class="text-danger">Petrol</span> – <del>Diesel</del> – <del>Electric</del>
+                                </p>
+                                <a href="#" class="btn btn-dark btn-sm">DETAIL</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="car-card position-relative">
+                            <img src="images/home/home-service/Land-cruiser-prada-red.jpg" class="car-img" alt="Land Cruiser Prada-red">
+                            <div class="price-tag">$550<br><small>/DAY</small></div>
+                            <div class="car-details">
+                                <h5>Land Cruiser Prada-red</h5>
+                                <div class="car-info d-flex justify-content-between text-muted small">
+                                    <span><i class="bi bi-person"></i>4 Seat</span>
+                                    <span><i class="bi bi-briefcase"></i>4 Bags</span>
+                                    <span><i class="bi bi-car-front"></i>SUV</span>
+                                </div>
+                                <p class="mt-2 text-muted">
+                                    <span class="text-danger">Petrol</span> – <del>Diesel</del> – <del>Electric</del>
+                                </p>
+                                <a href="#" class="btn btn-dark btn-sm">DETAIL</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="car-card position-relative">
+                            <img src="images/home/home-service/Toyota-feilder.jpg" class="car-img" alt="Toyota Feilder">
+                            <div class="price-tag">$260<br><small>/DAY</small></div>
+                            <div class="car-details">
+                                <h5>Toyota Feilder</h5>
+                                <div class="car-info d-flex justify-content-between text-muted small">
+                                    <span><i class="bi bi-person"></i>4 Seat</span>
+                                    <span><i class="bi bi-briefcase"></i>4 Bags</span>
+                                    <span><i class="bi bi-car-front"></i>Wagon</span>
+                                </div>
+                                <p class="mt-2 text-muted">
+                                    <span class="text-danger">Petrol</span> – <del>Diesel</del> – <del>Electric</del>
+                                </p>
+                                <a href="#" class="btn btn-dark btn-sm">DETAIL</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+-------------------------------------------------------
+
+
+.car-card {
+  border-radius: 20px;
+  overflow: hidden;
+  background: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.car-img {
+  width: 100%;
+  height: 300px;
+  /* Increased height */
+  object-fit: cover;
+  padding: 10px;
+  /* Optional: padding around image */
+  border-radius: 20px;
+}
+
+.price-tag {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff5e00;
+  border: 2px solid #ff5e00;
+}
+
+.car-info i {
+  margin-right: 5px;
+}
+
+.car-details {
+  padding: 15px;
+}
+
+
+============ car details section ===========
