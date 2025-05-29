@@ -1,0 +1,103 @@
+=============== custom cursor design ================
+
+
+---------------------------------------------------------
+
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+
+---------------------------------------------------------
+
+
+/*--------------------------------------------------------------
+# Custom Cursor
+--------------------------------------------------------------*/
+.custom-cursor__cursor {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 1px solid var(--careox-base, #ff5528);
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(calc(-50% + 5px), -50%);
+  transform: translate(calc(-50% + 5px), -50%);
+  z-index: 999991;
+}
+.custom-cursor__cursor-two {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: var(--careox-base, #ff5528);
+  opacity: 0.3;
+  position: fixed;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  -webkit-transition: width 0.3s, height 0.3s, opacity 0.3s;
+  transition: width 0.3s, height 0.3s, opacity 0.3s;
+  z-index: 999991;
+}
+.custom-cursor__hover {
+  background-color: var(--careox-base, #ff5528);
+  opacity: 0.4;
+}
+.custom-cursor__innerhover {
+  width: 25px;
+  height: 25px;
+  opacity: 0.4;
+}
+
+
+---------------------------------------------------------
+
+
+  // custom coursor
+  if ($(".custom-cursor").length) {
+    var cursor = document.querySelector(".custom-cursor__cursor");
+    var cursorinner = document.querySelector(".custom-cursor__cursor-two");
+    var a = document.querySelectorAll("a");
+
+    document.addEventListener("mousemove", function (e) {
+      var x = e.clientX;
+      var y = e.clientY;
+      cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
+    });
+
+    document.addEventListener("mousemove", function (e) {
+      var x = e.clientX;
+      var y = e.clientY;
+      cursorinner.style.left = x + "px";
+      cursorinner.style.top = y + "px";
+    });
+
+    document.addEventListener("mousedown", function () {
+      cursor.classList.add("click");
+      cursorinner.classList.add("custom-cursor__innerhover");
+    });
+
+    document.addEventListener("mouseup", function () {
+      cursor.classList.remove("click");
+      cursorinner.classList.remove("custom-cursor__innerhover");
+    });
+
+    a.forEach((item) => {
+      item.addEventListener("mouseover", () => {
+        cursor.classList.add("custom-cursor__hover");
+      });
+      item.addEventListener("mouseleave", () => {
+        cursor.classList.remove("custom-cursor__hover");
+      });
+    });
+  }
+
+
+---------------------------------------------------------------------------
+
+
+=============== custom cursor design ================
