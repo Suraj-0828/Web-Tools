@@ -1,0 +1,93 @@
+========== new vision mission ==========
+
+
+<section class="vmg-section py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Our Vision, Mission & Goal</h2>
+                    <p class="section-subtitle">Guided by purpose. Driven by compassion.</p>
+                </div>
+                <div class="row">
+                    <!-- Vision -->
+                    <div class="col-md-4 mb-4">
+                        <div class="vmg-card vision">
+                            <div class="vmg-icon"><i class="bi bi-eye-fill"></i></div>
+                            <h4>Our Vision</h4>
+                            <p>To build a healthier, more equitable society where every individual—regardless of age, gender, or income—has access to affordable and quality healthcare.</p>
+                        </div>
+                    </div>
+
+                    <!-- Mission -->
+                    <div class="col-md-4 mb-4">
+                        <div class="vmg-card mission">
+                            <div class="vmg-icon"><i class="bi bi-heart-pulse-fill"></i></div>
+                            <h4>Our Mission</h4>
+                            <p>To deliver compassionate, affordable, and preventive medical services through charitable centres and healthcare projects like Vardaan, Sahara, and Meri Maa across India.</p>
+                        </div>
+                    </div>
+
+                    <!-- Goal -->
+                    <div class="col-md-4 mb-4">
+                        <div class="vmg-card goal">
+                            <div class="vmg-icon"><i class="bi bi-bullseye"></i></div>
+                            <h4>Our Goal</h4>
+                            <p>To reach 1 million underserved individuals across India by 2030 with impactful healthcare interventions, awareness programs, and affordable diagnostics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+-------------------------------------------------------
+
+
+.vmg-section {
+  background: #f9f9f9;
+}
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+}
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #777;
+}
+.vmg-card {
+  background: #fff;
+  border-left: 6px solid;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.07);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+.vmg-card:hover {
+  transform: translateY(-5px);
+}
+.vmg-icon {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+.vision {
+  border-color: #28a745;
+}
+.vision .vmg-icon {
+  color: #28a745;
+}
+.mission {
+  border-color: #007bff;
+}
+.mission .vmg-icon {
+  color: #007bff;
+}
+.goal {
+  border-color: #ffc107;
+}
+.goal .vmg-icon {
+  color: #ffc107;
+}
+
+
+========== new vision mission ==========
