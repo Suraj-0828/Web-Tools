@@ -2,7 +2,7 @@
 
 
 
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/home/feb-con.png">
+<link rel="shortcut icon" type="https://domain/path/to/your/favicon.ico" href="assets/img/home/feb-con.png">
 
 
 
