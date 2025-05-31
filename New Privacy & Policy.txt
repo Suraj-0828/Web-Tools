@@ -1,0 +1,105 @@
+========= New Privacy & Policy =========
+
+
+<section class="policy-section">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Privacy & Policy</h2>
+                    <p class="text-muted">Your privacy matters to us. Here's how we handle your data.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="policy-card">
+                            <h5>1. Information We Collect</h5>
+                            <p>We collect personal data like name, email, and phone number only when you submit forms or interact with our services.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="policy-card">
+                            <h5>2. How We Use Your Information</h5>
+                            <p>Your information is used to respond to inquiries, process requests, and improve our services and user experience.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="policy-card">
+                            <h5>3. Cookies & Tracking</h5>
+                            <p>We use cookies to track website usage and personalize content. You can disable them anytime via browser settings.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="policy-card">
+                            <h5>4. Data Sharing & Third Parties</h5>
+                            <p>We do not sell or share your data with unauthorized third parties. Information may be shared only with trusted partners.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="policy-card">
+                            <h5>5. Your Rights</h5>
+                            <p>You can request access, correction, or deletion of your personal data by contacting us anytime.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="policy-card">
+                            <h5>6. Data Security</h5>
+                            <p>We use advanced security measures and encryption to protect your data against unauthorized access and misuse.</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="policy-card">
+                            <h5>7. Contact Us</h5>
+                            <p>If you have any questions about this privacy policy, please contact us at <a href="mailto:info@globalhindcare.org">info@globalhindcare.org</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+----------------------------------------------------------
+
+
+.policy-section {
+  padding: 60px 20px;
+}
+
+.policy-card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+
+.policy-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.policy-card h5 {
+  color: #fc5528;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.policy-card p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
+
+
+========= New Privacy & Policy =========
