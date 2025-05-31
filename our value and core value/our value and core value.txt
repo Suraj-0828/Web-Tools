@@ -1,0 +1,90 @@
+============== our value and core value ===============
+
+
+
+<section class="pt-70 pb-70 bg-light values-section">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h6 class="text-uppercase text-color fw-bold">Our 4 Pillars</h6>
+                    <h2 class="fw-bold">The Foundation of Global Hindcare</h2>
+                    <p class="text-muted">Our work is driven by deep-rooted values that shape every decision and service we offer.</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Compassion -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="pillar-box p-4 text-center rounded-4 shadow-sm h-100">
+                            <div class="icon-wrap bg-primary mb-3 mx-auto">
+                                <i class="bi bi-heart-fill text-white fs-3"></i>
+                            </div>
+                            <h5 class="fw-semibold mb-2">Compassion</h5>
+                            <p class="text-muted small">We lead with empathy—placing people’s dignity and care above all else.</p>
+                        </div>
+                    </div>
+
+                    <!-- Equity -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="pillar-box p-4 text-center rounded-4 shadow-sm h-100">
+                            <div class="icon-wrap bg-success mb-3 mx-auto">
+                                <i class="bi bi-people-fill text-white fs-3"></i>
+                            </div>
+                            <h5 class="fw-semibold mb-2">Equity</h5>
+                            <p class="text-muted small">We ensure fair and need-based access to healthcare, regardless of background.</p>
+                        </div>
+                    </div>
+
+                    <!-- Transparency -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="pillar-box p-4 text-center rounded-4 shadow-sm h-100">
+                            <div class="icon-wrap bg-warning mb-3 mx-auto">
+                                <i class="bi bi-shield-lock-fill text-white fs-3"></i>
+                            </div>
+                            <h5 class="fw-semibold mb-2">Transparency</h5>
+                            <p class="text-muted small">We are accountable, ethical, and open in all our actions and reporting.</p>
+                        </div>
+                    </div>
+
+                    <!-- Empowerment -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="pillar-box p-4 text-center rounded-4 shadow-sm h-100">
+                            <div class="icon-wrap bg-danger mb-3 mx-auto">
+                                <i class="bi bi-lightbulb-fill text-white fs-3"></i>
+                            </div>
+                            <h5 class="fw-semibold mb-2">Empowerment</h5>
+                            <p class="text-muted small">We uplift communities through accessible services, education, and trust.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+------------------------------------------------------------
+
+
+
+.values-section .text-color{
+  color: #ff5528;
+}
+
+.icon-wrap {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pillar-box {
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #eee;
+}
+.pillar-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+============== our value and core value ===============
