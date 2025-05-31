@@ -1,0 +1,29 @@
+========== bootstrap custom button ==========
+
+
+<a href="contact-us.php" class="btn custom-btn mt-3">Learn More</a>
+
+
+---------------------------------
+
+
+.custom-btn {
+  color: #FF5528;
+  border: 1px solid #FF5528;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  font-weight: 400;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.custom-btn:hover {
+  background-color: #FF5528;
+  color: white;
+  text-decoration: none;
+}
+
+
+========== bootstrap custom button ==========

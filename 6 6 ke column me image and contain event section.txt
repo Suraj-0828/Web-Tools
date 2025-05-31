@@ -1,0 +1,76 @@
+============= 6 6 ke column me image and contain event section ==============
+
+
+ <section class="container my-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold" style="color: #2c3e50;">Upcoming Events</h2>
+                <p class="text-muted fs-5">
+                    Stay updated with our latest events, workshops, and awareness programs.
+                </p>
+            </div>
+
+            <!-- Event 1: Healthcare Awareness Camp -->
+            <div class="row align-items-center mb-5 p-4 shadow-sm rounded" style="background-color: #f9f9f9;">
+                <div class="col-md-6 d-flex justify-content-center mb-3 mb-md-0">
+                    <img src="assets/images/donation/donation-3-1.jpg"
+                        class="img-fluid rounded shadow"
+                        alt="Healthcare Awareness Camp"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-color" style="color: #FF5528;">Healthcare Awareness Camp</h3>
+                    <p><strong>Date:</strong> 15 June 2025</p>
+                    <p><strong>Location:</strong> Mira Road, Mumbai</p>
+                    <p>
+                        Join us for a community health camp providing free screenings and consultations. This initiative aims to promote preventive healthcare and improve health awareness in the community.
+                    </p>
+                    <a href="contact-us.php" class="btn custom-btn mt-3">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Event 2: Fundraising Gala 2025 -->
+            <div class="row align-items-center mb-5 p-4 shadow-sm rounded" style="background-color: #f9f9f9;">
+                <div class="col-md-6 order-md-2 d-flex justify-content-center mb-3 mb-md-0">
+                    <img src="assets/images/donation/donation-3-1.jpg"
+                        class="img-fluid rounded shadow"
+                        alt="Fundraising Gala 2025"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h3 class="text-color" style="color: #FF5528;">Fundraising Gala 2025</h3>
+                    <p><strong>Date:</strong> 10 July 2025</p>
+                    <p><strong>Location:</strong> Mumbai Convention Center</p>
+                    <p>
+                        A night dedicated to raising funds to support Project Vardaan and other initiatives. Join us for an evening of hope, inspiration, and community collaboration toward a healthier future.
+                    </p>
+                    <a href="contact-us.php" class="btn custom-btn mt-3">Learn More</a>
+
+                </div>
+            </div>
+        </section>
+
+
+-------------------------------------------------
+
+
+
+.custom-btn {
+  color: #FF5528;
+  border: 1px solid #FF5528;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  font-weight: 400;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.custom-btn:hover {
+  background-color: #FF5528;
+  color: white;
+  text-decoration: none;
+}
+
+
+============= 6 6 ke column me image and contain event section ==============
