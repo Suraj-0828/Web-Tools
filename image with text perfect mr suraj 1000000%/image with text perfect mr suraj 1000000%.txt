@@ -1,0 +1,96 @@
+=============== image with text perfect mr suraj 1000000% ==============
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+--------------------------------------------
+
+
+
+  	<section class="zigzag-stories py-5">
+            <div class="container">
+
+                <div class="section-header text-center mb-5">
+                    <h6 class="text-uppercase text-success fw-bold mb-2">Real People. Real Impact.</h6>
+                    <h2 class="fw-bold">Stories of Change</h2>
+                    <p class="text-muted mt-3 mx-auto" style="max-width: 900px;">
+                        These are not just stories, they are journeys of hope, healing, and transformation.
+                        Made possible by your support, these lives have been touched through care, compassion, and timely intervention.
+                    </p>
+                </div>
+
+                <!-- Story 1 -->
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-6">
+                        <img src="assets/images/home/aq.jpg" alt="Aditya" class="img-fluid rounded shadow" />
+                    </div>
+                    <div class="col-md-6">
+                        <div class="story-box">
+                            <h5 class="text-success">👦 Vardaan | Aditya, Age 7</h5>
+                            <h6 class="text-muted mb-2">Beating Cancer with Courage</h6>
+                            <p>Aditya, a child from Dharavi, was diagnosed with Hodgkin’s Lymphoma. His father, a mechanic, couldn’t afford chemotherapy. Through Project Vardaan, Hindcare funded his treatment. Today, Aditya is in school and cancer-free.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Story 2 -->
+                <div class="row align-items-center flex-md-row-reverse mb-5">
+                    <div class="col-md-6">
+                        <img src="assets/images/home/aq.jpg" alt="Farida" class="img-fluid rounded shadow" />
+                    </div>
+                    <div class="col-md-6">
+                        <div class="story-box">
+                            <h5 class="text-success">👩 Sahara | Farida Begum, Age 46</h5>
+                            <h6 class="text-muted mb-2">From Bedridden to Walking Again</h6>
+                            <p>Farida, a single mother and domestic worker, suffered a spine injury. With Sahara’s immediate support for diagnostics and physiotherapy, she was able to recover without falling into debt.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Story 3 -->
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-6">
+                        <img src="assets/images/home/aq.jpg" alt="Kamla" class="img-fluid rounded shadow" />
+                    </div>
+                    <div class="col-md-6">
+                        <div class="story-box">
+                            <h5 class="text-success">👵 Meri Maa | Kamla Bai, Age 72</h5>
+                            <h6 class="text-muted mb-2">Restoring Health and Respect</h6>
+                            <p>Abandoned by her family, Kamla Bai lived alone in a chawl. Our volunteers identified her during a health camp. Through Meri Maa, she now receives regular check-ups, medications, and monthly emotional support visits.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+--------------------------------------------------------------
+
+
+.zigzag-stories .story-box {
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-left: 4px solid #28a745;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  }
+
+  .zigzag-stories img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 767px) {
+    .zigzag-stories .row {
+      flex-direction: column !important;
+    }
+  }
+  
+
+=============== image with text perfect mr suraj 1000000% ==============
