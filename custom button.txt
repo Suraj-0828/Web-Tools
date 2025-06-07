@@ -1,0 +1,28 @@
+=============== custom button ================
+
+
+<a href="donation.php" class="custom-donor-button">Become a Donor</a>
+
+
+--------------------------------
+
+
+.custom-donor-button {
+  display: inline-block;
+  background-color: #28a745; /* Custom green */
+  color: white;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-donor-button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05);
+}
+
+
+=============== custom button ================
