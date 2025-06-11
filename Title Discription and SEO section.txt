@@ -12,6 +12,8 @@
 	
 	<meta name="Keywords" content="Here you type your SEO content..... Key like.......">
 
+	<link rel="icon" href="https://domain/path/to/your/favicon.ico" type="image/x-icon">
+
 	<meta name="robots" content="index, follow">
 	<meta name="revisit-after" content="1 day">
 	<meta name="language" content="English">
