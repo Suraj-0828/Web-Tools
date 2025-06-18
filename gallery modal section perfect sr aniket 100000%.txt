@@ -1,0 +1,349 @@
+============ gallery modal section perfect sr aniket 100000% ============
+
+
+
+
+<section class="gallery-sec">
+            <div class="container">
+                <div class="popup-gallery">
+
+                    <div class="row">
+
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <a class="gallery-img-a" href="assets/images/home/products/a1.png" title="Foundation Day Celebration">
+                                <img class="gallery-img" src="assets/images/home/products/a1.png">
+                            </a>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+----------------------------------------------------------------------------
+
+
+
+ <script>
+            $(document).ready(function() {
+                $('.popup-gallery').magnificPopup({
+                    delegate: 'a',
+                    type: 'image',
+                    tLoading: 'Loading image #%curr%...',
+                    mainClass: 'mfp-img-mobile',
+                    gallery: {
+                        enabled: true,
+                        navigateByImgClick: true,
+                        preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+                    },
+                    image: {
+                        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                        titleSrc: function(item) {
+                            return item.el.attr('title') + '<small>by Keephuman</small>';
+                        }
+                    }
+                });
+            });
+        </script>
+
+
+
+-------------------------------------------------------------
+
+
+1. Without css perfect hai 
+
+-------------------------------------------------------------
+
+
+/* 2. Simple css hai */
+
+
+/* Gallery Section Padding */
+.gallery-sec {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+/* Individual Gallery Item Styling */
+.gallery-img-a {
+    display: block;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-img-a:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Image Styling */
+.gallery-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+/* Responsive on smaller devices */
+@media (max-width: 768px) {
+    .gallery-img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery-img {
+        height: 160px;
+    }
+}
+
+
+------------------------------------------------------------
+
+
+/*  3. advance css hover with text css  */
+
+
+/* Gallery Section */
+.gallery-sec {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #fdfdfd, #f1f1f1);
+}
+
+/* Gallery Container */
+.popup-gallery .row {
+    row-gap: 30px;
+}
+
+/* Gallery Image Wrapper */
+.gallery-img-a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery-img-a:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Image Styling */
+.gallery-img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+/* Hover Zoom-In Effect */
+.gallery-img-a:hover .gallery-img {
+    transform: scale(1.05);
+}
+
+/* Image Overlay Title on Hover (Optional Fancy Effect) */
+.gallery-img-a::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-weight: 500;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.gallery-img-a:hover::after {
+    opacity: 1;
+}
+
+/* Responsive Heights */
+@media (max-width: 992px) {
+    .gallery-img {
+        height: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-img {
+        height: 180px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery-img {
+        height: 160px;
+    }
+}
+
+
+--------------------------------------------------------
+
+
+/*  4. Advance css z++ hover with design text  */
+
+
+/* Gallery Section Overall Style */
+.gallery-sec {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #ffffff, #f1f1f1);
+}
+
+/* Gallery Container */
+.popup-gallery .row {
+    row-gap: 30px;
+}
+
+/* Individual Gallery Item Wrapper */
+.gallery-img-a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery-img-a:hover {
+    transform: scale(1.04);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Styling */
+.gallery-img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.4s ease;
+}
+
+/* Zoom image slightly on hover */
+.gallery-img-a:hover .gallery-img {
+    transform: scale(1.08);
+}
+
+/* Title Overlay on Hover */
+.gallery-img-a::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 12px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.gallery-img-a:hover::after {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .gallery-img {
+        height: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery-img {
+        height: 170px;
+    }
+}
+
+
+
+============ gallery modal section perfect sr aniket 100000% ============
